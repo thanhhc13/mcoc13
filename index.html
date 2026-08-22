@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCOC Champion Strategy & Guide Index</title>
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --border-color: #30363d;
+            --text-main: #c9d1d9;
+            --text-heading: #f0f6fc;
+            --accent-gold: #ffb703;
+            
+            /* Class Colors */
+            --cls-cosmic: #00b4d8;
+            --cls-tech: #2a9d8f;
+            --cls-mutant: #e9c46a;
+            --cls-skill: #e76f51;
+            --cls-science: #52b788;
+            --cls-mystic: #9d4edd;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', system-ui, sans-serif; }
+        body { background-color: var(--bg-primary); color: var(--text-main); padding: 20px; line-height: 1.6; }
+
+        /* Header & Filters */
+        header { text-align: center; margin-bottom: 30px; }
+        header h1 { color: var(--accent-gold); font-size: 2rem; text-transform: uppercase; letter-spacing: 2px; }
+        
+        .filter-bar {
+            max-width: 1100px;
+            margin: 0 auto 30px auto;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .filter-bar input, .filter-bar select {
+            background-color: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: var(--text-heading);
+            padding: 10px 16px;
+            border-radius: 8px;
+            outline: none;
+            font-size: 0.95rem;
+        }
+
+        .filter-bar input:focus, .filter-bar select:focus { border-color: var(--accent-gold); }
+
+        /* Grid Champion */
+        .champion-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 20px;
+        }
+
+        .champ-card {
+            background-color: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 16px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.25s ease;
+        }
+
+        .champ-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent-gold);
+            box-shadow: 0 8px 24px rgba(255, 183, 3, 0.15);
+        }
+
+        .champ-avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 12px auto;
+            border: 3px solid var(--border-color);
+        }
+
+        .champ-name { font-size: 1rem; font-weight: 700; color: var(--text-heading); margin-bottom: 8px; }
+
+        .badge-class {
+            font-size: 0.75rem;
+            font-weight: 800;
+            padding: 3px 10px;
+            border-radius: 20px;
+            text-transform: uppercase;
+            display: inline-block;
+        }
+
+        /* Class Colors Dynamic */
+        .cosmic { background-color: rgba(0, 180, 216, 0.2); color: var(--cls-cosmic); border: 1px solid var(--cls-cosmic); }
+        .tech { background-color: rgba(42, 157, 143, 0.2); color: var(--cls-tech); border: 1px solid var(--cls-tech); }
+        .mutant { background-color: rgba(233, 196, 106, 0.2); color: var(--cls-mutant); border: 1px solid var(--cls-mutant); }
+        .skill { background-color: rgba(231, 111, 81, 0.2); color: var(--cls-skill); border: 1px solid var(--cls-skill); }
+        .science { background-color: rgba(82, 183, 136, 0.2); color: var(--cls-science); border: 1px solid var(--cls-science); }
+        .mystic { background-color: rgba(157, 78, 221, 0.2); color: var(--cls-mystic); border: 1px solid var(--cls-mystic); }
+
+        /* Guide Detail Modal */
+        .modal {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0, 0, 0, 0.85);
+            backdrop-filter: blur(5px);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            padding: 20px;
+        }
+
+        .modal-content {
+            background-color: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            width: 100%;
+            max-width: 700px;
+            max-height: 90vh;
+            border-radius: 16px;
+            overflow-y: auto;
+            padding: 25px;
+            position: relative;
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 15px; right: 20px;
+            font-size: 1.8rem;
+            color: var(--text-main);
+            cursor: pointer;
+        }
+
+        .guide-section { margin-top: 20px; }
+        .guide-section h3 { color: var(--accent-gold); margin-bottom: 8px; border-bottom: 1px solid var(--border-color); padding-bottom: 4px; }
+        .guide-section ul, .guide-section ol { padding-left: 20px; }
+        .guide-section li { margin-bottom: 6px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>MCOC Combat Strategy Guide</h1>
+        <p>Hướng Dẫn Combo & Cách Đánh Chi Tiết Từng Tướng</p>
+    </header>
+
+    <div class="filter-bar">
+        <input type="text" id="searchInput" placeholder="Tìm tên tướng..." oninput="app.filter()">
+        <select id="classFilter" onchange="app.filter()">
+            <option value="ALL">Tất cả Class</option>
+            <option value="cosmic">Cosmic</option>
+            <option value="tech">Tech</option>
+            <option value="mutant">Mutant</option>
+            <option value="skill">Skill</option>
+            <option value="science">Science</option>
+            <option value="mystic">Mystic</option>
+        </select>
+    </div>
+
+    <main class="champion-grid" id="gridContainer"></main>
+
+    <!-- Modal Xem Chi Tiết Guide -->
+    <div class="modal" id="guideModal" onclick="app.closeModal(event)">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <span class="close-btn" onclick="app.closeModal(null, true)">&times;</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script>
+        class GuideApp {
+            constructor() {
+                this.championsData = [];
+                this.filteredData = [];
+                // ANH THAY LINK GITHUB RAW HOẶC JSDELIVR CỦA ANH VÀO BIẾN NÀY:
+                this.jsonUrl = 'https://raw.githubusercontent.com/USERNAME/REPO_NAME/main/champions.json';
+                this.init();
+            }
+
+            async init() {
+                const container = document.getElementById('gridContainer');
+                container.innerHTML = '<p style="grid-column: 1/-1; text-align: center; color: #ffb703;">Đang tải dữ liệu từ GitHub...</p>';
+
+                try {
+                    const response = await fetch(this.jsonUrl);
+                    if (!response.ok) throw new Error(`HTTP Error Status: ${response.status}`);
+                    
+                    this.championsData = await response.json();
+                    this.filteredData = [...this.championsData];
+                    this.renderGrid();
+                } catch (error) {
+                    console.error("Lỗi Fetch Data:", error);
+                    container.innerHTML = `
+                        <p style="grid-column: 1/-1; text-align: center; color: #ef4444; padding: 20px;">
+                            Không thể tải dữ liệu từ GitHub. Vui lòng kiểm tra lại URL trong file JS.<br>
+                            <small style="color: #8b949e;">${error.message}</small>
+                        </p>`;
+                }
+            }
+
+            renderGrid() {
+                const container = document.getElementById('gridContainer');
+                if (this.filteredData.length === 0) {
+                    container.innerHTML = '<p style="grid-column: 1/-1; text-align: center; color: #8b949e;">Không tìm thấy tướng phù hợp.</p>';
+                    return;
+                }
+
+                container.innerHTML = this.filteredData.map(champ => `
+                    <div class="champ-card" onclick="app.openGuide('${champ.id}')">
+                        <img class="champ-avatar" src="${champ.avatar}" alt="${champ.name}">
+                        <div class="champ-name">${champ.name}</div>
+                        <span class="badge-class ${champ.class.toLowerCase()}">${champ.class}</span>
+                    </div>
+                `).join('');
+            }
+
+            filter() {
+                const query = document.getElementById('searchInput').value.toLowerCase().trim();
+                const selectedClass = document.getElementById('classFilter').value.toLowerCase();
+
+                this.filteredData = this.championsData.filter(c => {
+                    const matchName = c.name.toLowerCase().includes(query);
+                    const matchClass = selectedClass === 'all' || c.class.toLowerCase() === selectedClass;
+                    return matchName && matchClass;
+                });
+
+                this.renderGrid();
+            }
+
+            openGuide(champId) {
+                const champ = this.championsData.find(c => c.id === champId);
+                if (!champ) return;
+
+                const modalBody = document.getElementById('modalBody');
+                modalBody.innerHTML = `
+                    <div style="display:flex; align-items:center; gap:20px; margin-bottom: 20px;">
+                        <img src="${champ.avatar}" style="width:80px; height:80px; border-radius:50%; object-fit:cover;">
+                        <div>
+                            <h2 style="color: var(--text-heading);">${champ.name}</h2>
+                            <span class="badge-class ${champ.class.toLowerCase()}">${champ.class}</span>
+                            ${champ.tier ? `<span style="font-size:0.85rem; color:var(--accent-gold); font-weight:bold; margin-left:10px;">${champ.tier}</span>` : ''}
+                        </div>
+                    </div>
+
+                    <p><em>${champ.summary || ''}</em></p>
+
+                    <div class="guide-section">
+                        <h3>1. Ưu & Nhược Điểm</h3>
+                        <p><strong style="color:#52b788;">Điểm mạnh:</strong> ${(champ.strengths || []).join(', ')}</p>
+                        <p><strong style="color:#e76f51;">Nhược điểm:</strong> ${(champ.weaknesses || []).join(', ')}</p>
+                    </div>
+
+                    <div class="guide-section">
+                        <h3>2. Vòng Lặp Combo & Cách Đánh (Rotation)</h3>
+                        <ol>
+                            ${(champ.rotation || []).map(step => `<li>${step}</li>`).join('')}
+                        </ol>
+                    </div>
+
+                    <div class="guide-section">
+                        <h3>3. Tướng Khắc Chế (Counters)</h3>
+                        <ul>
+                            ${(champ.counters || []).map(ctr => `<li>${ctr}</li>`).join('')}
+                        </ul>
+                    </div>
+                `;
+
+                document.getElementById('guideModal').style.display = 'flex';
+            }
+
+            closeModal(event, force = false) {
+                if (force || (event && event.target.id === 'guideModal')) {
+                    document.getElementById('guideModal').style.display = 'none';
+                }
+            }
+        }
+
+        const app = new GuideApp();
+    </script>
+</body>
+</html>
