@@ -6,104 +6,211 @@
     <title>MCOC Champion Strategy & Guide Index</title>
     <style>
         :root {
-            --bg-primary: #0d1117;
+            --bg-primary: #0b0e14;
             --bg-secondary: #161b22;
             --border-color: #30363d;
-            --text-main: #c9d1d9;
+            --text-main: #94a3b8;
             --text-heading: #f0f6fc;
-            --accent-gold: #ffb703;
             
-            /* Class Colors */
-            --cls-cosmic: #00b4d8;
-            --cls-tech: #2a9d8f;
-            --cls-mutant: #e9c46a;
-            --cls-skill: #e76f51;
-            --cls-science: #52b788;
-            --cls-mystic: #9d4edd;
+            /* BẢNG MÀU CHUẨN MCOC */
+            --cls-all: #f59e0b;       /* All - Vàng Cam */
+            --cls-cosmic: #00b4d8;    /* Cosmic - Xanh Dương */
+            --cls-mutant: #e9c46a;    /* Mutant - Vàng Vàng */
+            --cls-tech: #2a9d8f;      /* Tech - Xanh Ngọc */
+            --cls-skill: #e76f51;     /* Skill - Đỏ Cam */
+            --cls-science: #52b788;   /* Science - Xanh Lá */
+            --cls-mystic: #9d4edd;    /* Mystic - Tím */
         }
 
-        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', system-ui, sans-serif; }
-        body { background-color: var(--bg-primary); color: var(--text-main); padding: 20px; line-height: 1.6; }
+        * { 
+            box-sizing: border-box; 
+            margin: 0; 
+            padding: 0; 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
+        }
 
-        /* Header & Filters */
-        header { text-align: center; margin-bottom: 30px; }
-        header h1 { color: var(--accent-gold); font-size: 2rem; text-transform: uppercase; letter-spacing: 2px; }
-        
-        .filter-bar {
-            max-width: 1100px;
-            margin: 0 auto 30px auto;
+        body { 
+            background-color: var(--bg-primary); 
+            color: var(--text-main); 
+            padding: 20px; 
+            line-height: 1.6; 
+        }
+
+        header { 
+            text-align: center; 
+            margin-bottom: 25px; 
+        }
+        header h1 { 
+            color: var(--cls-all); 
+            font-size: 2rem; 
+            text-transform: uppercase; 
+            letter-spacing: 2px; 
+        }
+        header p { 
+            color: #64748b; 
+            font-size: 0.95rem; 
+        }
+
+        /* --- THANH MENU NÚT PILL CAPSULE MÀU CHUẨN --- */
+        .class-tabs-container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto 25px auto;
+            border-top: 1px solid var(--border-color);
+            border-bottom: 1px solid var(--border-color);
+            background-color: #0d1117;
             display: flex;
-            gap: 15px;
-            flex-wrap: wrap;
-            justify-content: center;
+            justify-content: flex-start;
+            overflow-x: auto;
         }
 
-        .filter-bar input, .filter-bar select {
+        .class-tabs {
+            display: flex;
+            list-style: none;
+            width: 100%;
+        }
+
+        .tab-box {
+            flex: 1;
+            min-width: 110px;
+            padding: 12px 10px;
+            border-right: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #11161d;
+            transition: background-color 0.2s ease;
+        }
+
+        .tab-box:first-child {
+            border-left: 1px solid var(--border-color);
+        }
+
+        .tab-box:hover {
+            background-color: #161b22;
+        }
+
+        /* Nút Pill bo tròn */
+        .tab-pill-btn {
+            background: transparent;
+            border-radius: 9999px;
+            padding: 5px 18px;
+            font-size: 0.8rem;
+            font-weight: 800;
+            letter-spacing: 0.8px;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+            outline: none;
+            white-space: nowrap;
+        }
+
+        /* VIỀN & CHỮ CHO TỪNG CLASS MENU */
+        .btn-all { border: 1px solid var(--cls-all); color: var(--cls-all); }
+        .btn-all.active, .btn-all:hover { background-color: var(--cls-all); color: #000; box-shadow: 0 0 10px rgba(245, 158, 11, 0.4); }
+
+        .btn-cosmic { border: 1px solid var(--cls-cosmic); color: var(--cls-cosmic); }
+        .btn-cosmic.active, .btn-cosmic:hover { background-color: var(--cls-cosmic); color: #000; box-shadow: 0 0 10px rgba(0, 180, 216, 0.4); }
+
+        .btn-mutant { border: 1px solid var(--cls-mutant); color: var(--cls-mutant); }
+        .btn-mutant.active, .btn-mutant:hover { background-color: var(--cls-mutant); color: #000; box-shadow: 0 0 10px rgba(233, 196, 106, 0.4); }
+
+        .btn-tech { border: 1px solid var(--cls-tech); color: var(--cls-tech); }
+        .btn-tech.active, .btn-tech:hover { background-color: var(--cls-tech); color: #000; box-shadow: 0 0 10px rgba(42, 157, 143, 0.4); }
+
+        .btn-skill { border: 1px solid var(--cls-skill); color: var(--cls-skill); }
+        .btn-skill.active, .btn-skill:hover { background-color: var(--cls-skill); color: #fff; box-shadow: 0 0 10px rgba(231, 111, 81, 0.4); }
+
+        .btn-science { border: 1px solid var(--cls-science); color: var(--cls-science); }
+        .btn-science.active, .btn-science:hover { background-color: var(--cls-science); color: #000; box-shadow: 0 0 10px rgba(82, 183, 136, 0.4); }
+
+        .btn-mystic { border: 1px solid var(--cls-mystic); color: var(--cls-mystic); }
+        .btn-mystic.active, .btn-mystic:hover { background-color: var(--cls-mystic); color: #fff; box-shadow: 0 0 10px rgba(157, 78, 221, 0.4); }
+
+        /* Search Input Bar */
+        .search-container {
+            max-width: 1200px;
+            margin: 0 auto 25px auto;
+        }
+
+        .search-input {
+            width: 300px;
             background-color: var(--bg-secondary);
             border: 1px solid var(--border-color);
             color: var(--text-heading);
-            padding: 10px 16px;
-            border-radius: 8px;
+            padding: 9px 14px;
+            border-radius: 6px;
             outline: none;
-            font-size: 0.95rem;
+            font-size: 0.9rem;
         }
 
-        .filter-bar input:focus, .filter-bar select:focus { border-color: var(--accent-gold); }
+        .search-input:focus { border-color: var(--cls-all); }
 
-        /* Grid Champion */
+        /* Grid hiển thị Tướng */
         .champion-grid {
             max-width: 1200px;
             margin: 0 auto;
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-            gap: 20px;
+            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            gap: 16px;
         }
 
+        /* --- CẤU TRÚC THẺ TƯỚNG BỎ AVATAR (CHỈ HIỆN NHÓM VÀ TÊN) --- */
         .champ-card {
             background-color: var(--bg-secondary);
             border: 1px solid var(--border-color);
             border-radius: 12px;
-            padding: 16px;
+            padding: 20px 14px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
             text-align: center;
             cursor: pointer;
             transition: all 0.25s ease;
         }
 
         .champ-card:hover {
-            transform: translateY(-5px);
-            border-color: var(--accent-gold);
-            box-shadow: 0 8px 24px rgba(255, 183, 3, 0.15);
+            transform: translateY(-4px);
+            border-color: var(--cls-all);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
         }
 
-        .champ-avatar {
-            width: 80px;
-            height: 80px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin: 0 auto 12px auto;
-            border: 3px solid var(--border-color);
-        }
-
-        .champ-name { font-size: 1rem; font-weight: 700; color: var(--text-heading); margin-bottom: 8px; }
-
+        /* 1. Nhóm Tướng (Badge Class Pill) ở TRÊN */
         .badge-class {
-            font-size: 0.75rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.7rem;
             font-weight: 800;
-            padding: 3px 10px;
-            border-radius: 20px;
+            padding: 4px 18px;
+            border-radius: 9999px;
             text-transform: uppercase;
-            display: inline-block;
+            letter-spacing: 0.8px;
+            background-color: transparent;
+            margin-bottom: 12px;
+            box-sizing: border-box;
         }
 
-        /* Class Colors Dynamic */
-        .cosmic { background-color: rgba(0, 180, 216, 0.2); color: var(--cls-cosmic); border: 1px solid var(--cls-cosmic); }
-        .tech { background-color: rgba(42, 157, 143, 0.2); color: var(--cls-tech); border: 1px solid var(--cls-tech); }
-        .mutant { background-color: rgba(233, 196, 106, 0.2); color: var(--cls-mutant); border: 1px solid var(--cls-mutant); }
-        .skill { background-color: rgba(231, 111, 81, 0.2); color: var(--cls-skill); border: 1px solid var(--cls-skill); }
-        .science { background-color: rgba(82, 183, 136, 0.2); color: var(--cls-science); border: 1px solid var(--cls-science); }
-        .mystic { background-color: rgba(157, 78, 221, 0.2); color: var(--cls-mystic); border: 1px solid var(--cls-mystic); }
+        .cls-cosmic { border: 1.5px solid var(--cls-cosmic); color: var(--cls-cosmic); }
+        .cls-tech { border: 1.5px solid var(--cls-tech); color: var(--cls-tech); }
+        .cls-mutant { border: 1.5px solid var(--cls-mutant); color: var(--cls-mutant); }
+        .cls-skill { border: 1.5px solid var(--cls-skill); color: var(--cls-skill); }
+        .cls-science { border: 1.5px solid var(--cls-science); color: var(--cls-science); }
+        .cls-mystic { border: 1.5px solid var(--cls-mystic); color: var(--cls-mystic); }
 
-        /* Guide Detail Modal */
+        /* 2. Tên Tướng ở DƯỚI */
+        .champ-name { 
+            font-size: 1.1rem; 
+            font-weight: 800; 
+            color: #ffffff; 
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            width: 100%;
+        }
+
+        /* Modal Chi Tiết Guide */
         .modal {
             position: fixed;
             top: 0; left: 0; width: 100%; height: 100%;
@@ -132,12 +239,19 @@
             position: absolute;
             top: 15px; right: 20px;
             font-size: 1.8rem;
-            color: var(--text-main);
+            color: #8b949e;
             cursor: pointer;
         }
 
         .guide-section { margin-top: 20px; }
-        .guide-section h3 { color: var(--accent-gold); margin-bottom: 8px; border-bottom: 1px solid var(--border-color); padding-bottom: 4px; }
+        .guide-section h3 { 
+            color: var(--cls-all); 
+            margin-bottom: 8px; 
+            border-bottom: 1px solid var(--border-color); 
+            padding-bottom: 4px; 
+            text-transform: uppercase;
+            font-size: 0.95rem;
+        }
         .guide-section ul, .guide-section ol { padding-left: 20px; }
         .guide-section li { margin-bottom: 6px; }
     </style>
@@ -149,22 +263,42 @@
         <p>Hướng Dẫn Combo & Cách Đánh Chi Tiết Từng Tướng</p>
     </header>
 
-    <div class="filter-bar">
-        <input type="text" id="searchInput" placeholder="Tìm tên tướng..." oninput="app.filter()">
-        <select id="classFilter" onchange="app.filter()">
-            <option value="ALL">Tất cả Class</option>
-            <option value="cosmic">Cosmic</option>
-            <option value="tech">Tech</option>
-            <option value="mutant">Mutant</option>
-            <option value="skill">Skill</option>
-            <option value="science">Science</option>
-            <option value="mystic">Mystic</option>
-        </select>
+    <!-- THANH MENU CLASS -->
+    <div class="class-tabs-container">
+        <div class="class-tabs" id="classTabs">
+            <div class="tab-box">
+                <button class="tab-pill-btn btn-all active" onclick="app.selectClass('ALL', this)">ALL</button>
+            </div>
+            <div class="tab-box">
+                <button class="tab-pill-btn btn-cosmic" onclick="app.selectClass('Cosmic', this)">COSMIC</button>
+            </div>
+            <div class="tab-box">
+                <button class="tab-pill-btn btn-mutant" onclick="app.selectClass('Mutant', this)">MUTANT</button>
+            </div>
+            <div class="tab-box">
+                <button class="tab-pill-btn btn-tech" onclick="app.selectClass('Tech', this)">TECH</button>
+            </div>
+            <div class="tab-box">
+                <button class="tab-pill-btn btn-skill" onclick="app.selectClass('Skill', this)">SKILL</button>
+            </div>
+            <div class="tab-box">
+                <button class="tab-pill-btn btn-science" onclick="app.selectClass('Science', this)">SCIENCE</button>
+            </div>
+            <div class="tab-box">
+                <button class="tab-pill-btn btn-mystic" onclick="app.selectClass('Mystic', this)">MYSTIC</button>
+            </div>
+        </div>
     </div>
 
+    <!-- Ô Tìm kiếm -->
+    <div class="search-container">
+        <input type="text" id="searchInput" class="search-input" placeholder="Search champion..." oninput="app.filter()">
+    </div>
+
+    <!-- Grid danh sách tướng -->
     <main class="champion-grid" id="gridContainer"></main>
 
-    <!-- Modal Xem Chi Tiết Guide -->
+    <!-- Modal Chi Tiết Guide -->
     <div class="modal" id="guideModal" onclick="app.closeModal(event)">
         <div class="modal-content" onclick="event.stopPropagation()">
             <span class="close-btn" onclick="app.closeModal(null, true)">&times;</span>
@@ -177,14 +311,17 @@
             constructor() {
                 this.championsData = [];
                 this.filteredData = [];
-                // ANH THAY LINK GITHUB RAW HOẶC JSDELIVR CỦA ANH VÀO BIẾN NÀY:
-                this.jsonUrl = 'https://raw.githubusercontent.com/thanhhc13/mcoc13/refs/heads/main/champions.json';
+                this.selectedClass = 'ALL';
+                
+                // LINK RAW GITHUB CỦA ANH
+                this.jsonUrl = 'https://raw.githubusercontent.com/USERNAME/REPO_NAME/main/champions.json';
+                
                 this.init();
             }
 
             async init() {
                 const container = document.getElementById('gridContainer');
-                container.innerHTML = '<p style="grid-column: 1/-1; text-align: center; color: #ffb703;">Đang tải dữ liệu từ GitHub...</p>';
+                container.innerHTML = '<p style="grid-column: 1/-1; text-align: center; color: var(--cls-all);">Đang tải dữ liệu từ GitHub...</p>';
 
                 try {
                     const response = await fetch(this.jsonUrl);
@@ -195,11 +332,41 @@
                     this.renderGrid();
                 } catch (error) {
                     console.error("Lỗi Fetch Data:", error);
-                    container.innerHTML = `
-                        <p style="grid-column: 1/-1; text-align: center; color: #ef4444; padding: 20px;">
-                            Không thể tải dữ liệu từ GitHub. Vui lòng kiểm tra lại URL trong file JS.<br>
-                            <small style="color: #8b949e;">${error.message}</small>
-                        </p>`;
+                    // Dữ liệu mẫu dự phòng
+                    this.championsData = [
+                        {
+                            id: "hercules",
+                            name: "Hercules",
+                            class: "Cosmic",
+                            tier: "Beyond God Tier",
+                            summary: "Dồn dam cực mạnh nhờ Feat of Strength. Giữ nhịp đánh liên tục để duy trì Bất Tử.",
+                            strengths: ["Damage Burst cực lớn", "Bất tử khi KO (Unkillable)", "Chống True Damage"],
+                            weaknesses: ["Sợ Nullify/Stagger", "Cần Kỹ năng Intercept tốt"],
+                            rotation: [
+                                "Mở đầu trận: Intercept (ngắt đòn) để lấy Feats đầu tiên.",
+                                "Tích 12 Feats -> Tung SP1 lấy Buff Precision.",
+                                "Gợi ý Combo: 5 Hit -> SP1 -> Heavy -> SP2 dứt điểm."
+                            ],
+                            counters: ["Absorbing Man", "Doctor Doom", "Rintrah"]
+                        },
+                        {
+                            id: "ghost",
+                            name: "Ghost",
+                            class: "Tech",
+                            tier: "God Tier",
+                            summary: "Lối đánh Phase (xuyên thấu) độc nhất. Bỏ qua mọi đòn đánh của địch để trả Critical Hits.",
+                            strengths: ["Chống sát thương gián tiếp", "Chí mạng 100% khi ra đòn từ Phase"],
+                            weaknesses: ["Khó chơi, cần luyện tập nhịp Phase", "Sợ Armor Break"],
+                            rotation: [
+                                "Vuốt lùi để kích hoạt Phase.",
+                                "Để đối thủ đánh hụt (Miss) 1 nhịp -> Phản công bằng M-L-L-L-M.",
+                                "Tích thanh SP2 -> Phase -> Tung SP2 dứt điểm."
+                            ],
+                            counters: ["Red Magneto", "CGR", "Armor Break Champs"]
+                        }
+                    ];
+                    this.filteredData = [...this.championsData];
+                    this.renderGrid();
                 }
             }
 
@@ -210,22 +377,34 @@
                     return;
                 }
 
-                container.innerHTML = this.filteredData.map(champ => `
-                    <div class="champ-card" onclick="app.openGuide('${champ.id}')">
-                        <img class="champ-avatar" src="${champ.avatar}" alt="${champ.name}">
-                        <div class="champ-name">${champ.name}</div>
-                        <span class="badge-class ${champ.class.toLowerCase()}">${champ.class}</span>
-                    </div>
-                `).join('');
+                container.innerHTML = this.filteredData.map(champ => {
+                    const classSlug = champ.class.toLowerCase();
+                    const classNameText = champ.class.toUpperCase();
+
+                    return `
+                        <div class="champ-card" onclick="app.openGuide('${champ.id}')">
+                            <span class="badge-class cls-${classSlug}">${classNameText}</span>
+                            <div class="champ-name">${champ.name}</div>
+                        </div>
+                    `;
+                }).join('');
+            }
+
+            selectClass(clsName, element) {
+                this.selectedClass = clsName;
+                
+                document.querySelectorAll('.tab-pill-btn').forEach(btn => btn.classList.remove('active'));
+                element.classList.add('active');
+
+                this.filter();
             }
 
             filter() {
                 const query = document.getElementById('searchInput').value.toLowerCase().trim();
-                const selectedClass = document.getElementById('classFilter').value.toLowerCase();
 
                 this.filteredData = this.championsData.filter(c => {
                     const matchName = c.name.toLowerCase().includes(query);
-                    const matchClass = selectedClass === 'all' || c.class.toLowerCase() === selectedClass;
+                    const matchClass = this.selectedClass === 'ALL' || c.class.toLowerCase() === this.selectedClass.toLowerCase();
                     return matchName && matchClass;
                 });
 
@@ -238,13 +417,12 @@
 
                 const modalBody = document.getElementById('modalBody');
                 modalBody.innerHTML = `
-                    <div style="display:flex; align-items:center; gap:20px; margin-bottom: 20px;">
-                        <img src="${champ.avatar}" style="width:80px; height:80px; border-radius:50%; object-fit:cover;">
+                    <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom: 20px;">
                         <div>
-                            <h2 style="color: var(--text-heading);">${champ.name}</h2>
-                            <span class="badge-class ${champ.class.toLowerCase()}">${champ.class}</span>
-                            ${champ.tier ? `<span style="font-size:0.85rem; color:var(--accent-gold); font-weight:bold; margin-left:10px;">${champ.tier}</span>` : ''}
+                            <h2 style="color: var(--text-heading); font-size: 1.6rem;">${champ.name}</h2>
+                            <span class="badge-class cls-${champ.class.toLowerCase()}" style="margin-bottom:0; margin-top:6px;">${champ.class.toUpperCase()}</span>
                         </div>
+                        ${champ.tier ? `<span style="font-size:0.9rem; color:var(--cls-all); font-weight:bold;">${champ.tier}</span>` : ''}
                     </div>
 
                     <p><em>${champ.summary || ''}</em></p>
