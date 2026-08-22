@@ -8,7 +8,7 @@
         :root {
             --bg-primary: #0b0e14;
             --bg-secondary: #161b22;
-            --border-color: #30363d;
+            --border-color: #21262d;
             --text-main: #94a3b8;
             --text-heading: #f0f6fc;
             
@@ -32,268 +32,243 @@
         body { 
             background-color: var(--bg-primary); 
             color: var(--text-main); 
-            padding: 20px; 
-            line-height: 1.6; 
+            padding: 12px; 
+            line-height: 1.4; 
         }
 
         header { 
             text-align: center; 
-            margin-bottom: 25px; 
+            margin-bottom: 16px; 
         }
         header h1 { 
             color: var(--cls-all); 
-            font-size: 2rem; 
+            font-size: 1.4rem; 
             text-transform: uppercase; 
-            letter-spacing: 2px; 
+            letter-spacing: 1px; 
         }
         header p { 
             color: #64748b; 
-            font-size: 0.95rem; 
+            font-size: 0.8rem; 
         }
 
-        /* --- THANH MENU NÚT PILL CAPSULE MÀU CHUẨN --- */
+        /* --- THANH MENU FILTER LƯỚT NGANG --- */
         .class-tabs-container {
             width: 100%;
             max-width: 1200px;
-            margin: 0 auto 25px auto;
-            border-top: 1px solid var(--border-color);
-            border-bottom: 1px solid var(--border-color);
-            background-color: #0d1117;
+            margin: 0 auto 16px auto;
             display: flex;
             justify-content: flex-start;
             overflow-x: auto;
+            padding-bottom: 6px;
+            -webkit-overflow-scrolling: touch;
         }
 
         .class-tabs {
             display: flex;
+            gap: 8px;
             list-style: none;
-            width: 100%;
         }
 
-        .tab-box {
-            flex: 1;
-            min-width: 110px;
-            padding: 12px 10px;
-            border-right: 1px solid var(--border-color);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: #11161d;
-            transition: background-color 0.2s ease;
-        }
-
-        .tab-box:first-child { border-left: 1px solid var(--border-color); }
-        .tab-box:hover { background-color: #161b22; }
-
-        /* Nút Pill bo tròn */
         .tab-pill-btn {
-            background: transparent;
+            background: rgba(22, 27, 34, 0.6);
             border-radius: 9999px;
-            padding: 5px 18px;
-            font-size: 0.8rem;
+            padding: 6px 14px;
+            font-size: 0.75rem;
             font-weight: 800;
-            letter-spacing: 0.8px;
+            letter-spacing: 0.5px;
             text-transform: uppercase;
             cursor: pointer;
-            transition: all 0.2s ease-in-out;
             outline: none;
             white-space: nowrap;
+            transition: all 0.2s ease;
         }
 
-        /* VIỀN & CHỮ CHO TỪNG CLASS MENU */
+        /* MÀU ĐẶC TRƯNG TAB MENU */
         .btn-all { border: 1px solid var(--cls-all); color: var(--cls-all); }
-        .btn-all.active, .btn-all:hover { background-color: var(--cls-all); color: #000; box-shadow: 0 0 10px rgba(245, 158, 11, 0.4); }
+        .btn-all.active { background-color: var(--cls-all); color: #000; }
 
         .btn-cosmic { border: 1px solid var(--cls-cosmic); color: var(--cls-cosmic); }
-        .btn-cosmic.active, .btn-cosmic:hover { background-color: var(--cls-cosmic); color: #000; box-shadow: 0 0 10px rgba(0, 180, 216, 0.4); }
+        .btn-cosmic.active { background-color: var(--cls-cosmic); color: #000; }
 
         .btn-mutant { border: 1px solid var(--cls-mutant); color: var(--cls-mutant); }
-        .btn-mutant.active, .btn-mutant:hover { background-color: var(--cls-mutant); color: #000; box-shadow: 0 0 10px rgba(233, 196, 106, 0.4); }
+        .btn-mutant.active { background-color: var(--cls-mutant); color: #000; }
 
         .btn-tech { border: 1px solid var(--cls-tech); color: var(--cls-tech); }
-        .btn-tech.active, .btn-tech:hover { background-color: var(--cls-tech); color: #000; box-shadow: 0 0 10px rgba(42, 157, 143, 0.4); }
+        .btn-tech.active { background-color: var(--cls-tech); color: #000; }
 
         .btn-skill { border: 1px solid var(--cls-skill); color: var(--cls-skill); }
-        .btn-skill.active, .btn-skill:hover { background-color: var(--cls-skill); color: #fff; box-shadow: 0 0 10px rgba(231, 111, 81, 0.4); }
+        .btn-skill.active { background-color: var(--cls-skill); color: #fff; }
 
         .btn-science { border: 1px solid var(--cls-science); color: var(--cls-science); }
-        .btn-science.active, .btn-science:hover { background-color: var(--cls-science); color: #000; box-shadow: 0 0 10px rgba(82, 183, 136, 0.4); }
+        .btn-science.active { background-color: var(--cls-science); color: #000; }
 
         .btn-mystic { border: 1px solid var(--cls-mystic); color: var(--cls-mystic); }
-        .btn-mystic.active, .btn-mystic:hover { background-color: var(--cls-mystic); color: #fff; box-shadow: 0 0 10px rgba(157, 78, 221, 0.4); }
+        .btn-mystic.active { background-color: var(--cls-mystic); color: #fff; }
 
-        /* Search Input Bar */
+        /* Ô TÌM KIẾM GỌN NHẸ */
         .search-container {
             max-width: 1200px;
-            margin: 0 auto 25px auto;
+            margin: 0 auto 16px auto;
         }
 
         .search-input {
-            width: 300px;
+            width: 100%;
+            max-width: 320px;
             background-color: var(--bg-secondary);
             border: 1px solid var(--border-color);
             color: var(--text-heading);
-            padding: 9px 14px;
+            padding: 8px 12px;
             border-radius: 6px;
             outline: none;
-            font-size: 0.9rem;
+            font-size: 0.85rem;
+            display: block;
+            margin: 0 auto;
         }
 
         .search-input:focus { border-color: var(--cls-all); }
 
-        /* Grid hiển thị Tướng */
+        /* --- GRID HIỂN THỊ MẶC ĐỊNH MOBILE: 3 CỘT / HÀNG --- */
         .champion-grid {
             max-width: 1200px;
             margin: 0 auto;
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-            gap: 16px;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 8px;
         }
 
-        /* --- THẺ TƯỚNG (BỎ AVATAR: CLASS Ở TRÊN - TÊN Ở DƯỚI) --- */
+        @media (min-width: 768px) {
+            .champion-grid {
+                grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+                gap: 12px;
+            }
+        }
+
+        /* --- THẺ TƯỚNG TỐI GIẢN (CỦA MOBILE: NÚT PILL + TÊN TƯỚNG) --- */
         .champ-card {
             background-color: var(--bg-secondary);
-            border: 1px solid var(--border-color);
-            border-radius: 12px;
-            padding: 20px 14px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            padding: 10px 4px;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             text-align: center;
             cursor: pointer;
-            transition: all 0.25s ease;
+            transition: transform 0.15s ease;
         }
 
-        .champ-card:hover {
-            transform: translateY(-4px);
-            border-color: var(--cls-all);
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+        .champ-card:active {
+            transform: scale(0.96);
         }
 
-        /* 1. Nhóm Tướng (Badge Class Pill) ở TRÊN */
         .badge-class {
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            font-size: 0.7rem;
+            font-size: 0.6rem;
             font-weight: 800;
-            padding: 4px 18px;
+            padding: 2px 8px;
             border-radius: 9999px;
             text-transform: uppercase;
-            letter-spacing: 0.8px;
+            letter-spacing: 0.5px;
             background-color: transparent;
-            margin-bottom: 12px;
-            box-sizing: border-box;
+            margin-bottom: 6px;
         }
 
-        .cls-cosmic { border: 1.5px solid var(--cls-cosmic); color: var(--cls-cosmic); }
-        .cls-tech { border: 1.5px solid var(--cls-tech); color: var(--cls-tech); }
-        .cls-mutant { border: 1.5px solid var(--cls-mutant); color: var(--cls-mutant); }
-        .cls-skill { border: 1.5px solid var(--cls-skill); color: var(--cls-skill); }
-        .cls-science { border: 1.5px solid var(--cls-science); color: var(--cls-science); }
-        .cls-mystic { border: 1.5px solid var(--cls-mystic); color: var(--cls-mystic); }
+        .cls-cosmic { border: 1px solid var(--cls-cosmic); color: var(--cls-cosmic); }
+        .cls-tech { border: 1px solid var(--cls-tech); color: var(--cls-tech); }
+        .cls-mutant { border: 1px solid var(--cls-mutant); color: var(--cls-mutant); }
+        .cls-skill { border: 1px solid var(--cls-skill); color: var(--cls-skill); }
+        .cls-science { border: 1px solid var(--cls-science); color: var(--cls-science); }
+        .cls-mystic { border: 1px solid var(--cls-mystic); color: var(--cls-mystic); }
 
-        /* 2. Tên Tướng ở DƯỚI */
         .champ-name { 
-            font-size: 1.05rem; 
-            font-weight: 800; 
+            font-size: 0.8rem; 
+            font-weight: 700; 
             color: #ffffff; 
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
             width: 100%;
+            padding: 0 2px;
         }
 
-        /* Modal Chi Tiết Guide */
+        /* MODAL POPUP HƯỚNG DẪN */
         .modal {
             position: fixed;
             top: 0; left: 0; width: 100%; height: 100%;
             background: rgba(0, 0, 0, 0.85);
-            backdrop-filter: blur(5px);
+            backdrop-filter: blur(4px);
             display: none;
             justify-content: center;
             align-items: center;
             z-index: 1000;
-            padding: 20px;
+            padding: 12px;
         }
 
         .modal-content {
             background-color: var(--bg-secondary);
             border: 1px solid var(--border-color);
             width: 100%;
-            max-width: 700px;
-            max-height: 90vh;
-            border-radius: 16px;
+            max-width: 600px;
+            max-height: 85vh;
+            border-radius: 12px;
             overflow-y: auto;
-            padding: 25px;
+            padding: 18px;
             position: relative;
         }
 
         .close-btn {
             position: absolute;
-            top: 15px; right: 20px;
-            font-size: 1.8rem;
+            top: 12px; right: 16px;
+            font-size: 1.6rem;
             color: #8b949e;
             cursor: pointer;
         }
 
-        .guide-section { margin-top: 20px; }
+        .guide-section { margin-top: 16px; }
         .guide-section h3 { 
             color: var(--cls-all); 
-            margin-bottom: 8px; 
+            margin-bottom: 6px; 
             border-bottom: 1px solid var(--border-color); 
             padding-bottom: 4px; 
             text-transform: uppercase;
-            font-size: 0.95rem;
+            font-size: 0.85rem;
         }
-        .guide-section ul, .guide-section ol { padding-left: 20px; }
-        .guide-section li { margin-bottom: 6px; }
+        .guide-section ul, .guide-section ol { padding-left: 18px; font-size: 0.85rem; }
+        .guide-section li { margin-bottom: 4px; }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>MCOC Combat Strategy Guide</h1>
-        <p>Hướng Dẫn Combo & Cách Đánh Chi Tiết Từng Tướng</p>
+        <h1>MCOC Combat Guide</h1>
+        <p>Hướng Dẫn Cách Đánh Từng Champ</p>
     </header>
 
-    <!-- THANH MENU CLASS -->
+    <!-- MENU THỜI TRANG LƯỚT NGANG LÊN MÀU -->
     <div class="class-tabs-container">
-        <div class="class-tabs" id="classTabs">
-            <div class="tab-box">
-                <button class="tab-pill-btn btn-all active" onclick="app.selectClass('all', this)">ALL</button>
-            </div>
-            <div class="tab-box">
-                <button class="tab-pill-btn btn-cosmic" onclick="app.selectClass('cosmic', this)">COSMIC</button>
-            </div>
-            <div class="tab-box">
-                <button class="tab-pill-btn btn-mutant" onclick="app.selectClass('mutant', this)">MUTANT</button>
-            </div>
-            <div class="tab-box">
-                <button class="tab-pill-btn btn-tech" onclick="app.selectClass('tech', this)">TECH</button>
-            </div>
-            <div class="tab-box">
-                <button class="tab-pill-btn btn-skill" onclick="app.selectClass('skill', this)">SKILL</button>
-            </div>
-            <div class="tab-box">
-                <button class="tab-pill-btn btn-science" onclick="app.selectClass('science', this)">SCIENCE</button>
-            </div>
-            <div class="tab-box">
-                <button class="tab-pill-btn btn-mystic" onclick="app.selectClass('mystic', this)">MYSTIC</button>
-            </div>
+        <div class="class-tabs">
+            <button class="tab-pill-btn btn-all active" onclick="app.selectClass('all', this)">ALL</button>
+            <button class="tab-pill-btn btn-cosmic" onclick="app.selectClass('cosmic', this)">COSMIC</button>
+            <button class="tab-pill-btn btn-mutant" onclick="app.selectClass('mutant', this)">MUTANT</button>
+            <button class="tab-pill-btn btn-tech" onclick="app.selectClass('tech', this)">TECH</button>
+            <button class="tab-pill-btn btn-skill" onclick="app.selectClass('skill', this)">SKILL</button>
+            <button class="tab-pill-btn btn-science" onclick="app.selectClass('science', this)">SCIENCE</button>
+            <button class="tab-pill-btn btn-mystic" onclick="app.selectClass('mystic', this)">MYSTIC</button>
         </div>
     </div>
 
-    <!-- Ô Tìm kiếm -->
+    <!-- TÌM KIẾM TƯỚNG -->
     <div class="search-container">
-        <input type="text" id="searchInput" class="search-input" placeholder="Search champion..." oninput="app.filter()">
+        <input type="text" id="searchInput" class="search-input" placeholder="Tìm tên tướng..." oninput="app.filter()">
     </div>
 
-    <!-- Grid danh sách tướng -->
+    <!-- GRID DÂN SÁCH TƯỚNG 3 CỘT CHO DẾ -->
     <main class="champion-grid" id="gridContainer"></main>
 
-    <!-- Modal Chi Tiết Guide -->
+    <!-- POPUP MODAL xem HƯỚNG DẪN -->
     <div class="modal" id="guideModal" onclick="app.closeModal(event)">
         <div class="modal-content" onclick="event.stopPropagation()">
             <span class="close-btn" onclick="app.closeModal(null, true)">&times;</span>
@@ -308,224 +283,37 @@
                 this.filteredData = [];
                 this.selectedClass = 'all';
                 
-                // LINK FILE JSON TRÊN GITHUB CỦA ANH
-                this.jsonUrl = './champions.json';
-                
+                // ĐƯỜNG DẪN RAW GITHUB JSON CHÍNH THỨC CỦA ANH
+                this.jsonUrl = 'https://raw.githubusercontent.com/thanhhc13/mcoc13/refs/heads/main/champions.json';
                 this.init();
             }
 
             async init() {
                 const container = document.getElementById('gridContainer');
-                container.innerHTML = '<p style="grid-column: 1/-1; text-align: center; color: var(--cls-all);">Đang tải dữ liệu...</p>';
+                container.innerHTML = '<p style="grid-column: 1/-1; text-align: center; color: var(--cls-all); font-size: 0.85rem;">Đang tải dữ liệu từ GitHub...</p>';
 
                 try {
                     const response = await fetch(this.jsonUrl);
-                    if (!response.ok) throw new Error(`HTTP Error Status: ${response.status}`);
-                    
+                    if (!response.ok) throw new Error(`HTTP Status: ${response.status}`);
                     this.championsData = await response.json();
                     this.filteredData = [...this.championsData];
                     this.renderGrid();
                 } catch (error) {
-                    console.warn("Chuyển sang Data mặc định do lỗi fetch:", error);
-                    // BỘ DỮ LIỆU JSON 12 TƯỚNG ANH CUNG CẤP[cite: 1]
-                    this.championsData = [
-                      {
-                        "id": "hercules",
-                        "name": "Hercules",
-                        "class": "cosmic",
-                        "tier": "Beyond God Tier",
-                        "summary": "Dồn dam cực mạnh nhờ Feat of Strength. Giữ nhịp đánh liên tục để duy trì Bất Tử.",
-                        "strengths": ["Damage Burst cực lớn", "Bất tử khi KO (Unkillable)", "Bỏ qua Miss và Auto-Block với True Sense"],
-                        "weaknesses": ["Sợ Nullify/Stagger", "Cần kỹ năng Intercept chuẩn"],
-                        "rotation": [
-                          "Tích đủ 12 Feat Charges bằng Intercept, Unstunned Heavy hoặc bị Knockdown.",
-                          "Thực hiện M/L + Dash Back để gán Infuriate ép đối thủ lướt vào.",
-                          "SP1 Intercept lấy True Sense & +3 Precision Buffs.",
-                          "SP2 Intercept nhận +3 Cruelty Buffs và dồn bão Bạo kích kết liễu."
-                        ],
-                        "counters": ["Absorbing Man", "Doctor Doom", "Rintrah"]
-                      },
-                      {
-                        "id": "adam-warlock",
-                        "name": "Adam Warlock",
-                        "class": "cosmic",
-                        "tier": "Beyond God Tier",
-                        "summary": "Thần tốc dồn bão Bạo kích 100% trong 10-15 giây nhờ trạng thái Sovereign Stance. Rất mạnh đua BGs.",
-                        "strengths": ["Tốc độ kết thúc trận siêu nhanh", "Bạo kích 100% và bỏ qua Giáp", "Kháng Power Drain / Lock / Steal"],
-                        "weaknesses": ["Lỗi 1 nhịp Intercept/Heavy sẽ mất sạch năng lượng Sovran", "Sợ Node Kháng Bạo Kích (Critical Resistance)", "Không có sát thương gián tiếp (Bleed/Incinerate)"],
-                        "rotation": [
-                          "Đánh Light 2 vào Block của đối thủ để kích hoạt Sovereignty Counter (bắt đầu ở 10 combo).",
-                          "Tấn công dồn dập (không dùng Parry) để tích combo lên 20+ (Precision) và 30+ (Fury).",
-                          "Dùng SP2 dồn bão Bạo kích xuyên thủ kết liễu.",
-                          "Trận dài: Dùng SP3 trước lấy Fury 60 giây rồi quay lại lặp lại SP2."
-                        ],
-                        "counters": ["Mystic Champions", "Kindred", "Nico Minoru"]
-                      },
-                      {
-                        "id": "the-serpent",
-                        "name": "The Serpent",
-                        "class": "cosmic",
-                        "tier": "Beyond God Tier",
-                        "summary": "Quái vật phòng thủ Top 1 BGs/AW và là tướng dọn đường trâu bò nhờ mạng Bất tử và SP2 dồn sát thương Cosmic.",
-                        "strengths": ["Mạng Bất tử (Indestructible) chống chết khi Dup", "Kháng hiệu ứng bất lợi mạnh", "SP2 sốc sát thương Cosmic cực to"],
-                        "weaknesses": ["Tốc độ dồn sát thương chậm hơn Adam/Hercules ở trận ngắn", "Sợ các tướng có khả năng khóa Buff Cosmic"],
-                        "rotation": [
-                          "Thực hiện combo MLLLM kết hợp Parry + Heavy Attack để tích lũy các tầng Cul's Wisdom / Protection.",
-                          "Tích lũy đủ 2 thanh năng lượng (SP2).",
-                          "Bắn SP2 dồn sát thương Cosmic sốc chết đối thủ."
-                        ],
-                        "counters": ["Kushala", "Symbiote Supreme", "Wiccan"]
-                      },
-                      {
-                        "id": "galan",
-                        "name": "Galan",
-                        "class": "cosmic",
-                        "tier": "God Tier",
-                        "summary": "Không cần Dup vẫn bão táp nhờ cơ chế nổ Harvest rút trực tiếp 50-100% máu đối thủ.",
-                        "strengths": ["Sát thương Nổ Harvest bỏ qua Giáp và Kháng phép", "Không phụ thuộc vào kỹ năng Thức tỉnh (Dup)", "Cướp Buff Cosmic để nạp Mass cực nhanh"],
-                        "weaknesses": ["Sợ các tướng/Node cấm Power Gain", "Sợ các tướng giảm sát thương Direct Damage"],
-                        "rotation": [
-                          "Giữ Heavy Attack để gán Harvest / Planetary Lock.",
-                          "Đánh combo MLLLM và xả SP1 / SP2 để nạp Planetary Mass lên mốc 100.",
-                          "Lao vào đấm dồn dập trong thời gian đếm ngược Harvest để tích sát thương nổ bùng cạn máu đối thủ."
-                        ],
-                        "counters": ["Absorbing Man", "Nimrod", "Doom"]
-                      },
-                      {
-                        "id": "knull",
-                        "name": "Knull",
-                        "class": "cosmic",
-                        "tier": "God Tier",
-                        "summary": "Chuyên gia phòng thủ và khống chế Hồi máu, chém Instant Bleed liên tục khi kích hoạt Corruption.",
-                        "strengths": ["Khóa và chuyển hóa Hồi Máu thành Degeneration", "Sát thương Instant Bleed dồn dập", "Defender rất khó chịu khi Dup Sig cao"],
-                        "weaknesses": ["Bắt buộc phải Dup (Sig 200) mới mạnh", "Tốc độ vào trận chậm nếu chưa Dup"],
-                        "rotation": [
-                          "Tích lũy các tầng Living Abyss bằng đòn đánh thường.",
-                          "Bắn SP1 để gán Encroaching Corruption.",
-                          "Khi vào trạng thái Corruption, lao vào chém các đòn Medium/Special dồn Instant Bleed."
-                        ],
-                        "counters": ["Bleed Immune Champions", "Kingpin", "Sunspot"]
-                      },
-                      {
-                        "id": "venom",
-                        "name": "Venom",
-                        "class": "cosmic",
-                        "tier": "Demi-God Tier",
-                        "summary": "Tướng càn quét quốc dân, sở hữu bộ Buff Klyntar đa dạng và True Strike chống các tướng Spider-Verse.",
-                        "strengths": ["True Strike vĩnh viễn chống Né/Auto-Block của họ nhà Nhện", "Phá Giáp và hút Buff hồi máu tốt", "Dễ vận hành, lối đánh an toàn"],
-                        "weaknesses": ["Phụ thuộc 100% vào Buff (sợ Nullify/Stagger)", "Tốc độ kết thúc trận đấu ở mốc trung bình"],
-                        "rotation": [
-                          "Đánh combo MLLLM kết hợp Heavy Attack để xé Rách Giáp và tích Buff Klyntar.",
-                          "Tích năng lượng xả SP2 để dồn bão Bạo kích.",
-                          "Dùng SP1 khi cần nuốt Buff của đối thủ để hồi phục máu."
-                        ],
-                        "counters": ["Symbiote Supreme", "Kushala", "Doctor Doom"]
-                      },
-                      {
-                        "id": "scream",
-                        "name": "Scream",
-                        "class": "cosmic",
-                        "tier": "God Tier",
-                        "summary": "Sát thủ gán Debuff rút máu rát và khống chế tốc độ tích năng lượng của đối thủ nhờ Suppress.",
-                        "strengths": ["Dồn Bleed và Suppress giảm Power Gain đối thủ", "Khả năng Pause Debuff hiệu quả", "Sát thương SP2 bùng nổ theo số Debuff"],
-                        "weaknesses": ["Sợ tướng Kháng Bleed", "Sợ cơ chế Purify/Cleanse", "Yêu cầu kỹ năng Punish đòn tốt"],
-                        "rotation": [
-                          "Đánh combo kết thúc bằng Medium hoặc Light (MLLLM/MLLLL) để tích Debuff.",
-                          "Trừng phạt (Punish) đòn Heavy/Special của đối thủ hoặc dùng Heavy để Pause Debuff.",
-                          "Bắn SP2 dồn sốc sát thương theo tổng số Debuff trên người đối thủ."
-                        ],
-                        "counters": ["Crossbones", "Kingpin", "Ghost"]
-                      },
-                      {
-                        "id": "karolina-dean",
-                        "name": "Karolina Dean",
-                        "class": "cosmic",
-                        "tier": "God Tier",
-                        "summary": "Thiêu rụi mọi kẻ địch trâu giáp bằng bão Incinerate gián tiếp từ SP2.",
-                        "strengths": ["Sát thương Lửa gián tiếp bỏ qua Giáp/Kháng", "Lối đánh cực kỳ an toàn", "Tự giảm sát thương khi dính Debuff"],
-                        "weaknesses": ["Hoàn toàn vô hại trước đối thủ Kháng Incinerate/Lửa", "Phụ thuộc vào thanh Solar Energy"],
-                        "rotation": [
-                          "Đánh combo MLLLM kết hợp Parry + Heavy Attack để nạp nhanh Solar Energy.",
-                          "Tích đủ 2 thanh năng lượng.",
-                          "Xả SP2 chuyển hóa Solar Energy thành bão Incinerate thiêu rụi đối thủ."
-                        ],
-                        "counters": ["Human Torch", "Sunspot", "Red Goblin"]
-                      },
-                      {
-                        "id": "cull-obsidian",
-                        "name": "Cull Obsidian",
-                        "class": "cosmic",
-                        "tier": "God Tier",
-                        "summary": "Quái vật sát thương thô và Armor Break khi có đủ Persistent Charges và trạng thái Rout.",
-                        "strengths": ["Sát thương thô (Raw Attack) siêu khủng", "Trạng thái Rout đấm xuyên Auto-Block", "Parry được các đòn đánh không tiếp xúc (Non-contact)"],
-                        "weaknesses": ["Khả năng Block kém (Block giấy)", "Bắt buộc phải Dup Sig cao mới ổn định", "Yêu cầu tích Persistent Charges qua nhiều trận (Ramp-up)"],
-                        "rotation": [
-                          "Lướt lùi giữ Block 1.2 giây để kích hoạt trạng thái Rout.",
-                          "Tụ lực Heavy Attack để gán Armor Break.",
-                          "Xả SP2 gán Choáng và Pause đếm ngược Armor Break, sau đó lao vào đấm dồn dập."
-                        ],
-                        "counters": ["Doctor Doom", "Clair Voyant", "Magneto"]
-                      },
-                      {
-                        "id": "juggernaut",
-                        "name": "Juggernaut",
-                        "class": "cosmic",
-                        "tier": "Beyond God Tier",
-                        "summary": "Chúa tể càn quét BGs với trạng thái Unstoppable liên tục và sát thương SP2 Bạo kích cực kỳ bá đạo.",
-                        "strengths": ["Trạng thái Unstoppable xuyên suốt", "Miễn nhiễm Choáng khi Unstoppable", "Tốc độ dọn trận siêu nhanh dưới 15 giây"],
-                        "weaknesses": ["Thọt nặng khi gặp tướng/Node xóa Unstoppable (Slow, Deceleration)", "Không có sát thương rút máu gián tiếp"],
-                        "rotation": [
-                          "Lao vào đấm combo MLLLM ngay từ đầu trận bất chấp khiên Block đối thủ nhờ Unstoppable.",
-                          "Giữ Heavy Attack để gán Stagger xóa Buff đối thủ và gia hạn Unstoppable.",
-                          "Tích 2 thanh năng lượng xả SP2 dồn bão Bạo kích nổ chết đối thủ."
-                        ],
-                        "counters": ["Kushala", "Spider-Gwen", "Titania"]
-                      },
-                      {
-                        "id": "kushala",
-                        "name": "Kushala",
-                        "class": "mystic",
-                        "tier": "Beyond God Tier",
-                        "summary": "Biến mọi Buff của đối thủ thành Soul Scar/Bleed và thiêu rụi cây máu bằng Soul Barb.",
-                        "strengths": ["Trừng phạt tướng nhiều Buff siêu mạnh", "Sát thương Incinerate / Degeneration khổng lồ", "Chống Purify khi đã Dup (chuyển sang dạng Passive)"],
-                        "weaknesses": ["Yếu đi rõ rệt khi đối thủ hoàn toàn không có Buff", "Sợ đối thủ Kháng Lửa (Incinerate Immune)"],
-                        "rotation": [
-                          "Tích năng lượng lên SP2 và bắn SP2 để gán Soul Barb.",
-                          "Trong lúc Soul Barb hoạt động, liên tục xả SP1 để dồn lớp Incinerate.",
-                          "Trận dài: Dùng SP3 trước lấy Judgement và 9 tầng Degeneration."
-                        ],
-                        "counters": ["Human Torch", "Red Goblin", "Gladiator"]
-                      },
-                      {
-                        "id": "jack-o-lantern",
-                        "name": "Jack O'Lantern",
-                        "class": "tech",
-                        "tier": "Beyond God Tier",
-                        "summary": "Sát thủ diệt Mutant Top 1, khắc tinh cứng của Onslaught nhờ khả năng chuyển Crit thành Incinerate/Plasma.",
-                        "strengths": ["Top 1 Counter Onslaught, Dust, Mr. Sinister", "Miễn nhiễm Inverted Controls và Incinerate", "Parry được đòn Non-contact", "Kỹ năng Hold Heavy Cancel SP rất mượt và sốc sát thương cực to"],
-                        "weaknesses": ["Sợ tướng Kháng Incinerate/Plasma", "Cần nhớ nhịp Cancel Heavy sang Special Attacks"],
-                        "rotation": [
-                          "Combo MLLLL (Light 4) để gán Cowardice giảm sát thương SP đối thủ.",
-                          "Parry Choáng -> Hold Heavy (lấy Precision) -> Cancel ngay sang SP1 để tích nhanh Inflamed Passives.",
-                          "Tích 15 tầng Inflamed -> Parry -> Hold Heavy Cancel sang SP2 dồn bão Bạo kích nổ Plasma sốc chết đối thủ."
-                        ],
-                        "counters": ["Sunspot", "Red Goblin", "Scorpion"]
-                      }
-                    ];
-                    this.filteredData = [...this.championsData];
-                    this.renderGrid();
+                    console.error("Lỗi đọc JSON từ GitHub:", error);
+                    container.innerHTML = `<p style="grid-column: 1/-1; text-align: center; color: #ef4444; font-size: 0.85rem;">
+                        Không thể tải dữ liệu từ GitHub Repo.<br><small>${error.message}</small>
+                    </p>`;
                 }
             }
 
             renderGrid() {
                 const container = document.getElementById('gridContainer');
                 if (this.filteredData.length === 0) {
-                    container.innerHTML = '<p style="grid-column: 1/-1; text-align: center; color: #8b949e;">Không tìm thấy tướng phù hợp.</p>';
+                    container.innerHTML = '<p style="grid-column: 1/-1; text-align: center; color: #8b949e; font-size: 0.8rem;">Không có tướng nào.</p>';
                     return;
                 }
 
                 container.innerHTML = this.filteredData.map(champ => {
-                    // CHUẨN HÓA CASE CHỮ THƯỜNG / CHỮ HOA DỮ LIỆU CLASS
                     const rawClass = champ.class ? champ.class.toString().toLowerCase() : 'all';
                     const classNameText = rawClass.toUpperCase();
 
@@ -540,10 +328,8 @@
 
             selectClass(clsName, element) {
                 this.selectedClass = clsName.toLowerCase();
-                
                 document.querySelectorAll('.tab-pill-btn').forEach(btn => btn.classList.remove('active'));
                 element.classList.add('active');
-
                 this.filter();
             }
 
@@ -553,7 +339,6 @@
                 this.filteredData = this.championsData.filter(c => {
                     const matchName = c.name ? c.name.toLowerCase().includes(query) : false;
                     const cClass = c.class ? c.class.toString().toLowerCase() : '';
-                    
                     const matchClass = (this.selectedClass === 'all') || (cClass === this.selectedClass);
                     return matchName && matchClass;
                 });
@@ -569,20 +354,20 @@
 
                 const modalBody = document.getElementById('modalBody');
                 modalBody.innerHTML = `
-                    <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom: 20px;">
+                    <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom: 12px;">
                         <div>
-                            <h2 style="color: var(--text-heading); font-size: 1.6rem;">${champ.name}</h2>
-                            <span class="badge-class cls-${rawClass}" style="margin-bottom:0; margin-top:6px;">${rawClass.toUpperCase()}</span>
+                            <h2 style="color: var(--text-heading); font-size: 1.3rem;">${champ.name}</h2>
+                            <span class="badge-class cls-${rawClass}" style="margin-bottom:0; margin-top:4px;">${rawClass.toUpperCase()}</span>
                         </div>
-                        ${champ.tier ? `<span style="font-size:0.9rem; color:var(--cls-all); font-weight:bold;">${champ.tier}</span>` : ''}
+                        ${champ.tier ? `<span style="font-size:0.75rem; color:var(--cls-all); font-weight:bold;">${champ.tier}</span>` : ''}
                     </div>
 
-                    <p><em>${champ.summary || ''}</em></p>
+                    <p style="font-size: 0.85rem; margin-bottom: 12px;"><em>${champ.summary || ''}</em></p>
 
                     <div class="guide-section">
                         <h3>1. Ưu & Nhược Điểm</h3>
-                        <p><strong style="color:#52b788;">Điểm mạnh:</strong> ${(champ.strengths || []).join(', ')}</p>
-                        <p><strong style="color:#e76f51;">Nhược điểm:</strong> ${(champ.weaknesses || []).join(', ')}</p>
+                        <p style="font-size:0.8rem;"><strong style="color:#52b788;">Ưu:</strong> ${(champ.strengths || []).join(', ')}</p>
+                        <p style="font-size:0.8rem;"><strong style="color:#e76f51;">Nhược:</strong> ${(champ.weaknesses || []).join(', ')}</p>
                     </div>
 
                     <div class="guide-section">
