@@ -192,33 +192,7 @@
       "Ghost"
     ]
   },
-  {
-    "id": "karolina-dean",
-    "name": "Karolina Dean",
-    "class": "cosmic",
-    "tier": "God Tier",
-    "avatar": "https://via.placeholder.com/150/00b4d8/ffffff?text=Karolina",
-    "summary": "Thiêu rụi mọi kẻ địch trâu giáp bằng bão Incinerate gián tiếp từ SP2.",
-    "strengths": [
-      "Sát thương Lửa gián tiếp bỏ qua Giáp/Kháng",
-      "Lối đánh cực kỳ an toàn",
-      "Tự giảm sát thương khi dính Debuff"
-    ],
-    "weaknesses": [
-      "Hoàn toàn vô hại trước đối thủ Kháng Incinerate/Lửa",
-      "Phụ thuộc vào thanh Solar Energy"
-    ],
-    "rotation": [
-      "Đánh combo MLLLM kết hợp Parry + Heavy Attack để nạp nhanh Solar Energy.",
-      "Tích đủ 2 thanh năng lượng.",
-      "Xả SP2 chuyển hóa Solar Energy thành bão Incinerate thiêu rụi đối thủ."
-    ],
-    "counters": [
-      "Human Torch",
-      "Sunspot",
-      "Red Goblin"
-    ]
-  },
+  
   {
     "id": "cull-obsidian",
     "name": "Cull Obsidian",
@@ -327,6 +301,249 @@
       "Sunspot",
       "Red Goblin",
       "Scorpion"
+    ]
+  }
+  {
+    "id": "spider-ham",
+    "name": "Spider-Ham",
+    "class": "science",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/spider-ham.png",
+    "summary": "Thánh gán Poorker Porker Poppers khiến đối thủ tự rút máu khủng khiếp mỗi khi xả chiêu Special.",
+    "strengths": [
+      "Khống chế và trừng phạt tuyệt chiêu đối thủ cực nặng",
+      "Né đòn (Evade) tự nhiên rất ảo",
+      "Kháng sát thương Degeneration và cướp Power Gain"
+    ],
+    "weaknesses": [
+      "Sợ các tướng Kháng Taunt hoặc không dùng Special",
+      "Sợ các tướng Kháng Bleed/Debuff"
+    ],
+    "rotation": [
+      "Đánh combo MLLLL (kết thúc bằng Light) để gán Poorker Porker Poppers và Taunt.",
+      "Thực hiện Taunt để ép đối thủ dùng Special Attack.",
+      "Khi đối thủ xả Special, các tầng Poppers sẽ tự nổ rút cạn cây máu."
+    ],
+    "counters": [
+      "Venom",
+      "Knull",
+      "Red Guardian"
+    ]
+  },
+  {
+    "id": "karolina-dean",
+    "name": "Karolina Dean",
+    "class": "cosmic",
+    "tier": "God Tier",
+    "avatar": "/assets/champions/karolina-dean.png",
+    "summary": "Thiêu rụi mọi kẻ địch trâu giáp bằng bão Incinerate gián tiếp từ SP2.",
+    "strengths": [
+      "Sát thương Lửa gián tiếp bỏ qua Giáp/Kháng",
+      "Lối đánh cực kỳ an toàn",
+      "Tự giảm sát thương khi dính Debuff"
+    ],
+    "weaknesses": [
+      "Hoàn toàn vô hại trước đối thủ Kháng Incinerate/Lửa",
+      "Phụ thuộc vào thanh Solar Energy"
+    ],
+    "rotation": [
+      "Đánh combo MLLLM kết hợp Parry + Heavy Attack để nạp nhanh Solar Energy.",
+      "Tích đủ 2 thanh năng lượng.",
+      "Xả SP2 chuyển hóa Solar Energy thành bão Incinerate thiêu rụi đối thủ."
+    ],
+    "counters": [
+      "Human Torch",
+      "Sunspot",
+      "Red Goblin"
+    ]
+  },
+  {
+    "id": "heimdall",
+    "name": "Heimdall",
+    "class": "cosmic",
+    "tier": "Demi-God Tier (God Tier Synergy)",
+    "avatar": "/assets/champions/heimdall.png",
+    "summary": "Thánh Synergy cứu mạng đỉnh nhất game, cấp mạng Bất tử (Cheat Death) cho toàn bộ đồng đội.",
+    "strengths": [
+      "Synergy cấp mạng Bất tử và Cheat Death cho cả team",
+      "Có Auto-Block chống bị sốc sát thương",
+      "SP2 gán Buff Indestructible và Unstoppable"
+    ],
+    "weaknesses": [
+      "Sát thương thực chiến độc lập ở mức trung bình",
+      "Tốc độ dọn trận chậm"
+    ],
+    "rotation": [
+      "Lướt lùi và giữ Block để tích lũy các Buff (Precision, Aptitude, Fury).",
+      "Đánh combo MLLLM dồn năng lượng lên SP2.",
+      "Xả SP2 để lấy Buff Unstoppable & Indestructible rồi lao vào đấm dồn sát thương."
+    ],
+    "counters": [
+      "Doctor Doom",
+      "Wiccan",
+      "Kushala"
+    ]
+  },
+  {
+    "id": "cosmic-ghost-rider",
+    "name": "Cosmic Ghost Rider",
+    "class": "cosmic",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/cosmic-ghost-rider.png",
+    "summary": "Quái vật dồn sát thương bão táp top đầu game với chuỗi combo chuẩn xác lấy đống Fury và Aptitude.",
+    "strengths": [
+      "Sát thương sốc (Burst Damage) thuộc hàng đỉnh nhất game",
+      "Khóa năng lượng (Power Lock) đối thủ cực lâu",
+      "Có Armor Break và Fate Seal tự nhiên"
+    ],
+    "weaknesses": [
+      "Cần thuộc chuẩn nhịp combo, sai 1 bước sẽ mất Judgement",
+      "Sợ các tướng/Node Kháng Armor Break hoặc Bleed"
+    ],
+    "rotation": [
+      "Đánh combo MLLLL (Light finisher) -> Giữ Heavy (lấy Aptitude) -> Bắn SP2.",
+      "Ngay sau SP2, thực hiện ngay combo MLLLM (Medium finisher) để dồn 100% Armor Break + Fury bão táp.",
+      "Đối thủ sẽ bị thiêu rụi hoàn toàn trong 10-15 giây."
+    ],
+    "counters": [
+      "Absorbing Man",
+      "Doctor Doom",
+      "Mephisto"
+    ]
+  },
+  {
+    "id": "jean-grey",
+    "name": "Jean Grey",
+    "class": "mutant",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/jean-grey.png",
+    "summary": "Chúa tể hệ Mutant với khả năng điều khiển tâm linh và bão Phoenix Force thiêu rụi đối thủ.",
+    "strengths": [
+      "Sát thương Phoenix Force và Năng lượng cực lớn",
+      "Khống chế AI và tâm linh xuất sắc",
+      "Khả năng hồi phục và hồi sinh ấn tượng"
+    ],
+    "weaknesses": [
+      "Sợ các tướng hệ Tech chuyên trị Mutant",
+      "Phụ thuộc vào nhịp quản lý các tầng Phoenix Charges"
+    ],
+    "rotation": [
+      "Tích lũy các tầng Phoenix Charges bằng đòn đánh thường và Special.",
+      "Dùng SP1 để chuyển đổi trạng thái tâm linh khống chế đối thủ.",
+      "Tích 2 thanh năng lượng xả SP2 dồn bão lửa Phoenix thiêu rụi cây máu."
+    ],
+    "counters": [
+      "Nimrod",
+      "Jack O'Lantern",
+      "Bastion"
+    ]
+  },
+  {
+    "id": "spiderman-stark-enhanced",
+    "name": "Spider-Man (Stark Enhanced)",
+    "class": "tech",
+    "tier": "God Tier",
+    "avatar": "/assets/champions/spidey-se.png",
+    "summary": "Huyền thoại Taunt và Dexty tích Poise Charges để dồn bão Bạo kích vàng rực.",
+    "strengths": [
+      "Sát thương Bạo kích cực to khi đủ 10 Poise",
+      "Né đòn (Evade) tuyệt chiêu tự động rất bá đạo",
+      "Choáng vĩnh viễn và khóa năng lượng với SP1/SP2"
+    ],
+    "weaknesses": [
+      "Máu và giáp rất giấy (Glass Cannon)",
+      "Sợ các tướng/Node chống Né (True Strike/True Sense)"
+    ],
+    "rotation": [
+      "Lướt lùi né đòn (Dexterity) liên tục 10 lần để tích full 10 tầng Poise Charges.",
+      "Đánh combo MLLLM dồn năng lượng.",
+      "Xả SP2 dồn bão đòn Bạo kích kết hợp Choáng (Stun) dứt điểm trận đấu."
+    ],
+    "counters": [
+      "Knull",
+      "Red Guardian",
+      "Venom"
+    ]
+  },
+  {
+    "id": "shang-chi",
+    "name": "Shang-Chi",
+    "class": "skill",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/shang-chi.png",
+    "summary": "Thần võ thuật với bộ Wushu Strikes giải Debuff, Unblockable, Slow và dồn SP2 Bạo kích xuyên không.",
+    "strengths": [
+      "Bộ Utility toàn năng: Unblockable, Slow (chống Né/Unstoppable), Cleanse Debuff",
+      "SP2 dồn Bạo kích 100% cực kỳ khủng khiếp",
+      "Lối đánh chủ động, kiểm soát trận đấu hoàn hảo"
+    ],
+    "weaknesses": [
+      "Yêu cầu người chơi nhớ đúng 4 chuỗi combo Wushu",
+      "Phụ thuộc vào đòn Heavy để Reset chiêu"
+    ],
+    "rotation": [
+      "Thực hiện lần lượt các chuỗi Wushu Strikes: MLLLM (Unblockable) -> Medium + Heavy (Slow) -> MLLLL (Cleanse) -> LLLLM (Choáng).",
+      "Sau khi gom đủ các tầng Wushu, dùng Heavy Attack để Reset và nhân đôi chỉ số.",
+      "Tích năng lượng xả SP2 dồn sát thương bạo kích kết liễu."
+    ],
+    "counters": [
+      "Havok",
+      "Domino",
+      "Storm"
+    ]
+  },
+  {
+    "id": "photon",
+    "name": "Photon",
+    "class": "science",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/photon.png",
+    "summary": "Quái vật phòng thủ AW/BGs và Attacker cực mạnh nhờ trạng thái Untouchable và dồn sát thương Ánh sáng.",
+    "strengths": [
+      "Trạng thái Untouchable (Không thể chạm vào) cực kỳ khó chịu",
+      "Bỏ qua phòng thủ Block và phản sát thương Năng lượng",
+      "Top 1 Defender trong Battlegrounds"
+    ],
+    "weaknesses": [
+      "Sợ các tướng có True Strike / True Sight",
+      "Sợ các tướng trị hệ Science trâu bò"
+    ],
+    "rotation": [
+      "Lướt lùi giữ Block để vào trạng thái Pure Light State.",
+      "Tấn công bằng combo MLLLM để gán các hiệu ứng dồn sát thương Ánh sáng.",
+      "Dùng SP2 khi ở Pure Light để dồn bùng nổ sát thương và giữ đối thủ trong trạng thái bị khóa."
+    ],
+    "counters": [
+      "Kingpin",
+      "Chee'ilth",
+      "Attuma"
+    ]
+  },
+  {
+    "id": "ghost-rider",
+    "name": "Ghost Rider",
+    "class": "mystic",
+    "tier": "Demi-God Tier",
+    "avatar": "/assets/champions/ghost-rider.png",
+    "summary": "Thánh duy trì sinh tồn với khả năng Hồi máu, Khóa năng lượng, Fate Seal và Khóa chiêu qua Judgements.",
+    "strengths": [
+      "Khả năng Hồi máu (Life Steal) thuộc hàng khủng nhất game",
+      "Fate Seal xóa toàn bộ Buff đối thủ",
+      "Khóa năng lượng (Power Lock) vĩnh viễn nếu đánh chuẩn"
+    ],
+    "weaknesses": [
+      "Sát thương thô ở mốc trung bình, dọn trận chậm",
+      "Sợ đối thủ Bleed Immune (giảm 1 Judgement)"
+    ],
+    "rotation": [
+      "Đánh Finisher Light (gán Fate Seal) -> Finisher Medium (gán Power Lock) -> Heavy (gán Life Steal Hồi máu).",
+      "Tích năng lượng xả SP2 (gán Degen) hoặc SP1 (gán Damaging Judgement).",
+      "Xả SP3 để khóa toàn bộ khả năng của đối thủ trong thời gian dài."
+    ],
+    "counters": [
+      "Human Torch",
+      "Red Goblin",
+      "Mephisto"
     ]
   }
 ]
