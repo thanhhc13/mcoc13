@@ -1,0 +1,34 @@
+[
+  {
+    "id": "hercules",
+    "name": "Hercules",
+    "class": "cosmic",
+    "tier": "Beyond God Tier",
+    "avatar": "https://via.placeholder.com/150/00b4d8/ffffff?text=Herc",
+    "summary": "Dồn dam cực mạnh nhờ Feat of Strength. Giữ nhịp đánh liên tục để duy trì Bất Tử.",
+    "strengths": ["Damage Burst cực lớn", "Bất tử khi KO (Unkillable)", "Chống True Damage"],
+    "weaknesses": ["Sợ Nullify/Stagger", "Cần Kỹ năng Intercept tốt"],
+    "rotation": [
+      "Mở đầu trận: Cố gắng Intercept (ngắt đòn) để lấy Feats đầu tiên.",
+      "Tích 12 Feats -> Tung SP1 lấy Buff Precision.",
+      "Gợi ý Combo: 5 Hit -> SP1 -> Heavy -> SP2 dứt điểm."
+    ],
+    "counters": ["Absorbing Man", "Doctor Doom", "Rintrah"]
+  },
+  {
+    "id": "ghost",
+    "name": "Ghost",
+    "class": "tech",
+    "tier": "God Tier",
+    "avatar": "https://via.placeholder.com/150/2a9d8f/ffffff?text=Ghost",
+    "summary": "Lối đánh Phase (xuyên thấu) độc nhất. Bỏ qua mọi đòn đánh của địch để trả Critical Hits.",
+    "strengths": ["Chống sát thương gián tiếp", "Chí mạng 100% khi ra đòn từ Phase"],
+    "weaknesses": ["Khó chơi, cần luyện tập nhịp Phase", "Sợ Armor Break"],
+    "rotation": [
+      "Lùi lại để kích hoạt Phase.",
+      "Để đối thủ đánh hụt (Miss) 1 nhịp -> Phản công bằng M-L-L-L-M.",
+      "Tích thanh SP2 -> Phase -> Tung SP2 dứt điểm."
+    ],
+    "counters": ["Red Magneto", "CGR", "Armor Break Champs"]
+  }
+]
