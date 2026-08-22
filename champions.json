@@ -4,7 +4,6 @@
     "name": "Hercules",
     "class": "cosmic",
     "tier": "Beyond God Tier",
-    "avatar": "https://via.placeholder.com/150/00b4d8/ffffff?text=Herc",
     "summary": "Dồn dam cực mạnh nhờ Feat of Strength. Giữ nhịp đánh liên tục để duy trì Bất Tử.",
     "strengths": [
       "Damage Burst cực lớn",
@@ -32,7 +31,6 @@
     "name": "Adam Warlock",
     "class": "cosmic",
     "tier": "Beyond God Tier",
-    "avatar": "https://via.placeholder.com/150/00b4d8/ffffff?text=Adam",
     "summary": "Thần tốc dồn bão Bạo kích 100% trong 10-15 giây nhờ trạng thái Sovereign Stance. Rất mạnh đua BGs.",
     "strengths": [
       "Tốc độ kết thúc trận siêu nhanh",
@@ -61,7 +59,6 @@
     "name": "The Serpent",
     "class": "cosmic",
     "tier": "Beyond God Tier",
-    "avatar": "https://via.placeholder.com/150/00b4d8/ffffff?text=Serpent",
     "summary": "Quái vật phòng thủ Top 1 BGs/AW và là tướng dọn đường trâu bò nhờ mạng Bất tử và SP2 dồn sát thương Cosmic.",
     "strengths": [
       "Mạng Bất tử (Indestructible) chống chết khi Dup",
@@ -88,7 +85,6 @@
     "name": "Galan",
     "class": "cosmic",
     "tier": "God Tier",
-    "avatar": "https://via.placeholder.com/150/00b4d8/ffffff?text=Galan",
     "summary": "Không cần Dup vẫn bão táp nhờ cơ chế nổ Harvest rút trực tiếp 50-100% máu đối thủ.",
     "strengths": [
       "Sát thương Nổ Harvest bỏ qua Giáp và Kháng phép",
@@ -115,7 +111,6 @@
     "name": "Knull",
     "class": "cosmic",
     "tier": "God Tier",
-    "avatar": "https://via.placeholder.com/150/00b4d8/ffffff?text=Knull",
     "summary": "Chuyên gia phòng thủ và khống chế Hồi máu, chém Instant Bleed liên tục khi kích hoạt Corruption.",
     "strengths": [
       "Khóa và chuyển hóa Hồi Máu thành Degeneration",
@@ -142,7 +137,6 @@
     "name": "Venom",
     "class": "cosmic",
     "tier": "Demi-God Tier",
-    "avatar": "https://via.placeholder.com/150/00b4d8/ffffff?text=Venom",
     "summary": "Tướng càn quét quốc dân, sở hữu bộ Buff Klyntar đa dạng và True Strike chống các tướng Spider-Verse.",
     "strengths": [
       "True Strike vĩnh viễn chống Né/Auto-Block của họ nhà Nhện",
@@ -169,7 +163,6 @@
     "name": "Scream",
     "class": "cosmic",
     "tier": "God Tier",
-    "avatar": "https://via.placeholder.com/150/00b4d8/ffffff?text=Scream",
     "summary": "Sát thủ gán Debuff rút máu rát và khống chế tốc độ tích năng lượng của đối thủ nhờ Suppress.",
     "strengths": [
       "Dồn Bleed và Suppress giảm Power Gain đối thủ",
@@ -192,13 +185,11 @@
       "Ghost"
     ]
   },
-  
   {
     "id": "cull-obsidian",
     "name": "Cull Obsidian",
     "class": "cosmic",
     "tier": "God Tier",
-    "avatar": "https://via.placeholder.com/150/00b4d8/ffffff?text=Cull",
     "summary": "Quái vật sát thương thô và Armor Break khi có đủ Persistent Charges và trạng thái Rout.",
     "strengths": [
       "Sát thương thô (Raw Attack) siêu khủng",
@@ -226,7 +217,6 @@
     "name": "Juggernaut",
     "class": "cosmic",
     "tier": "Beyond God Tier",
-    "avatar": "https://via.placeholder.com/150/00b4d8/ffffff?text=Juggs",
     "summary": "Chúa tể càn quét BGs với trạng thái Unstoppable liên tục và sát thương SP2 Bạo kích cực kỳ bá đạo.",
     "strengths": [
       "Trạng thái Unstoppable xuyên suốt",
@@ -253,7 +243,6 @@
     "name": "Kushala",
     "class": "mystic",
     "tier": "Beyond God Tier",
-    "avatar": "https://via.placeholder.com/150/00b4d8/ffffff?text=Kushala",
     "summary": "Biến mọi Buff của đối thủ thành Soul Scar/Bleed và thiêu rụi cây máu bằng Soul Barb.",
     "strengths": [
       "Trừng phạt tướng nhiều Buff siêu mạnh",
@@ -280,7 +269,6 @@
     "name": "Jack O'Lantern",
     "class": "tech",
     "tier": "Beyond God Tier",
-    "avatar": "https://via.placeholder.com/150/00b4d8/ffffff?text=Jack",
     "summary": "Sát thủ diệt Mutant Top 1, khắc tinh cứng của Onslaught nhờ khả năng chuyển Crit thành Incinerate/Plasma.",
     "strengths": [
       "Top 1 Counter Onslaught, Dust, Mr. Sinister",
@@ -308,7 +296,6 @@
     "name": "Spider-Ham",
     "class": "science",
     "tier": "Beyond God Tier",
-    "avatar": "/assets/champions/spider-ham.png",
     "summary": "Thánh gán Poorker Porker Poppers khiến đối thủ tự rút máu khủng khiếp mỗi khi xả chiêu Special.",
     "strengths": [
       "Khống chế và trừng phạt tuyệt chiêu đối thủ cực nặng",
@@ -335,7 +322,6 @@
     "name": "Karolina Dean",
     "class": "cosmic",
     "tier": "God Tier",
-    "avatar": "/assets/champions/karolina-dean.png",
     "summary": "Thiêu rụi mọi kẻ địch trâu giáp bằng bão Incinerate gián tiếp từ SP2.",
     "strengths": [
       "Sát thương Lửa gián tiếp bỏ qua Giáp/Kháng",
@@ -362,7 +348,6 @@
     "name": "Heimdall",
     "class": "cosmic",
     "tier": "Demi-God Tier (God Tier Synergy)",
-    "avatar": "/assets/champions/heimdall.png",
     "summary": "Thánh Synergy cứu mạng đỉnh nhất game, cấp mạng Bất tử (Cheat Death) cho toàn bộ đồng đội.",
     "strengths": [
       "Synergy cấp mạng Bất tử và Cheat Death cho cả team",
@@ -389,7 +374,6 @@
     "name": "Cosmic Ghost Rider",
     "class": "cosmic",
     "tier": "Beyond God Tier",
-    "avatar": "/assets/champions/cosmic-ghost-rider.png",
     "summary": "Quái vật dồn sát thương bão táp top đầu game với chuỗi combo chuẩn xác lấy đống Fury và Aptitude.",
     "strengths": [
       "Sát thương sốc (Burst Damage) thuộc hàng đỉnh nhất game",
@@ -416,7 +400,6 @@
     "name": "Jean Grey",
     "class": "mutant",
     "tier": "Beyond God Tier",
-    "avatar": "/assets/champions/jean-grey.png",
     "summary": "Chúa tể hệ Mutant với khả năng điều khiển tâm linh và bão Phoenix Force thiêu rụi đối thủ.",
     "strengths": [
       "Sát thương Phoenix Force và Năng lượng cực lớn",
@@ -443,7 +426,6 @@
     "name": "Spider-Man (Stark Enhanced)",
     "class": "tech",
     "tier": "God Tier",
-    "avatar": "/assets/champions/spidey-se.png",
     "summary": "Huyền thoại Taunt và Dexty tích Poise Charges để dồn bão Bạo kích vàng rực.",
     "strengths": [
       "Sát thương Bạo kích cực to khi đủ 10 Poise",
@@ -470,7 +452,6 @@
     "name": "Shang-Chi",
     "class": "skill",
     "tier": "Beyond God Tier",
-    "avatar": "/assets/champions/shang-chi.png",
     "summary": "Thần võ thuật với bộ Wushu Strikes giải Debuff, Unblockable, Slow và dồn SP2 Bạo kích xuyên không.",
     "strengths": [
       "Bộ Utility toàn năng: Unblockable, Slow (chống Né/Unstoppable), Cleanse Debuff",
@@ -497,7 +478,6 @@
     "name": "Photon",
     "class": "science",
     "tier": "Beyond God Tier",
-    "avatar": "/assets/champions/photon.png",
     "summary": "Quái vật phòng thủ AW/BGs và Attacker cực mạnh nhờ trạng thái Untouchable và dồn sát thương Ánh sáng.",
     "strengths": [
       "Trạng thái Untouchable (Không thể chạm vào) cực kỳ khó chịu",
@@ -524,7 +504,6 @@
     "name": "Ghost Rider",
     "class": "mystic",
     "tier": "Demi-God Tier",
-    "avatar": "/assets/champions/ghost-rider.png",
     "summary": "Thánh duy trì sinh tồn với khả năng Hồi máu, Khóa năng lượng, Fate Seal và Khóa chiêu qua Judgements.",
     "strengths": [
       "Khả năng Hồi máu (Life Steal) thuộc hàng khủng nhất game",
