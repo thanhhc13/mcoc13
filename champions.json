@@ -6,29 +6,327 @@
     "tier": "Beyond God Tier",
     "avatar": "https://via.placeholder.com/150/00b4d8/ffffff?text=Herc",
     "summary": "Dồn dam cực mạnh nhờ Feat of Strength. Giữ nhịp đánh liên tục để duy trì Bất Tử.",
-    "strengths": ["Damage Burst cực lớn", "Bất tử khi KO (Unkillable)", "Chống True Damage"],
-    "weaknesses": ["Sợ Nullify/Stagger", "Cần Kỹ năng Intercept tốt"],
-    "rotation": [
-      "Mở đầu trận: Cố gắng Intercept (ngắt đòn) để lấy Feats đầu tiên.",
-      "Tích 12 Feats -> Tung SP1 lấy Buff Precision.",
-      "Gợi ý Combo: 5 Hit -> SP1 -> Heavy -> SP2 dứt điểm."
+    "strengths": [
+      "Damage Burst cực lớn",
+      "Bất tử khi KO (Unkillable)",
+      "Bỏ qua Miss và Auto-Block với True Sense"
     ],
-    "counters": ["Absorbing Man", "Doctor Doom", "Rintrah"]
+    "weaknesses": [
+      "Sợ Nullify/Stagger",
+      "Cần kỹ năng Intercept chuẩn"
+    ],
+    "rotation": [
+      "Tích đủ 12 Feat Charges bằng Intercept, Unstunned Heavy hoặc bị Knockdown.",
+      "Thực hiện M/L + Dash Back để gán Infuriate ép đối thủ lướt vào.",
+      "SP1 Intercept lấy True Sense & +3 Precision Buffs.",
+      "SP2 Intercept nhận +3 Cruelty Buffs và dồn bão Bạo kích kết liễu."
+    ],
+    "counters": [
+      "Absorbing Man",
+      "Doctor Doom",
+      "Rintrah"
+    ]
   },
   {
-    "id": "ghost",
-    "name": "Ghost",
-    "class": "tech",
-    "tier": "God Tier",
-    "avatar": "https://via.placeholder.com/150/2a9d8f/ffffff?text=Ghost",
-    "summary": "Lối đánh Phase (xuyên thấu) độc nhất. Bỏ qua mọi đòn đánh của địch để trả Critical Hits.",
-    "strengths": ["Chống sát thương gián tiếp", "Chí mạng 100% khi ra đòn từ Phase"],
-    "weaknesses": ["Khó chơi, cần luyện tập nhịp Phase", "Sợ Armor Break"],
-    "rotation": [
-      "Lùi lại để kích hoạt Phase.",
-      "Để đối thủ đánh hụt (Miss) 1 nhịp -> Phản công bằng M-L-L-L-M.",
-      "Tích thanh SP2 -> Phase -> Tung SP2 dứt điểm."
+    "id": "adam-warlock",
+    "name": "Adam Warlock",
+    "class": "cosmic",
+    "tier": "Beyond God Tier",
+    "avatar": "https://via.placeholder.com/150/00b4d8/ffffff?text=Adam",
+    "summary": "Thần tốc dồn bão Bạo kích 100% trong 10-15 giây nhờ trạng thái Sovereign Stance. Rất mạnh đua BGs.",
+    "strengths": [
+      "Tốc độ kết thúc trận siêu nhanh",
+      "Bạo kích 100% và bỏ qua Giáp",
+      "Kháng Power Drain / Lock / Steal"
     ],
-    "counters": ["Red Magneto", "CGR", "Armor Break Champs"]
+    "weaknesses": [
+      "Lỗi 1 nhịp Intercept/Heavy sẽ mất sạch năng lượng Sovran",
+      "Sợ Node Kháng Bạo Kích (Critical Resistance)",
+      "Không có sát thương gián tiếp (Bleed/Incinerate)"
+    ],
+    "rotation": [
+      "Đánh Light 2 vào Block của đối thủ để kích hoạt Sovereignty Counter (bắt đầu ở 10 combo).",
+      "Tấn công dồn dập (không dùng Parry) để tích combo lên 20+ (Precision) và 30+ (Fury).",
+      "Dùng SP2 dồn bão Bạo kích xuyên thủ kết liễu.",
+      "Trận dài: Dùng SP3 trước lấy Fury 60 giây rồi quay lại lặp lại SP2."
+    ],
+    "counters": [
+      "Mystic Champions",
+      "Kindred",
+      "Nico Minoru"
+    ]
+  },
+  {
+    "id": "the-serpent",
+    "name": "The Serpent",
+    "class": "cosmic",
+    "tier": "Beyond God Tier",
+    "avatar": "https://via.placeholder.com/150/00b4d8/ffffff?text=Serpent",
+    "summary": "Quái vật phòng thủ Top 1 BGs/AW và là tướng dọn đường trâu bò nhờ mạng Bất tử và SP2 dồn sát thương Cosmic.",
+    "strengths": [
+      "Mạng Bất tử (Indestructible) chống chết khi Dup",
+      "Kháng hiệu ứng bất lợi mạnh",
+      "SP2 sốc sát thương Cosmic cực to"
+    ],
+    "weaknesses": [
+      "Tốc độ dồn sát thương chậm hơn Adam/Hercules ở trận ngắn",
+      "Sợ các tướng có khả năng khóa Buff Cosmic"
+    ],
+    "rotation": [
+      "Thực hiện combo MLLLM kết hợp Parry + Heavy Attack để tích lũy các tầng Cul's Wisdom / Protection.",
+      "Tích lũy đủ 2 thanh năng lượng (SP2).",
+      "Bắn SP2 dồn sát thương Cosmic sốc chết đối thủ."
+    ],
+    "counters": [
+      "Kushala",
+      "Symbiote Supreme",
+      "Wiccan"
+    ]
+  },
+  {
+    "id": "galan",
+    "name": "Galan",
+    "class": "cosmic",
+    "tier": "God Tier",
+    "avatar": "https://via.placeholder.com/150/00b4d8/ffffff?text=Galan",
+    "summary": "Không cần Dup vẫn bão táp nhờ cơ chế nổ Harvest rút trực tiếp 50-100% máu đối thủ.",
+    "strengths": [
+      "Sát thương Nổ Harvest bỏ qua Giáp và Kháng phép",
+      "Không phụ thuộc vào kỹ năng Thức tỉnh (Dup)",
+      "Cướp Buff Cosmic để nạp Mass cực nhanh"
+    ],
+    "weaknesses": [
+      "Sợ các tướng/Node cấm Power Gain",
+      "Sợ các tướng giảm sát thương Direct Damage"
+    ],
+    "rotation": [
+      "Giữ Heavy Attack để gán Harvest / Planetary Lock.",
+      "Đánh combo MLLLM và xả SP1 / SP2 để nạp Planetary Mass lên mốc 100.",
+      "Lao vào đấm dồn dập trong thời gian đếm ngược Harvest để tích sát thương nổ bùng cạn máu đối thủ."
+    ],
+    "counters": [
+      "Absorbing Man",
+      "Nimrod",
+      "Doom"
+    ]
+  },
+  {
+    "id": "knull",
+    "name": "Knull",
+    "class": "cosmic",
+    "tier": "God Tier",
+    "avatar": "https://via.placeholder.com/150/00b4d8/ffffff?text=Knull",
+    "summary": "Chuyên gia phòng thủ và khống chế Hồi máu, chém Instant Bleed liên tục khi kích hoạt Corruption.",
+    "strengths": [
+      "Khóa và chuyển hóa Hồi Máu thành Degeneration",
+      "Sát thương Instant Bleed dồn dập",
+      "Defender rất khó chịu khi Dup Sig cao"
+    ],
+    "weaknesses": [
+      "Bắt buộc phải Dup (Sig 200) mới mạnh",
+      "Tốc độ vào trận chậm nếu chưa Dup"
+    ],
+    "rotation": [
+      "Tích lũy các tầng Living Abyss bằng đòn đánh thường.",
+      "Bắn SP1 để gán Encroaching Corruption.",
+      "Khi vào trạng thái Corruption, lao vào chém các đòn Medium/Special dồn Instant Bleed."
+    ],
+    "counters": [
+      "Bleed Immune Champions",
+      "Kingpin",
+      "Sunspot"
+    ]
+  },
+  {
+    "id": "venom",
+    "name": "Venom",
+    "class": "cosmic",
+    "tier": "Demi-God Tier",
+    "avatar": "https://via.placeholder.com/150/00b4d8/ffffff?text=Venom",
+    "summary": "Tướng càn quét quốc dân, sở hữu bộ Buff Klyntar đa dạng và True Strike chống các tướng Spider-Verse.",
+    "strengths": [
+      "True Strike vĩnh viễn chống Né/Auto-Block của họ nhà Nhện",
+      "Phá Giáp và hút Buff hồi máu tốt",
+      "Dễ vận hành, lối đánh an toàn"
+    ],
+    "weaknesses": [
+      "Phụ thuộc 100% vào Buff (sợ Nullify/Stagger)",
+      "Tốc độ kết thúc trận đấu ở mốc trung bình"
+    ],
+    "rotation": [
+      "Đánh combo MLLLM kết hợp Heavy Attack để xé Rách Giáp và tích Buff Klyntar.",
+      "Tích năng lượng xả SP2 để dồn bão Bạo kích.",
+      "Dùng SP1 khi cần nuốt Buff của đối thủ để hồi phục máu."
+    ],
+    "counters": [
+      "Symbiote Supreme",
+      "Kushala",
+      "Doctor Doom"
+    ]
+  },
+  {
+    "id": "scream",
+    "name": "Scream",
+    "class": "cosmic",
+    "tier": "God Tier",
+    "avatar": "https://via.placeholder.com/150/00b4d8/ffffff?text=Scream",
+    "summary": "Sát thủ gán Debuff rút máu rát và khống chế tốc độ tích năng lượng của đối thủ nhờ Suppress.",
+    "strengths": [
+      "Dồn Bleed và Suppress giảm Power Gain đối thủ",
+      "Khả năng Pause Debuff hiệu quả",
+      "Sát thương SP2 bùng nổ theo số Debuff"
+    ],
+    "weaknesses": [
+      "Sợ tướng Kháng Bleed",
+      "Sợ cơ chế Purify/Cleanse",
+      "Yêu cầu kỹ năng Punish đòn tốt"
+    ],
+    "rotation": [
+      "Đánh combo kết thúc bằng Medium hoặc Light (MLLLM/MLLLL) để tích Debuff.",
+      "Trừng phạt (Punish) đòn Heavy/Special của đối thủ hoặc dùng Heavy để Pause Debuff.",
+      "Bắn SP2 dồn sốc sát thương theo tổng số Debuff trên người đối thủ."
+    ],
+    "counters": [
+      "Crossbones",
+      "Kingpin",
+      "Ghost"
+    ]
+  },
+  {
+    "id": "karolina-dean",
+    "name": "Karolina Dean",
+    "class": "cosmic",
+    "tier": "God Tier",
+    "avatar": "https://via.placeholder.com/150/00b4d8/ffffff?text=Karolina",
+    "summary": "Thiêu rụi mọi kẻ địch trâu giáp bằng bão Incinerate gián tiếp từ SP2.",
+    "strengths": [
+      "Sát thương Lửa gián tiếp bỏ qua Giáp/Kháng",
+      "Lối đánh cực kỳ an toàn",
+      "Tự giảm sát thương khi dính Debuff"
+    ],
+    "weaknesses": [
+      "Hoàn toàn vô hại trước đối thủ Kháng Incinerate/Lửa",
+      "Phụ thuộc vào thanh Solar Energy"
+    ],
+    "rotation": [
+      "Đánh combo MLLLM kết hợp Parry + Heavy Attack để nạp nhanh Solar Energy.",
+      "Tích đủ 2 thanh năng lượng.",
+      "Xả SP2 chuyển hóa Solar Energy thành bão Incinerate thiêu rụi đối thủ."
+    ],
+    "counters": [
+      "Human Torch",
+      "Sunspot",
+      "Red Goblin"
+    ]
+  },
+  {
+    "id": "cull-obsidian",
+    "name": "Cull Obsidian",
+    "class": "cosmic",
+    "tier": "God Tier",
+    "avatar": "https://via.placeholder.com/150/00b4d8/ffffff?text=Cull",
+    "summary": "Quái vật sát thương thô và Armor Break khi có đủ Persistent Charges và trạng thái Rout.",
+    "strengths": [
+      "Sát thương thô (Raw Attack) siêu khủng",
+      "Trạng thái Rout đấm xuyên Auto-Block",
+      "Parry được các đòn đánh không tiếp xúc (Non-contact)"
+    ],
+    "weaknesses": [
+      "Khả năng Block kém (Block giấy)",
+      "Bắt buộc phải Dup Sig cao mới ổn định",
+      "Yêu cầu tích Persistent Charges qua nhiều trận (Ramp-up)"
+    ],
+    "rotation": [
+      "Lướt lùi giữ Block 1.2 giây để kích hoạt trạng thái Rout.",
+      "Tụ lực Heavy Attack để gán Armor Break.",
+      "Xả SP2 gán Choáng và Pause đếm ngược Armor Break, sau đó lao vào đấm dồn dập."
+    ],
+    "counters": [
+      "Doctor Doom",
+      "Clair Voyant",
+      "Magneto"
+    ]
+  },
+  {
+    "id": "juggernaut",
+    "name": "Juggernaut",
+    "class": "cosmic",
+    "tier": "Beyond God Tier",
+    "avatar": "https://via.placeholder.com/150/00b4d8/ffffff?text=Juggs",
+    "summary": "Chúa tể càn quét BGs với trạng thái Unstoppable liên tục và sát thương SP2 Bạo kích cực kỳ bá đạo.",
+    "strengths": [
+      "Trạng thái Unstoppable xuyên suốt",
+      "Miễn nhiễm Choáng khi Unstoppable",
+      "Tốc độ dọn trận siêu nhanh dưới 15 giây"
+    ],
+    "weaknesses": [
+      "Thọt nặng khi gặp tướng/Node xóa Unstoppable (Slow, Deceleration)",
+      "Không có sát thương rút máu gián tiếp"
+    ],
+    "rotation": [
+      "Lao vào đấm combo MLLLM ngay từ đầu trận bất chấp khiên Block đối thủ nhờ Unstoppable.",
+      "Giữ Heavy Attack để gán Stagger xóa Buff đối thủ và gia hạn Unstoppable.",
+      "Tích 2 thanh năng lượng xả SP2 dồn bão Bạo kích nổ chết đối thủ."
+    ],
+    "counters": [
+      "Kushala",
+      "Spider-Gwen",
+      "Titania"
+    ]
+  },
+  {
+    "id": "kushala",
+    "name": "Kushala",
+    "class": "mystic",
+    "tier": "Beyond God Tier",
+    "avatar": "https://via.placeholder.com/150/00b4d8/ffffff?text=Kushala",
+    "summary": "Biến mọi Buff của đối thủ thành Soul Scar/Bleed và thiêu rụi cây máu bằng Soul Barb.",
+    "strengths": [
+      "Trừng phạt tướng nhiều Buff siêu mạnh",
+      "Sát thương Incinerate / Degeneration khổng lồ",
+      "Chống Purify khi đã Dup (chuyển sang dạng Passive)"
+    ],
+    "weaknesses": [
+      "Yếu đi rõ rệt khi đối thủ hoàn toàn không có Buff",
+      "Sợ đối thủ Kháng Lửa (Incinerate Immune)"
+    ],
+    "rotation": [
+      "Tích năng lượng lên SP2 và bắn SP2 để gán Soul Barb.",
+      "Trong lúc Soul Barb hoạt động, liên tục xả SP1 để dồn lớp Incinerate.",
+      "Trận dài: Dùng SP3 trước lấy Judgement và 9 tầng Degeneration."
+    ],
+    "counters": [
+      "Human Torch",
+      "Red Goblin",
+      "Gladiator"
+    ]
+  },
+  {
+    "id": "jack-o-lantern",
+    "name": "Jack O'Lantern",
+    "class": "tech",
+    "tier": "Beyond God Tier",
+    "avatar": "https://via.placeholder.com/150/00b4d8/ffffff?text=Jack",
+    "summary": "Sát thủ diệt Mutant Top 1, khắc tinh cứng của Onslaught nhờ khả năng chuyển Crit thành Incinerate/Plasma.",
+    "strengths": [
+      "Top 1 Counter Onslaught, Dust, Mr. Sinister",
+      "Miễn nhiễm Inverted Controls và Incinerate",
+      "Parry được đòn Non-contact",
+      "Kỹ năng Hold Heavy Cancel SP rất mượt và sốc sát thương cực to"
+    ],
+    "weaknesses": [
+      "Sợ tướng Kháng Incinerate/Plasma",
+      "Cần nhớ nhịp Cancel Heavy sang Special Attacks"
+    ],
+    "rotation": [
+      "Combo MLLLL (Light 4) để gán Cowardice giảm sát thương SP đối thủ.",
+      "Parry Choáng -> Hold Heavy (lấy Precision) -> Cancel ngay sang SP1 để tích nhanh Inflamed Passives.",
+      "Tích 15 tầng Inflamed -> Parry -> Hold Heavy Cancel sang SP2 dồn bão Bạo kích nổ Plasma sốc chết đối thủ."
+    ],
+    "counters": [
+      "Sunspot",
+      "Red Goblin",
+      "Scorpion"
+    ]
   }
 ]
