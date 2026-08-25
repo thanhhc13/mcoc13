@@ -1,528 +1,509 @@
 [
   {
-    "id": "hercules",
-    "name": "Hercules",
-    "class": "cosmic",
+    "id": "shang-chi",
+    "name": "Shang-Chi",
+    "class": "skill",
     "tier": "Beyond God Tier",
-    "summary": "Dồn dam cực mạnh nhờ Feat of Strength. Giữ nhịp đánh liên tục để duy trì Bất Tử.",
+    "avatar": "/assets/champions/shang-chi.png",
+    "summary": "Thần võ thuật sở hữu 4 chuỗi Wushu Strikes toàn năng (Slow, Cleanse, Unblockable, Stun). Dồn Bạo kích 100% bằng SP2 cực kỳ khủng khiếp.",
     "strengths": [
-      "Damage Burst cực lớn",
-      "Bất tử khi KO (Unkillable)",
-      "Bỏ qua Miss và Auto-Block với True Sense"
+      "Bộ Wushu Strikes đa dụng: M-M (Slow), M-L-M (Cleanse), M-L-L-M (Unblockable), M-L-L-L-M (Stun)",
+      "Sát thương SP2 Bạo kích 100% thuộc top đầu game",
+      "Khả năng chủ động giải Debuff xấu (Cleanse) và ngắt Né/Unstoppable (Slow)"
     ],
     "weaknesses": [
-      "Sợ Nullify/Stagger",
-      "Cần kỹ năng Intercept chuẩn"
+      "Yêu cầu người chơi nhớ và gõ chuẩn xác 4 chuỗi combo Wushu",
+      "Phụ thuộc vào đòn Heavy để Reset chiêu và nhân đôi (Double) chỉ số Chi Charges"
     ],
     "rotation": [
-      "Tích đủ 12 Feat Charges bằng Intercept, Unstunned Heavy hoặc bị Knockdown.",
-      "Thực hiện M/L + Dash Back để gán Infuriate ép đối thủ lướt vào.",
-      "SP1 Intercept lấy True Sense & +3 Precision Buffs.",
-      "SP2 Intercept nhận +3 Cruelty Buffs và dồn bão Bạo kích kết liễu."
+      "Gõ 4 chuỗi Wushu Strikes: M-M (Slow), M-L-M (Cleanse), M-L-L-M (Unblockable), M-L-L-L-M (Stun).",
+      "Parry Choáng -> Tụ đòn Heavy Attack để Reset 4 chiêu Wushu và nhân đôi Chi Charges & Precision.",
+      "Tích 2 thanh Power -> Bắn SP2 dồn bão Bạo kích 100% kết liễu trận đấu."
     ],
-    "counters": [
-      "Absorbing Man",
-      "Doctor Doom",
-      "Rintrah"
+    "counters_targets": [
+      "Juggernaut (Chống Unstoppable bằng Slow M-M)",
+      "Spider-Man / Quicksilver (Chống Né/Evade bằng Slow M-M)",
+      "Havok / Storm (Dùng Cleanse M-L-M xả sạch Debuff xấu)"
+    ],
+    "countered_by": [
+      "Attuma / Namor (Phản sát thương khi dính Bạo kích)",
+      "Tướng/Node Kháng Choáng (Stun Immune)"
     ]
   },
   {
-    "id": "adam-warlock",
-    "name": "Adam Warlock",
-    "class": "cosmic",
+    "id": "cyclops-blue-team",
+    "name": "Cyclops (Blue Team - Reworked)",
+    "class": "mutant",
     "tier": "Beyond God Tier",
-    "summary": "Thần tốc dồn bão Bạo kích 100% trong 10-15 giây nhờ trạng thái Sovereign Stance. Rất mạnh đua BGs.",
+    "avatar": "/assets/champions/cyclops-blue.png",
+    "summary": "Phiên bản Buff/Rework lột xác thành Mutant Nuker hàng đầu. Tích Precision dồn bão SP2 + SP1 liên hoàn và sở hữu True Focus khắc chế Bullseye.",
     "strengths": [
-      "Tốc độ kết thúc trận siêu nhanh",
-      "Bạo kích 100% và bỏ qua Giáp",
-      "Kháng Power Drain / Lock / Steal"
+      "Sát thương bộc phá (Burst Damage) cực ảo nhờ chuỗi xả chiêu SP2 -> SP1 -> SP1",
+      "Có sẵn True Focus đầu trận chống các tướng chuyên Né/Miss",
+      "Nội tại Adrenaline giúp hồi lại máu khi thực hiện chuỗi xả chiêu Special (khi Awakened)"
     ],
     "weaknesses": [
-      "Lỗi 1 nhịp Intercept/Heavy sẽ mất sạch năng lượng Sovran",
-      "Sợ Node Kháng Bạo Kích (Critical Resistance)",
-      "Không có sát thương gián tiếp (Bleed/Incinerate)"
+      "Phụ thuộc vào nhịp duy trì combo 3 hit và Intercept để tích Precision Passives",
+      "Thiếu cơ chế giải Debuff xấu thủ động"
     ],
     "rotation": [
-      "Đánh Light 2 vào Block của đối thủ để kích hoạt Sovereignty Counter (bắt đầu ở 10 combo).",
-      "Tấn công dồn dập (không dùng Parry) để tích combo lên 20+ (Precision) và 30+ (Fury).",
-      "Dùng SP2 dồn bão Bạo kích xuyên thủ kết liễu.",
-      "Trận dài: Dùng SP3 trước lấy Fury 60 giây rồi quay lại lặp lại SP2."
+      "Đánh combo 3 hit (M-L-L hoặc M-L-M) hoặc Intercept để tích khoảng 12-13 Precision Passives.",
+      "Tích năng lượng mấp nghé 3 thanh Power (ngay dưới SP3).",
+      "Xả SP2 -> Nhờ Power Efficiency lập tức xả tiếp 2-3 chiêu SP1 liên tiếp để dồn bão Bạo kích 200k+ damage."
     ],
-    "counters": [
-      "Mystic Champions",
-      "Kindred",
-      "Nico Minoru"
+    "counters_targets": [
+      "Bullseye (Khắc chế cứng bằng True Focus)",
+      "Các đối thủ máu trung bình trong Battlegrounds cần dọn nhanh dưới 30s"
+    ],
+    "countered_by": [
+      "Havok (Kháng sát thương Năng lượng/Laser)",
+      "Scarlet Witch (Phạt cơ chế Power Gain / Power Drain)"
     ]
   },
   {
-    "id": "the-serpent",
-    "name": "The Serpent",
-    "class": "cosmic",
-    "tier": "Beyond God Tier",
-    "summary": "Quái vật phòng thủ Top 1 BGs/AW và là tướng dọn đường trâu bò nhờ mạng Bất tử và SP2 dồn sát thương Cosmic.",
+    "id": "white-tiger",
+    "name": "White Tiger",
+    "class": "mystic",
+    "tier": "God Tier",
+    "avatar": "/assets/champions/white-tiger.png",
+    "summary": "Sát thủ hệ Mystic chuyên cướp năng lượng (Power Steal) và liên tục xả chiêu Special Unblockable kết hợp bão Bleed từ SP2.",
     "strengths": [
-      "Mạng Bất tử (Indestructible) chống chết khi Dup",
-      "Kháng hiệu ứng bất lợi mạnh",
-      "SP2 sốc sát thương Cosmic cực to"
+      "Cướp năng lượng (Power Steal) liên tục để xả chiêu Special dồn dập",
+      "Khắc tinh cứng của các tướng có Buff Power Gain (Hệ Cosmic)",
+      "SP1 Unblockable và SP2 dồn Bleed sát thương cực to"
     ],
     "weaknesses": [
-      "Tốc độ dồn sát thương chậm hơn Adam/Hercules ở trận ngắn",
-      "Sợ các tướng có khả năng khóa Buff Cosmic"
+      "Sợ các tướng/Node Miễn Nhiễm Chảy Máu (Bleed Immune)",
+      "Chỉ số máu/giáp ở mức trung bình"
     ],
     "rotation": [
-      "Thực hiện combo MLLLM kết hợp Parry + Heavy Attack để tích lũy các tầng Cul's Wisdom / Protection.",
-      "Tích lũy đủ 2 thanh năng lượng (SP2).",
-      "Bắn SP2 dồn sát thương Cosmic sốc chết đối thủ."
+      "Đánh combo MLLLM hoặc Heavy để gán hiệu ứng Fear lên đối thủ.",
+      "Thực hiện SP1 để Cướp Năng Lượng (Power Steal) và bật trạng thái Unblockable.",
+      "Lập tức xả SP2 dồn bão Bleed rút cạn máu đối thủ."
     ],
-    "counters": [
-      "Kushala",
-      "Symbiote Supreme",
-      "Wiccan"
+    "counters_targets": [
+      "Hyperion / Galan (Cướp Buff Power Gain của hệ Cosmic)",
+      "Gorilla / Venom (Xóa Buff và kiểm soát thanh năng lượng đối thủ)"
+    ],
+    "countered_by": [
+      "Red Guardian (Kháng Bleed và chống cướp Power)",
+      "Absorbing Man / Kingpin (Kháng/Giải Bleed thần tốc)",
+      "Tướng/Node Miễn Nhiễm Bleed (Bleed Immune)"
+    ]
+  },
+  {
+    "id": "ghost-rider-buffed",
+    "name": "Ghost Rider (Buffed)",
+    "class": "mystic",
+    "tier": "God Tier",
+    "avatar": "/assets/champions/ghost-rider.png",
+    "summary": "Phiên bản Buff nâng cấp bộ Phán Quyết (Judgements). Đặt hiệu ứng Hinder, Atrophy, Fear và trói chân đối thủ bằng Penance Stare xả Degeneration.",
+    "strengths": [
+      "Miễn nhiễm hoàn toàn Chảy máu (Bleed) và Thiêu đốt (Incinerate)",
+      "Kiểm soát Buff đối thủ cực tốt qua Hinder (giảm 75% Buff) và Atrophy",
+      "Khả năng gán Degeneration thụ động qua cơ chế Penance Stare"
+    ],
+    "weaknesses": [
+      "Sát thương phụ thuộc vào việc xoay vòng đúng các Phán Quyết",
+      "Khả năng Hồi máu không còn bá đạo vô hạn như phiên bản gốc thời kỳ đầu"
+    ],
+    "rotation": [
+      "Combo M-L-L-L-M (Hinder) -> Combo M-L-L-L-L (Atrophy) -> Tung SP1 (Fear).",
+      "Tụ đòn Heavy cancel sang SP2.",
+      "Đứng yên kích hoạt trạng thái Penance Stare (3s) chuyển toàn bộ hiệu ứng thành Degeneration thụ động."
+    ],
+    "counters_targets": [
+      "Tướng #Villain (Tự động dính Stagger đầu trận)",
+      "Các tướng phụ thuộc vào Buff (Buff Heavy Champions)"
+    ],
+    "countered_by": [
+      "Tướng Miễn Nhiễm Degeneration",
+      "Tướng/Node Kháng hiệu ứng thụ động (Passive Debuffs)"
+    ]
+  },
+  {
+    "id": "cosmic-ghost-rider",
+    "name": "Cosmic Ghost Rider (CGR)",
+    "class": "cosmic",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/cgr.png",
+    "summary": "Chúa tể dồn sát thương bùng nổ (Burst Damage). Tích chuỗi Buff Aptitude, Power Gain, Cruelty để tung cú SP2 Bạo kích nổ sát thương hủy diệt.",
+    "strengths": [
+      "Tốc độ dọn trận nhanh nhất nhì game (RoL Speed Run / Battlegrounds)",
+      "Khóa Hồi máu và khóa Năng lượng đối thủ qua hiệu ứng Damnation",
+      "Sát thương Bạo kích cực kỳ khủng khủng từ SP2"
+    ],
+    "weaknesses": [
+      "Lối đánh cứng nhắc, nếu làm sai thứ tự combo sẽ mất chuỗi Buff sát thương",
+      "Sợ các tướng/Node có khả năng Xóa Buff (Nullify/Stagger/Fate Seal)"
+    ],
+    "rotation": [
+      "Parry đòn đầu tiên (lấy Aptitude) -> Combo M-L-L-L-L (lấy Power Gain).",
+      "Tụ đòn Heavy (lấy Vigilance, Cruelty, Precision và gán Damnation + Armor Break).",
+      "Lập tức xả SP2 khi đối thủ dính Armor Break để dồn bão Bạo kích kết liễu."
+    ],
+    "counters_targets": [
+      "Wolverine (Khóa sạch Hồi Máu bằng Damnation)",
+      "Hầu hết các tướng trong chế độ Speed Run / Battlegrounds"
+    ],
+    "countered_by": [
+      "Doctor Doom / Symbiote Supreme (Xóa Buff và trừng phạt Buff Cosmic)",
+      "Node Neutralize / Buff Immune"
+    ]
+  },
+  {
+    "id": "mister-sinister",
+    "name": "Mister Sinister",
+    "class": "mutant",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/mister-sinister.png",
+    "summary": "Quái vật Hồi máu và kiểm soát Debuff. Giữ Heavy để Pause Debuff, nạp 10 Bleed lên bản thân và dùng SP1 chuyển thành Degeneration dồn đối thủ.",
+    "strengths": [
+      "Tự động hồi lại 70% sát thương từ đòn Bạo kích của đối thủ (không thể bị ngăn chặn)",
+      "Kháng 100% Bleed",
+      "Khả năng đóng băng (Pause) thời gian Debuff bằng đòn Heavy"
+    ],
+    "weaknesses": [
+      "Phụ thuộc vào việc Parry Choáng để tích đòn Heavy",
+      "Sợ các tướng Kháng Choáng hoặc không thể bị Parry"
+    ],
+    "rotation": [
+      "Parry Choáng -> Giữ Heavy nạp đủ 10 Bleed lên bản thân (lặp lại khoảng 2 lần).",
+      "Xả SP1 để chuyển 10 Bleed thành đống Degeneration dồn sang cho đối thủ.",
+      "Parry + Giữ Heavy liên tục để Pause Degeneration nhìn cây máu đối thủ bốc hơi."
+    ],
+    "counters_targets": [
+      "Các tướng có đòn Bạo kích mạnh",
+      "Các Node gây sát thương DOT (Act 8.1.4 Beast Path)"
+    ],
+    "countered_by": [
+      "Tướng Miễn Nhiễm Degeneration",
+      "Node Stun Immune (Kháng Choáng)"
+    ]
+  },
+  {
+    "id": "medusa",
+    "name": "Medusa",
+    "class": "cosmic",
+    "tier": "God Tier",
+    "avatar": "/assets/champions/medusa.png",
+    "summary": "Nữ hoàng diệt Robot. Tích 6 Armor Break đổi thành Armor Shattered khóa sạch Power Gain và Auto-Block của các tướng Tech/Robot.",
+    "strengths": [
+      "Khắc tinh số 1 của toàn bộ tướng Robot trong game",
+      "Gán Armor Shattered khóa vĩnh viễn khả năng nạp Power/Auto-Block của Robot",
+      "Xả Bleed thụ động cực rát qua đòn Light/Heavy khi đối thủ dính Shattered"
+    ],
+    "weaknesses": [
+      "Sát thương giảm mạnh nếu đối thủ Miễn Nhiễm Bleed / Armor Break",
+      "Phụ thuộc vào việc duy trì Armor Shattered"
+    ],
+    "rotation": [
+      "Trận ngắn: Đánh Medium gán 6 Armor Break -> Armor Shattered -> Xả SP2.",
+      "Trận dài: Xả SP3 (làm mới Shattered + lấy Fervor) -> Xả SP2 + Combo kết thúc bằng Light để dồn bão Bleed."
+    ],
+    "counters_targets": [
+      "Ultron / Sentinel / Nebula / Warlock (Các tướng Robot)",
+      "Các tướng phụ thuộc vào Armor Up Buff"
+    ],
+    "countered_by": [
+      "Magneto (Giảm chỉ số tướng Metal)",
+      "Tướng Miễn nhiễm Bleed & Armor Break"
+    ]
+  },
+  {
+    "id": "silk",
+    "name": "Silk",
+    "class": "science",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/silk.png",
+    "summary": "Sát thủ dồn Physical Vulnerability siêu tốc. Kết hợp Captain America Relic để thực hiện các chuỗi Heavy Cancel nổ SP2 cực khủng.",
+    "strengths": [
+      "Sát thươngPhysical Vulnerability dồn dập cực mạnh",
+      "Tương thích hoàn hảo với Captain America Relic để nối combo dài",
+      "Né đòn tự động (Auto-Evade) chiêu Special của đối thủ"
+    ],
+    "weaknesses": [
+      "Debuff Physical Vulnerability hết hạn rất nhanh (1.2s), cần duy trì đòn đánh liên tục",
+      "Yêu cầu kỹ thuật Heavy Cancel chuẩn nhịp"
+    ],
+    "rotation": [
+      "Trận ngắn: Combo M-L-L-L -> Heavy Cancel hit 1 sang Relic -> Heavy Cancel hit 1 sang SP2.",
+      "7-Star/Trận dài: Heavy Cancel hit 1 sang SP3 (Choáng 4s) -> Nối Heavy Cancel sang Relic -> Heavy Cancel sang SP2."
+    ],
+    "counters_targets": [
+      "Các tướng phòng thủ Battlegrounds máu trung bình",
+      "Tướng hệ Mystic không có khả năng chống Physical Vulnerability"
+    ],
+    "countered_by": [
+      "Tướng Kháng Physical Damage",
+      "Node Trừng phạt Debuff hoặc Auto-Purify"
+    ]
+  },
+  {
+    "id": "vox",
+    "name": "Vox",
+    "class": "cosmic",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/vox.png",
+    "summary": "Chuyên gia tích Buff Corrupted trên bản thân rồi chuyển sang đối thủ thành các tầng Degeneration rút máu hủy diệt.",
+    "strengths": [
+      "Dồn sát thương Degeneration siêu mạnh không phụ thuộc Bạo kích",
+      "Có khả năng Pause Degeneration khi đánh vào khiên Block (khi Awakened)",
+      "Tích lũy Buff Corrupted rất nhanh qua đòn Dex, Medium và Light"
+    ],
+    "weaknesses": [
+      "Cần chú ý timer của Degenerations để tránh bị mất stack",
+      "Phụ thuộc vào thức tỉnh (Awakened) để tối ưu khả năng Pause đòn"
+    ],
+    "rotation": [
+      "Trận ngắn: Tích Buff Corrupted mấp nghé SP3 -> Bắn SP2 chuyển Buff thành Degens -> Đánh vào Block để Pause Degens.",
+      "Trận dài: Bắn SP3 (mở Corrupted Intensifies) -> Tích lại mấp nghé SP3 -> Xả SP2 dồn Degens thiêu rụi đối thủ."
+    ],
+    "counters_targets": [
+      "Các tướng có Giáp/Block trâu (đánh đè qua Block)",
+      "Tướng không có khả năng kháng Degeneration"
+    ],
+    "countered_by": [
+      "Tướng Miễn Nhiễm Degeneration",
+      "Node Neutralize / Buff Control"
     ]
   },
   {
     "id": "galan",
     "name": "Galan",
     "class": "cosmic",
-    "tier": "God Tier",
-    "summary": "Không cần Dup vẫn bão táp nhờ cơ chế nổ Harvest rút trực tiếp 50-100% máu đối thủ.",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/galan.png",
+    "summary": "Kẻ Nuốt Chửng Hành Tinh. Tích Planetary Mass lên 350+ rồi gõ Heavy vào trạng thái Harvest xả SP nổ bão sát thương trực tiếp.",
     "strengths": [
-      "Sát thương Nổ Harvest bỏ qua Giáp và Kháng phép",
-      "Không phụ thuộc vào kỹ năng Thức tỉnh (Dup)",
-      "Cướp Buff Cosmic để nạp Mass cực nhanh"
+      "Sát thương Harvest Nuke không thể né hay giảm (Direct Damage)",
+      "Bỏ qua hầu hết các cơ chế phòng thủ của đối thủ khi vào Harvest",
+      "Tự động miễn nhiễm nhiều hiệu ứng khống chế của hệ Tech"
     ],
     "weaknesses": [
-      "Sợ các tướng/Node cấm Power Gain",
-      "Sợ các tướng giảm sát thương Direct Damage"
+      "Cần thời gian tích Planetary Mass qua chuỗi combo M-L-M",
+      "Sợ các tướng Nullify/Neutralize ngăn cản tích Buff"
     ],
     "rotation": [
-      "Giữ Heavy Attack để gán Harvest / Planetary Lock.",
-      "Đánh combo MLLLM và xả SP1 / SP2 để nạp Planetary Mass lên mốc 100.",
-      "Lao vào đấm dồn dập trong thời gian đếm ngược Harvest để tích sát thương nổ bùng cạn máu đối thủ."
+      "Trận ngắn: Combo M-L-M tích Planetary Mass -> SP1 (4 Fury) -> Planetary Mass ~350 gõ Heavy vào Harvest -> Tung SP1.",
+      "Trận dài: SP3 (8 Intensified) -> SP1 -> Heavy vào Harvest -> Xả SP2 bùng nổ sát thương."
     ],
-    "counters": [
-      "Absorbing Man",
-      "Nimrod",
-      "Doom"
+    "counters_targets": [
+      "Hầu hết các tướng hệ Tech phòng thủ cứng",
+      "Các đối thủ trong Battlegrounds"
+    ],
+    "countered_by": [
+      "Wiccan / Symbiote Supreme (Trừng phạt Buff Cosmic)",
+      "Tướng có khả năng Neutralize"
+    ]
+  },
+  {
+    "id": "america-chavez",
+    "name": "America Chavez",
+    "class": "mystic",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/america-chavez.png",
+    "summary": "Nữ anh hùng mở Cổng Không Gian. Cancel đòn đánh sang Heavy để gán Stun và kích hoạt các chiều không gian xả Big Bang Damage.",
+    "strengths": [
+      "Sát thương Năng lượng bùng nổ (Big Bang Damage) cực khủng từ SP2",
+      "Tự động nạp Power Gain dồn dập từ Dark Dimension",
+      "Khả năng gán Stun liên tục qua Heavy Cancel"
+    ],
+    "weaknesses": [
+      "Yêu cầu nhịp cancel Heavy chuẩn xác",
+      "Sợ các tướng Kháng sát thương Năng lượng (Energy Resistance)"
+    ],
+    "rotation": [
+      "Combo không dứt điểm -> Cancel Heavy gán Stun -> Bật 2 Negative Zone.",
+      "Tích SP1 -> Cancel Heavy (hit 2) sang SP1 (bật 2 Dark Dimension tự nạp Power).",
+      "Tích SP2 -> Cancel Heavy (hit 1) sang SP2 (bật Utopian Parallel xả bão Big Bang Energy)."
+    ],
+    "counters_targets": [
+      "Tướng hệ Cosmic phụ thuộc Buff",
+      "Các đối thủ cần dọn trận bằng sát thương Năng lượng"
+    ],
+    "countered_by": [
+      "Havok / Absorbing Man (Kháng sát thương Năng lượng)",
+      "Node Stun Immune"
+    ]
+  },
+  {
+    "id": "hercules",
+    "name": "Hercules",
+    "class": "cosmic",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/hercules.png",
+    "summary": "Á Thần huyền thoại MCOC. Tích Feats of Strength để nhận Immortality (Bất tử) và sát thương vật lý xuyên giáp hủy diệt.",
+    "strengths": [
+      "Nội tại Bất Tử (Immortality) khi Awakened giúp lội ngược dòng 1% máu",
+      "Sát thương xuyên giáp và dồn Bạo kích thuộc top 1 toàn game",
+      "Cơ chế Infuriate ép đối thủ tấn công để dễ dàng Intercept"
+    ],
+    "weaknesses": [
+      "Cần kỹ năng Intercept (bắt nhịp đòn đánh) tốt",
+      "Sợ các tướng/Node khóa hiệu ứng Bất tử hoặc Nullify Buff"
+    ],
+    "rotation": [
+      "Dash lùi sau hit 1 (M/L) để gán Infuriate lên đối thủ.",
+      "Special Intercept bằng SP1 (nhận 3 Buff Precision).",
+      "Tiếp tục Intercept lên SP2 -> Special Intercept bằng SP2 (nhận 3 Buff Cruelty + Choáng 3s)."
+    ],
+    "counters_targets": [
+      "95% các Quest/Boss khó nhất trong game (Story Quest, Incursions, Abyss)"
+    ],
+    "countered_by": [
+      "Absorbing Man / Doctor Doom (Xóa Buff và vô hiệu hóa Bất tử)",
+      "Node Neutralize"
+    ]
+  },
+  {
+    "id": "sandman",
+    "name": "Sandman",
+    "class": "science",
+    "tier": "God Tier",
+    "avatar": "/assets/champions/sandman.png",
+    "summary": "Người Cát kiểm soát trận đấu. Tích 20+ Resistance Up để kích hoạt Unstable, Rooted trói chân đối thủ và giậm Heavy dồn sát thương.",
+    "strengths": [
+      "Trói chân đối thủ (Rooted) cố định để thoải mái xả Heavy liên tục",
+      "Sát thương Physical Burst từ đòn Heavy tăng tiến theo số lượng Debuff",
+      "SP3 gán 30 Physical Vulnerability hỗ trợ dồn sát thương cực rát"
+    ],
+    "weaknesses": [
+      "Lối đánh cần thời gian setup tầng Resistance Up",
+      "Cần căn nhịp để đối thủ đánh trúng khi đang Unstable"
+    ],
+    "rotation": [
+      "Tích 14 Resistance Up -> Tung SP1 (lên 19 tầng).",
+      "Ép đối thủ xả SP -> Lao vào đánh 1 hit + Giữ Heavy hóa Unstable (đối thủ dính Rooted).",
+      "Giậm Heavy 4 lần liên tiếp dồn sát thương Physical Burst cực mạnh."
+    ],
+    "counters_targets": [
+      "Các tướng thích lướt/Né liên tục (bị trói chân bởi Rooted)",
+      "Tướng hệ Skill phòng thủ"
+    ],
+    "countered_by": [
+      "Tướng Kháng Physical Damage",
+      "Node Miễn nhiễm Rooted / Debuff Cleanse"
+    ]
+  },
+  {
+    "id": "black-panther",
+    "name": "Black Panther",
+    "class": "skill",
+    "tier": "God Tier",
+    "avatar": "/assets/champions/black-panther.png",
+    "summary": "Chiến binh Wakanda dồn Bleed siêu tốc. Tích Panther's Might bằng Dash lùi và Special Intercept để xả bão Bạo kích Bleed.",
+    "strengths": [
+      "Khả năng gán Bleed liên tục 100% trên mỗi đòn Bạo kích",
+      "Special Intercept đảm bảo 100% Bạo kích và đóng băng (Pause) Buff Cruelty",
+      "Tốc độ rút máu đối thủ cực kỳ nhanh khi duy trì Panther's Might"
+    ],
+    "weaknesses": [
+      "Phụ thuộc hoàn toàn vào hiệu ứng Bleed (phế khi gặp Bleed Immune)",
+      "Yêu cầu kỹ năng Intercept chuẩn xác"
+    ],
+    "rotation": [
+      "Dash lùi sau hit không dứt điểm để tích đủ 5 Panther's Might.",
+      "Special Intercept bằng SP1 (bật Panther's Might, Pause Cruelty).",
+      "Tích 2 thanh Power -> Special Intercept bằng SP2 (100% Crit + dồn bão Bleed)."
+    ],
+    "counters_targets": [
+      "Các tướng không có khả năng chống Bleed",
+      "Tướng phòng thủ không có giáp trâu"
+    ],
+    "countered_by": [
+      "Colossus / Robot (Miễn nhiễm Bleed)",
+      "Node Bleed Immune"
+    ]
+  },
+  {
+    "id": "gorr",
+    "name": "Gorr",
+    "class": "cosmic",
+    "tier": "God Tier",
+    "avatar": "/assets/champions/gorr.png",
+    "summary": "Kẻ Sát Thần. Tích Buff Shadow Magic từ combo Light, chuyển thành Debuff bằng combo M-M rồi tung SP3 liên hoàn rút sạch máu.",
+    "strengths": [
+      "Cơ chế tự nạp 100% Power qua đòn Heavy khi đối thủ dính 20+ Debuffs",
+      "Khả năng dồn bão SP3 liên tục trong thời gian ngắn",
+      "Hồi phục và gây sát thương DOT đa dạng"
+    ],
+    "weaknesses": [
+      "Cần chuỗi setup qua nhiều bước (Light combo -> M-M combo -> SP3)",
+      "Sợ các tướng/Node Purify / Cleanse Debuff"
+    ],
+    "rotation": [
+      "Combo Light (M-L-L-L-L) tích Shadow Magic Buffs -> Combo M-M đổi Buff thành Debuff lên đối thủ.",
+      "Tung SP3 -> Đạt 20+ Debuffs trên đối thủ gõ đòn Heavy để nạp đầy 100% Power.",
+      "Tung tiếp cú SP3 thứ 2 liên hoàn kết liễu trận đấu."
+    ],
+    "counters_targets": [
+      "Các trận đấu dài / Máu trâu (Story Quest / Bosses)",
+      "Tướng hệ Tech không có khả năng giải Debuff"
+    ],
+    "countered_by": [
+      "Kingpin / Crossbones (Purify Debuff thần tốc)",
+      "Node Debuff Immune"
     ]
   },
   {
     "id": "knull",
     "name": "Knull",
     "class": "cosmic",
-    "tier": "God Tier",
-    "summary": "Chuyên gia phòng thủ và khống chế Hồi máu, chém Instant Bleed liên tục khi kích hoạt Corruption.",
-    "strengths": [
-      "Khóa và chuyển hóa Hồi Máu thành Degeneration",
-      "Sát thương Instant Bleed dồn dập",
-      "Defender rất khó chịu khi Dup Sig cao"
-    ],
-    "weaknesses": [
-      "Bắt buộc phải Dup (Sig 200) mới mạnh",
-      "Tốc độ vào trận chậm nếu chưa Dup"
-    ],
-    "rotation": [
-      "Tích lũy các tầng Living Abyss bằng đòn đánh thường.",
-      "Bắn SP1 để gán Encroaching Corruption.",
-      "Khi vào trạng thái Corruption, lao vào chém các đòn Medium/Special dồn Instant Bleed."
-    ],
-    "counters": [
-      "Bleed Immune Champions",
-      "Kingpin",
-      "Sunspot"
-    ]
-  },
-  {
-    "id": "venom",
-    "name": "Venom",
-    "class": "cosmic",
-    "tier": "Demi-God Tier",
-    "summary": "Tướng càn quét quốc dân, sở hữu bộ Buff Klyntar đa dạng và True Strike chống các tướng Spider-Verse.",
-    "strengths": [
-      "True Strike vĩnh viễn chống Né/Auto-Block của họ nhà Nhện",
-      "Phá Giáp và hút Buff hồi máu tốt",
-      "Dễ vận hành, lối đánh an toàn"
-    ],
-    "weaknesses": [
-      "Phụ thuộc 100% vào Buff (sợ Nullify/Stagger)",
-      "Tốc độ kết thúc trận đấu ở mốc trung bình"
-    ],
-    "rotation": [
-      "Đánh combo MLLLM kết hợp Heavy Attack để xé Rách Giáp và tích Buff Klyntar.",
-      "Tích năng lượng xả SP2 để dồn bão Bạo kích.",
-      "Dùng SP1 khi cần nuốt Buff của đối thủ để hồi phục máu."
-    ],
-    "counters": [
-      "Symbiote Supreme",
-      "Kushala",
-      "Doctor Doom"
-    ]
-  },
-  {
-    "id": "scream",
-    "name": "Scream",
-    "class": "cosmic",
-    "tier": "God Tier",
-    "summary": "Sát thủ gán Debuff rút máu rát và khống chế tốc độ tích năng lượng của đối thủ nhờ Suppress.",
-    "strengths": [
-      "Dồn Bleed và Suppress giảm Power Gain đối thủ",
-      "Khả năng Pause Debuff hiệu quả",
-      "Sát thương SP2 bùng nổ theo số Debuff"
-    ],
-    "weaknesses": [
-      "Sợ tướng Kháng Bleed",
-      "Sợ cơ chế Purify/Cleanse",
-      "Yêu cầu kỹ năng Punish đòn tốt"
-    ],
-    "rotation": [
-      "Đánh combo kết thúc bằng Medium hoặc Light (MLLLM/MLLLL) để tích Debuff.",
-      "Trừng phạt (Punish) đòn Heavy/Special của đối thủ hoặc dùng Heavy để Pause Debuff.",
-      "Bắn SP2 dồn sốc sát thương theo tổng số Debuff trên người đối thủ."
-    ],
-    "counters": [
-      "Crossbones",
-      "Kingpin",
-      "Ghost"
-    ]
-  },
-  {
-    "id": "cull-obsidian",
-    "name": "Cull Obsidian",
-    "class": "cosmic",
-    "tier": "God Tier",
-    "summary": "Quái vật sát thương thô và Armor Break khi có đủ Persistent Charges và trạng thái Rout.",
-    "strengths": [
-      "Sát thương thô (Raw Attack) siêu khủng",
-      "Trạng thái Rout đấm xuyên Auto-Block",
-      "Parry được các đòn đánh không tiếp xúc (Non-contact)"
-    ],
-    "weaknesses": [
-      "Khả năng Block kém (Block giấy)",
-      "Bắt buộc phải Dup Sig cao mới ổn định",
-      "Yêu cầu tích Persistent Charges qua nhiều trận (Ramp-up)"
-    ],
-    "rotation": [
-      "Lướt lùi giữ Block 1.2 giây để kích hoạt trạng thái Rout.",
-      "Tụ lực Heavy Attack để gán Armor Break.",
-      "Xả SP2 gán Choáng và Pause đếm ngược Armor Break, sau đó lao vào đấm dồn dập."
-    ],
-    "counters": [
-      "Doctor Doom",
-      "Clair Voyant",
-      "Magneto"
-    ]
-  },
-  {
-    "id": "juggernaut",
-    "name": "Juggernaut",
-    "class": "cosmic",
     "tier": "Beyond God Tier",
-    "summary": "Chúa tể càn quét BGs với trạng thái Unstoppable liên tục và sát thương SP2 Bạo kích cực kỳ bá đạo.",
+    "avatar": "/assets/champions/knull.png",
+    "summary": "Chúa Tể Bóng Tối. Tích 50-60 Living Abyss rồi bắn SP3 bật Corruption đổi sạch thành Armor Break, xả combo Light dọn trận.",
     "strengths": [
-      "Trạng thái Unstoppable xuyên suốt",
-      "Miễn nhiễm Choáng khi Unstoppable",
-      "Tốc độ dọn trận siêu nhanh dưới 15 giây"
+      "Khả năng dồn 50-70 tầng Armor Break xé rách toàn bộ giáp đối thủ",
+      "Đóng băng (Pause) Corruption dễ dàng chỉ bằng combo Light (M-L-L-L-L)",
+      "Sát thương Scaling theo thời gian thuộc hàng khủng nhất game"
     ],
     "weaknesses": [
-      "Thọt nặng khi gặp tướng/Node xóa Unstoppable (Slow, Deceleration)",
-      "Không có sát thương rút máu gián tiếp"
+      "Tốc độ nạp trận đầu khá chậm, không phù hợp cho các trận Battlegrounds ngắn",
+      "Nếu dùng nhầm combo Medium Finisher sẽ làm mất các tầng Armor Break"
     ],
     "rotation": [
-      "Lao vào đấm combo MLLLM ngay từ đầu trận bất chấp khiên Block đối thủ nhờ Unstoppable.",
-      "Giữ Heavy Attack để gán Stagger xóa Buff đối thủ và gia hạn Unstoppable.",
-      "Tích 2 thanh năng lượng xả SP2 dồn bão Bạo kích nổ chết đối thủ."
+      "Parry / M-Heavy tích 50-60 tầng Living Abyss -> Bắn SP3 bật Corruption (đổi thành 60 Armor Break).",
+      "Sau SP3, CHỈ DÙNG combo kết thúc bằng Light (M-L-L-L-L) để Pause Corruption.",
+      "Bắn SP2 (+10 Armor Break) -> Tiếp tục duy trì Light Finisher dọn sạch cây máu."
     ],
-    "counters": [
-      "Kushala",
-      "Spider-Gwen",
-      "Titania"
+    "counters_targets": [
+      "Các Boss máu khủng (Realm of Legends / Everest Content)",
+      "Các tướng có Giáp (Armor) siêu trâu"
+    ],
+    "countered_by": [
+      "Tướng Miễn Nhiễm Armor Break",
+      "Tướng hệ Tech có khả năng rút Power / Khóa Special"
     ]
   },
   {
-    "id": "kushala",
-    "name": "Kushala",
-    "class": "mystic",
-    "tier": "Beyond God Tier",
-    "summary": "Biến mọi Buff của đối thủ thành Soul Scar/Bleed và thiêu rụi cây máu bằng Soul Barb.",
-    "strengths": [
-      "Trừng phạt tướng nhiều Buff siêu mạnh",
-      "Sát thương Incinerate / Degeneration khổng lồ",
-      "Chống Purify khi đã Dup (chuyển sang dạng Passive)"
-    ],
-    "weaknesses": [
-      "Yếu đi rõ rệt khi đối thủ hoàn toàn không có Buff",
-      "Sợ đối thủ Kháng Lửa (Incinerate Immune)"
-    ],
-    "rotation": [
-      "Tích năng lượng lên SP2 và bắn SP2 để gán Soul Barb.",
-      "Trong lúc Soul Barb hoạt động, liên tục xả SP1 để dồn lớp Incinerate.",
-      "Trận dài: Dùng SP3 trước lấy Judgement và 9 tầng Degeneration."
-    ],
-    "counters": [
-      "Human Torch",
-      "Red Goblin",
-      "Gladiator"
-    ]
-  },
-  {
-    "id": "jack-o-lantern",
-    "name": "Jack O'Lantern",
-    "class": "tech",
-    "tier": "Beyond God Tier",
-    "summary": "Sát thủ diệt Mutant Top 1, khắc tinh cứng của Onslaught nhờ khả năng chuyển Crit thành Incinerate/Plasma.",
-    "strengths": [
-      "Top 1 Counter Onslaught, Dust, Mr. Sinister",
-      "Miễn nhiễm Inverted Controls và Incinerate",
-      "Parry được đòn Non-contact",
-      "Kỹ năng Hold Heavy Cancel SP rất mượt và sốc sát thương cực to"
-    ],
-    "weaknesses": [
-      "Sợ tướng Kháng Incinerate/Plasma",
-      "Cần nhớ nhịp Cancel Heavy sang Special Attacks"
-    ],
-    "rotation": [
-      "Combo MLLLL (Light 4) để gán Cowardice giảm sát thương SP đối thủ.",
-      "Parry Choáng -> Hold Heavy (lấy Precision) -> Cancel ngay sang SP1 để tích nhanh Inflamed Passives.",
-      "Tích 15 tầng Inflamed -> Parry -> Hold Heavy Cancel sang SP2 dồn bão Bạo kích nổ Plasma sốc chết đối thủ."
-    ],
-    "counters": [
-      "Sunspot",
-      "Red Goblin",
-      "Scorpion"
-    ]
-  },
-  {
-    "id": "spider-ham",
-    "name": "Spider-Ham",
+    "id": "titania",
+    "name": "Titania",
     "class": "science",
     "tier": "Beyond God Tier",
-    "summary": "Thánh gán Poorker Porker Poppers khiến đối thủ tự rút máu khủng khiếp mỗi khi xả chiêu Special.",
+    "avatar": "/assets/champions/titania.png",
+    "summary": "Nữ quái Science dồn Fury. Kích Haymaker qua Medium Finisher, tích Debuff qua Light Finisher rồi cancel Heavy sang SP3 nhân đôi sát thương.",
     "strengths": [
-      "Khống chế và trừng phạt tuyệt chiêu đối thủ cực nặng",
-      "Né đòn (Evade) tự nhiên rất ảo",
-      "Kháng sát thương Degeneration và cướp Power Gain"
+      "Khả năng nhân đôi (Double) toàn bộ Debuff và tích đống Buff Fury",
+      "Trạng thái Haymaker giúp không bị mất máu và bất tử đòn đánh",
+      "Sát thương Heavy giậm liên tiếp cực kỳ khủng khiếp"
     ],
     "weaknesses": [
-      "Sợ các tướng Kháng Taunt hoặc không dùng Special",
-      "Sợ các tướng Kháng Bleed/Debuff"
+      "Cần căn thời gian cancel Heavy sang SP3 chuẩn xác",
+      "Phụ thuộc vào nhịp quản lý trạng thái Haymaker"
     ],
     "rotation": [
-      "Đánh combo MLLLL (kết thúc bằng Light) để gán Poorker Porker Poppers và Taunt.",
-      "Thực hiện Taunt để ép đối thủ dùng Special Attack.",
-      "Khi đối thủ xả Special, các tầng Poppers sẽ tự nổ rút cạn cây máu."
+      "M-Finisher (M-L-L-L-M) bật Haymaker -> L-Finisher (M-L-L-L-L) tích Debuff/Fury lên mốc SP3.",
+      "Parry Choáng -> Tụ Heavy (cancel hit 2 sang SP3) để nhân đôi Debuff từ 10 lên 20+.",
+      "Lướt vào giậm tiếp 3-4 đòn Heavy liên tiếp dồn bão Fury kết liễu trận đấu."
     ],
-    "counters": [
-      "Venom",
-      "Knull",
-      "Red Guardian"
-    ]
-  },
-  {
-    "id": "karolina-dean",
-    "name": "Karolina Dean",
-    "class": "cosmic",
-    "tier": "God Tier",
-    "summary": "Thiêu rụi mọi kẻ địch trâu giáp bằng bão Incinerate gián tiếp từ SP2.",
-    "strengths": [
-      "Sát thương Lửa gián tiếp bỏ qua Giáp/Kháng",
-      "Lối đánh cực kỳ an toàn",
-      "Tự giảm sát thương khi dính Debuff"
+    "counters_targets": [
+      "Các tướng phòng thủ Battlegrounds hàng đầu",
+      "Tướng hệ Mystic không có khả năng chống Heavy Nuke"
     ],
-    "weaknesses": [
-      "Hoàn toàn vô hại trước đối thủ Kháng Incinerate/Lửa",
-      "Phụ thuộc vào thanh Solar Energy"
-    ],
-    "rotation": [
-      "Đánh combo MLLLM kết hợp Parry + Heavy Attack để nạp nhanh Solar Energy.",
-      "Tích đủ 2 thanh năng lượng.",
-      "Xả SP2 chuyển hóa Solar Energy thành bão Incinerate thiêu rụi đối thủ."
-    ],
-    "counters": [
-      "Human Torch",
-      "Sunspot",
-      "Red Goblin"
-    ]
-  },
-  {
-    "id": "heimdall",
-    "name": "Heimdall",
-    "class": "cosmic",
-    "tier": "Demi-God Tier (God Tier Synergy)",
-    "summary": "Thánh Synergy cứu mạng đỉnh nhất game, cấp mạng Bất tử (Cheat Death) cho toàn bộ đồng đội.",
-    "strengths": [
-      "Synergy cấp mạng Bất tử và Cheat Death cho cả team",
-      "Có Auto-Block chống bị sốc sát thương",
-      "SP2 gán Buff Indestructible và Unstoppable"
-    ],
-    "weaknesses": [
-      "Sát thương thực chiến độc lập ở mức trung bình",
-      "Tốc độ dọn trận chậm"
-    ],
-    "rotation": [
-      "Lướt lùi và giữ Block để tích lũy các Buff (Precision, Aptitude, Fury).",
-      "Đánh combo MLLLM dồn năng lượng lên SP2.",
-      "Xả SP2 để lấy Buff Unstoppable & Indestructible rồi lao vào đấm dồn sát thương."
-    ],
-    "counters": [
-      "Doctor Doom",
-      "Wiccan",
-      "Kushala"
-    ]
-  },
-  {
-    "id": "cosmic-ghost-rider",
-    "name": "Cosmic Ghost Rider",
-    "class": "cosmic",
-    "tier": "Beyond God Tier",
-    "summary": "Quái vật dồn sát thương bão táp top đầu game với chuỗi combo chuẩn xác lấy đống Fury và Aptitude.",
-    "strengths": [
-      "Sát thương sốc (Burst Damage) thuộc hàng đỉnh nhất game",
-      "Khóa năng lượng (Power Lock) đối thủ cực lâu",
-      "Có Armor Break và Fate Seal tự nhiên"
-    ],
-    "weaknesses": [
-      "Cần thuộc chuẩn nhịp combo, sai 1 bước sẽ mất Judgement",
-      "Sợ các tướng/Node Kháng Armor Break hoặc Bleed"
-    ],
-    "rotation": [
-      "Đánh combo MLLLL (Light finisher) -> Giữ Heavy (lấy Aptitude) -> Bắn SP2.",
-      "Ngay sau SP2, thực hiện ngay combo MLLLM (Medium finisher) để dồn 100% Armor Break + Fury bão táp.",
-      "Đối thủ sẽ bị thiêu rụi hoàn toàn trong 10-15 giây."
-    ],
-    "counters": [
-      "Absorbing Man",
-      "Doctor Doom",
-      "Mephisto"
-    ]
-  },
-  {
-    "id": "jean-grey",
-    "name": "Jean Grey",
-    "class": "mutant",
-    "tier": "Beyond God Tier",
-    "summary": "Chúa tể hệ Mutant với khả năng điều khiển tâm linh và bão Phoenix Force thiêu rụi đối thủ.",
-    "strengths": [
-      "Sát thương Phoenix Force và Năng lượng cực lớn",
-      "Khống chế AI và tâm linh xuất sắc",
-      "Khả năng hồi phục và hồi sinh ấn tượng"
-    ],
-    "weaknesses": [
-      "Sợ các tướng hệ Tech chuyên trị Mutant",
-      "Phụ thuộc vào nhịp quản lý các tầng Phoenix Charges"
-    ],
-    "rotation": [
-      "Tích lũy các tầng Phoenix Charges bằng đòn đánh thường và Special.",
-      "Dùng SP1 để chuyển đổi trạng thái tâm linh khống chế đối thủ.",
-      "Tích 2 thanh năng lượng xả SP2 dồn bão lửa Phoenix thiêu rụi cây máu."
-    ],
-    "counters": [
-      "Nimrod",
-      "Jack O'Lantern",
-      "Bastion"
-    ]
-  },
-  {
-    "id": "spiderman-stark-enhanced",
-    "name": "Spider-Man (Stark Enhanced)",
-    "class": "tech",
-    "tier": "God Tier",
-    "summary": "Huyền thoại Taunt và Dexty tích Poise Charges để dồn bão Bạo kích vàng rực.",
-    "strengths": [
-      "Sát thương Bạo kích cực to khi đủ 10 Poise",
-      "Né đòn (Evade) tuyệt chiêu tự động rất bá đạo",
-      "Choáng vĩnh viễn và khóa năng lượng với SP1/SP2"
-    ],
-    "weaknesses": [
-      "Máu và giáp rất giấy (Glass Cannon)",
-      "Sợ các tướng/Node chống Né (True Strike/True Sense)"
-    ],
-    "rotation": [
-      "Lướt lùi né đòn (Dexterity) liên tục 10 lần để tích full 10 tầng Poise Charges.",
-      "Đánh combo MLLLM dồn năng lượng.",
-      "Xả SP2 dồn bão đòn Bạo kích kết hợp Choáng (Stun) dứt điểm trận đấu."
-    ],
-    "counters": [
-      "Knull",
-      "Red Guardian",
-      "Venom"
-    ]
-  },
-  {
-    "id": "shang-chi",
-    "name": "Shang-Chi",
-    "class": "skill",
-    "tier": "Beyond God Tier",
-    "summary": "Thần võ thuật với bộ Wushu Strikes giải Debuff, Unblockable, Slow và dồn SP2 Bạo kích xuyên không.",
-    "strengths": [
-      "Bộ Utility toàn năng: Unblockable, Slow (chống Né/Unstoppable), Cleanse Debuff",
-      "SP2 dồn Bạo kích 100% cực kỳ khủng khiếp",
-      "Lối đánh chủ động, kiểm soát trận đấu hoàn hảo"
-    ],
-    "weaknesses": [
-      "Yêu cầu người chơi nhớ đúng 4 chuỗi combo Wushu",
-      "Phụ thuộc vào đòn Heavy để Reset chiêu"
-    ],
-    "rotation": [
-      "Thực hiện lần lượt các chuỗi Wushu Strikes: MLLLM (Unblockable) -> Medium + Heavy (Slow) -> MLLLL (Cleanse) -> LLLLM (Choáng).",
-      "Sau khi gom đủ các tầng Wushu, dùng Heavy Attack để Reset và nhân đôi chỉ số.",
-      "Tích năng lượng xả SP2 dồn sát thương bạo kích kết liễu."
-    ],
-    "counters": [
-      "Havok",
-      "Domino",
-      "Storm"
-    ]
-  },
-  {
-    "id": "photon",
-    "name": "Photon",
-    "class": "science",
-    "tier": "Beyond God Tier",
-    "summary": "Quái vật phòng thủ AW/BGs và Attacker cực mạnh nhờ trạng thái Untouchable và dồn sát thương Ánh sáng.",
-    "strengths": [
-      "Trạng thái Untouchable (Không thể chạm vào) cực kỳ khó chịu",
-      "Bỏ qua phòng thủ Block và phản sát thương Năng lượng",
-      "Top 1 Defender trong Battlegrounds"
-    ],
-    "weaknesses": [
-      "Sợ các tướng có True Strike / True Sight",
-      "Sợ các tướng trị hệ Science trâu bò"
-    ],
-    "rotation": [
-      "Lướt lùi giữ Block để vào trạng thái Pure Light State.",
-      "Tấn công bằng combo MLLLM để gán các hiệu ứng dồn sát thương Ánh sáng.",
-      "Dùng SP2 khi ở Pure Light để dồn bùng nổ sát thương và giữ đối thủ trong trạng thái bị khóa."
-    ],
-    "counters": [
-      "Kingpin",
-      "Chee'ilth",
-      "Attuma"
-    ]
-  },
-  {
-    "id": "ghost-rider",
-    "name": "Ghost Rider",
-    "class": "mystic",
-    "tier": "Demi-God Tier",
-    "summary": "Thánh duy trì sinh tồn với khả năng Hồi máu, Khóa năng lượng, Fate Seal và Khóa chiêu qua Judgements.",
-    "strengths": [
-      "Khả năng Hồi máu (Life Steal) thuộc hàng khủng nhất game",
-      "Fate Seal xóa toàn bộ Buff đối thủ",
-      "Khóa năng lượng (Power Lock) vĩnh viễn nếu đánh chuẩn"
-    ],
-    "weaknesses": [
-      "Sát thương thô ở mốc trung bình, dọn trận chậm",
-      "Sợ đối thủ Bleed Immune (giảm 1 Judgement)"
-    ],
-    "rotation": [
-      "Đánh Finisher Light (gán Fate Seal) -> Finisher Medium (gán Power Lock) -> Heavy (gán Life Steal Hồi máu).",
-      "Tích năng lượng xả SP2 (gán Degen) hoặc SP1 (gán Damaging Judgement).",
-      "Xả SP3 để khóa toàn bộ khả năng của đối thủ trong thời gian dài."
-    ],
-    "counters": [
-      "Human Torch",
-      "Red Goblin",
-      "Mephisto"
+    "countered_by": [
+      "Tướng Miễn nhiễm Choáng (Stun Immune)",
+      "Node Trừng phạt Buff / Trừng phạt Debuff"
     ]
   }
 ]
