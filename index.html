@@ -143,7 +143,7 @@
             }
         }
 
-        /* --- THẺ TƯỚNG TỐI GIẢN (CỦA MOBILE: NÚT PILL + TÊN TƯỚNG) --- */
+        /* --- THẺ TƯỚNG TỐI GIẢN --- */
         .champ-card {
             background-color: var(--bg-secondary);
             border: 1px solid rgba(255, 255, 255, 0.05);
@@ -237,7 +237,7 @@
             font-size: 0.85rem;
         }
         .guide-section ul, .guide-section ol { padding-left: 18px; font-size: 0.85rem; }
-        .guide-section li { margin-bottom: 4px; }
+        .guide-section li { margin-bottom: 6px; line-height: 1.35; }
     </style>
 </head>
 <body>
@@ -265,10 +265,10 @@
         <input type="text" id="searchInput" class="search-input" placeholder="Tìm tên tướng..." oninput="app.filter()">
     </div>
 
-    <!-- GRID DÂN SÁCH TƯỚNG 3 CỘT CHO DẾ -->
+    <!-- GRID DANH SÁCH TƯỚNG 3 CỘT CHO DẾ -->
     <main class="champion-grid" id="gridContainer"></main>
 
-    <!-- POPUP MODAL xem HƯỚNG DẪN -->
+    <!-- POPUP MODAL XEM HƯỚNG DẪN -->
     <div class="modal" id="guideModal" onclick="app.closeModal(event)">
         <div class="modal-content" onclick="event.stopPropagation()">
             <span class="close-btn" onclick="app.closeModal(null, true)">&times;</span>
@@ -283,7 +283,7 @@
                 this.filteredData = [];
                 this.selectedClass = 'all';
                 
-                // ĐƯỜNG DẪN RAW GITHUB JSON CHÍNH THỨC CỦA ANH
+                // ĐƯỜNG DẪN RAW GITHUB JSON CHÍNH THỨC
                 this.jsonUrl = 'https://raw.githubusercontent.com/thanhhc13/mcoc13/refs/heads/main/champions.json';
                 this.init();
             }
@@ -309,7 +309,7 @@
             renderGrid() {
                 const container = document.getElementById('gridContainer');
                 if (this.filteredData.length === 0) {
-                    container.innerHTML = '<p style="grid-column: 1/-1; text-align: center; color: #8b949e; font-size: 0.8rem;">Không có tướng nào.</p>';
+                    container.innerHTML = '<p style="grid-column: 1/-1; text-align: center; color: #8b949e; font-size: 0.8rem;">Không tìm thấy tướng nào.</p>';
                     return;
                 }
 
@@ -352,22 +352,36 @@
 
                 const rawClass = champ.class ? champ.class.toString().toLowerCase() : 'all';
 
+                // Đọc đúng cấu trúc khắc chế chuẩn (Hỗ trợ cả chuẩn mới lẫn chuẩn cũ nếu có)
+                const targetsList = champ.counters_targets || champ.counters || [];
+                const counteredByList = champ.countered_by || [];
+
                 const modalBody = document.getElementById('modalBody');
                 modalBody.innerHTML = `
-                    <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom: 12px;">
+                    <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom: 12px; border-bottom: 1px solid var(--border-color); padding-bottom: 8px;">
                         <div>
                             <h2 style="color: var(--text-heading); font-size: 1.3rem;">${champ.name}</h2>
                             <span class="badge-class cls-${rawClass}" style="margin-bottom:0; margin-top:4px;">${rawClass.toUpperCase()}</span>
                         </div>
-                        ${champ.tier ? `<span style="font-size:0.75rem; color:var(--cls-all); font-weight:bold;">${champ.tier}</span>` : ''}
+                        ${champ.tier ? `<span style="font-size:0.75rem; color:var(--cls-all); font-weight:bold; border:1px solid var(--cls-all); padding:2px 6px; border-radius:4px;">${champ.tier}</span>` : ''}
                     </div>
 
-                    <p style="font-size: 0.85rem; margin-bottom: 12px;"><em>${champ.summary || ''}</em></p>
+                    <p style="font-size: 0.85rem; margin-bottom: 14px; color: #cbd5e1;"><em>${champ.summary || ''}</em></p>
 
                     <div class="guide-section">
                         <h3>1. Ưu & Nhược Điểm</h3>
-                        <p style="font-size:0.8rem;"><strong style="color:#52b788;">Ưu:</strong> ${(champ.strengths || []).join(', ')}</p>
-                        <p style="font-size:0.8rem;"><strong style="color:#e76f51;">Nhược:</strong> ${(champ.weaknesses || []).join(', ')}</p>
+                        <div style="font-size:0.8rem; margin-bottom: 6px;">
+                            <strong style="color:#52b788;">Ưu điểm:</strong>
+                            <ul style="margin-top:4px;">
+                                ${(champ.strengths || []).map(s => `<li>${s}</li>`).join('')}
+                            </ul>
+                        </div>
+                        <div style="font-size:0.8rem; margin-top: 8px;">
+                            <strong style="color:#e76f51;">Nhược điểm:</strong>
+                            <ul style="margin-top:4px;">
+                                ${(champ.weaknesses || []).map(w => `<li>${w}</li>`).join('')}
+                            </ul>
+                        </div>
                     </div>
 
                     <div class="guide-section">
@@ -378,10 +392,20 @@
                     </div>
 
                     <div class="guide-section">
-                        <h3>3. Tướng Khắc Chế (Counters)</h3>
-                        <ul>
-                            ${(champ.counters || []).map(ctr => `<li>${ctr}</li>`).join('')}
-                        </ul>
+                        <h3>3. Tướng & Cơ Chế Khắc Chế (Counters)</h3>
+                        <div style="font-size:0.8rem; margin-bottom: 6px;">
+                            <strong style="color:#00b4d8;">Con bài khắc chế (Đánh tốt khi gặp):</strong>
+                            <ul style="margin-top:4px;">
+                                ${targetsList.map(t => `<li>${t}</li>`).join('')}
+                            </ul>
+                        </div>
+                        ${counteredByList.length > 0 ? `
+                        <div style="font-size:0.8rem; margin-top: 8px;">
+                            <strong style="color:#e9c46a;">Bị khắc chế bởi (Cẩn thận khi gặp):</strong>
+                            <ul style="margin-top:4px;">
+                                ${counteredByList.map(cb => `<li>${cb}</li>`).join('')}
+                            </ul>
+                        </div>` : ''}
                     </div>
                 `;
 
