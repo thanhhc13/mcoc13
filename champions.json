@@ -36,7 +36,7 @@
     "class": "mutant",
     "tier": "Beyond God Tier",
     "avatar": "/assets/champions/cyclops-blue.png",
-    "summary": "Phiên bản Buff/Rework lột xác thành Mutant Nuker hàng đầu. Tích Precision dồn bão SP2 + SP1 liên hoàn và sở hữu True Focus khắc chế Bullseye.",
+    "summary": "Phiên bản Buff/Rework lột xác thành Mutant Nuker hàng đầu. Tích Precision dồn bão SP2 -> SP1 liên hoàn và sở hữu True Focus khắc chế Bullseye.",
     "strengths": [
       "Sát thương bộc phá (Burst Damage) cực ảo nhờ chuỗi xả chiêu SP2 -> SP1 -> SP1",
       "Có sẵn True Focus đầu trận chống các tướng chuyên Né/Miss",
@@ -218,7 +218,7 @@
     "avatar": "/assets/champions/silk.png",
     "summary": "Sát thủ dồn Physical Vulnerability siêu tốc. Kết hợp Captain America Relic để thực hiện các chuỗi Heavy Cancel nổ SP2 cực khủng.",
     "strengths": [
-      "Sát thươngPhysical Vulnerability dồn dập cực mạnh",
+      "Sát thương Physical Vulnerability dồn dập cực mạnh",
       "Tương thích hoàn hảo với Captain America Relic để nối combo dài",
       "Né đòn tự động (Auto-Evade) chiêu Special của đối thủ"
     ],
@@ -505,7 +505,7 @@
       "Tướng Miễn nhiễm Choáng (Stun Immune)",
       "Node Trừng phạt Buff / Trừng phạt Debuff"
     ]
-  }
+  },
   {
     "id": "adam-warlock",
     "name": "Adam Warlock",
@@ -658,7 +658,7 @@
     "class": "mystic",
     "tier": "Beyond God Tier",
     "avatar": "/assets/champions/juggernaut.png",
-    "summary": "Chúa tể càn quét BGs với trạng thái Unstoppable liên tục và sát thương SP2 Bạo kích cực kỳ bá đạo. (Lưu ý: Hệ Mystic, không phải Cosmic).",
+    "summary": "Chúa tể càn quét BGs với trạng thái Unstoppable liên tục và sát thương SP2 Bạo kích cực kỳ bá đạo.",
     "strengths": [
       "Trạng thái Unstoppable xuyên suốt",
       "Miễn nhiễm Choáng khi Unstoppable",
@@ -904,5 +904,5 @@
     "countered_by": [
       "Kingpin / Chee'ilth / Attuma"
     ]
-  },
+  }
 ]
