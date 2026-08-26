@@ -904,7 +904,7 @@
     "countered_by": [
       "Kingpin / Chee'ilth / Attuma"
     ]
-  }
+  },
   {
     "id": "kate-bishop",
     "name": "Kate Bishop",
@@ -999,6 +999,39 @@
     "countered_by": [
       "Corvus Glaive / CGR / Medusa (Gán Armor Break làm hủy bộ Giáp Vibranium)",
       "Các tướng Miễn Nhiễm Bleed"
+    ]
+  },
+  {
+    "id": "kindred",
+    "name": "Kindred",
+    "class": "mystic",
+    "tier": "Beyond God Tier (Defender)",
+    "avatar": "/assets/champions/kindred.png",
+    "summary": "Quái vật phòng thủ hệ Mystic hàng đầu AW/BGs nhờ cơ chế Rết, mạng Bất tử (Death's Embrace) khi Awakened và khả năng gán Infestation dồn Degeneration thụ động.",
+    "strengths": [
+      "Mạng Bất tử / Chống chết (Death's Embrace) cực kỳ khó chịu khi Awakened",
+      "Gán Infestation gây sát thương Degeneration thụ động không cần tấn công trực tiếp",
+      "Khắc chế tướng Cosmic bằng cơ chế Neutralize và nuốt Buff quy đổi thành sát thương",
+      "Miễn nhiễm Bleed (Chảy máu) và Coldnap/Coldsnap"
+    ],
+    "weaknesses": [
+      "Sát thương Attacker ở mức trung bình, tốc độ dọn trận chậm trong Battlegrounds",
+      "Phụ thuộc nhiều vào cấp độ Thức Tỉnh (High Sig) để tối ưu khả năng phòng thủ"
+    ],
+    "rotation": [
+      "Đánh combo kết thúc bằng Light (M-L-L-L-L) hoặc Heavy để tích lũy các tầng Rết (Centipedes).",
+      "Tích đủ 10 Centipedes hoặc bắn SP1 để kích hoạt Nightmare Mode, gán Infestation lên đối thủ.",
+      "Tích năng lượng xả SP2 để gia tăng lượng lớn sát thương Degeneration và Pause thời gian Infestation.",
+      "Duy trì đấm đè Block hoặc Parry để giữ chuỗi Rết thiêu rụi cây máu đối thủ."
+    ],
+    "counters_targets": [
+      "Hulking / Venom / Gorr (Các tướng Cosmic phụ thuộc Buff)",
+      "Các tướng phụ thuộc vào hiệu ứng Chảy máu (Bleed)"
+    ],
+    "countered_by": [
+      "Human Torch (Thiêu rụi bằng Flame On)",
+      "Spider-Ham (Ép xả Special tự nổ Poppers)",
+      "America Chavez / Archangel (Khóa Hồi máu và Bất tử)"
     ]
   }
 ]
