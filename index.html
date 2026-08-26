@@ -127,7 +127,7 @@
 
         .search-input:focus { border-color: var(--cls-all); }
 
-        /* --- GRID HIỂN THỊ MẶC ĐỊNH MOBILE: 3 CỘT / HÀNG --- */
+        /* --- GRID HIỂN THỊ MẶC ĐỊNH MOBILE: 3 CỘT KHÓA KÍCH THƯỚC --- */
         .champion-grid {
             max-width: 1200px;
             margin: 0 auto;
@@ -138,23 +138,25 @@
 
         @media (min-width: 768px) {
             .champion-grid {
-                grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+                grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
                 gap: 12px;
             }
         }
 
-        /* --- THẺ TƯỚNG TỐI GIẢN --- */
+        /* --- THẺ TƯỚNG CỐ ĐỊNH CHIỀU CAO (KHÔNG BỊ PHÌNH KHI CHỮ DÀI) --- */
         .champ-card {
             background-color: var(--bg-secondary);
             border: 1px solid rgba(255, 255, 255, 0.05);
             border-radius: 8px;
-            padding: 10px 4px;
+            padding: 6px 4px;
+            height: 72px; /* Kích thước cố định chuẩn mobile */
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             text-align: center;
             cursor: pointer;
+            overflow: hidden;
             transition: transform 0.15s ease;
         }
 
@@ -166,14 +168,15 @@
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            font-size: 0.6rem;
+            font-size: 0.55rem;
             font-weight: 800;
-            padding: 2px 8px;
+            padding: 1px 6px;
             border-radius: 9999px;
             text-transform: uppercase;
             letter-spacing: 0.5px;
             background-color: transparent;
-            margin-bottom: 6px;
+            margin-bottom: 4px;
+            flex-shrink: 0;
         }
 
         .cls-cosmic { border: 1px solid var(--cls-cosmic); color: var(--cls-cosmic); }
@@ -183,15 +186,20 @@
         .cls-science { border: 1px solid var(--cls-science); color: var(--cls-science); }
         .cls-mystic { border: 1px solid var(--cls-mystic); color: var(--cls-mystic); }
 
+        /* TÊN TƯỚNG TỰ ĐỘNG CẮT 2 DÒNG NẾU QÚA DÀI */
         .champ-name { 
-            font-size: 0.8rem; 
+            font-size: 0.75rem; 
             font-weight: 700; 
             color: #ffffff; 
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
             width: 100%;
             padding: 0 2px;
+            line-height: 1.15;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            word-break: break-word;
         }
 
         /* MODAL POPUP HƯỚNG DẪN */
@@ -320,7 +328,7 @@
                     return `
                         <div class="champ-card" onclick="app.openGuide('${champ.id}')">
                             <span class="badge-class cls-${rawClass}">${classNameText}</span>
-                            <div class="champ-name">${champ.name}</div>
+                            <div class="champ-name" title="${champ.name}">${champ.name}</div>
                         </div>
                     `;
                 }).join('');
