@@ -32,7 +32,7 @@
   },
   {
     "id": "cyclops-blue-team",
-    "name": "Cyclops (Blue Team - Reworked)",
+    "name": "Cyclops(BT)",
     "class": "mutant",
     "tier": "Beyond God Tier",
     "avatar": "/assets/champions/cyclops-blue.png",
@@ -92,8 +92,8 @@
     ]
   },
   {
-    "id": "ghost-rider-buffed",
-    "name": "Ghost Rider (Buffed)",
+    "id": "ghost-rider",
+    "name": "Ghost Rider",
     "class": "mystic",
     "tier": "God Tier",
     "avatar": "/assets/champions/ghost-rider.png",
@@ -903,6 +903,102 @@
     ],
     "countered_by": [
       "Kingpin / Chee'ilth / Attuma"
+    ]
+  }
+  {
+    "id": "kate-bishop",
+    "name": "Kate Bishop",
+    "class": "skill",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/kate-bishop.png",
+    "summary": "Nữ hoàng hệ Skill dồn sát thương Coldsnap/Caltrops gián tiếp siêu tốc. Sở hữu bộ kỹ năng giải quyết mọi cơ chế khó chịu và dọn sạch các Boss Everest khó nhất game.",
+    "strengths": [
+      "Sát thương DoT Coldsnap/Caltrops gián tiếp khủng nhất game khi kết hợp Perfect Release",
+      "Heavy gán Tracking khóa hoàn toàn cơ chế Miss (Ebony Maw, Miles Morales)",
+      "Nội tại No Where To Run ép đối thủ xả Special và Refresh vĩnh viễn Debuff qua đòn Heavy vào tường",
+      "Parry thành công tự động Evade và phản công Taser Arrow gây Passive Stun 3s",
+      "Sunder Passive đưa Kháng Bạo Kích (Critical Resistance) của đối thủ về 0"
+    ],
+    "weaknesses": [
+      "Hiện chưa có phiên bản 7-Star (chỉ có 6-Star Ascended)",
+      "Yêu cầu kỹ năng Perfect Release (thả nút Block đúng lúc mũi tên phát sáng)",
+      "Cần quản lý tốt vị trí góc tường để duy trì Debuff"
+    ],
+    "rotation": [
+      "CÁCH 1 - CASUAL / MỚI CHƠI (Cryo Nuke): Pre-fight chọn Cryo Arrow -> Tích gần mốc SP3 rồi bắn SP2 (Perfect Release) -> Lao vào bắn SP1 (Perfect Release) lấy 2 Coldsnap -> Giậm Heavy làm ngã đối thủ để Refresh Debuff liên tục.",
+      "CÁCH 2 - BATTLEGROUNDS / WAR (Coldsnap + Caltrops): Pre-fight chọn Cryo Arrow -> Bắn SP1 (Perfect Release) x2 lần lấy 2 Critical Coldsnap -> Nhấp đúp Block chọn Caltrops -> Bắn SP1 lấy Bleed -> Heavy vào tường để Refresh Debuff.",
+      "CÁCH 3 - EVEREST / LONG FIGHTS (Max Ramp-up): Bắn SP3 lấy Cruelty/Precision -> Chuyển Dissolver Arrow bắn SP1/SP2 lấy 2 Fragility + Sunder (Kháng Crit = 0) -> Chuyển Caltrops bắn lấy 2 Caltrops -> Chuyển Cryo bắn lấy 2 Critical Coldsnap max damage -> Giậm Heavy vào tường Refresh vĩnh viễn toàn bộ Buff/Debuff."
+    ],
+    "counters_targets": [
+      "Spider-Man / Quicksilver / Miles Morales (Bỏ qua Evade & Miss)",
+      "Peni Parker / Auto-Block Champions (Đánh xuyên Block bằng Crush Passive)",
+      "Absorbing Man / Doctor Doom (Đưa Kháng Bạo Kích về 0 bằng Sunder)",
+      "Hầu hết các Boss Everest máu khủng (Necropolis, Abyss)"
+    ],
+    "countered_by": [
+      "Các tướng Kháng Coldsnap & Bleed",
+      "Node trừng phạt Debuff hoặc Auto-Purify"
+    ]
+  },
+  {
+    "id": "chee-ilth",
+    "name": "Chee'ilth",
+    "class": "skill",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/chee-ilth.png",
+    "summary": "Chiến binh First Nations với khả năng sinh tồn vượt trội, dồn bão Bleed thụ động và giảm 90% sát thương từ Special Attack đối thủ.",
+    "strengths": [
+      "Khả năng sinh tồn đỉnh cao nhờ Buff Hồi Máu (Regen) và giảm tới 90% sát thương từ Special Attack",
+      "Gán bão Bleed gián tiếp liên tục và có khả năng Pause đếm ngược Bleed bằng Heavy/SP1",
+      "SP2 cấp trạng thái Cleanse và bỏ qua hoàn toàn cơ chế Evade / Auto-Block"
+    ],
+    "weaknesses": [
+      "Sát thương giảm đáng kể khi gặp đối thủ Miễn Nhiễm Chảy Máu (Bleed Immune)",
+      "Tốc độ nổ sát thương ở mốc trung bình"
+    ],
+    "rotation": [
+      "Trận ngắn / BGs: Đánh combo MLLLM -> Tụ đòn Heavy (Pause Bleed) -> Bắn SP2 dồn bão Bleed sốc chết đối thủ.",
+      "Trận dài / Boss: Xả SP3 trước để nhận trạng thái Track vĩnh viễn -> Duy trì xả SP1 / Heavy để đóng băng các tầng Bleed thụ động trên người đối thủ."
+    ],
+    "counters_targets": [
+      "Các tướng chuyên Evade / Auto-Block",
+      "Các đối thủ phụ thuộc vào sát thương Special Attack"
+    ],
+    "countered_by": [
+      "Colossus / Magneto / Robots (Tướng Miễn Nhiễm Bleed)",
+      "Node Bleed Immune / Auto-Purify"
+    ]
+  },
+  {
+    "id": "killmonger",
+    "name": "Killmonger",
+    "class": "skill",
+    "tier": "God Tier",
+    "avatar": "/assets/champions/killmonger.png",
+    "summary": "Chiến binh Wakanda sở hữu lối đánh phòng thủ vô cùng an toàn với True Strike vĩnh viễn, khiên Bất Tử (Indestructible) và bão Bleed từ SP3.",
+    "strengths": [
+      "True Strike kích hoạt cực kỳ dễ (Punish Special) giúp xuyên Giáp, xuyên Né và xuyên Auto-Block",
+      "SP2 cấp 3 tầng khiên Bất Tử (Indestructible) giúp chống đòn và đỡ trọn vẹn chiêu SP3",
+      "Counterpunch Charges (SP1) giúp kích hoạt Unstoppable khi Block để phản đòn dễ dàng",
+      "Synergy với Void giúp Purify Debuff và hồi 4% máu mỗi Debuff"
+    ],
+    "weaknesses": [
+      "Sợ các tướng gán Armor Break (Phá Giáp) làm tắt bộ Giáp Vibranium Armor",
+      "Thọt sát thương khi gặp đối thủ Miễn Nhiễm Bleed"
+    ],
+    "rotation": [
+      "Punish chiêu Special đối thủ (đánh ngay khi họ vừa ra chiêu) để nhận Buff True Strike (16s).",
+      "Tích 2 thanh Power -> Bắn SP2 để lấy 3 tầng khiên Bất Tử (Indestructible) an toàn giao tranh.",
+      "Gặp Node Kháng Choáng (Stun Immune): Xả SP1 lấy Counterpunch -> Giữ Block đỡ đòn để bật Unstoppable rồi phản đòn.",
+      "Trận dài / Boss: Tích lũy 15+ tầng Bleed trong trận -> Bắn SP3 để chuyển thành bão Bleed thụ động rút cạn cây máu."
+    ],
+    "counters_targets": [
+      "Medusa / Spider-Man / Peni Parker (Bỏ qua Auto-Block & Evade nhờ True Strike)",
+      "Hyperion / Mordo (Dùng khiên Indestructible từ SP2 để đỡ chiêu SP3)"
+    ],
+    "countered_by": [
+      "Corvus Glaive / CGR / Medusa (Gán Armor Break làm hủy bộ Giáp Vibranium)",
+      "Các tướng Miễn Nhiễm Bleed"
     ]
   }
 ]
