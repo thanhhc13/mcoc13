@@ -1033,5 +1033,103 @@
       "Spider-Ham (Ép xả Special tự nổ Poppers)",
       "America Chavez / Archangel (Khóa Hồi máu và Bất tử)"
     ]
+  },
+  [
+  {
+    "id": "doctor-strange",
+    "name": "Doctor Strange",
+    "class": "mystic",
+    "tier": "Useful / Mid Tier",
+    "avatar": "/assets/champions/doctor-strange.png",
+    "summary": "Phù Thủy Tối Thượng với khả năng luân chuyển 3 Ấn Chú Vishanti, tích lũy điểm Arcane Fonts dồn bão SP1 sát thương năng lượng bùng nổ.",
+    "strengths": [
+      "Tự động nạp thanh Power theo thời gian không phụ thuộc hoàn toàn vào đòn đánh",
+      "Khả năng tự động nuốt Buff (Nullify) và Hồi máu ở Nullify Mode (Màu tím)",
+      "Mẹo gồng Heavy giúp chuyển đổi linh hoạt và nhanh chóng giữa 3 trạng thái Ấn Chú",
+      "Sát thương bùng nổ cực lớn từ chiêu SP1 khi tích đủ điểm Arcane Fonts"
+    ],
+    "weaknesses": [
+      "Cần thời gian setup tích lũy Arcane Fonts cho các trận đấu dài",
+      "Phụ thuộc vào thao tác căn nhịp đổi Ấn Chú"
+    ],
+    "rotation": [
+      "TRẬN NGẮN / BGs: Gồng Heavy chuyển sang Fury Mode (Màu cam) -> Liên tục Spam SP1 dồn sát thương bạo kích.",
+      "TRẬN DÀI / BOSS: Tích SP2 ở Nullify Mode (Màu tím) -> Bắn SP2 tích điểm Arcane Fonts -> Khi mấp nghé SP3, gồng Heavy nhấp đúp Block để đốt Power lấy thêm Arcane Fonts -> Đạt 100 Arcane Fonts, chuyển sang Fury Mode (Màu cam) rồi Spam SP1 dồn bão sát thương."
+    ],
+    "awakened_vs_unawakened": "CẦN DUP (Ưu tiên trung bình): Khi chưa Duped, Strange vẫn thực hiện đầy đủ bộ kỹ năng tích Arcane Fonts và đổi Ấn Chú. Khi Duped (Counter-Spell), Strange có thêm khả năng thụ động tự động hóa giải/xóa (Nullify) 1 Buff của đối thủ mỗi khi họ nhận Buff mới mà không cần đợi xoay sang nhịp màu Tím, đồng thời hồi một lượng nhỏ Power khi xóa Buff.",
+    "counters_targets": [
+      "Hyperion / Medusa / Buff Heavy Champions (Nhờ khả năng Nullify tự động)",
+      "Các trận đấu dài cần tích lũy sát thương bộc phát"
+    ],
+    "countered_by": [
+      "Human Torch / Titania (Sát thương bùng nổ đè bẹp đầu trận)",
+      "Các Node trừng phạt tự động nạp Power (Power Gain Punishment)"
+    ]
+  },
+  {
+    "id": "werewolf-by-night",
+    "name": "Werewolf by Night",
+    "class": "mystic",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/werewolf-by-night.png",
+    "summary": "Sát thủ hệ Mystic dồn sát thương sốc cực tốc nhờ trạng thái Hóa Sói, bão Rupture Passives và khả năng tự hồi máu khi nổ sát thương.",
+    "strengths": [
+      "Sát thương bùng nổ (Burst Nuke) siêu nhanh trong trạng thái Hóa Sói",
+      "Khả năng gán bão Rupture Passives gián tiếp xuyên qua khiên Block",
+      "Tự động hồi máu (Regenerate) khi các tầng Rupture phát nổ",
+      "Vô hiệu hóa và nuốt sạch các Buff của tướng Cosmic"
+    ],
+    "weaknesses": [
+      "Cần giữ nhịp dồn ép liên tục để không bị trôi mất trạng thái Hóa Sói",
+      "Sát thương giảm khi gặp đối thủ kháng Rupture / Sát thương Vật Lý"
+    ],
+    "rotation": [
+      "TRẬN ĐẤU CHUẨN: Đánh combo MLLLL để gán Rupture lên đối thủ -> Dash lùi đứng yên (Stand Idle) 1.7s để Hú (Chilling Howl) tích Power và điểm Lycanthropy.",
+      "KHI HÓA SÓI (10 Lycanthropy): Tự động nhận Unstoppable & Unblockable khi dùng Heavy/Special -> Lập tức xả SP2 để bộc phá bão Rupture dồn bạo kích kết liễu đối thủ.",
+      "TRẬN DÀI: Xả SP3 để kích hoạt dạng Curse kéo dài 25 giây."
+    ],
+    "awakened_vs_unawakened": "KHÔNG BẮT BUỘC DUP: Toàn bộ bộ kỹ năng gây bão sát thương Rupture và cơ chế Hóa Sói đều có sẵn 100% khi chưa Duped. Khi được Thức Tỉnh, khả năng sinh tồn được nâng cấp mạnh: Tăng hiệu lực Hồi Máu (Regeneration Passive) dựa trên số lượng Buff độc nhất của đối thủ (tối đa 8 Buffs) giúp hồi tới 40-60% lượng máu đã mất chỉ sau một nhịp Hóa Sói.",
+    "counters_targets": [
+      "Hulking / Hyperion / Gorilla-Man / Buff Heavy Champions",
+      "Hầu hết các tướng phòng thủ trong Battlegrounds nhờ tốc độ Nuke sát thương"
+    ],
+    "countered_by": [
+      "Human Torch (Thiêu rụi bằng sát thương Lửa)",
+      "Red Guardian / Các tướng không thể bị dồn Debuff/Passives"
+    ]
+  },
+  {
+    "id": "spider-man-stark-enhanced",
+    "name": "Spider-Man (Stark Enhanced)",
+    "class": "tech",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/spider-man-stark-enhanced.png",
+    "summary": "Phiên bản Nhện Stark Tech (Sparky) với khả năng tích điểm Poise bằng kỹ năng Dexterity/Taunt, mang lại lượng sát thương đòn đánh cơ bản và Special 2 thuộc hàng khủng nhất MCOC.",
+    "strengths": [
+      "Tăng lượng sát thương tấn công khổng lồ (Attack Rating) với mỗi tầng Poise tích lũy",
+      "Khả năng Né (Evade) thụ động siêu cao khi đối đầu với Special Attack nhờ Stark Tech A.I",
+      "SP2 gây bão Shock / Shock overcharged tàn phá các tướng Robot",
+      "Tỉ lệ Taunt liên tục giúp ép đối thủ xả chiêu SP1/SP2 an toàn"
+    ],
+    "weaknesses": [
+      "Máu giấy, giáp mỏng, rất dễ 'bốc hơi' nếu trúng đòn",
+      "Bộ A.I bị tắt 10s nếu dính đòn Heavy hoặc đánh nhau với tướng Cosmic"
+    ],
+    "rotation": [
+      "Đầu trận: Liên tục lướt lùi (Dexterity / Evade) để tích lũy tối đa 10 tầng Poise Charge.",
+      "Khi đã đạt 10 Poise: Tấn công bằng chuỗi đòn đánh thường MLLLM (sát thương lúc này đã x3 x4 lần bình thường).",
+      "Tích 2 thanh Power xả SP2 để kích hoạt bão Shock / Bạo kích thiêu rụi đối thủ.",
+      "Gặp đối thủ trâu Power: Dùng SP1 (EMP Webshot) để rút 45% thanh năng lượng của đối thủ."
+    ],
+    "awakened_vs_unawakened": "CẦN HIGHSIG / DUP MẠNH: Khi chưa Duped, Sparky vẫn tích đủ 10 Poise dồn damage tốt nhưng rất mạo hiểm vì giáp yếu. Khi Duped, Sparky nhận thêm chỉ số Critical Rating thụ động tăng mạnh theo từng tầng Poise và thời gian duy trì hiệu ứng Taunt lâu hơn đáng kể, giúp tăng sát thương Bạo kích và ép đối thủ xả Special an toàn hơn rất nhiều.",
+    "counters_targets": [
+      "Các tướng Robot (Sentinel, Warlock, Ultron - nhờ sát thương nhân đôi từ Shock Overcharged)",
+      "Các tướng có chiêu Special dễ Né để tích điểm Poise"
+    ],
+    "countered_by": [
+      "Corvus Glaive / Korg / CGR (Khắc chế cơ chế Evade & A.I)",
+      "Các Node True Strike / True Accuracy"
+    ]
   }
+]
 ]
