@@ -644,34 +644,37 @@
       "Tướng Bleed Immune"
     ]
   },
-  {
+ {
     "id": "cull-obsidian",
     "name": "Cull Obsidian",
     "class": "cosmic",
-    "tier": "God Tier",
+    "tier": "Beyond God Tier",
     "avatar": "/assets/champions/cull-obsidian.png",
-    "summary": "Quái vật sát thương thô và Armor Break khi có đủ Persistent Charges và trạng thái Rout.",
+    "summary": "Quái vật dồn sát thương bạo kích cực đại với lối đánh Cheese Combo SP2 nối Relic, xé rách giáp đối thủ và đấm xuyên Auto-Block nhờ trạng thái Rout.",
     "strengths": [
-      "Sát thương thô (Raw Attack) siêu khủng khi đã Ramp-up",
-      "Trạng thái Rout đấm xuyên Auto-Block",
-      "Parry được các đòn đánh không tiếp xúc (Non-contact)"
+      "Sát thương thô (Raw Damage) và bạo kích thuộc top đầu game khi kích hoạt Rout",
+      "Chuỗi Cheese Combo SP2 + Relic cho phép gán Stun liên tục và dồn sát thương không lối thoát",
+      "Trạng thái Rout đấm xuyên Auto-Block và Parry được cả các đòn đánh không tiếp xúc (Non-contact)"
     ],
     "weaknesses": [
-      "Khả năng Block kém (Block giấy)",
-      "Phụ thuộc vào Dup Sig cao và tích Persistent Charges qua nhiều trận"
+      "Khả năng phòng thủ mỏng (Block giấy), dễ bốc hơi nếu dính chiêu",
+      "Phụ thuộc vào cấp độ Thức Tỉnh (High Sig) và kỹ năng Heavy Cancel nối Relic"
     ],
     "rotation": [
-      "Lướt lùi giữ Block 1.2 giây để kích hoạt trạng thái Rout.",
-      "Tụ lực Heavy Attack để gán Armor Break.",
-      "Xả SP2 gán Choáng và Pause đếm ngược Armor Break, sau đó lao vào đấm dồn dập."
+      "BƯỚC 1 (Tích Power & Armor Break): Parry -> Giậm Heavy để tích Armor Break và dồn năng lượng chạm mốc 2+ thanh Power (SP2).",
+      "BƯỚC 2 (Kích Rout): Lướt lùi và Giữ Block 1.2s để chủ động bật trạng thái Rout Buff.",
+      "BƯỚC 3 (Heavy Cancel SP2): Lao vào giậm Heavy rồi Cancel ngay lập tức sang chiêu SP2.",
+      "BƯỚC 4 (Nối Relic Combo): Đòn cuối SP2 gây Choáng (Stun) -> Lập tức đánh 1 hit Medium -> Tụ Heavy -> Cancel ngay sang Relic.",
+      "BƯỚC 5 (Kết liễu): Lao vào xả SP1 hoặc giậm thêm 1 đòn Heavy dứt điểm trận đấu."
     ],
-    "awakened_vs_unawakened": "CẦN HIGHSIG: Khi Duped, Cull Obsidian tăng tối đa số tầng Thanos' Favor tích lũy và kéo dài thời gian tồn tại của trạng thái Rout Unblockable.",
+    "awakened_vs_unawakened": "CẦN HIGHSIG / DUP MẠNH: Khi chưa Duped, Cull vẫn nổ Cheese Combo tốt nhưng thiếu bền vững. Khi Duped ở Sig cao, Cull tăng tối đa số tầng Thanos' Favor tích lũy, kéo dài thời gian Rout Unblockable và nhận thêm lượng sát thương bạo kích khổng lồ.",
     "counters_targets": [
-      "Các tướng chuyên Auto-Block",
-      "Các đối thủ cần dọn dẹp nhanh bằng sát thương thô"
+      "Các tướng chuyên Auto-Block (Peni Parker, Medusa)",
+      "Các đối thủ trong Battlegrounds / Quest cần dọn dẹp tốc độ dưới 20-30s"
     ],
     "countered_by": [
-      "Doctor Doom / Clair Voyant / Magneto"
+      "Doctor Doom / Symbiote Supreme / Wiccan (Xóa Buff Rout và Armor Break)",
+      "Node Miễn Nhiễm Armor Break / Stun Immune"
     ]
   },
   {
@@ -1035,6 +1038,161 @@
     "countered_by": [
       "Corvus Glaive / Korg / CGR (Khắc chế cơ chế Evade & A.I)",
       "Các Node True Strike / True Accuracy"
+    ]
+  },
+  {
+    "id": "maker",
+    "name": "The Maker",
+    "class": "tech",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/maker.png",
+    "summary": "Ách chủ bài hệ Tech với bộ khung phòng thủ khó chịu và khả năng đảo ngược/chuyển hóa hiệu ứng Buff/Debuff năng lượng cực mạnh.",
+    "strengths": [
+      "Khả năng phòng thủ ranh mãnh với cơ chế tự tạo khiên chắn và kháng hiệu ứng bộc phát",
+      "Sát thương Shock và Plasma dồn dập khi đã thiết lập vòng lặp trận đấu",
+      "Khắc chế cực tốt các tướng phụ thuộc vào Buff năng lượng"
+    ],
+    "weaknesses": [
+      "Bộ kỹ năng phức tạp, cần nhớ nhịp chuyển đổi cơ chế",
+      "Sát thương khởi đầu ở mức trung bình trước khi hoàn tất setup"
+    ],
+    "rotation": [
+      "Xoay vòng combo Medium - Light - Medium để tích lũy tài nguyên và đặt hiệu ứng khống chế.",
+      "Tích lũy thanh năng lượng lên SP2 để xả bão sát thương Shock/Plasma.",
+      "Giữ nhịp Block và Intercept để duy trì trạng thái áp đảo đối thủ."
+    ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Maker vẫn hoạt động tốt nhưng thiếu khả năng sinh tồn bộc phát. Khi được Thức Tỉnh, Maker gia tăng tốc độ tích tụ tài nguyên ở đầu trận và tăng cường khả năng tự vệ khi máu xuống thấp.",
+    "counters_targets": [
+      "Các tướng hệ Mutant nhiều Buff/Power Gain",
+      "Tướng phụ thuộc vào sát thương Năng lượng"
+    ],
+    "countered_by": [
+      "Magneto (Giảm chỉ số tướng Metal/Tech)",
+      "Tướng Miễn Nhiễm Shock / Plasma"
+    ]
+  },
+  {
+    "id": "red-skull",
+    "name": "Red Skull",
+    "class": "tech",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/red-skull.png",
+    "summary": "Tướng Tech phòng thủ và tấn công toàn diện nhờ giáp Tesseract Armor, vừa trộm năng lượng vừa dồn Armor Break và Heal Block.",
+    "strengths": [
+      "Bộ Giáp Tesseract rút sạch năng lượng (Power Drain) của đối thủ khi họ đánh vào Block",
+      "Sát thương SP2 dồn bão Armor Break xé rách mọi đối thủ",
+      "Khả năng khóa Hồi máu (Heal Block) liên tục"
+    ],
+    "weaknesses": [
+      "Rất sợ các tướng có khả năng gán Armor Break (Phá Giáp) làm vỡ bộ Giáp Tesseract",
+      "Phụ thuộc vào việc giữ giáp để duy trì sát thương và kiểm soát Power"
+    ],
+    "rotation": [
+      "Tích lũy tối đa các tầng Tesseract Armor bằng cách đỡ đòn (Block) hoặc xả SP1.",
+      "Khi đối thủ bị rút cạn Power, dùng SP2 dồn đống Armor Break.",
+      "Lao vào xả combo MLLLM bộc phát sát thương bạo kích."
+    ],
+    "awakened_vs_unawakened": "CẦN HIGHSIG (Cho Phòng Thủ & Tấn Công): Khi Duped, Red Skull nạp lại các tầng giáp Tesseract nhanh hơn rất nhiều và tăng thêm chỉ số sát thương Bạo kích dựa trên số giáp đang có.",
+    "counters_targets": [
+      "Các tướng phụ thuộc vào Hồi Máu (Regen) hoặc nạp Power Gain dồn dập",
+      "Tướng không có khả năng Phá Giáp"
+    ],
+    "countered_by": [
+      "Corvus Glaive / CGR / Medusa (Phá giáp làm vô hiệu hóa bộ giáp Tesseract)",
+      "Magneto (Khắc chế tướng Metal)"
+    ]
+  },
+  {
+    "id": "bastion",
+    "name": "Bastion",
+    "class": "tech",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/bastion.png",
+    "summary": "Tên Sentinel Đột Biến - Khắc tinh số 1 của toàn bộ hệ Mutant, sở hữu cơ chế thích ứng (Adaptation) khóa sạch sức mạnh đối thủ.",
+    "strengths": [
+      "Tự động thích ứng và giảm mạnh sát thương từ các chiêu thức của Mutant",
+      "Khả năng gán bão Shock/Laser gián tiếp cực kỳ tàn nhẫn",
+      "Khóa khả năng nạp Power và vô hiệu hóa các hiệu ứng đặc trưng của Mutants"
+    ],
+    "weaknesses": [
+      "Hiệu quả giảm nhẹ khi đối đầu với các tướng không phải hệ Mutant",
+      "Lối đánh yêu cầu duy trì trạng thái Adaptation liên tục"
+    ],
+    "rotation": [
+      "Đánh combo MLLLM để tích lũy các tầng Adaptation.",
+      "Dùng SP1 để gán hiệu ứng Shock và kiểm soát thanh năng lượng đối thủ.",
+      "Xả SP2 khi đã đủ tầng Adaptation để nổ sát thương Plasma/Shock bùng nổ."
+    ],
+    "awakened_vs_unawakened": "BẮT BUỘC DUP (Diệt Mutant đỉnh cao): Khi Duped, Bastion khởi đầu trận đấu với các tầng Adaptation có sẵn và tăng mạnh sát thương bộc phá khi đối đầu với tướng Mutant.",
+    "counters_targets": [
+      "Onslaught / Domino / Bishop / Sunspot (Toàn bộ tướng hệ Mutant)",
+      "Các tướng phụ thuộc vào sát thương Năng lượng"
+    ],
+    "countered_by": [
+      "Magneto (Giảm chỉ số tướng Metal)",
+      "Tướng hệ Cosmic trâu giáp và xóa Buff"
+    ]
+  },
+  {
+    "id": "okoye",
+    "name": "Okoye",
+    "class": "skill",
+    "tier": "God Tier",
+    "avatar": "/assets/champions/okoye.png",
+    "summary": "Nữ tướng Wakanda dồn Bleed theo số lượng đòn đánh (Combo Count) và có khả năng giải Debuff thần tốc.",
+    "strengths": [
+      "Sát thương Bleed tăng tiến phi mã theo chỉ số Combo Count",
+      "Tự động giải các hiệu ứng bất lợi (Cleanse/Purify) khi thực hiện các đòn đánh chuẩn nhịp",
+      "Sát thương đòn đánh cơ bản cực kỳ ổn định"
+    ],
+    "weaknesses": [
+      "Thọt nặng sát thương nếu bị mất chuỗi Combo",
+      "Phế hoàn toàn trước các đối thủ Miễn Nhiễm Chảy Máu (Bleed Immune)"
+    ],
+    "rotation": [
+      "Duy trì chuỗi Combo liên tục, tránh bị trúng đòn làm ngắt Combo.",
+      "Tích lũy energy xả SP1 để gán Armor Break và tăng tỉ lệ Bleed.",
+      "Dùng SP2 để dồn bão Bleed kết liễu trận đấu."
+    ],
+    "awakened_vs_unawakened": "CẦN DUP (Rất quan trọng): Khi Duped, Okoye giữ lại được một lượng lớn chỉ số Combo ngay cả khi bị trúng đòn và tăng mạnh tỉ lệ gán Bleed trên từng đòn đánh.",
+    "counters_targets": [
+      "Các tướng không có khả năng chống Bleed",
+      "Tướng phụ thuộc vào việc gán Debuff xấu lên Okoye"
+    ],
+    "countered_by": [
+      "Colossus / Robot / Magneto (Tướng Bleed Immune)",
+      "Node trừng phạt Combo Count"
+    ]
+  },
+  {
+    "id": "gorr",
+    "name": "Gorr",
+    "class": "cosmic",
+    "tier": "God Tier",
+    "avatar": "/assets/champions/gorr.png",
+    "summary": "Kẻ Sát Thần. Tích Buff Shadow Magic từ combo Light, chuyển thành Debuff bằng combo M-M rồi tung SP3 liên hoàn rút sạch máu.",
+    "strengths": [
+      "Cơ chế tự nạp 100% Power qua đòn Heavy khi đối thủ dính 20+ Debuffs",
+      "Khả năng dồn bão SP3 liên tục trong thời gian ngắn",
+      "Hồi phục và gây sát thương DOT đa dạng"
+    ],
+    "weaknesses": [
+      "Cần chuỗi setup qua nhiều bước (Light combo -> M-M combo -> SP3)",
+      "Sợ các tướng/Node Purify / Cleanse Debuff"
+    ],
+    "rotation": [
+      "Combo Light (M-L-L-L-L) tích Shadow Magic Buffs -> Combo M-M đổi Buff thành Debuff lên đối thủ.",
+      "Tung SP3 -> Đạt 20+ Debuffs trên đối thủ gõ đòn Heavy để nạp đầy 100% Power.",
+      "Tung tiếp cú SP3 thứ 2 liên hoàn kết liễu trận đấu."
+    ],
+    "awakened_vs_unawakened": "KHÔNG BẮT BUỘC DUP: Gorr khi Unduped vẫn thực hiện trơn tru chuỗi dồn 20+ Debuffs nạp 100% Power. Khi Duped, Gorr nhận thêm khả năng hồi máu Undying khi bị nhận sát thương lớn.",
+    "counters_targets": [
+      "Các trận đấu dài / Máu trâu (Story Quest / Bosses)",
+      "Tướng hệ Tech không có khả năng giải Debuff"
+    ],
+    "countered_by": [
+      "Kingpin / Crossbones (Purify Debuff thần tốc)",
+      "Node Debuff Immune"
     ]
   }
 ]
