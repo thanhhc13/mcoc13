@@ -20,6 +20,7 @@
       "Parry Choáng -> Tụ đòn Heavy Attack để Reset 4 chiêu Wushu và nhân đôi Chi Charges & Precision.",
       "Tích 2 thanh Power -> Bắn SP2 dồn bão Bạo kích 100% kết liễu trận đấu."
     ],
+    "awakened_vs_unawakened": "KHÔNG BẮT BUỘC DUP: Shang-Chi ở trạng thái chưa Duped đã sở hữu 100% bộ kỹ năng Wushu Strikes và sát thương SP2 Bạo kích cực to. Khi được Thức Tỉnh (Awakened), Shang-Chi nhận thêm khả năng vượt qua khiên Block của đối thủ tốt hơn và tăng nhẹ chỉ số sát thương Bạo kích (Critical Damage Rating) dựa trên số lượng Chi Charges tích lũy.",
     "counters_targets": [
       "Juggernaut (Chống Unstoppable bằng Slow M-M)",
       "Spider-Man / Quicksilver (Chống Né/Evade bằng Slow M-M)",
@@ -44,13 +45,14 @@
     ],
     "weaknesses": [
       "Phụ thuộc vào nhịp duy trì combo 3 hit và Intercept để tích Precision Passives",
-      "Thiếu cơ chế giải Debuff xấu thủ động"
+      "Thiếu cơ chế giải Debuff xấu thụ động"
     ],
     "rotation": [
       "Đánh combo 3 hit (M-L-L hoặc M-L-M) hoặc Intercept để tích khoảng 12-13 Precision Passives.",
       "Tích năng lượng mấp nghé 3 thanh Power (ngay dưới SP3).",
       "Xả SP2 -> Nhờ Power Efficiency lập tức xả tiếp 2-3 chiêu SP1 liên tiếp để dồn bão Bạo kích 200k+ damage."
     ],
+    "awakened_vs_unawakened": "CẦN THỨC TỈNH (Nâng cấp lớn): Khi chưa Duped, Cyclops vẫn nổ sát thương SP2 -> SP1 rất tốt nhưng giáp yếu. Khi Thức Tỉnh, Cyclops kích hoạt cơ chế Adrenaline (cho phép hồi lại 100% lượng máu bị mất khi thực hiện các chiêu Special Attack) và gia tăng mạnh chỉ số Bạo kích cũng như khả năng giảm Armor của đối thủ.",
     "counters_targets": [
       "Bullseye (Khắc chế cứng bằng True Focus)",
       "Các đối thủ máu trung bình trong Battlegrounds cần dọn nhanh dưới 30s"
@@ -81,6 +83,7 @@
       "Thực hiện SP1 để Cướp Năng Lượng (Power Steal) và bật trạng thái Unblockable.",
       "Lập tức xả SP2 dồn bão Bleed rút cạn máu đối thủ."
     ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, White Tiger vẫn cướp Power và xả Bleed tốt. Khi Duped, khả năng Cướp Năng Lượng (Power Steal) được gia tăng hiệu lực mạnh mẽ, đồng thời khi đối thủ cán mốc SP3, cô ấy tự động nhận trạng thái kháng sát thương bộc phát giúp sinh tồn cực kỳ an toàn.",
     "counters_targets": [
       "Hyperion / Galan (Cướp Buff Power Gain của hệ Cosmic)",
       "Gorilla / Venom (Xóa Buff và kiểm soát thanh năng lượng đối thủ)"
@@ -112,6 +115,7 @@
       "Tụ đòn Heavy cancel sang SP2.",
       "Đứng yên kích hoạt trạng thái Penance Stare (3s) chuyển toàn bộ hiệu ứng thành Degeneration thụ động."
     ],
+    "awakened_vs_unawakened": "CẦN DUP (Tăng sát thương lớn): Khi chưa Duped, Ghost Rider vẫn có đủ bộ Phán Quyết (Hinder, Atrophy, Hồi máu, Power Drain). Khi Duped (Spirit of Vengeance), Ghost Rider kích hoạt thêm 1 lá Phán Quyết Fury thụ động giúp tăng mạnh lượng sát thương đòn đánh và sát thương Degeneration.",
     "counters_targets": [
       "Tướng #Villain (Tự động dính Stagger đầu trận)",
       "Các tướng phụ thuộc vào Buff (Buff Heavy Champions)"
@@ -142,6 +146,7 @@
       "Tụ đòn Heavy (lấy Vigilance, Cruelty, Precision và gán Damnation + Armor Break).",
       "Lập tức xả SP2 khi đối thủ dính Armor Break để dồn bão Bạo kích kết liễu."
     ],
+    "awakened_vs_unawakened": "KHÔNG BẮT BUỘC DUP: CGR ở mốc Unduped đã có 100% sát thương bộc phát đỉnh cao. Khi Duped, CGR nhận thêm khả năng gán hiệu ứng Damnation (Khóa Máu, Khóa Power, Khóa Fate Seal) ngay từ chiêu SP2 thay vì phải chờ kích hoạt đủ các tầng Phán Quyết.",
     "counters_targets": [
       "Wolverine (Khóa sạch Hồi Máu bằng Damnation)",
       "Hầu hết các tướng trong chế độ Speed Run / Battlegrounds"
@@ -172,6 +177,7 @@
       "Xả SP1 để chuyển 10 Bleed thành đống Degeneration dồn sang cho đối thủ.",
       "Parry + Giữ Heavy liên tục để Pause Degeneration nhìn cây máu đối thủ bốc hơi."
     ],
+    "awakened_vs_unawakened": "CẦN DUP (Rất quan trọng): Khi Duped, Mister Sinister nhận thêm khả năng trút ngược (Transfer) toàn bộ Debuff xấu (như Shock, Incinerate, Coldsnap...) từ bản thân sang đối thủ khi thực hiện đòn Heavy, biến các trận đấu có Node Debuff thành lợi thế tuyệt đối.",
     "counters_targets": [
       "Các tướng có đòn Bạo kích mạnh",
       "Các Node gây sát thương DOT (Act 8.1.4 Beast Path)"
@@ -201,6 +207,7 @@
       "Trận ngắn: Đánh Medium gán 6 Armor Break -> Armor Shattered -> Xả SP2.",
       "Trận dài: Xả SP3 (làm mới Shattered + lấy Fervor) -> Xả SP2 + Combo kết thúc bằng Light để dồn bão Bleed."
     ],
+    "awakened_vs_unawakened": "CẦN DUP (Tăng tốc độ dồn sát thương): Khi Duped (Living Strands), Medusa tự động nhận Buff Fury thụ động khi gán Armor Shattered và có khả năng tự động bật Auto-Block khi bị tấn công dồn dập, giúp tăng sát thương đòn đánh và độ an toàn phòng thủ.",
     "counters_targets": [
       "Ultron / Sentinel / Nebula / Warlock (Các tướng Robot)",
       "Các tướng phụ thuộc vào Armor Up Buff"
@@ -230,6 +237,7 @@
       "Trận ngắn: Combo M-L-L-L -> Heavy Cancel hit 1 sang Relic -> Heavy Cancel hit 1 sang SP2.",
       "7-Star/Trận dài: Heavy Cancel hit 1 sang SP3 (Choáng 4s) -> Nối Heavy Cancel sang Relic -> Heavy Cancel sang SP2."
     ],
+    "awakened_vs_unawakened": "KHÔNG BẮT BUỘC DUP: Silk ở trạng thái Unduped đã có trọn vẹn bộ combo Heavy Cancel nổ sát thương cực khủng. Khi Duped, Silk tăng thời gian tồn tại của trạng thái Auto-Evade và nhận thêm chỉ số Critical Damage Rating giúp tăng thêm một lượng nhỏ sát thương bạo kích.",
     "counters_targets": [
       "Các tướng phòng thủ Battlegrounds máu trung bình",
       "Tướng hệ Mystic không có khả năng chống Physical Vulnerability"
@@ -259,6 +267,7 @@
       "Trận ngắn: Tích Buff Corrupted mấp nghé SP3 -> Bắn SP2 chuyển Buff thành Degens -> Đánh vào Block để Pause Degens.",
       "Trận dài: Bắn SP3 (mở Corrupted Intensifies) -> Tích lại mấp nghé SP3 -> Xả SP2 dồn Degens thiêu rụi đối thủ."
     ],
+    "awakened_vs_unawakened": "CẦN DUP MẠNH: Khi chưa Duped, Vox dồn Degeneration rát nhưng rất khó duy trì thời gian đếm ngược. Khi Duped, Vox nhận khả năng Pause (tạm dừng) thời gian tồn tại của tất cả Debuff Degeneration trên người đối thủ mỗi khi đánh vào khiên Block của họ, giúp lối đánh cực kỳ dễ thở.",
     "counters_targets": [
       "Các tướng có Giáp/Block trâu (đánh đè qua Block)",
       "Tướng không có khả năng kháng Degeneration"
@@ -288,6 +297,7 @@
       "Trận ngắn: Combo M-L-M tích Planetary Mass -> SP1 (4 Fury) -> Planetary Mass ~350 gõ Heavy vào Harvest -> Tung SP1.",
       "Trận dài: SP3 (8 Intensified) -> SP1 -> Heavy vào Harvest -> Xả SP2 bùng nổ sát thương."
     ],
+    "awakened_vs_unawakened": "KHÔNG BẮT BUỘC DUP: Galan ở mốc Unduped đã là quái vật dọn trận với lượng sát thương Harvest Direct Damage đầy đủ. Khi Duped, Galan nhận thêm khả năng tự động nạp Planetary Mass nhanh hơn ở đầu trận và tăng khả năng sinh tồn khi máu hạ xuống thấp.",
     "counters_targets": [
       "Hầu hết các tướng hệ Tech phòng thủ cứng",
       "Các đối thủ trong Battlegrounds"
@@ -318,6 +328,7 @@
       "Tích SP1 -> Cancel Heavy (hit 2) sang SP1 (bật 2 Dark Dimension tự nạp Power).",
       "Tích SP2 -> Cancel Heavy (hit 1) sang SP2 (bật Utopian Parallel xả bão Big Bang Energy)."
     ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Chavez đã có đầy đủ bộ skill Heavy Cancel dồn sát thương Năng lượng. Khi Duped, các Cổng Không Gian (Dimensions) của Chavez có thời gian tồn tại lâu hơn đáng kể và tự động rút Power/Máu của đối thủ khi họ ở gần.",
     "counters_targets": [
       "Tướng hệ Cosmic phụ thuộc Buff",
       "Các đối thủ cần dọn trận bằng sát thương Năng lượng"
@@ -348,6 +359,7 @@
       "Special Intercept bằng SP1 (nhận 3 Buff Precision).",
       "Tiếp tục Intercept lên SP2 -> Special Intercept bằng SP2 (nhận 3 Buff Cruelty + Choáng 3s)."
     ],
+    "awakened_vs_unawakened": "BẮT BUỘC DUP (Tối quan trọng): Khi chưa Duped, Hercules vẫn đánh rất đau nhưng không có mạng Bất tử. Khi được Thức Tỉnh (Awakened), Hercules nhận khả năng Immortality (Bất tử trong 9-12 giây khi máu chạm 1%), giúp anh trở thành vị tướng càn quét mọi content khó nhất game mà không sợ bị K.O.",
     "counters_targets": [
       "95% các Quest/Boss khó nhất trong game (Story Quest, Incursions, Abyss)"
     ],
@@ -377,6 +389,7 @@
       "Ép đối thủ xả SP -> Lao vào đánh 1 hit + Giữ Heavy hóa Unstable (đối thủ dính Rooted).",
       "Giậm Heavy 4 lần liên tiếp dồn sát thương Physical Burst cực mạnh."
     ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi Duped, Sandman nhận thêm khả năng tích tụ các tầng Resistance Up nhanh hơn khi gánh chịu các đòn đánh Physical Damage và tăng thêm chỉ số sát thương Bùng Nổ từ đòn Heavy.",
     "counters_targets": [
       "Các tướng thích lướt/Né liên tục (bị trói chân bởi Rooted)",
       "Tướng hệ Skill phòng thủ"
@@ -407,6 +420,7 @@
       "Special Intercept bằng SP1 (bật Panther's Might, Pause Cruelty).",
       "Tích 2 thanh Power -> Special Intercept bằng SP2 (100% Crit + dồn bão Bleed)."
     ],
+    "awakened_vs_unawakened": "CẦN HIGHSIG (Tăng sát thương lớn): Khi Duped, đòn Bạo kích của Black Panther tăng mạnh hiệu lực sát thương Bleed và cho phép các tầng Bleed có khả năng xuyên qua giáp đối thủ.",
     "counters_targets": [
       "Các tướng không có khả năng chống Bleed",
       "Tướng phòng thủ không có giáp trâu"
@@ -437,6 +451,7 @@
       "Tung SP3 -> Đạt 20+ Debuffs trên đối thủ gõ đòn Heavy để nạp đầy 100% Power.",
       "Tung tiếp cú SP3 thứ 2 liên hoàn kết liễu trận đấu."
     ],
+    "awakened_vs_unawakened": "KHÔNG BẮT BUỘC DUP: Gorr khi Unduped vẫn thực hiện trơn tru chuỗi dồn 20+ Debuffs nạp 100% Power. Khi Duped, Gorr nhận thêm khả năng hồi máu Undying khi bị nhận sát thương lớn.",
     "counters_targets": [
       "Các trận đấu dài / Máu trâu (Story Quest / Bosses)",
       "Tướng hệ Tech không có khả năng giải Debuff"
@@ -467,6 +482,7 @@
       "Sau SP3, CHỈ DÙNG combo kết thúc bằng Light (M-L-L-L-L) để Pause Corruption.",
       "Bắn SP2 (+10 Armor Break) -> Tiếp tục duy trì Light Finisher dọn sạch cây máu."
     ],
+    "awakened_vs_unawakened": "CẦN HIGHSIG (Tăng tốc độ Ramp-up): Khi Duped, Knull tích lũy các tầng Living Abyss nhanh hơn gấp đôi ngay từ đầu trận đấu và tăng thời gian duy trì trạng thái Corruption.",
     "counters_targets": [
       "Các Boss máu khủng (Realm of Legends / Everest Content)",
       "Các tướng có Giáp (Armor) siêu trâu"
@@ -497,6 +513,7 @@
       "Parry Choáng -> Tụ Heavy (cancel hit 2 sang SP3) để nhân đôi Debuff từ 10 lên 20+.",
       "Lướt vào giậm tiếp 3-4 đòn Heavy liên tiếp dồn bão Fury kết liễu trận đấu."
     ],
+    "awakened_vs_unawakened": "KHÔNG BẮT BUỘC DUP: Titania ở mốc Unduped đã có trọn vẹn bộ chiêu Heavy Cancel SP3 dồn Fury cực mạnh. Khi Duped, thời gian tồn tại của Haymaker được kéo dài hơn và gia tăng chỉ số phòng thủ.",
     "counters_targets": [
       "Các tướng phòng thủ Battlegrounds hàng đầu",
       "Tướng hệ Mystic không có khả năng chống Heavy Nuke"
@@ -527,6 +544,7 @@
       "Tấn công dồn dập (không dùng Parry) để tích combo lên 20+ (Precision) và 30+ (Fury).",
       "Dùng SP2 dồn bão Bạo kích xuyên thủ kết liễu trận đấu."
     ],
+    "awakened_vs_unawakened": "CẦN DUP (Tăng độ an toàn): Khi Duped, Adam Warlock nhận thêm kén hồi sinh Pod Regeneration khi bị dính đòn K.O và gia tăng thời gian duy trì trạng thái Sovereign Stance.",
     "counters_targets": [
       "Các đối thủ trong Battlegrounds cần dọn dẹp tốc độ dưới 15-20s",
       "Các tướng phụ thuộc vào Giáp (Armor Up)"
@@ -557,6 +575,7 @@
       "Tích lũy đủ 2 thanh năng lượng (SP2).",
       "Bắn SP2 dồn sát thương Cosmic sốc chết đối thủ."
     ],
+    "awakened_vs_unawakened": "BẮT BUỘC DUP HIGHSIG (Cho Phòng Thủ): Khi Duped ở Sig cao, The Serpent nhận thêm lớp mạng Bất tử Death Immunity và giáp bảo vệ cực kỳ ức chế, biến hắn thành Defender số 1 game.",
     "counters_targets": [
       "Hầu hết các Attacker thông thường trong AW/Battlegrounds"
     ],
@@ -585,6 +604,7 @@
       "Tích năng lượng xả SP2 để dồn bão Bạo kích.",
       "Dùng SP1 khi cần nuốt Buff của đối thủ để hồi phục máu."
     ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi Duped, Venom nhận thêm Buff Klyntar ngẫu nhiên ngay đầu trận đấu và tăng thời gian tồn tại của các Buff Bạo kích.",
     "counters_targets": [
       "Spider-Man / Spider-Gwen / Miles Morales (Họ nhà Nhện)",
       "Các tướng phụ thuộc vào Buff phòng thủ"
@@ -614,6 +634,7 @@
       "Trừng phạt đòn Heavy/Special của đối thủ hoặc dùng Heavy để Pause Debuff.",
       "Bắn SP2 dồn sốc sát thương theo tổng số Debuff trên người đối thủ."
     ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi Duped, Scream gia tăng khả năng Pause các tầng Bleed lâu hơn và tăng chỉ số sát thương Bạo kích khi đối thủ dính nhiều Suppress Debuffs.",
     "counters_targets": [
       "Các tướng phụ thuộc vào Power Gain",
       "Các đối thủ không có khả năng chống Bleed"
@@ -644,6 +665,7 @@
       "Tụ lực Heavy Attack để gán Armor Break.",
       "Xả SP2 gán Choáng và Pause đếm ngược Armor Break, sau đó lao vào đấm dồn dập."
     ],
+    "awakened_vs_unawakened": "CẦN HIGHSIG: Khi Duped, Cull Obsidian tăng tối đa số tầng Thanos' Favor tích lũy và kéo dài thời gian tồn tại của trạng thái Rout Unblockable.",
     "counters_targets": [
       "Các tướng chuyên Auto-Block",
       "Các đối thủ cần dọn dẹp nhanh bằng sát thương thô"
@@ -673,6 +695,7 @@
       "Giữ Heavy Attack để gán Stagger xóa Buff đối thủ và gia hạn Unstoppable.",
       "Tích 2 thanh năng lượng xả SP2 dồn bão Bạo kích nổ chết đối thủ."
     ],
+    "awakened_vs_unawakened": "KHÔNG BẮT BUỘC DUP: Juggernaut ở trạng thái Unduped vẫn càn quét Battlegrounds cực nhanh với Unstoppable và SP2 Bạo kích. Khi Duped, hắn nhận thêm khả năng tự nạp Power khi đang Unstoppable.",
     "counters_targets": [
       "Các Attacker/Defender không có Slow hoặc Neutralize"
     ],
@@ -701,6 +724,7 @@
       "Trong lúc Soul Barb hoạt động, liên tục xả SP1 để dồn lớp Incinerate.",
       "Trận dài: Dùng SP3 trước lấy Judgement và 9 tầng Degeneration."
     ],
+    "awakened_vs_unawakened": "CẦN DUP (Rất quan trọng): Khi Duped, Kushala chuyển toàn bộ các Debuff gây ra thành dạng thụ động (Passive) khi đối diện với các tướng có khả năng Purify, khóa hoàn toàn cơ chế giải Debuff của đối thủ.",
     "counters_targets": [
       "The Serpent / Hulking / Gorr (Các tướng Cosmic nhiều Buff)"
     ],
@@ -729,6 +753,7 @@
       "Parry Choáng -> Hold Heavy (lấy Precision) -> Cancel ngay sang SP1 để tích nhanh Inflamed Passives.",
       "Tích 15 tầng Inflamed -> Parry -> Hold Heavy Cancel sang SP2 dồn bão Bạo kích nổ Plasma sốc chết đối thủ."
     ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi Duped, Jack O'Lantern nhận thêm khả năng tích lũy các tầng Inflamed Passives nhanh hơn và tăng thêm sát thương Bạo kích Plasma.",
     "counters_targets": [
       "Onslaught / Dust / Mister Sinister (Các Mutant trâu bò)"
     ],
@@ -757,6 +782,7 @@
       "Thực hiện Taunt để ép đối thủ dùng Special Attack.",
       "Khi đối thủ xả Special, các tầng Poppers sẽ tự nổ rút cạn cây máu."
     ],
+    "awakened_vs_unawakened": "KHÔNG BẮT BUỘC DUP: Spider-Ham ở trạng thái Unduped vẫn gán Poppers và ép đối thủ tự nổ máu bình thường. Khi Duped, Ham nhận thêm tỉ lệ tự động gán Poppers khi né đòn Special.",
     "counters_targets": [
       "Các tướng thích xả Special Attack liên tục"
     ],
@@ -785,6 +811,7 @@
       "Tích đủ 2 thanh năng lượng.",
       "Xả SP2 chuyển hóa Solar Energy thành bão Incinerate thiêu rụi đối thủ."
     ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi Duped, Karolina nạp năng lượng Solar Energy nhanh hơn khi bị tấn công và tăng thời gian tồn tại của bão Incinerate.",
     "counters_targets": [
       "Các tướng có Giáp trâu không Kháng Lửa"
     ],
@@ -813,6 +840,7 @@
       "Đánh combo MLLLM dồn năng lượng lên SP2.",
       "Xả SP2 để lấy Buff Unstoppable & Indestructible rồi lao vào đấm dồn sát thương."
     ],
+    "awakened_vs_unawakened": "KHÔNG BẮT BUỘC DUP: Khả năng Synergy cứu mạng Cheat Death cho toàn team hoạt động 100% kể cả khi Unduped. Khi Duped, Heimdall tăng sát thương đòn đánh cá nhân.",
     "counters_targets": [
       "Được dùng làm tướng hỗ trợ (Synergy) cho toàn bộ đội hình Quest"
     ],
@@ -841,40 +869,13 @@
       "Heavy Attack tích Psionic Charges và giải trừ Debuff.",
       "Tích 2 thanh năng lượng xả SP2 dồn bão sát thương Năng lượng hủy diệt."
     ],
+    "awakened_vs_unawakened": "CẦN HIGHSIG (Cho Phòng Thủ & Tấn Công): Khi Duped, Jean Grey tự động tạo khiên Phoenix Force Shield trâu hơn và phản ngược sát thương Neuroshock rát hơn khi vỡ khiên.",
     "counters_targets": [
       "Các tướng có cơ chế Reverse Controls",
       "Tướng hệ Skill"
     ],
     "countered_by": [
       "Nimrod / Jack O'Lantern / Bastion (Hệ Tech)"
-    ]
-  },
-  {
-    "id": "spiderman-stark-enhanced",
-    "name": "Spider-Man (Stark Enhanced)",
-    "class": "tech",
-    "tier": "God Tier",
-    "avatar": "/assets/champions/stark-spidey.png",
-    "summary": "Huyền thoại Taunt và Dexty tích Poise Charges để dồn bão Bạo kích vàng rực.",
-    "strengths": [
-      "Sát thương Bạo kích cực to khi đủ 10 Poise",
-      "Né đòn (Evade) tuyệt chiêu tự động rất bá đạo",
-      "Choáng vĩnh viễn và khóa năng lượng với SP1/SP2"
-    ],
-    "weaknesses": [
-      "Máu và giáp rất giấy (Glass Cannon)",
-      "Sợ các tướng/Node chống Né (True Strike/True Sense)"
-    ],
-    "rotation": [
-      "Lướt lùi né đòn (Dexterity) liên tục 10 lần để tích full 10 tầng Poise Charges.",
-      "Đánh combo MLLLM dồn năng lượng.",
-      "Xả SP2 dồn bão đòn Bạo kích kết hợp Choáng (Stun) dứt điểm trận đấu."
-    ],
-    "counters_targets": [
-      "Các đối thủ máu trung bình cần nổ sát thương nhanh"
-    ],
-    "countered_by": [
-      "Knull / Red Guardian / Venom (Chống Né)"
     ]
   },
   {
@@ -889,6 +890,7 @@
       "Bỏ qua phòng thủ Block và phản sát thương Năng lượng",
       "Top 1 Defender trong Battlegrounds"
     ],
+    "awakened_vs_unawakened": "BẮT BUỘC DUP HIGHSIG (Cho Phòng Thủ): Khi Duped ở Sig cao, Photon tự động vào trạng thái Pure Light ngay đầu trận đấu và tăng khả năng phản sát thương Năng lượng cực mạnh khi làm Defender.",
     "weaknesses": [
       "Sợ các tướng có True Strike / True Sight",
       "Sợ các tướng trị hệ Science trâu bò"
@@ -903,102 +905,6 @@
     ],
     "countered_by": [
       "Kingpin / Chee'ilth / Attuma"
-    ]
-  },
-  {
-    "id": "kate-bishop",
-    "name": "Kate Bishop",
-    "class": "skill",
-    "tier": "Beyond God Tier",
-    "avatar": "/assets/champions/kate-bishop.png",
-    "summary": "Nữ hoàng hệ Skill dồn sát thương Coldsnap/Caltrops gián tiếp siêu tốc. Sở hữu bộ kỹ năng giải quyết mọi cơ chế khó chịu và dọn sạch các Boss Everest khó nhất game.",
-    "strengths": [
-      "Sát thương DoT Coldsnap/Caltrops gián tiếp khủng nhất game khi kết hợp Perfect Release",
-      "Heavy gán Tracking khóa hoàn toàn cơ chế Miss (Ebony Maw, Miles Morales)",
-      "Nội tại No Where To Run ép đối thủ xả Special và Refresh vĩnh viễn Debuff qua đòn Heavy vào tường",
-      "Parry thành công tự động Evade và phản công Taser Arrow gây Passive Stun 3s",
-      "Sunder Passive đưa Kháng Bạo Kích (Critical Resistance) của đối thủ về 0"
-    ],
-    "weaknesses": [
-      "Hiện chưa có phiên bản 7-Star (chỉ có 6-Star Ascended)",
-      "Yêu cầu kỹ năng Perfect Release (thả nút Block đúng lúc mũi tên phát sáng)",
-      "Cần quản lý tốt vị trí góc tường để duy trì Debuff"
-    ],
-    "rotation": [
-      "CÁCH 1 - CASUAL / MỚI CHƠI (Cryo Nuke): Pre-fight chọn Cryo Arrow -> Tích gần mốc SP3 rồi bắn SP2 (Perfect Release) -> Lao vào bắn SP1 (Perfect Release) lấy 2 Coldsnap -> Giậm Heavy làm ngã đối thủ để Refresh Debuff liên tục.",
-      "CÁCH 2 - BATTLEGROUNDS / WAR (Coldsnap + Caltrops): Pre-fight chọn Cryo Arrow -> Bắn SP1 (Perfect Release) x2 lần lấy 2 Critical Coldsnap -> Nhấp đúp Block chọn Caltrops -> Bắn SP1 lấy Bleed -> Heavy vào tường để Refresh Debuff.",
-      "CÁCH 3 - EVEREST / LONG FIGHTS (Max Ramp-up): Bắn SP3 lấy Cruelty/Precision -> Chuyển Dissolver Arrow bắn SP1/SP2 lấy 2 Fragility + Sunder (Kháng Crit = 0) -> Chuyển Caltrops bắn lấy 2 Caltrops -> Chuyển Cryo bắn lấy 2 Critical Coldsnap max damage -> Giậm Heavy vào tường Refresh vĩnh viễn toàn bộ Buff/Debuff."
-    ],
-    "counters_targets": [
-      "Spider-Man / Quicksilver / Miles Morales (Bỏ qua Evade & Miss)",
-      "Peni Parker / Auto-Block Champions (Đánh xuyên Block bằng Crush Passive)",
-      "Absorbing Man / Doctor Doom (Đưa Kháng Bạo Kích về 0 bằng Sunder)",
-      "Hầu hết các Boss Everest máu khủng (Necropolis, Abyss)"
-    ],
-    "countered_by": [
-      "Các tướng Kháng Coldsnap & Bleed",
-      "Node trừng phạt Debuff hoặc Auto-Purify"
-    ]
-  },
-  {
-    "id": "chee-ilth",
-    "name": "Chee'ilth",
-    "class": "skill",
-    "tier": "Beyond God Tier",
-    "avatar": "/assets/champions/chee-ilth.png",
-    "summary": "Chiến binh First Nations với khả năng sinh tồn vượt trội, dồn bão Bleed thụ động và giảm 90% sát thương từ Special Attack đối thủ.",
-    "strengths": [
-      "Khả năng sinh tồn đỉnh cao nhờ Buff Hồi Máu (Regen) và giảm tới 90% sát thương từ Special Attack",
-      "Gán bão Bleed gián tiếp liên tục và có khả năng Pause đếm ngược Bleed bằng Heavy/SP1",
-      "SP2 cấp trạng thái Cleanse và bỏ qua hoàn toàn cơ chế Evade / Auto-Block"
-    ],
-    "weaknesses": [
-      "Sát thương giảm đáng kể khi gặp đối thủ Miễn Nhiễm Chảy Máu (Bleed Immune)",
-      "Tốc độ nổ sát thương ở mốc trung bình"
-    ],
-    "rotation": [
-      "Trận ngắn / BGs: Đánh combo MLLLM -> Tụ đòn Heavy (Pause Bleed) -> Bắn SP2 dồn bão Bleed sốc chết đối thủ.",
-      "Trận dài / Boss: Xả SP3 trước để nhận trạng thái Track vĩnh viễn -> Duy trì xả SP1 / Heavy để đóng băng các tầng Bleed thụ động trên người đối thủ."
-    ],
-    "counters_targets": [
-      "Các tướng chuyên Evade / Auto-Block",
-      "Các đối thủ phụ thuộc vào sát thương Special Attack"
-    ],
-    "countered_by": [
-      "Colossus / Magneto / Robots (Tướng Miễn Nhiễm Bleed)",
-      "Node Bleed Immune / Auto-Purify"
-    ]
-  },
-  {
-    "id": "killmonger",
-    "name": "Killmonger",
-    "class": "skill",
-    "tier": "God Tier",
-    "avatar": "/assets/champions/killmonger.png",
-    "summary": "Chiến binh Wakanda sở hữu lối đánh phòng thủ vô cùng an toàn với True Strike vĩnh viễn, khiên Bất Tử (Indestructible) và bão Bleed từ SP3.",
-    "strengths": [
-      "True Strike kích hoạt cực kỳ dễ (Punish Special) giúp xuyên Giáp, xuyên Né và xuyên Auto-Block",
-      "SP2 cấp 3 tầng khiên Bất Tử (Indestructible) giúp chống đòn và đỡ trọn vẹn chiêu SP3",
-      "Counterpunch Charges (SP1) giúp kích hoạt Unstoppable khi Block để phản đòn dễ dàng",
-      "Synergy với Void giúp Purify Debuff và hồi 4% máu mỗi Debuff"
-    ],
-    "weaknesses": [
-      "Sợ các tướng gán Armor Break (Phá Giáp) làm tắt bộ Giáp Vibranium Armor",
-      "Thọt sát thương khi gặp đối thủ Miễn Nhiễm Bleed"
-    ],
-    "rotation": [
-      "Punish chiêu Special đối thủ (đánh ngay khi họ vừa ra chiêu) để nhận Buff True Strike (16s).",
-      "Tích 2 thanh Power -> Bắn SP2 để lấy 3 tầng khiên Bất Tử (Indestructible) an toàn giao tranh.",
-      "Gặp Node Kháng Choáng (Stun Immune): Xả SP1 lấy Counterpunch -> Giữ Block đỡ đòn để bật Unstoppable rồi phản đòn.",
-      "Trận dài / Boss: Tích lũy 15+ tầng Bleed trong trận -> Bắn SP3 để chuyển thành bão Bleed thụ động rút cạn cây máu."
-    ],
-    "counters_targets": [
-      "Medusa / Spider-Man / Peni Parker (Bỏ qua Auto-Block & Evade nhờ True Strike)",
-      "Hyperion / Mordo (Dùng khiên Indestructible từ SP2 để đỡ chiêu SP3)"
-    ],
-    "countered_by": [
-      "Corvus Glaive / CGR / Medusa (Gán Armor Break làm hủy bộ Giáp Vibranium)",
-      "Các tướng Miễn Nhiễm Bleed"
     ]
   },
   {
@@ -1024,6 +930,7 @@
       "Tích năng lượng xả SP2 để gia tăng lượng lớn sát thương Degeneration và Pause thời gian Infestation.",
       "Duy trì đấm đè Block hoặc Parry để giữ chuỗi Rết thiêu rụi cây máu đối thủ."
     ],
+    "awakened_vs_unawakened": "BẮT BUỘC DUP HIGHSIG (Cho Phòng Thủ): Khi chưa Duped, Kindred khá dễ dọn dẹp. Khi Duped ở Sig cao, Kindred nhận mạng Bất tử Death's Embrace (chống chết và hồi lại máu khi cạn cây máu), biến hắn thành một trong những Defender khó chịu nhất MCOC.",
     "counters_targets": [
       "Hulking / Venom / Gorr (Các tướng Cosmic phụ thuộc Buff)",
       "Các tướng phụ thuộc vào hiệu ứng Chảy máu (Bleed)"
@@ -1034,7 +941,6 @@
       "America Chavez / Archangel (Khóa Hồi máu và Bất tử)"
     ]
   },
-  [
   {
     "id": "doctor-strange",
     "name": "Doctor Strange",
@@ -1131,5 +1037,4 @@
       "Các Node True Strike / True Accuracy"
     ]
   }
-]
 ]
