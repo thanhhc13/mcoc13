@@ -399,8 +399,14 @@
                         </ol>
                     </div>
 
+                    ${champ.awakened_vs_unawakened ? `
                     <div class="guide-section">
-                        <h3>3. Tướng & Cơ Chế Khắc Chế (Counters)</h3>
+                        <h3>3. Kỹ Năng Thức Tỉnh (Awakened / Duped)</h3>
+                        <p style="font-size:0.8rem; color:#e9c46a; line-height:1.4;">${champ.awakened_vs_unawakened}</p>
+                    </div>` : ''}
+
+                    <div class="guide-section">
+                        <h3>4. Tướng & Cơ Chế Khắc Chế (Counters)</h3>
                         <div style="font-size:0.8rem; margin-bottom: 6px;">
                             <strong style="color:#00b4d8;">Con bài khắc chế (Đánh tốt khi gặp):</strong>
                             <ul style="margin-top:4px;">
