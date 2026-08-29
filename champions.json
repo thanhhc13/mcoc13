@@ -111,9 +111,10 @@
       "Khả năng Hồi máu không còn bá đạo vô hạn như phiên bản gốc thời kỳ đầu"
     ],
     "rotation": [
-      "Combo M-L-L-L-M (Hinder) -> Combo M-L-L-L-L (Atrophy) -> Tung SP1 (Fear).",
-      "Tụ đòn Heavy cancel sang SP2.",
-      "Đứng yên kích hoạt trạng thái Penance Stare (3s) chuyển toàn bộ hiệu ứng thành Degeneration thụ động."
+      "BƯỚC 1 (Gán Phán Quyết Đòn Đánh): Đánh combo M-L-L-L-M để gán Judgement of Corruption (Hinder 75%) -> Đánh combo M-L-L-L-L để gán Judgement of Malice (Atrophy 50%).",
+      "BƯỚC 2 (Heavy Cancel SP1): Tích 1+ thanh Power -> Heavy Cancel sang SP1 để gán Judgement of Fear (Power Steal & Incinerate).",
+      "BƯỚC 3 (Striker + SP2 Penance Stare): Tích 2+ thanh Power + Striker Charge -> Dùng Relic Striker -> Xả SP2 và đứng yên để kích hoạt Penance Stare(3s) (gán Degenerating + Rooted trói chân đối thủ).",
+      "BƯỚC 4 (Dồn dập kết liễu): Khi Rooted hết hiệu lực, lao vào đặt lại tối đa các Phán Quyết và xả tiếp SP2 để kết thúc trận đấu."
     ],
     "awakened_vs_unawakened": "CẦN DUP (Tăng sát thương lớn): Khi chưa Duped, Ghost Rider vẫn có đủ bộ Phán Quyết (Hinder, Atrophy, Hồi máu, Power Drain). Khi Duped (Spirit of Vengeance), Ghost Rider kích hoạt thêm 1 lá Phán Quyết Fury thụ động giúp tăng mạnh lượng sát thương đòn đánh và sát thương Degeneration.",
     "counters_targets": [
@@ -1193,6 +1194,68 @@
     "countered_by": [
       "Kingpin / Crossbones (Purify Debuff thần tốc)",
       "Node Debuff Immune"
+    ]
+  },
+  {
+    "id": "hyperion",
+    "name": "Hyperion",
+    "class": "cosmic",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/hyperion.png",
+    "summary": "Siêu nhân hệ Cosmic với khả năng tự nạp Power Gain liên tục không cần đánh, dồn bão Fury bằng Heavy và xả SP2 Bạo kích / SP1 Incinerate thiêu rụi đối thủ.",
+    "strengths": [
+      "Tự động nạp Power Gain thụ động khi thanh năng lượng chưa đầy",
+      "Sát thương Raw Attack và Bạo kích thuộc hàng cực khủng từ SP2 khi có nhiều Buff Fury",
+      "Dồn bão Incinerate rút cạn cây máu đối thủ bằng SP1"
+    ],
+    "weaknesses": [
+      "Sợ các tướng Mystic có khả năng Nullify/Stagger/Fate Seal làm mất Buff Power Gain và Fury",
+      "Phụ thuộc nhiều vào việc Parry Choáng để giậm đòn Heavy"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Tích Fury & Power): Parry Choáng -> Giậm đòn Heavy Attack để tích lũy các Buff Fury tăng sát thương đòn đánh.",
+      "BƯỚC 2 (Đường Raw Damage): Nhờ Power Gain nạp năng lượng mấp nghé 2 thanh -> Bắn SP2 dồn bão Bạo kích + Choáng kết liễu trận đấu.",
+      "BƯỚC 3 (Đường DoT Lửa): Đối với đối thủ trâu giáp/kháng sát thương thô, liên tục Spam chiêu SP1 để dồn các tầng Incinerate thiêu rụi cây máu."
+    ],
+    "awakened_vs_unawakened": "CẦN HIGHSIG / DUP MẠNH: Khi chưa Duped, Hyperion vẫn tự nạp Power và xả chiêu tốt nhưng các Buff hết hạn rất nhanh. Khi Duped (Cosmic Energy Absorption), thời gian tồn tại của toàn bộ các Buff (Buff Durations) trên người Hyperion được gia tăng lên tới 70%+ (ngay từ Sig 20), giúp giữ chuỗi Fury và Power Gain cực kỳ lâu.",
+    "counters_targets": [
+      "Các đối thủ trong Battlegrounds / Quest cần dọn dẹp nhanh nhờ tốc độ nạp SP2",
+      "Tướng không có khả năng xóa Buff (Nullify)"
+    ],
+    "countered_by": [
+      "Doctor Doom / Symbiote Supreme / Kushala / Wiccan (Xóa Buff Cosmic)",
+      "Node Trừng phạt Buff Power Gain"
+    ]
+  },
+  {
+    "id": "mister-negative",
+    "name": "Mister Negative",
+    "class": "science",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/mister-negative.png",
+    "summary": "Bậc thầy năng lượng Âm/Dương dồn sát thương Degeneration gián tiếp khủng khiếp qua cơ chế chuyển đổi Light Energy thành Dark Energy và xả SP2.",
+    "strengths": [
+      "Gán bão Degeneration thụ động cực rát bỏ qua giáp và kháng phòng thủ",
+      "Khả năng tự động Evade đòn đánh khi gồng Heavy Attack",
+      "Xóa Buff bất lợi trên bản thân và quy đổi thành tài nguyên Light Energy"
+    ],
+    "weaknesses": [
+      "Sợ các tướng Miễn Nhiễm Degeneration",
+      "Yêu cầu kỹ năng quản lý và chuyển đổi nhịp nhàng giữa 2 nguồn năng lượng Light/Dark Energy"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Tích Light Energy): Parry (nhận 2 Light) hoặc Dash lùi xóa Buff (nhận 1 Light/Buff) để tích lũy từ 7-9 tầng Light Energy Charges.",
+      "BƯỚC 2 (Chuyển sang Dark Energy): Tụ lực Heavy Attack -> Đợi đối thủ lao vào đánh để tự động Né (Evade) hoặc bị ngã, toàn bộ Light Energy sẽ chuyển thành Dark Energy Charges.",
+      "BƯỚC 3 (Dồn Bão Degeneration): Tích lại tiếp 7-9 Light Energy và nạp 2+ thanh Power (SP2) -> Tụ Heavy để chuyển đống Light mới thành Dark Energy -> Xả ngay lập tức SP2 để chuyển toàn bộ Dark Energy thành các tầng Degeneration thiêu rụi đối thủ."
+    ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi Duped, Mister Negative nhận thêm khả năng hồi lại máu khi gán các tầng Degeneration và tăng mạnh hiệu lực sát thương Dark Damage.",
+    "counters_targets": [
+      "Các tướng phụ thuộc vào Buff (Dash lùi nuốt Buff đổi lấy Light Energy)",
+      "Các đối thủ trong Battlegrounds nhờ sát thương Degeneration không thể cản phá"
+    ],
+    "countered_by": [
+      "Tướng Miễn Nhiễm Degeneration (Robot / Mister Sinister)",
+      "Node Kháng hiệu ứng thụ động (Passive Debuffs / Degenerations)"
     ]
   }
 ]
