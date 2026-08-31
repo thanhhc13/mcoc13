@@ -1661,5 +1661,67 @@
       "Red Guardian / Absorbing Man (Tướng Miễn Nhiễm Poison)",
       "Node Trừng phạt Regeneration / Heal Block"
     ]
+  },
+  {
+    "id": "quicksilver",
+    "name": "Quicksilver",
+    "class": "science",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/quicksilver.png",
+    "summary": "Tốc Độ Đỉnh Cao MCOC với cơ chế Momentum dồn bão Momentum Passives, gán hàng chục tầng Momentum/Trauma Passives và bộc phá sát thương Physical Burst trực tiếp cực khủng.",
+    "strengths": [
+      "Tích lũy hàng chục tầng Momentum Passives giúp tăng tốc độ đòn đánh và sát thương Physical Burst",
+      "Gán Trauma Passives khiến đối thủ nhận thêm % sát thương trực tiếp (Direct Damage) thụ động từ mọi đòn đánh",
+      "Khả năng né đòn tự động (Evade Passive) và bỏ qua đòn tấn công khi có nhịp Momentum cao"
+    ],
+    "weaknesses": [
+      "Lối đánh yêu cầu duy trì chuỗi combo và kỹ năng quản lý nhịp Momentum chuẩn xác",
+      "Sợ các tướng/Node gán Slow hoặc Deceleration"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Tích Momentum Passives): Đánh các chuỗi combo MLLLM hoặc lướt lùi/tiến liên tục để tích tụ từ 30 đến tối đa 60+ tầng Momentum Passives.",
+      "BƯỚC 2 (Gán Trauma Passives & Whiplash): Giậm đòn Heavy Attack hoặc tung chiêu SP1 để chuyển đổi Momentum thành từ 10 đến 20+ tầng Trauma Passives & Whiplash Passives.",
+      "BƯỚC 3 (Xả SP2 Bộc Phá Physical Burst): Tích 2 thanh Power xả chiêu SP2 để bộc phá toàn bộ các tầng Whiplash Passives thành bão sát thương Physical Burst Damage dọn sạch cây máu đối thủ."
+    ],
+    "awakened_vs_unawakened": "CẦN HIGHSIG / DUP MẠNH: Khi chưa Duped, Quicksilver vẫn tích Momentum và xả SP2 rất mạnh nhưng mất thời gian tích lũy ở đầu trận. Khi Duped ở Sig cao, Quicksilver khởi đầu trận đấu với có sẵn +15 đến +30 tầng Momentum Passives, đồng thời gia tăng đáng kể thời gian tồn tại của Trauma & Whiplash Passives.",
+    "counters_targets": [
+      "Các tướng có lượng máu khủng / Boss Quest nhờ cơ chế Trauma nhân bản sát thương",
+      "Các đối thủ phòng thủ trong Battlegrounds cần dọn dẹp bằng sát thương Physical Burst"
+    ],
+    "countered_by": [
+      "Shang-Chi / Titania / Spider-Gwen (Các tướng gán Slow / Deceleration)",
+      "Node Miễn Nhiễm Physical Damage / Evade Immune"
+    ]
+  },
+  {
+    "id": "spider-punk",
+    "name": "Spider-Punk",
+    "class": "science",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/spider-punk.png",
+    "summary": "Nhện Rocker dồn sát thương Âm Nhạc bùng nổ qua cơ chế Anarchy Amplification, trừng phạt đối thủ bằng bão Rupture Passives và khả năng Né đòn linh hoạt.",
+    "strengths": [
+      "Gán bão Rupture Passives gián tiếp rút cạn cây máu không phụ thuộc Bạo kích",
+      "Né đòn tự động (Evade Passive) ảo diệu khi đối thủ tấn công hoặc xả chiêu Special",
+      "Khả năng Taunt ép đối thủ xả Special để dồn sát thương phản đòn"
+    ],
+    "weaknesses": [
+      "Máu và giáp ở mức trung bình (Glass Cannon)",
+      "Sợ các tướng chống Né (True Strike / True Sense)"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Tích Anarchy Charges & Rupture): Đánh combo MLLLL để tích tụ từ 8 đến 15 tầng Anarchy Charges kết hợp gán các tầng Rupture Passives lên đối thủ.",
+      "BƯỚC 2 (Tụ Heavy Gia Hạn & Taunt): Parry Choáng -> Tụ đòn Heavy Attack để đóng băng (Pause) đếm ngược toàn bộ Rupture Passives và gán Taunt Debuff.",
+      "BƯỚC 3 (Xả SP2 Bộc Phá Damage): Tích 2 thanh Power xả chiêu SP2 để tiêu thụ sạch Anarchy Charges, bộc phá bão sát thương Physical Burst & Rupture Damage dứt điểm trận đấu."
+    ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Spider-Punk vẫn dồn Rupture và nổ SP2 cực rát. Khi Duped, Spider-Punk tăng tỉ lệ tự động Evade Passive và gia tăng thêm chỉ số sát thương Rupture khi đối thủ bị gán Taunt.",
+    "counters_targets": [
+      "Các tướng thích xả chiêu Special liên tục",
+      "Các đối thủ phòng thủ trong Battlegrounds không có khả năng chống Evade"
+    ],
+    "countered_by": [
+      "Knull / Red Guardian / Venom (Các tướng chống Né)",
+      "Node Miễn Nhiễm Rupture / Debuff Cleanse"
+    ]
   }
 ]
