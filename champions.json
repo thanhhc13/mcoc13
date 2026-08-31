@@ -1257,5 +1257,316 @@
       "Tướng Miễn Nhiễm Degeneration (Robot / Mister Sinister)",
       "Node Kháng hiệu ứng thụ động (Passive Debuffs / Degenerations)"
     ]
+  },
+  {
+    "id": "bishop",
+    "name": "Bishop",
+    "class": "mutant",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/bishop.png",
+    "summary": "Chuyên gia hấp thụ sát thương Năng lượng quy đổi thành Prowess Passives, sở hữu đòn Heavy nổ sát thương Năng lượng cực rát và là Defender top đầu AW/BGs.",
+    "strengths": [
+      "Hấp thụ sát thương Năng lượng (Incinerate, Shock, Plasma) nạp dồn dập Personal Prowess Passives",
+      "Sát thương Burst Energy cực khủng khi tiêu thụ Prowess qua đòn Heavy Attack hoặc SP2",
+      "Phản sát thương Lửa thụ động lên đối thủ khi họ ăn đòn hoặc xả chiêu Special"
+    ],
+    "weaknesses": [
+      "Bị vô hiệu hóa tích Prowess khi đánh với các tướng hệ Tech",
+      "Sợ đối thủ Miễn Nhiễm Thiêu Đốt (Incinerate Immune)"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Tích Prowess Charges): Đỡ đòn (Well-Timed Block) hoặc đón nhận sát thương Năng lượng để tích từ 10 đến tối đa 30 tầng Personal Prowess Passives (mỗi tầng tăng +10% SP Damage).",
+      "BƯỚC 2 (Tụ Heavy Nổ Sát Thương): Parry Choáng -> Tụ lực Heavy Attack để xả sạch các tầng Personal Prowess Passives thành bão sát thương Năng lượng trực tiếp (Direct Energy Damage).",
+      "BƯỚC 3 (Xả SP2 Dồn Incinerate): Tích 2 thanh Power -> Xả chiêu SP2 để tiêu thụ sạch Prowess, gán bão Incinerate Debuffs thiêu rụi cây máu đối thủ."
+    ],
+    "awakened_vs_unawakened": "CẦN THỨC TỈNH: Khi Duped, Bishop khởi đầu trận đấu với có sẵn +2 Prowess Passives & 1 thanh Power, tăng tốc độ nạp Prowess và cho phép hồi máu qua cơ chế Regeneration khi gồng Block tiêu thụ Prowess.",
+    "counters_targets": [
+      "Human Torch / Sunspot / Electro / Storm (Các tướng chuyên gây sát thương Năng lượng)",
+      "Các Attacker hệ Skill trong Battlegrounds"
+    ],
+    "countered_by": [
+      "Nimrod / Bastion / Jack O'Lantern (Các tướng Tech)",
+      "Colossus / Red Goblin (Tướng Miễn Nhiễm Incinerate)"
+    ]
+  },
+  {
+    "id": "sandman",
+    "name": "Sandman",
+    "class": "science",
+    "tier": "God Tier",
+    "avatar": "/assets/champions/sandman.png",
+    "summary": "Người Cát kiểm soát trận đấu. Tích Resistance Up để kích hoạt Unstable, Rooted trói chân đối thủ và giậm Heavy dồn sát thương Physical Burst.",
+    "strengths": [
+      "Trói chân đối thủ (Rooted Passive) cố định để xả Heavy liên tục",
+      "Sát thương Physical Burst từ đòn Heavy tăng tiến mạnh theo số lượng Debuff",
+      "SP3 gán 30 Physical Vulnerability hỗ trợ dồn sát thương bộc phát cực rát"
+    ],
+    "weaknesses": [
+      "Phụ thuộc vào nhịp tích đủ 19+ Resistance Up Buffs",
+      "Cần căn nhịp chuẩn xác để đối thủ đánh trúng khi đang ở trạng thái Unstable"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Setup Resistance Up): Đánh combo MLLLM kết hợp Parry để tích đủ 14 tầng Resistance Up Buffs -> Bắn chiêu SP1 để tăng vọt lên mốc 19+ Resistance Up Buffs.",
+      "BƯỚC 2 (Kích Unstable & Rooted): Ép đối thủ xả Special -> Lao vào đánh 1 hit rồi Giữ Heavy để vào trạng thái Unstable (khiến đối thủ dính Rooted Passive trói chân).",
+      "BƯỚC 3 (Giậm Heavy Dồn Physical Burst): Trong thời gian đối thủ dính Rooted, liên tục giậm Heavy Attack 4 lần liên tiếp để dồn bão sát thương Physical Burst."
+    ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi Duped, Sandman nhận thêm khả năng tích tụ các tầng Resistance Up Buffs nhanh hơn khi chịu sát thương Vật Lý (Physical Damage) và gia tăng thêm chỉ số sát thương Bùng Nổ từ đòn Heavy.",
+    "counters_targets": [
+      "Các tướng thích lướt/Né liên tục (bị trói chân bởi Rooted Passive)",
+      "Các tướng hệ Skill phòng thủ không có khả năng giải Debuff"
+    ],
+    "countered_by": [
+      "Tướng Kháng Physical Damage",
+      "Node Miễn Nhiễm Rooted / Debuff Cleanse"
+    ]
+  },
+  {
+    "id": "enchantress",
+    "name": "Enchantress",
+    "class": "mystic",
+    "tier": "Beyond God Tier (Defender)",
+    "avatar": "/assets/champions/enchantress.png",
+    "summary": "Phù Thủy Asgard sở hữu bộ ma pháp Spells khống chế cực kỳ ảo diệu, phong ấn chiêu Special đối thủ và là Defender phòng thủ top 1 BGs/AW.",
+    "strengths": [
+      "Gán hiệu ứng Spells phong ấn hoàn toàn các đòn đánh và chiêu Special của đối thủ",
+      "Top 1 Defender trong BGs/AW nhờ cơ chế trừng phạt thao tác lướt/né đòn",
+      "Tự động chuyển hóa các Buff của đối thủ thành bão sát thương Năng lượng gián tiếp"
+    ],
+    "weaknesses": [
+      "Lối đánh Attacker phức tạp, yêu cầu nhập chuỗi lệnh đòn đánh chuẩn xác",
+      "Sợ các tướng có khả năng xóa/kháng hiệu ứng thụ động (Passive Control Immune)"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Nhập Lệnh Phép Spellbook): Đánh các chuỗi combo với hướng lướt chính xác (ví dụ: Fireball, Chain Lightning, Blizzard) để nhập và tích lũy từ 3 đến 9 tầng Spells (Evocation / Enchantment / Transmutation Spells) lên đối thủ.",
+      "BƯỚC 2 (Kích Hoạt Spell & Stun): Sử dụng đòn Heavy Attack hoặc SP1 để kích hoạt toàn bộ các Spells đang chờ, gán Passive Stun 0.75s và phong ấn Special Attack của đối thủ.",
+      "BƯỚC 3 (Bộc Phá Direct Energy Damage): Tích 2 thanh Power xả SP2 để bộc phá toàn bộ các Spells thành bão sát thương Direct Energy Damage dọn cạn cây máu."
+    ],
+    "awakened_vs_unawakened": "BẮT BUỘC DUP HIGHSIG (Cho Phòng Thủ): Khi Duped ở Sig cao, Enchantress nạp lại Spells tự động ngay đầu trận và tăng tối đa khả năng trừng phạt phản sát thương (Reflect Damage) khi làm Defender.",
+    "counters_targets": [
+      "Hầu hết các Attacker thông thường trong Battlegrounds / Alliance War",
+      "Các tướng Cosmic phụ thuộc nặng vào Buff và nạp Power"
+    ],
+    "countered_by": [
+      "Human Torch (Thiêu rụi bằng sát thương Lửa)",
+      "Spider-Ham (Trừng phạt chiêu Special bằng Poppers)"
+    ]
+  },
+  {
+    "id": "nico-minoru",
+    "name": "Nico Minoru",
+    "class": "mystic",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/nico-minoru.png",
+    "summary": "Phù thủy sở hữu trượng Staff of One dồn bão Spell Passives và bộc phá sát thương Năng lượng bùng nổ.",
+    "strengths": [
+      "Bộ Phép Thuật (Staff of One Spells) linh hoạt cấp nhiều hiệu ứng khống chế, Nullify Buff và nổ damage",
+      "Sát thương SP2 bùng nổ cực rát khi tích đủ các tầng phép ấn",
+      "Khả năng vô hiệu hóa Buff đối thủ vô cùng mạnh mẽ"
+    ],
+    "weaknesses": [
+      "Phụ thuộc vào nhịp xoay vòng phép ngẫu nhiên",
+      "Cần thời gian setup để đạt tối đa sát thương bộc phát"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Tích Phép Ấn Spells): Đánh các chuỗi combo kết thúc bằng Medium (MLLLM) hoặc Light (MLLLL) để kích hoạt và tích lũy đủ 4 đến 6 tầng Spell Passives độc nhất.",
+      "BƯỚC 2 (Khóa Buff & Kiểm Soát Power): Tung SP1 hoặc gồng Heavy để gán hiệu ứng Neutralize Passives và rút năng lượng Power Steal của đối thủ.",
+      "BƯỚC 3 (Xả SP2 Nổ Damage): Tích 2 thanh Power xả chiêu SP2 để quy đổi toàn bộ các tầng Spell Passives thành bão sát thương Energy Damage bùng nổ."
+    ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi Duped, Nico Minoru tự động nạp lại các tầng Spell Passives nhanh hơn và gia tăng thời gian tồn tại của các hiệu ứng Phép Thuật.",
+    "counters_targets": [
+      "Các tướng Cosmic phụ thuộc nhiều vào Buff",
+      "Các đối thủ trong Battlegrounds cần dọn dẹp bằng sát thương Năng lượng"
+    ],
+    "countered_by": [
+      "Human Torch (Thiêu rụi bằng sát thương Lửa)",
+      "Tướng Miễn Nhiễm sát thương Năng lượng"
+    ]
+  },
+  {
+    "id": "spider-man-pavitr",
+    "name": "Spider-Man (Pavitr)",
+    "class": "science",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/spider-man-pavitr.png",
+    "summary": "Nhện Ấn Độ dồn sát thương Web-Slinger siêu tốc, trói chân đối thủ bằng Tơ Nhện và liên tục tung các đòn Bạo kích bùng nổ.",
+    "strengths": [
+      "Evade Passive tự động cực kỳ ảo diệu khi bị tấn công",
+      "Gán hiệu ứng Webbing Passives / Rooted trói chân đối thủ và tăng vọt sát thương Bạo kích",
+      "Tốc độ dọn trận cực nhanh trong chế độ Battlegrounds"
+    ],
+    "weaknesses": [
+      "Máu mỏng, giáp yếu (Glass Cannon)",
+      "Sợ các tướng có True Strike / True Sense chống Né"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Tích Webbing & Agility): Đánh combo MLLLL để gán từ 5 đến 10 tầng Webbing Passives, kết hợp lướt lùi (Dexterity) để tích lũy Agility Passives.",
+      "BƯỚC 2 (Trói Chân Rooted): Giậm đòn Heavy Attack hoặc xả chiêu SP1 để chuyển đổi đống Webbing thành hiệu ứng Rooted Passive trói chân đối thủ.",
+      "BƯỚC 3 (Xả SP2 Dồn Crit): Tích 2 thanh Power xả chiêu SP2 để dồn bão sát thương Bạo kích (Critical Burst Damage) kết liễu đối thủ."
+    ],
+    "awakened_vs_unawakened": "KHÔNG BẮT BUỘC DUP: Pavitr ở mốc Unduped đã có trọn vẹn bộ dồn Bạo kích và Rooted. Khi Duped, Pavitr tăng tỉ lệ tự động Evade và tăng chỉ số Critical Rating khi đối thủ dính Webbing Passives.",
+    "counters_targets": [
+      "Các tướng phòng thủ không có khả năng chống Evade",
+      "Các đối thủ máu trung bình trong Battlegrounds"
+    ],
+    "countered_by": [
+      "Knull / Red Guardian / Venom (Tướng chống Né)",
+      "Node True Strike / True Accuracy"
+    ]
+  },
+  {
+    "id": "shathra",
+    "name": "Shathra",
+    "class": "mystic",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/shathra.png",
+    "summary": "Nữ chúa Ong Bắp Cày ma quái, gán bão Swarm Passives rút máu gián tiếp và là Defender phòng thủ vô cùng ức chế.",
+    "strengths": [
+      "Sát thương gián tiếp từ Swarm Passives rút cạn cây máu không phụ thuộc Bạo kích",
+      "Top Defender trong Battlegrounds / AW nhờ cơ chế trừng phạt đòn đánh",
+      "Khả năng cướp và vô hiệu hóa các Buff của hệ Cosmic"
+    ],
+    "weaknesses": [
+      "Sợ các tướng Miễn Nhiễm Poison / Kháng hiệu ứng thụ động",
+      "Yêu cầu duy trì chuỗi Swarm để đạt sát thương cực đại"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Tích Swarm Passives): Đánh combo kết thúc bằng Light (MLLLL) kết hợp Parry để tích lũy từ 10 đến 20+ tầng Swarm Passives lên đối thủ.",
+      "BƯỚC 2 (Pause Swarm): Giậm đòn Heavy Attack để đóng băng (Pause) thời gian đếm ngược của toàn bộ các tầng Swarm Passives.",
+      "BƯỚC 3 (Xả SP2 Bộc Phá Damage): Tích 2 thanh Power xả SP2 để bộc phá toàn bộ Swarm Passives dồn đống sát thương Poison Burst / Direct Damage cực khủng."
+    ],
+    "awakened_vs_unawakened": "BẮT BUỘC DUP HIGHSIG (Cho Phòng Thủ): Khi Duped ở Sig cao, Shathra nạp lại các tầng Swarm Passives tự động ngay đầu trận và phản sát thương cực rát khi làm Defender.",
+    "counters_targets": [
+      "Các tướng Cosmic nhiều Buff (Hulking, Gorr, Venom)",
+      "Attacker trong Battlegrounds không có khả năng chống sát thương gián tiếp"
+    ],
+    "countered_by": [
+      "Human Torch / Red Guardian",
+      "Tướng Miễn Nhiễm Poison / Debuffs"
+    ]
+  },
+  {
+    "id": "destroyer",
+    "name": "The Destroyer",
+    "class": "mystic",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/destroyer.png",
+    "summary": "Bộ giáp Thần Thánh Asgard với sát thương Degeneration hủy diệt, gán Degeneration bộc phát và Unstoppable càn quét trận đấu.",
+    "strengths": [
+      "Sát thương Degeneration Passives gián tiếp siêu to từ SP2",
+      "Trạng thái Unstoppable Passives giúp càn quét đấm đè Block đối thủ vô cùng an toàn",
+      "Tự động chuyển hóa Buff của đối thủ thành năng lượng bộc phá"
+    ],
+    "weaknesses": [
+      "Sợ các tướng gán Slow / Deceleration",
+      "Phụ thuộc vào nhịp duy trì Asgardian Charges"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Tích Asgardian Energy): Đánh combo MLLLM hoặc Parry Heavy để tích đủ 100 điểm Asgardian Energy Charges.",
+      "BƯỚC 2 (Kích Unstoppable & Đấm Đè Block): Bật trạng thái Unstoppable Passive để đấm xuyên khiên Block đối thủ và nạp thần tốc thanh năng lượng SP2.",
+      "BƯỚC 3 (Xả SP2 Nổ Degeneration): Bắn chiêu SP2 để tiêu thụ sạch Asgardian Energy, dồn bão sát thương Degeneration Passives hủy diệt cây máu đối thủ."
+    ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi Duped, The Destroyer gia tăng thời gian tồn tại của trạng thái Unstoppable Passive và tăng thêm sát thương Degeneration khi đối thủ có Buff.",
+    "counters_targets": [
+      "Các tướng Cosmic trâu giáp và phụ thuộc Buff",
+      "Các đối thủ trong Battlegrounds cần dọn dẹp tốc độ cao"
+    ],
+    "countered_by": [
+      "Shang-Chi / Titania (Các tướng gán Slow)",
+      "Tướng Miễn Nhiễm Degeneration"
+    ]
+  },
+  {
+    "id": "kindred",
+    "name": "Kindred",
+    "class": "mystic",
+    "tier": "Beyond God Tier (Defender)",
+    "avatar": "/assets/champions/kindred.png",
+    "summary": "Quái vật phòng thủ hệ Mystic hàng đầu AW/BGs nhờ cơ chế Rết, mạng Bất tử (Death's Embrace) khi Awakened và Infestation dồn Degeneration thụ động.",
+    "strengths": [
+      "Mạng Bất tử / Death's Embrace Passive chống chết cực kỳ khó chịu khi Awakened",
+      "Gán Infestation Passive gây sát thương Degeneration thụ động không cần tấn công trực tiếp",
+      "Khắc chế tướng Cosmic bằng cơ chế Neutralize Passives",
+      "Miễn nhiễm Bleed và Coldsnap"
+    ],
+    "weaknesses": [
+      "Tốc độ dọn trận Attacker ở mức trung bình",
+      "Phụ thuộc nhiều vào cấp độ Thức Tỉnh (High Sig) để tối ưu khả năng phòng thủ"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Tích Tầng Rết Centipedes): Đánh combo kết thúc bằng Light (MLLLL) hoặc Heavy để tích đủ 10 tầng Centipede Passives.",
+      "BƯỚC 2 (Kích Nightmare Mode & Infestation): Đạt 10 Centipedes hoặc bắn SP1 để kích hoạt Nightmare Mode, gán hiệu ứng Infestation Passive lên đối thủ.",
+      "BƯỚC 3 (Xả SP2 Pause Infestation): Tích 2 thanh Power xả SP2 để gia tăng sát thương Degeneration Passive và Pause đếm ngược thời gian tồn tại của Infestation Passive."
+    ],
+    "awakened_vs_unawakened": "BẮT BUỘC DUP HIGHSIG (Cho Phòng Thủ): Khi Duped ở Sig cao, Kindred nhận mạng Bất tử Death's Embrace Passive (chống chết và hồi lại 40-60% máu khi cạn cây máu), biến hắn thành một trong những Defender khó chịu nhất MCOC.",
+    "counters_targets": [
+      "Hulking / Venom / Gorr (Các tướng Cosmic phụ thuộc Buff)",
+      "Các tướng phụ thuộc vào hiệu ứng Chảy máu (Bleed)"
+    ],
+    "countered_by": [
+      "Human Torch (Thiêu rụi bằng Flame On)",
+      "Spider-Ham (Ép xả Special tự nổ Poppers)"
+    ]
+  },
+  {
+    "id": "spiral",
+    "name": "Spiral",
+    "class": "mutant",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/spiral.png",
+    "summary": "Phù thủy sáu tay với lối đánh Dancing Stances, dồn bão Debuff đa dạng và khả năng phản sát thương cực ảo.",
+    "strengths": [
+      "Dancing Stances Passives cấp nhiều dạng Debuff như Armor Break, Bleed và Incinerate",
+      "Sát thương bộc phát cực cao khi tích đủ các điệu múa và xả Special Attacks",
+      "Né đòn tự động và phản đòn linh hoạt nhờ nhịp điệu múa"
+    ],
+    "weaknesses": [
+      "Yêu cầu nhớ chuỗi combo chuyển đổi điệu múa",
+      "Sợ các tướng Tech kiểm soát hiệu ứng thụ động"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Tích Điệu Múa Dancing Stances): Đánh 3 chuỗi combo kết thúc khác nhau (MLLLM, MLLLL, M-M) để hoàn tất và tích lũy 3 tầng Dancing Stances Passives độc nhất.",
+      "BƯỚC 2 (Gồng Heavy Gia Hạn): Tụ đòn Heavy Attack để đóng băng (Pause) thời gian đếm ngược của các trạng thái Dancing Stances.",
+      "BƯỚC 3 (Xả SP2 Bộc Phá Damage): Tích 2 thanh Power xả SP2 để bộc phá toàn bộ bão sát thương Bạo kích và Debuffs (Bleed/Incinerate) lên đối thủ."
+    ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi Duped, Spiral tăng tốc độ nạp các tầng Dancing Stances Passives và tăng chỉ số Critical Rating khi chuyển đổi trạng thái múa.",
+    "counters_targets": [
+      "Các tướng hệ Skill phụ thuộc vào Armor và Block",
+      "Các đối thủ trong Battlegrounds cần dọn dẹp bằng sát thương bộc phát"
+    ],
+    "countered_by": [
+      "Nimrod / Bastion / Jack O'Lantern (Các tướng Tech)",
+      "Node Stun Immune / True Strike"
+    ]
+  },
+  {
+    "id": "wong",
+    "name": "Wong",
+    "class": "mystic",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/wong.png",
+    "summary": "Pháp sư tối thượng kiểm soát năng lượng, dồn bão Eldritch Spells và sát thương Năng lượng gián tiếp cực kỳ bền bỉ.",
+    "strengths": [
+      "Eldritch Spells Passives cấp Hồi Máu, Phá Giáp và nạp Power Gain Dồn Dập",
+      "Pause hiệu ứng thụ động giúp duy trì chuỗi dồn sát thương vô hạn",
+      "Sát thương SP2 Năng lượng bùng nổ theo số lượng phép ấn tích lũy"
+    ],
+    "weaknesses": [
+      "Cần thời gian setup xoay vòng Phép Ấn ở đầu trận",
+      "Sợ đối thủ có Energy Resistance cao"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Xoay & Tích Eldritch Spells): Parry Choáng -> Tụ Heavy Attack để xoay đổi và tích lũy từ 3 đến 5 tầng Eldritch Spells Passives (Vortex, Shield, Strikes).",
+      "BƯỚC 2 (Kích Hoạt SP1 Gia Hạn): Thực hiện SP1 để kích hoạt hiệu ứng và Pause đếm ngược toàn bộ các tầng Eldritch Spells Passives.",
+      "BƯỚC 3 (Xả SP2 Dồn Energy Damage): Tích 2 thanh Power xả SP2 để chuyển hóa toàn bộ Phép Ấn thành bão sát thương Energy Damage bùng nổ kết liễu đối thủ."
+    ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi Duped, Wong gia tăng tốc độ nạp Eldritch Spells Passives và tăng mạnh hiệu lực Hồi Máu (Regeneration Passive) khi bị nhận sát thương.",
+    "counters_targets": [
+      "Các tướng Cosmic phụ thuộc Buff và trâu giáp",
+      "Các trận đấu dài / Boss Quest nhờ khả năng hồi phục bền bỉ"
+    ],
+    "countered_by": [
+      "Human Torch / Absorbing Man (Kháng sát thương Năng lượng)",
+      "Node Stun Immune"
+    ]
   }
 ]
