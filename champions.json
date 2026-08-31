@@ -370,37 +370,6 @@
     ]
   },
   {
-    "id": "sandman",
-    "name": "Sandman",
-    "class": "science",
-    "tier": "God Tier",
-    "avatar": "/assets/champions/sandman.png",
-    "summary": "Người Cát kiểm soát trận đấu. Tích 20+ Resistance Up để kích hoạt Unstable, Rooted trói chân đối thủ và giậm Heavy dồn sát thương.",
-    "strengths": [
-      "Trói chân đối thủ (Rooted) cố định để thoải mái xả Heavy liên tục",
-      "Sát thương Physical Burst từ đòn Heavy tăng tiến theo số lượng Debuff",
-      "SP3 gán 30 Physical Vulnerability hỗ trợ dồn sát thương cực rát"
-    ],
-    "weaknesses": [
-      "Lối đánh cần thời gian setup tầng Resistance Up",
-      "Cần căn nhịp để đối thủ đánh trúng khi đang Unstable"
-    ],
-    "rotation": [
-      "Tích 14 Resistance Up -> Tung SP1 (lên 19 tầng).",
-      "Ép đối thủ xả SP -> Lao vào đánh 1 hit + Giữ Heavy hóa Unstable (đối thủ dính Rooted).",
-      "Giậm Heavy 4 lần liên tiếp dồn sát thương Physical Burst cực mạnh."
-    ],
-    "awakened_vs_unawakened": "NÊN DUP: Khi Duped, Sandman nhận thêm khả năng tích tụ các tầng Resistance Up nhanh hơn khi gánh chịu các đòn đánh Physical Damage và tăng thêm chỉ số sát thương Bùng Nổ từ đòn Heavy.",
-    "counters_targets": [
-      "Các tướng thích lướt/Né liên tục (bị trói chân bởi Rooted)",
-      "Tướng hệ Skill phòng thủ"
-    ],
-    "countered_by": [
-      "Tướng Kháng Physical Damage",
-      "Node Miễn nhiễm Rooted / Debuff Cleanse"
-    ]
-  },
-  {
     "id": "black-panther",
     "name": "Black Panther",
     "class": "skill",
@@ -1385,7 +1354,7 @@
   {
     "id": "spider-man-pavitr",
     "name": "Spider-Man (Pavitr)",
-    "class": "science",
+    "class": "mystic",
     "tier": "Beyond God Tier",
     "avatar": "/assets/champions/spider-man-pavitr.png",
     "summary": "Nhện Ấn Độ dồn sát thương Web-Slinger siêu tốc, trói chân đối thủ bằng Tơ Nhện và liên tục tung các đòn Bạo kích bùng nổ.",
@@ -1567,6 +1536,130 @@
     "countered_by": [
       "Human Torch / Absorbing Man (Kháng sát thương Năng lượng)",
       "Node Stun Immune"
+    ]
+  },
+  {
+    "id": "count-nefaria",
+    "name": "Count Nefaria",
+    "class": "science",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/count-nefaria.png",
+    "summary": "Ma cà rồng Science cướp đoạt sinh lực và năng lượng, kiểm soát trận đấu bằng Ionic Energy và dồn sát thương bùng nổ.",
+    "strengths": [
+      "Khả năng cướp Power và hồi máu (Power Steal & Regeneration) cực rát khi kiểm soát Ionic Energy",
+      "Giảm khả năng nạp Power của đối thủ và vô hiệu hóa các Buff nạp năng lượng",
+      "Sát thương bộc phát khổng lồ từ đòn Heavy và các chiêu Special Attack"
+    ],
+    "weaknesses": [
+      "Yêu cầu kỹ năng duy trì và quản lý mức Ionic Energy liên tục",
+      "Giảm hiệu quả khi đối đầu với các tướng kháng Power Drain/Steal"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Tích Ionic Energy Charges): Đánh combo MLLLM hoặc Parry Choáng để tích lũy từ 10 đến 20+ tầng Ionic Energy Charges (mỗi tầng gia tăng chỉ số Attack Rating và hiệu suất cướp Power).",
+      "BƯỚC 2 (Khóa Năng Lượng): Dùng SP1 để tiêu thụ Ionic Energy, gán Power Steal Debuffs và rút cạn thanh năng lượng đối thủ.",
+      "BƯỚC 3 (Xả SP2 Dồn Direct Damage): Tích 2 thanh Power khi đang có Ionic Energy cao, xả SP2 để bộc phá bão sát thương Direct Damage bùng nổ."
+    ],
+    "awakened_vs_unawakened": "CẦN HIGHSIG / DUP MẠNH: Khi chưa Duped, Nefaria vẫn cướp Power và dồn damage tốt. Khi được Thức Tỉnh ở Sig cao, Nefaria nhận khả năng tự động nạp Ionic Energy Charges ngay đầu trận và tăng mạnh hiệu suất Hồi Máu khi rút năng lượng đối thủ.",
+    "counters_targets": [
+      "Các tướng Cosmic phụ thuộc Buff Power Gain (Hyperion, Galan)",
+      "Các đối thủ trong Battlegrounds cần kiểm soát Power tuyệt đối"
+    ],
+    "countered_by": [
+      "Red Guardian / Các tướng kháng Power Steal",
+      "Tướng hệ Skill có khả năng Purify Debuff thần tốc"
+    ]
+  },
+  {
+    "id": "spider-woman-jessica-drew",
+    "name": "Spider-Woman (Jessica Drew)",
+    "class": "science",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/spider-woman-jessica-drew.png",
+    "summary": "Nữ Nhện Science dồn bão Venom Passives và Bio-Electric Shock, trừng phạt đối thủ xả Special và làm suy giảm khả năng phòng thủ.",
+    "strengths": [
+      "Né đòn tự động (Evade Passive) cực ảo khi bị đối thủ tấn công",
+      "Gán bão Venom Passives và Shock Debuffs rút máu gián tiếp cực rát",
+      "Khả năng Taunt ép đối thủ xả chiêu Special và tự nổ sát thương"
+    ],
+    "weaknesses": [
+      "Máu và giáp ở mức trung bình",
+      "Sợ các tướng chống Né (True Strike / True Sense)"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Tích Venom & Pheromone Passives): Đánh combo MLLLL để gán từ 5 đến 12 tầng Venom Passives kết hợp lướt lùi tích lũy Pheromone Passives.",
+      "BƯỚC 2 (Gán Taunt & Shock): Dùng chiêu SP1 để gán Taunt Debuff ép đối thủ dùng Special Attack và dồn bão Bio-Electric Shock Debuffs.",
+      "BƯỚC 3 (Xả SP2 Bộc Phá Damage): Tích 2 thanh Power xả SP2 để bộc phá toàn bộ Venom Passives thành bão sát thương Physical Burst Damage."
+    ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Spider-Woman vẫn dồn Venom Passives rát. Khi Duped, cô gia tăng tỉ lệ tự động Evade Passive và kéo dài thời gian tồn tại của tất cả các hiệu ứng Debuff/Passives trên người đối thủ.",
+    "counters_targets": [
+      "Các tướng thích xả Special Attack liên tục",
+      "Các đối thủ không có True Strike trong Battlegrounds"
+    ],
+    "countered_by": [
+      "Knull / Red Guardian / Venom (Các tướng chống Né)",
+      "Tướng Miễn Nhiễm Shock / Debuffs"
+    ]
+  },
+  {
+    "id": "hulk",
+    "name": "Hulk",
+    "class": "science",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/hulk.png",
+    "summary": "Khổng Lồ Xanh sau Buff/Rework sở hữu bộ Gamma Rage càn quét, Stun Lock liên hoàn và giậm Heavy nổ sát thương Physical Burst hủy diệt.",
+    "strengths": [
+      "Trạng thái Gamma Rage cấp Unstoppable và tăng chỉ số Attack Rating khổng lồ",
+      "Khả năng Choáng liên hoàn (Stun Lock) đấm đối thủ không kịp trở tay",
+      "Giậm Heavy dồn sát thương Physical Burst cực mạnh khi đối thủ dính Stun"
+    ],
+    "weaknesses": [
+      "Thọt nặng khi gặp tướng/Node Miễn Nhiễm Choáng (Stun Immune)",
+      "Sợ các tướng gán Slow / Deceleration"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Tích Gamma Charges): Đánh combo MLLLM hoặc nhận đòn đánh để tích đủ 10 điểm Gamma Charges (kích hoạt Gamma Rage Passive).",
+      "BƯỚC 2 (Bật Gamma Rage & Stun Lock): Khi vào trạng thái Gamma Rage (Unstoppable), tung SP1 để gán Passive Stun 2.5s.",
+      "BƯỚC 3 (Giậm Heavy Dồn Sát Thương): Ngay khi đối thủ bị Choáng, giậm Heavy liên tục để tiêu thụ Gamma Charges dồn bão sát thương Physical Burst Damage dọn cạn cây máu."
+    ],
+    "awakened_vs_unawakened": "CẦN THỨC TỈNH: Khi Duped (Undying Rage), Hulk nhận thêm chỉ số Attack Rating tăng mạnh dựa trên lượng máu đã mất và khả năng tự động bật Gamma Rage Passive khi máu xuống thấp.",
+    "counters_targets": [
+      "Hầu hết các Attacker/Defender không có Stun Immune",
+      "Các đối thủ trong Battlegrounds cần dọn dẹp tốc độ dưới 15-20s"
+    ],
+    "countered_by": [
+      "Node Stun Immune / Debuff Cleanse",
+      "Shang-Chi / Titania (Các tướng gán Slow)"
+    ]
+  },
+  {
+    "id": "lizard",
+    "name": "Lizard",
+    "class": "science",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/lizard.png",
+    "summary": "Quái quỷ Lizard với khả năng hồi phục Regenerative Scaling, dồn Poison Debuffs gián tiếp và trừng phạt đòn Block của đối thủ.",
+    "strengths": [
+      "Khả năng Hồi Máu (Regeneration Passive) siêu mạnh dựa trên lượng sát thương nhận vào",
+      "Gán bão Poison Debuffs / Reptilian Passives rút cạn máu xuyên qua khiên Block",
+      "Đòn Heavy giậm xuyên Block cực kỳ ức chế"
+    ],
+    "weaknesses": [
+      "Phụ thuộc vào nhịp duy trì các tầng Reptilian Chemical",
+      "Sợ các tướng Miễn Nhiễm Độc (Poison Immune)"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Tích Reptilian Charges): Đánh combo kết thúc bằng Light (MLLLL) hoặc gồng Heavy để tích từ 10 đến 20+ tầng Reptilian Charges.",
+      "BƯỚC 2 (Gán Poison & Pause): Tung chiêu SP1 để chuyển đổi Reptilian Charges thành bão Poison Debuffs, dùng Heavy để Pause thời gian đếm ngược của Poison.",
+      "BƯỚC 3 (Xả SP2 Bộc Phá Damage): Tích 2 thanh Power xả SP2 để bộc phá sát thương Poison Burst Damage dứt điểm trận đấu."
+    ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi Duped, Lizard tăng tốc độ tích tụ Reptilian Charges và gia tăng hiệu lực Hồi Máu (Regeneration Passive) khi bị gán Debuff xấu.",
+    "counters_targets": [
+      "Các tướng phòng thủ thích ôm Block",
+      "Các đối thủ không có khả năng chống Poison"
+    ],
+    "countered_by": [
+      "Red Guardian / Absorbing Man (Tướng Miễn Nhiễm Poison)",
+      "Node Trừng phạt Regeneration / Heal Block"
     ]
   }
 ]
