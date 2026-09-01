@@ -1723,5 +1723,67 @@
       "Knull / Red Guardian / Venom (Các tướng chống Né)",
       "Node Miễn Nhiễm Rupture / Debuff Cleanse"
     ]
+  },
+  {
+    "id": "killmonger",
+    "name": "Killmonger",
+    "class": "skill",
+    "tier": "God Tier",
+    "avatar": "/assets/champions/killmonger.png",
+    "summary": "Chiến binh Wakanda sở hữu lối đánh phòng thủ vô cùng an toàn với True Strike, khiên Bất Tử (Indestructible) và bão Bleed thụ động từ SP3.",
+    "strengths": [
+      "True Strike kích hoạt dễ dàng (Punish Special) giúp xuyên Giáp, xuyên Né và xuyên Auto-Block",
+      "SP2 cấp 3 tầng khiên Indestructible Buffs giúp đỡ trọn vẹn chiêu SP3 của đối thủ",
+      "Counterpunch Charges (SP1) giúp kích hoạt Unstoppable khi Block để phản đòn dễ dàng"
+    ],
+    "weaknesses": [
+      "Sợ các tướng gán Armor Break (Phá Giáp) làm vô hiệu hóa bộ Giáp Vibranium Armor",
+      "Giảm sát thương rõ rệt khi gặp đối thủ Miễn Nhiễm Bleed"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Kích True Strike & Counterpunch): Punish chiêu Special đối thủ (đánh ngay khi họ vừa ra chiêu) để nhận True Strike Buff (16s), hoặc xả SP1 để nạp 3 tầng Counterpunch Charges.",
+      "BƯỚC 2 (Tích Indestructible Buffs): Tích 2 thanh Power -> Bắn SP2 để lấy 3 tầng khiên Indestructible Buffs an toàn giao tranh.",
+      "BƯỚC 3 (Xả SP3 Dồn Bleed Passives): Trận dài / Boss: Tích lũy đủ 15+ tầng Bleed Debuffs trên người đối thủ -> Bắn SP3 để chuyển toàn bộ thành bão Bleed Passives thụ động rút cạn cây máu."
+    ],
+    "awakened_vs_unawakened": "CẦN HIGHSIG / DUP MẠNH: Khi chưa Duped, Killmonger vẫn có True Strike và khiên Indestructible. Khi Duped (Reverberation) ở Sig cao, Killmonger phản lại tới 80-100% sát thương nhận vào khi đang bật Vibranium Armor, biến hắn thành một Defender phòng thủ rất khó chịu.",
+    "counters_targets": [
+      "Medusa / Spider-Man / Peni Parker (Bỏ qua Auto-Block & Evade nhờ True Strike)",
+      "Hyperion / Mordo (Dùng khiên Indestructible từ SP2 để đỡ trọn chiêu SP3)"
+    ],
+    "countered_by": [
+      "Corvus Glaive / CGR / Medusa (Gán Armor Break làm hủy bộ Giáp Vibranium)",
+      "Colossus / Magneto / Robots (Các tướng Miễn Nhiễm Bleed)"
+    ]
+  },
+  {
+    "id": "black-panther-civil-war",
+    "name": "Black Panther (Civil War)",
+    "class": "skill",
+    "tier": "Useful / Mid Tier",
+    "avatar": "/assets/champions/black-panther-civil-war.png",
+    "summary": "Báo Đen Civil War chuyên phản Choáng (Reflective Stun), tích lũy Armor Up Buffs và bộc phá sát thương Bleed/Bạo kích khi hấp thụ lực tấn công.",
+    "strengths": [
+      "Khả năng tiêu thụ Armor Up Buff để phản lại hiệu ứng Stun (Reflective Stun) sang cho đối thủ khi bị Parry",
+      "Tích lũy dồn dập các tầng Armor Up Buffs tăng cường giáp và sát thương đòn đánh",
+      "Khả năng gán Bleed Debuffs liên tục khi đối thủ bị Choáng"
+    ],
+    "weaknesses": [
+      "Sợ các tướng có khả năng Phá Giáp (Armor Break) làm mất hoàn toàn cơ chế phản Stun",
+      "Phụ thuộc nhiều vào việc đối thủ tấn công vào Block để nạp Armor Up"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Tích Armor Up Buffs): Đỡ đòn (Block) hoặc Dash lùi để tích lũy từ 3 đến 8+ tầng Armor Up Buffs.",
+      "BƯỚC 2 (Phản Stun & Gán Bleed): Cho đối thủ Parry/Stun bản thân để tiêu thụ 1 Armor Up, phản ngược Passive Stun sang đối thủ -> Lao vào đánh combo MLLLM gán Bleed Debuffs.",
+      "BƯỚC 3 (Xả SP2 Bộc Phá Damage): Tích 2 thanh Power khi đang có nhiều Armor Up Buffs, xả SP2 để chuyển đổi giáp thành bão sát thương Bạo kích và Bleed Debuffs."
+    ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Báo Đen CW vẫn tích Armor Up và phản Stun được. Khi Duped (Vibranium Armor), Báo Đen CW nhận thêm khả năng tích tụ Armor Up Buffs tự động khi chịu sát thương, giúp tăng tốc độ nạp giáp và phản đòn an toàn hơn.",
+    "counters_targets": [
+      "Các Attacker thích dùng Parry Choáng liên tục",
+      "Các tướng không có khả năng Phá Giáp (Armor Break)"
+    ],
+    "countered_by": [
+      "Corvus Glaive / CGR / Medusa (Phá Giáp xóa sạch Armor Up và vô hiệu hóa phản Stun)",
+      "Magneto (Khắc chế tướng Metal)"
+    ]
   }
 ]
