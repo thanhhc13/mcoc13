@@ -1785,5 +1785,36 @@
       "Corvus Glaive / CGR / Medusa (Phá Giáp xóa sạch Armor Up và vô hiệu hóa phản Stun)",
       "Magneto (Khắc chế tướng Metal)"
     ]
+  },
+  {
+    "id": "gentle",
+    "name": "Gentle",
+    "class": "mutant",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/gentle.png",
+    "summary": "Chiến binh Wakanda hệ Mutant kiểm soát lượng nhiệt cơ thể, tích tụ Vibranium Tattoos để hóa khổng lồ dồn bão sát thương Bùng Nổ (Physical Burst) và gán hiệu ứng Choáng/Nén Sức Mạnh.",
+    "strengths": [
+      "Khả năng chống chịu sát thương đột biến cực tốt nhờ các vết xăm Vibranium Tattoos",
+      "Sát thương Physical Burst siêu to từ đòn Heavy và chiêu Special 2 khi nạp tối đa nhiệt lượng",
+      "Khả năng tự khóa/giảm sát thương nhận vào khi đối thủ xả chiêu Special"
+    ],
+    "weaknesses": [
+      "Sợ các tướng Tech diệt Mutant (Nimrod, Bastion) có khả năng vô hiệu hóa cơ chế nạp nhiệt",
+      "Yêu cầu quản lý thanh nhiệt độ (Heat Threshold) để tránh tự làm tổn thương bản thân"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Tích Vibranium Tattoos & Heat): Đánh các chuỗi combo MLLLM hoặc nhận đòn Block chuẩn xác để tích tụ từ 10 đến 20+ tầng Vibranium Tattoos Passives và đẩy thanh nhiệt lượng (Heat Level) lên mốc tối ưu.",
+      "BƯỚC 2 (Kích Hoạt Extreme Mass): Giậm đòn Heavy Attack khi nhiệt lượng cao để chuyển sang trạng thái Extreme Mass, tăng vọt chỉ số Attack Rating và gán Passive Stun lên đối thủ.",
+      "BƯỚC 3 (Xả SP2 Bộc Phá Physical Burst): Tích 2 thanh Power xả ngay chiêu SP2 để tiêu thụ toàn bộ lượng nhiệt đã tích lũy, bộc phá bão sát thương Physical Burst Damage dọn cạn cây máu đối thủ."
+    ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Gentle vẫn nổ sát thương Physical Burst rất mạnh. Khi được Thức Tỉnh (Wakandan Resilience), Gentle kiểm soát lượng nhiệt an toàn hơn, tăng tốc độ nạp Vibranium Tattoos Passives và nhận thêm khả năng hồi lại một lượng máu dựa trên sát thương nhiệt lượng tỏa ra.",
+    "counters_targets": [
+      "Các tướng dồn sát thương bộc phát cao (được giảm sát thương nhờ Vibranium Tattoos)",
+      "Các đối thủ phòng thủ trong Battlegrounds cần dọn dẹp bằng sát thương Physical Burst"
+    ],
+    "countered_by": [
+      "Nimrod / Bastion / Sentinel (Các tướng Tech diệt Mutant)",
+      "Node Miễn Nhiễm Physical Damage / Stun Immune"
+    ]
   }
 ]
