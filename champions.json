@@ -1816,5 +1816,36 @@
       "Nimrod / Bastion / Sentinel (Các tướng Tech diệt Mutant)",
       "Node Miễn Nhiễm Physical Damage / Stun Immune"
     ]
+  },
+  {
+    "id": "baron-zemo",
+    "name": "Baron Zemo",
+    "class": "skill",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/baron-zemo.png",
+    "summary": "Thủ lĩnh Hydra với cơ chế Root trói chân đối thủ bằng SP2, duy trì nhịp tấn công dồn dập trong vùng Root để tích dồn bão Bleed Passives vĩnh viễn và gia hạn bằng SP1.",
+    "strengths": [
+      "Khả năng Root (trói chân) đối thủ qua SP2 giúp duy trì chuỗi tấn công liên tục mà không lo đối thủ lướt lùi",
+      "Tích dồn các tầng Bleed Passives vĩnh viễn (Indefinite Bleeds) rút cạn cây máu đối thủ",
+      "Vô hiệu hóa hoàn toàn khả năng Evade và Auto-Block khi đối thủ ở trong hiệu ứng Root"
+    ],
+    "weaknesses": [
+      "Sát thương giảm đáng kể khi gặp đối thủ Miễn Nhiễm Chảy Máu (Bleed Immune)",
+      "Yêu cầu giữ nhịp tấn công liên tục (aggressive playstyle) trong thời gian Root đếm ngược"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Nạp 90% Thanh Power): Thực hiện liên tục các chuỗi combo MLLLM hoặc MLLLL để tích lũy thanh năng lượng lên gần mốc 2 bar Power (~90% max power).",
+      "BƯỚC 2 (Xả SP2 Kích Root): Đánh combo MLLLM đẩy đối thủ lại gần góc -> Xả chiêu SP2 để kích hoạt vùng hiệu ứng Root Passive (trói chân đối thủ tại chỗ).",
+      "BƯỚC 3 (Tấn Công Trong Root & Dồn SP1): Ngay khi đối thủ bị Root, liên tục lao vào đánh các chuỗi combo MLLLM / MLLLL dồn dập để gán bão Bleed Passives vĩnh viễn. Ngay trước khi hiệu ứng Root đếm ngược kết thúc, xả chiêu SP1 để làm mới và tiếp tục dồn sát thương."
+    ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Baron Zemo vẫn kích hoạt Root từ SP2 và tích dồn Bleed vĩnh viễn cực mạnh. Khi được Thức Tỉnh (Master Tactician), Zemo gia tăng thời gian tồn tại của vùng Root Passive và tự động Cleanse (xóa) Debuffs xấu trên bản thân khi bị gán hiệu ứng khống chế.",
+    "counters_targets": [
+      "Medusa / Peni Parker / Spider-Man (Bỏ qua Auto-Block và Evade nhờ hiệu ứng Root)",
+      "Các đối thủ phòng thủ trâu máu trong Battlegrounds / Quest cần dọn dẹp bằng Bleed Passives vĩnh viễn"
+    ],
+    "countered_by": [
+      "Colossus / Red Guardian / Robots (Các tướng Miễn Nhiễm Bleed)",
+      "Node Miễn Nhiễm Root / Debuff Cleanse"
+    ]
   }
 ]
