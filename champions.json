@@ -614,39 +614,6 @@
       "Tướng Bleed Immune"
     ]
   },
- {
-    "id": "cull-obsidian",
-    "name": "Cull Obsidian",
-    "class": "cosmic",
-    "tier": "Beyond God Tier",
-    "avatar": "/assets/champions/cull-obsidian.png",
-    "summary": "Quái vật dồn sát thương bạo kích cực đại với lối đánh Cheese Combo SP2 nối Relic, xé rách giáp đối thủ và đấm xuyên Auto-Block nhờ trạng thái Rout.",
-    "strengths": [
-      "Sát thương thô (Raw Damage) và bạo kích thuộc top đầu game khi kích hoạt Rout",
-      "Chuỗi Cheese Combo SP2 + Relic cho phép gán Stun liên tục và dồn sát thương không lối thoát",
-      "Trạng thái Rout đấm xuyên Auto-Block và Parry được cả các đòn đánh không tiếp xúc (Non-contact)"
-    ],
-    "weaknesses": [
-      "Khả năng phòng thủ mỏng (Block giấy), dễ bốc hơi nếu dính chiêu",
-      "Phụ thuộc vào cấp độ Thức Tỉnh (High Sig) và kỹ năng Heavy Cancel nối Relic"
-    ],
-    "rotation": [
-      "BƯỚC 1 (Tích Power & Armor Break): Parry -> Giậm Heavy để tích Armor Break và dồn năng lượng chạm mốc 2+ thanh Power (SP2).",
-      "BƯỚC 2 (Kích Rout): Lướt lùi và Giữ Block 1.2s để chủ động bật trạng thái Rout Buff.",
-      "BƯỚC 3 (Heavy Cancel SP2): Lao vào giậm Heavy rồi Cancel ngay lập tức sang chiêu SP2.",
-      "BƯỚC 4 (Nối Relic Combo): Đòn cuối SP2 gây Choáng (Stun) -> Lập tức đánh 1 hit Medium -> Tụ Heavy -> Cancel ngay sang Relic.",
-      "BƯỚC 5 (Kết liễu): Lao vào xả SP1 hoặc giậm thêm 1 đòn Heavy dứt điểm trận đấu."
-    ],
-    "awakened_vs_unawakened": "CẦN HIGHSIG / DUP MẠNH: Khi chưa Duped, Cull vẫn nổ Cheese Combo tốt nhưng thiếu bền vững. Khi Duped ở Sig cao, Cull tăng tối đa số tầng Thanos' Favor tích lũy, kéo dài thời gian Rout Unblockable và nhận thêm lượng sát thương bạo kích khổng lồ.",
-    "counters_targets": [
-      "Các tướng chuyên Auto-Block (Peni Parker, Medusa)",
-      "Các đối thủ trong Battlegrounds / Quest cần dọn dẹp tốc độ dưới 20-30s"
-    ],
-    "countered_by": [
-      "Doctor Doom / Symbiote Supreme / Wiccan (Xóa Buff Rout và Armor Break)",
-      "Node Miễn Nhiễm Armor Break / Stun Immune"
-    ]
-  },
   {
     "id": "juggernaut",
     "name": "Juggernaut",
@@ -793,35 +760,6 @@
     ]
   },
   {
-    "id": "heimdall",
-    "name": "Heimdall",
-    "class": "cosmic",
-    "tier": "God Tier Synergy",
-    "avatar": "/assets/champions/heimdall.png",
-    "summary": "Thánh Synergy cứu mạng đỉnh nhất game, cấp mạng Bất tử (Cheat Death) cho toàn bộ đồng đội.",
-    "strengths": [
-      "Synergy cấp mạng Bất tử và Cheat Death cho cả team",
-      "Có Auto-Block chống bị sốc sát thương",
-      "SP2 gán Buff Indestructible và Unstoppable"
-    ],
-    "weaknesses": [
-      "Sát thương thực chiến độc lập ở mức trung bình",
-      "Tốc độ dọn trận chậm"
-    ],
-    "rotation": [
-      "Lướt lùi và giữ Block để tích lũy các Buff (Precision, Aptitude, Fury).",
-      "Đánh combo MLLLM dồn năng lượng lên SP2.",
-      "Xả SP2 để lấy Buff Unstoppable & Indestructible rồi lao vào đấm dồn sát thương."
-    ],
-    "awakened_vs_unawakened": "KHÔNG BẮT BUỘC DUP: Khả năng Synergy cứu mạng Cheat Death cho toàn team hoạt động 100% kể cả khi Unduped. Khi Duped, Heimdall tăng sát thương đòn đánh cá nhân.",
-    "counters_targets": [
-      "Được dùng làm tướng hỗ trợ (Synergy) cho toàn bộ đội hình Quest"
-    ],
-    "countered_by": [
-      "Doctor Doom / Wiccan / Kushala"
-    ]
-  },
-  {
     "id": "jean-grey",
     "name": "Jean Grey",
     "class": "mutant",
@@ -878,71 +816,6 @@
     ],
     "countered_by": [
       "Kingpin / Chee'ilth / Attuma"
-    ]
-  },
-  {
-    "id": "kindred",
-    "name": "Kindred",
-    "class": "mystic",
-    "tier": "Beyond God Tier (Defender)",
-    "avatar": "/assets/champions/kindred.png",
-    "summary": "Quái vật phòng thủ hệ Mystic hàng đầu AW/BGs nhờ cơ chế Rết, mạng Bất tử (Death's Embrace) khi Awakened và khả năng gán Infestation dồn Degeneration thụ động.",
-    "strengths": [
-      "Mạng Bất tử / Chống chết (Death's Embrace) cực kỳ khó chịu khi Awakened",
-      "Gán Infestation gây sát thương Degeneration thụ động không cần tấn công trực tiếp",
-      "Khắc chế tướng Cosmic bằng cơ chế Neutralize và nuốt Buff quy đổi thành sát thương",
-      "Miễn nhiễm Bleed (Chảy máu) và Coldnap/Coldsnap"
-    ],
-    "weaknesses": [
-      "Sát thương Attacker ở mức trung bình, tốc độ dọn trận chậm trong Battlegrounds",
-      "Phụ thuộc nhiều vào cấp độ Thức Tỉnh (High Sig) để tối ưu khả năng phòng thủ"
-    ],
-    "rotation": [
-      "Đánh combo kết thúc bằng Light (M-L-L-L-L) hoặc Heavy để tích lũy các tầng Rết (Centipedes).",
-      "Tích đủ 10 Centipedes hoặc bắn SP1 để kích hoạt Nightmare Mode, gán Infestation lên đối thủ.",
-      "Tích năng lượng xả SP2 để gia tăng lượng lớn sát thương Degeneration và Pause thời gian Infestation.",
-      "Duy trì đấm đè Block hoặc Parry để giữ chuỗi Rết thiêu rụi cây máu đối thủ."
-    ],
-    "awakened_vs_unawakened": "BẮT BUỘC DUP HIGHSIG (Cho Phòng Thủ): Khi chưa Duped, Kindred khá dễ dọn dẹp. Khi Duped ở Sig cao, Kindred nhận mạng Bất tử Death's Embrace (chống chết và hồi lại máu khi cạn cây máu), biến hắn thành một trong những Defender khó chịu nhất MCOC.",
-    "counters_targets": [
-      "Hulking / Venom / Gorr (Các tướng Cosmic phụ thuộc Buff)",
-      "Các tướng phụ thuộc vào hiệu ứng Chảy máu (Bleed)"
-    ],
-    "countered_by": [
-      "Human Torch (Thiêu rụi bằng Flame On)",
-      "Spider-Ham (Ép xả Special tự nổ Poppers)",
-      "America Chavez / Archangel (Khóa Hồi máu và Bất tử)"
-    ]
-  },
-  {
-    "id": "doctor-strange",
-    "name": "Doctor Strange",
-    "class": "mystic",
-    "tier": "Useful / Mid Tier",
-    "avatar": "/assets/champions/doctor-strange.png",
-    "summary": "Phù Thủy Tối Thượng với khả năng luân chuyển 3 Ấn Chú Vishanti, tích lũy điểm Arcane Fonts dồn bão SP1 sát thương năng lượng bùng nổ.",
-    "strengths": [
-      "Tự động nạp thanh Power theo thời gian không phụ thuộc hoàn toàn vào đòn đánh",
-      "Khả năng tự động nuốt Buff (Nullify) và Hồi máu ở Nullify Mode (Màu tím)",
-      "Mẹo gồng Heavy giúp chuyển đổi linh hoạt và nhanh chóng giữa 3 trạng thái Ấn Chú",
-      "Sát thương bùng nổ cực lớn từ chiêu SP1 khi tích đủ điểm Arcane Fonts"
-    ],
-    "weaknesses": [
-      "Cần thời gian setup tích lũy Arcane Fonts cho các trận đấu dài",
-      "Phụ thuộc vào thao tác căn nhịp đổi Ấn Chú"
-    ],
-    "rotation": [
-      "TRẬN NGẮN / BGs: Gồng Heavy chuyển sang Fury Mode (Màu cam) -> Liên tục Spam SP1 dồn sát thương bạo kích.",
-      "TRẬN DÀI / BOSS: Tích SP2 ở Nullify Mode (Màu tím) -> Bắn SP2 tích điểm Arcane Fonts -> Khi mấp nghé SP3, gồng Heavy nhấp đúp Block để đốt Power lấy thêm Arcane Fonts -> Đạt 100 Arcane Fonts, chuyển sang Fury Mode (Màu cam) rồi Spam SP1 dồn bão sát thương."
-    ],
-    "awakened_vs_unawakened": "CẦN DUP (Ưu tiên trung bình): Khi chưa Duped, Strange vẫn thực hiện đầy đủ bộ kỹ năng tích Arcane Fonts và đổi Ấn Chú. Khi Duped (Counter-Spell), Strange có thêm khả năng thụ động tự động hóa giải/xóa (Nullify) 1 Buff của đối thủ mỗi khi họ nhận Buff mới mà không cần đợi xoay sang nhịp màu Tím, đồng thời hồi một lượng nhỏ Power khi xóa Buff.",
-    "counters_targets": [
-      "Hyperion / Medusa / Buff Heavy Champions (Nhờ khả năng Nullify tự động)",
-      "Các trận đấu dài cần tích lũy sát thương bộc phát"
-    ],
-    "countered_by": [
-      "Human Torch / Titania (Sát thương bùng nổ đè bẹp đầu trận)",
-      "Các Node trừng phạt tự động nạp Power (Power Gain Punishment)"
     ]
   },
   {
@@ -1197,37 +1070,6 @@
     ]
   },
   {
-    "id": "mister-negative",
-    "name": "Mister Negative",
-    "class": "science",
-    "tier": "Beyond God Tier",
-    "avatar": "/assets/champions/mister-negative.png",
-    "summary": "Bậc thầy năng lượng Âm/Dương dồn sát thương Degeneration gián tiếp khủng khiếp qua cơ chế chuyển đổi Light Energy thành Dark Energy và xả SP2.",
-    "strengths": [
-      "Gán bão Degeneration thụ động cực rát bỏ qua giáp và kháng phòng thủ",
-      "Khả năng tự động Evade đòn đánh khi gồng Heavy Attack",
-      "Xóa Buff bất lợi trên bản thân và quy đổi thành tài nguyên Light Energy"
-    ],
-    "weaknesses": [
-      "Sợ các tướng Miễn Nhiễm Degeneration",
-      "Yêu cầu kỹ năng quản lý và chuyển đổi nhịp nhàng giữa 2 nguồn năng lượng Light/Dark Energy"
-    ],
-    "rotation": [
-      "BƯỚC 1 (Tích Light Energy): Parry (nhận 2 Light) hoặc Dash lùi xóa Buff (nhận 1 Light/Buff) để tích lũy từ 7-9 tầng Light Energy Charges.",
-      "BƯỚC 2 (Chuyển sang Dark Energy): Tụ lực Heavy Attack -> Đợi đối thủ lao vào đánh để tự động Né (Evade) hoặc bị ngã, toàn bộ Light Energy sẽ chuyển thành Dark Energy Charges.",
-      "BƯỚC 3 (Dồn Bão Degeneration): Tích lại tiếp 7-9 Light Energy và nạp 2+ thanh Power (SP2) -> Tụ Heavy để chuyển đống Light mới thành Dark Energy -> Xả ngay lập tức SP2 để chuyển toàn bộ Dark Energy thành các tầng Degeneration thiêu rụi đối thủ."
-    ],
-    "awakened_vs_unawakened": "NÊN DUP: Khi Duped, Mister Negative nhận thêm khả năng hồi lại máu khi gán các tầng Degeneration và tăng mạnh hiệu lực sát thương Dark Damage.",
-    "counters_targets": [
-      "Các tướng phụ thuộc vào Buff (Dash lùi nuốt Buff đổi lấy Light Energy)",
-      "Các đối thủ trong Battlegrounds nhờ sát thương Degeneration không thể cản phá"
-    ],
-    "countered_by": [
-      "Tướng Miễn Nhiễm Degeneration (Robot / Mister Sinister)",
-      "Node Kháng hiệu ứng thụ động (Passive Debuffs / Degenerations)"
-    ]
-  },
-  {
     "id": "bishop",
     "name": "Bishop",
     "class": "mutant",
@@ -1256,37 +1098,6 @@
     "countered_by": [
       "Nimrod / Bastion / Jack O'Lantern (Các tướng Tech)",
       "Colossus / Red Goblin (Tướng Miễn Nhiễm Incinerate)"
-    ]
-  },
-  {
-    "id": "sandman",
-    "name": "Sandman",
-    "class": "science",
-    "tier": "God Tier",
-    "avatar": "/assets/champions/sandman.png",
-    "summary": "Người Cát kiểm soát trận đấu. Tích Resistance Up để kích hoạt Unstable, Rooted trói chân đối thủ và giậm Heavy dồn sát thương Physical Burst.",
-    "strengths": [
-      "Trói chân đối thủ (Rooted Passive) cố định để xả Heavy liên tục",
-      "Sát thương Physical Burst từ đòn Heavy tăng tiến mạnh theo số lượng Debuff",
-      "SP3 gán 30 Physical Vulnerability hỗ trợ dồn sát thương bộc phát cực rát"
-    ],
-    "weaknesses": [
-      "Phụ thuộc vào nhịp tích đủ 19+ Resistance Up Buffs",
-      "Cần căn nhịp chuẩn xác để đối thủ đánh trúng khi đang ở trạng thái Unstable"
-    ],
-    "rotation": [
-      "BƯỚC 1 (Setup Resistance Up): Đánh combo MLLLM kết hợp Parry để tích đủ 14 tầng Resistance Up Buffs -> Bắn chiêu SP1 để tăng vọt lên mốc 19+ Resistance Up Buffs.",
-      "BƯỚC 2 (Kích Unstable & Rooted): Ép đối thủ xả Special -> Lao vào đánh 1 hit rồi Giữ Heavy để vào trạng thái Unstable (khiến đối thủ dính Rooted Passive trói chân).",
-      "BƯỚC 3 (Giậm Heavy Dồn Physical Burst): Trong thời gian đối thủ dính Rooted, liên tục giậm Heavy Attack 4 lần liên tiếp để dồn bão sát thương Physical Burst."
-    ],
-    "awakened_vs_unawakened": "NÊN DUP: Khi Duped, Sandman nhận thêm khả năng tích tụ các tầng Resistance Up Buffs nhanh hơn khi chịu sát thương Vật Lý (Physical Damage) và gia tăng thêm chỉ số sát thương Bùng Nổ từ đòn Heavy.",
-    "counters_targets": [
-      "Các tướng thích lướt/Né liên tục (bị trói chân bởi Rooted Passive)",
-      "Các tướng hệ Skill phòng thủ không có khả năng giải Debuff"
-    ],
-    "countered_by": [
-      "Tướng Kháng Physical Damage",
-      "Node Miễn Nhiễm Rooted / Debuff Cleanse"
     ]
   },
   {
@@ -1353,7 +1164,7 @@
   },
   {
     "id": "spider-man-pavitr",
-    "name": "Spider-Man (Pavitr)",
+    "name": "Spider-Man (Pavitr) 1",
     "class": "mystic",
     "tier": "Beyond God Tier",
     "avatar": "/assets/champions/spider-man-pavitr.png",
@@ -1442,38 +1253,6 @@
     "countered_by": [
       "Shang-Chi / Titania (Các tướng gán Slow)",
       "Tướng Miễn Nhiễm Degeneration"
-    ]
-  },
-  {
-    "id": "kindred",
-    "name": "Kindred",
-    "class": "mystic",
-    "tier": "Beyond God Tier (Defender)",
-    "avatar": "/assets/champions/kindred.png",
-    "summary": "Quái vật phòng thủ hệ Mystic hàng đầu AW/BGs nhờ cơ chế Rết, mạng Bất tử (Death's Embrace) khi Awakened và Infestation dồn Degeneration thụ động.",
-    "strengths": [
-      "Mạng Bất tử / Death's Embrace Passive chống chết cực kỳ khó chịu khi Awakened",
-      "Gán Infestation Passive gây sát thương Degeneration thụ động không cần tấn công trực tiếp",
-      "Khắc chế tướng Cosmic bằng cơ chế Neutralize Passives",
-      "Miễn nhiễm Bleed và Coldsnap"
-    ],
-    "weaknesses": [
-      "Tốc độ dọn trận Attacker ở mức trung bình",
-      "Phụ thuộc nhiều vào cấp độ Thức Tỉnh (High Sig) để tối ưu khả năng phòng thủ"
-    ],
-    "rotation": [
-      "BƯỚC 1 (Tích Tầng Rết Centipedes): Đánh combo kết thúc bằng Light (MLLLL) hoặc Heavy để tích đủ 10 tầng Centipede Passives.",
-      "BƯỚC 2 (Kích Nightmare Mode & Infestation): Đạt 10 Centipedes hoặc bắn SP1 để kích hoạt Nightmare Mode, gán hiệu ứng Infestation Passive lên đối thủ.",
-      "BƯỚC 3 (Xả SP2 Pause Infestation): Tích 2 thanh Power xả SP2 để gia tăng sát thương Degeneration Passive và Pause đếm ngược thời gian tồn tại của Infestation Passive."
-    ],
-    "awakened_vs_unawakened": "BẮT BUỘC DUP HIGHSIG (Cho Phòng Thủ): Khi Duped ở Sig cao, Kindred nhận mạng Bất tử Death's Embrace Passive (chống chết và hồi lại 40-60% máu khi cạn cây máu), biến hắn thành một trong những Defender khó chịu nhất MCOC.",
-    "counters_targets": [
-      "Hulking / Venom / Gorr (Các tướng Cosmic phụ thuộc Buff)",
-      "Các tướng phụ thuộc vào hiệu ứng Chảy máu (Bleed)"
-    ],
-    "countered_by": [
-      "Human Torch (Thiêu rụi bằng Flame On)",
-      "Spider-Ham (Ép xả Special tự nổ Poppers)"
     ]
   },
   {
@@ -1629,37 +1408,6 @@
     "countered_by": [
       "Node Stun Immune / Debuff Cleanse",
       "Shang-Chi / Titania (Các tướng gán Slow)"
-    ]
-  },
-  {
-    "id": "lizard",
-    "name": "Lizard",
-    "class": "science",
-    "tier": "Beyond God Tier",
-    "avatar": "/assets/champions/lizard.png",
-    "summary": "Quái quỷ Lizard với khả năng hồi phục Regenerative Scaling, dồn Poison Debuffs gián tiếp và trừng phạt đòn Block của đối thủ.",
-    "strengths": [
-      "Khả năng Hồi Máu (Regeneration Passive) siêu mạnh dựa trên lượng sát thương nhận vào",
-      "Gán bão Poison Debuffs / Reptilian Passives rút cạn máu xuyên qua khiên Block",
-      "Đòn Heavy giậm xuyên Block cực kỳ ức chế"
-    ],
-    "weaknesses": [
-      "Phụ thuộc vào nhịp duy trì các tầng Reptilian Chemical",
-      "Sợ các tướng Miễn Nhiễm Độc (Poison Immune)"
-    ],
-    "rotation": [
-      "BƯỚC 1 (Tích Reptilian Charges): Đánh combo kết thúc bằng Light (MLLLL) hoặc gồng Heavy để tích từ 10 đến 20+ tầng Reptilian Charges.",
-      "BƯỚC 2 (Gán Poison & Pause): Tung chiêu SP1 để chuyển đổi Reptilian Charges thành bão Poison Debuffs, dùng Heavy để Pause thời gian đếm ngược của Poison.",
-      "BƯỚC 3 (Xả SP2 Bộc Phá Damage): Tích 2 thanh Power xả SP2 để bộc phá sát thương Poison Burst Damage dứt điểm trận đấu."
-    ],
-    "awakened_vs_unawakened": "NÊN DUP: Khi Duped, Lizard tăng tốc độ tích tụ Reptilian Charges và gia tăng hiệu lực Hồi Máu (Regeneration Passive) khi bị gán Debuff xấu.",
-    "counters_targets": [
-      "Các tướng phòng thủ thích ôm Block",
-      "Các đối thủ không có khả năng chống Poison"
-    ],
-    "countered_by": [
-      "Red Guardian / Absorbing Man (Tướng Miễn Nhiễm Poison)",
-      "Node Trừng phạt Regeneration / Heal Block"
     ]
   },
   {
@@ -1847,5 +1595,571 @@
       "Colossus / Red Guardian / Robots (Các tướng Miễn Nhiễm Bleed)",
       "Node Miễn Nhiễm Root / Debuff Cleanse"
     ]
+  },
+  {
+    "id": "corvus-glaive",
+    "name": "Corvus Glaive",
+    "class": "cosmic",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/corvus-glaive.png",
+    "summary": "Chiến binh Cosmic dọn dẹp trận đấu trong vài giây với lượng bão Bạo Kích (Guaranteed Crits) từ Glaive Charges và tích lũy Missions để tăng vọt sát thương.",
+    "strengths": [
+      "100% đòn đánh là Bạo Kích (Critical Hit) khi còn Glaive Charges",
+      "Diệt gọn đối thủ nhanh chóng trong các trận đấu ngắn",
+      "Bỏ qua Evade và Auto-Block hoàn toàn khi hoàn thành Mission 4 (với Proxima Midnight Synergy)"
+    ],
+    "weaknesses": [
+      "Sát thương giảm sút thảm hại khi cạn kiệt Glaive Charges",
+      "Cần kết liễu các mục tiêu chỉ định để tích lũy Missions qua các trận"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Hoàn Thành Missions): Lần lượt hạ gục các tướng Mutant, Avengers, Tech hoặc tướng có Evade/Auto-Block trong Quest để tích từ 1 đến 4 tầng Missions.",
+      "BƯỚC 2 (Tích SP2): Đánh các chuỗi combo MLLLM hoặc giữ MLM/ML ở các trận dài để nạp đủ 2 thanh Power.",
+      "BƯỚC 3 (Xả SP2 Bộc Phá Crits): Parry Choáng -> Xả chiêu SP2 dồn bão Bạo Kích kết liễu đối thủ."
+    ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Corvus vẫn bộc phát sát thương Bạo Kích cực nhanh. Khi được Thức Tỉnh (Immortal Glaive), Corvus nhận khả năng Bất Tử khi còn 1 HP miễn là Glaive Charges còn hiệu lực.",
+    "counters_targets": [
+      "Các trận đấu ngắn trong Battlegrounds / Quest",
+      "Các đối thủ Mutant / Tech / Avengers"
+    ],
+    "countered_by": [
+      "Ebony Maw / Dragon Man (Các tướng chống Bạo Kích)",
+      "Node Armor Boost / Safeguard"
+    ]
+  },
+  {
+    "id": "cull-obsidian",
+    "name": "Cull Obsidian",
+    "class": "cosmic",
+    "tier": "God Tier",
+    "avatar": "/assets/champions/cull-obsidian.png",
+    "summary": "Sát thủ trâu giáp với khả năng gán Armor Break dồn dập, bật Rout State và xả SP3 nổ sát thương khổng lồ phá vỡ mọi Damage Cap.",
+    "strengths": [
+      "Sát thương SP3 bộc phát cực lớn",
+      "Phá vỡ giới hạn Damage Cap trong các Quest đặc biệt như Labyrinth",
+      "Phá giáp Armor Break tích dồn rát từ đòn Heavy"
+    ],
+    "weaknesses": [
+      "Cần thời gian nạp trạng thái Rout",
+      "Phụ thuộc nặng vào việc phải Thức Tỉnh (Awakened) để tái kích hoạt Rout"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Tích Armor Break): Thực hiện Parry Choáng -> Heavy Attack để tích lũy các tầng Armor Break Debuffs trên người đối thủ.",
+      "BƯỚC 2 (Kích Rout State): Đánh các chuỗi combo MLLLM nạp đủ điều kiện kích hoạt trạng thái Rout Passives.",
+      "BƯỚC 3 (Parry Xả SP3 Tối Thượng): Parry Choáng đối thủ -> Xả chiêu SP3 lập tức để tiêu thụ Armor Break, bộc phá sát thương cực đại."
+    ],
+    "awakened_vs_unawakened": "BẮT BUỘC DUP: Khi chưa Duped, Cull Obsidian khó tái kích hoạt Rout. Khi được Thức Tỉnh (Overwhelming Force), Cull tái kích hoạt trạng thái Rout nhiều lần và giữ lại các tầng Persistent Charges.",
+    "counters_targets": [
+      "Các Boss có nút Damage Cap (Labyrinth / Abyss)",
+      "Các đối thủ phòng thủ trâu giáp"
+    ],
+    "countered_by": [
+      "Symbiote Supreme / Wiccan (Các tướng Mystic xóa Buff)",
+      "Node Miễn Nhiễm Armor Break"
+    ]
+  },
+  {
+    "id": "mister-negative",
+    "name": "Mister Negative",
+    "class": "science",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/mister-negative.png",
+    "summary": "Bậc thầy năng lượng Âm Dương với cơ chế chuyển đổi Light & Dark Energy, gán dồn dập bão Degeneration Passives thiêu rụi đối thủ qua SP2.",
+    "strengths": [
+      "Sát thương Degeneration gián tiếp cực lớn từ SP2",
+      "Chuyển đổi Buff của bản thân thành Light Energy dồn dập",
+      "Né đòn Evade Passive thụ động khi tụ Heavy"
+    ],
+    "weaknesses": [
+      "Yêu cầu thao tác chuyển đổi năng lượng chuẩn xác",
+      "Thọt sát thương trước các tướng Miễn Nhiễm Degeneration"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Tích Light Energy): Parry Choáng (cho 2 Light Energy) hoặc đánh combo MLLLM và lướt lùi Dash Back để chuyển Buff thành Light Energy (tích từ 7 đến 9 điểm).",
+      "BƯỚC 2 (Chuyển Sang Dark Energy & Tích SP2): Tụ đòn Heavy Attack rồi chủ động bị Knock down hoặc Evade để chuyển toàn bộ Light Energy thành Dark Energy. Đánh combo MLLLM nạp 2 thanh Power.",
+      "BƯỚC 3 (Heavy Cancel SP2 Bộc Phá Degen): Tụ Heavy để chuyển nốt Light Energy sang Dark Energy -> Cancel ngay sang chiêu SP2 để dồn bão sát thương Degeneration Passives."
+    ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Mister Negative vẫn xoay Dark Energy xả SP2 rất mạnh. Khi được Thức Tỉnh, Mister Negative nhận thêm khả năng hồi máu Regeneration khi chuyển đổi năng lượng.",
+    "counters_targets": [
+      "Các đối thủ tự động sinh Buff",
+      "Các trận đấu Battlegrounds cần dọn dẹp bằng sát thương gián tiếp"
+    ],
+    "countered_by": [
+      "Red Guardian / Absorbing Man (Kháng sát thương Degeneration)",
+      "Node Miễn Nhiễm Degeneration"
+    ]
+  },
+  {
+    "id": "mister-fantastic",
+    "name": "Mister Fantastic",
+    "class": "science",
+    "tier": "God Tier",
+    "avatar": "/assets/champions/mister-fantastic.png",
+    "summary": "Nhà khoa học kiểm soát trận đấu với bộ Pre-fight Debuffs (Suppression, Petrify, Stagger), khóa năng lượng/hồi máu đối thủ và bộc phát Fury cực lớn từ SP3.",
+    "strengths": [
+      "Khóa Combat Power Rate tới 75% với 3 stack Suppression (giúp spam Heavy ép góc)",
+      "Đảo ngược hồi máu (Reverse Heal) hiệu quả với 3 stack Petrify",
+      "Tăng chỉ số sát thương lớn từ SP3 nhờ Fury Passives"
+    ],
+    "weaknesses": [
+      "Sát thương khởi đầu chậm",
+      "Cần kích hoạt Pre-fight trước khi vào trận"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Kích Pre-fights & Tích SP2): Chọn cả 3 Pre-fight Debuffs trước trận. Vào trận dùng combo MLLLM duy trì các Debuff và nạp 2 thanh Power.",
+      "BƯỚC 2 (Spam SP2 Tích 3 Stacks Debuffs): Parry Choáng -> Xả chiêu SP2 để stack thêm các Pre-fight Debuffs lên tối đa 3 stacks mỗi loại.",
+      "BƯỚC 3 (Dồn SP3 Kích Fury Bộc Phá): Tích đủ 3 thanh Power -> Xả chiêu SP3 nhận Fury Passive cực đại, sau đó quay lại xả SP2 để dồn sát thương."
+    ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Mr. Fantastic vẫn làm tốt nhiệm vụ khống chế. Khi được Thức Tỉnh, thời gian tồn tại của Debuffs tăng lên và tăng thêm Attack Rating cho mỗi Debuff trên đối thủ.",
+    "counters_targets": [
+      "Các tướng hồi máu khủng (Wolverine, Sabretooth)",
+      "Các tướng nạp Power nhanh (Hyperion, Galan)"
+    ],
+    "countered_by": [
+      "Kingpin / Mole Man (Các tướng Cleanse Debuffs)",
+      "Node Miễn Nhiễm Debuffs"
+    ]
+  },
+  {
+    "id": "kindred",
+    "name": "Kindred",
+    "class": "mystic",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/kindred.png",
+    "summary": "Ác quỷ Mystic gây bão Degeneration gián tiếp trong trạng thái Nightmare Outbreak, khóa Buff với Atrophy và bộc phá sát thương SP1 cực rát.",
+    "strengths": [
+      "Sát thương Degeneration Passives siêu to khi đứng gần đối thủ trong Nightmare Outbreak",
+      "Gán Atrophy Passive giảm 30% thời hạn Buff của đối thủ (tối đa 3 stacks)",
+      "Sát thương bộc phá SP1 cực mạnh khi đối thủ dính Infestation Charges"
+    ],
+    "weaknesses": [
+      "Yêu cầu duy trì khoảng cách gần đối thủ khi ở Outbreak",
+      "Thọt sát thương trước các tướng Miễn Nhiễm Degeneration"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Tích Infestation & Nạp SP2): Đánh combo MLLLM nạp 2 thanh Power, dùng đòn Heavy Attack để kích hoạt Dread Aura (tăng tốc tích Infestation Charges).",
+      "BƯỚC 2 (Xả SP2 Bật Nightmare Outbreak): Xả chiêu SP2 cho đến khi đạt đủ 50 điểm Infestation Charges để kích hoạt Nightmare Outbreak.",
+      "BƯỚC 3 (Áp Sát & Spam SP1 Bộc Phá): Trong trạng thái Outbreak, áp sát đối thủ để gán 5 tầng Degeneration Passives -> Liên tục đánh combo MLLLM và spam SP1 để bộc phá sát thương."
+    ],
+    "awakened_vs_unawakened": "CẦN HIGHSIG / DUP MẠNH: Khi chưa Duped, Kindred vẫn tích Outbreak nổ SP1 tốt. Khi được Thức Tỉnh ở Sig cao, Kindred nhận thêm khả năng Hồi Sinh (Deathtrap) khi nhận đòn kết liễu.",
+    "counters_targets": [
+      "Các tướng Cosmic nhiều Buff",
+      "Các trận đấu Battlegrounds phòng thủ / tấn công"
+    ],
+    "countered_by": [
+      "Human Torch / Red Guardian (Kháng Degeneration)",
+      "Node Miễn Nhiễm Degeneration"
+    ]
+  },
+  {
+    "id": "hit-monkey",
+    "name": "Hit-Monkey",
+    "class": "skill",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/hit-monkey.png",
+    "summary": "Sát thủ Khỉ với lối đánh Bạo Kích 100% qua chuỗi MLM, kích hoạt Monkey Scheme bỏ qua Evade/Armor và xả chiêu SP2 dồn Critical Damage khổng lồ.",
+    "strengths": [
+      "100% Bạo Kích khi duy trì combo MLM",
+      "Bỏ qua Evade (hiệu ứng Tím) và bỏ qua Armor (hiệu ứng Cam) từ Monkey Scheme",
+      "Xóa Debuff xấu trên bản thân khi lướt lùi"
+    ],
+    "weaknesses": [
+      "Máu cơ bản thấp",
+      "Sợ các tướng có khả năng chống Bạo Kích"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Tích Crit với Combo MLM): Đánh các chuỗi combo M-L-M chuẩn xác để tích lũy 3 đòn Bạo Kích liên tiếp.",
+      "BƯỚC 2 (Kích Monkey Scheme & Nạp SP2): Kích hoạt trạng thái Monkey Scheme và tiếp tục dùng combo M-L-M nạp đủ 2 thanh Power.",
+      "BƯỚC 3 (Xả SP2 Bộc Phá Crits): Parry Choáng -> Đánh 1 đòn Medium Bạo Kích rồi Cancel ngay sang chiêu SP2 để toàn bộ nhịp đập của SP2 đều là Critical Damage."
+    ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Hit-Monkey vẫn dồn SP2 Bạo Kích cực kỳ rát. Khi được Thức Tỉnh, Hit-Monkey nhận thêm khả năng tự động bật Cunning Scheme giúp bỏ qua đòn đánh của đối thủ.",
+    "counters_targets": [
+      "Các tướng có khả năng Evade (Spider-Man, Quicksilver)",
+      "Các tướng tag #Mercenary (nhận cả 2 hiệu ứng Monkey Scheme)"
+    ],
+    "countered_by": [
+      "Colossus / Dragon Man (Các tướng chống Bạo Kích/Giáp trâu)",
+      "Node Miễn Nhiễm Critical Hits"
+    ]
+  },
+  {
+    "id": "korg",
+    "name": "Korg",
+    "class": "skill",
+    "tier": "God Tier",
+    "avatar": "/assets/champions/korg.png",
+    "summary": "Chiến binh Đá với cơ chế Crowd Excitement, gán Bleed Vulnerability và xả bão Instant Bleed Burst cực rát từ SP1.",
+    "strengths": [
+      "Sát thương Bleed Burst gián tiếp trực tiếp từ SP1",
+      "Lớp giáp Rock Shield giảm sát thương nhận vào",
+      "Khả năng Unblockable khi có đủ Crowd Excitement"
+    ],
+    "weaknesses": [
+      "Phụ thuộc vào việc duy trì tầng Bleed Vulnerability",
+      "Thọt sát thương khi đối thủ Miễn Nhiễm Chảy Máu (Bleed Immune)"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Tích Crowd Excitement): Parry Choáng để tích từ 3 đến dưới 6 tầng Crowd Excitement Charges và nạp đủ 2 thanh Power.",
+      "BƯỚC 2 (SP2 Gán Bleed Vulnerability): Tung chiêu SP2 khi đủ 6 charges (Unblockable) để gán Bleed Vulnerability và 3 tầng Bleed Debuffs (dùng 3 lần SP2 để đạt tối đa 9 Bleeds).",
+      "BƯỚC 3 (Spam SP1 Nổ Instant Bleed): Dùng SP1 liên tục để làm mới Bleed Vulnerability và bộc phá sát thương Instant Bleed Burst."
+    ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Korg vẫn thực hiện tốt chuỗi nổ Bleed từ SP1. Khi được Thức Tỉnh, Korg nhận thêm khả năng Unstoppable/Unblockable tự động khi bị tấn công.",
+    "counters_targets": [
+      "Các đối thủ không có khả năng chống Bleed",
+      "Các trận đấu Battlegrounds phòng thủ"
+    ],
+    "countered_by": [
+      "Colossus / Red Guardian / Robots (Các tướng Miễn Nhiễm Bleed)",
+      "Onslaught / Stryfe (Các tướng xóa Rock Shield)"
+    ]
+  },
+  {
+    "id": "emma-frost",
+    "name": "Emma Frost",
+    "class": "mutant",
+    "tier": "God Tier",
+    "avatar": "/assets/champions/emma-frost.png",
+    "summary": "Nữ hoàng Mutant với 2 dạng Diamond Form (Kháng hiệu ứng/Miễn Nhiễm) và Telepathic Form (Tích lũy Prowess bộc phá SP2 Bạo Kích).",
+    "strengths": [
+      "Diamond Form cho khả năng Miễn Nhiễm toàn bộ Debuff xấu, Stun và Bạo Kích",
+      "Tích lũy tới 10-15 tầng Prowess Passives giúp SP2 nổ sát thương cực lớn",
+      "Dụ đối thủ xả chiêu Special dễ dàng"
+    ],
+    "weaknesses": [
+      "Cần kiểm soát thanh Power liên tục để chuyển đổi dạng",
+      "Diamond Form sát thương đòn đánh cơ bản thấp"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Tích Prowess ở Diamond Form): Ở Diamond Form, Parry Choáng đối thủ để tích từ 1 đến 10 tầng Prowess Passives.",
+      "BƯỚC 2 (Thoát Diamond & Tích Max Prowess): Giữ mức Power bản thân cao hơn đối thủ để sang Telepathic Form. Đánh combo MLLLM tạo đòn Bạo Kích để nhân bản Prowess lên tối đa 15 stacks (đòn Bạo Kích reset đếm ngược 12s).",
+      "BƯỚC 3 (Xả SP2 Bộc Phá Damage): Tích đủ 10-15 Prowess và thanh Power đạt khoảng 2.5 - 2.75 bars, xả ngay chiêu SP2 để bộc phá sát thương Bạo Kích."
+    ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Emma vẫn nổ SP2 rất mạnh. Khi được Thức Tỉnh, Emma tự động chuyển sang Diamond Form khi đối thủ xả SP3 hoặc khi mất lượng máu lớn.",
+    "counters_targets": [
+      "Các đối thủ phòng thủ có nhiều Debuffs xấu",
+      "Các trận đấu cần dụ Special Attack"
+    ],
+    "countered_by": [
+      "Nimrod / Sentinel (Các tướng Tech diệt Mutant)",
+      "Node Miễn Nhiễm Power Gain / Prowess"
+    ]
+  },
+  {
+    "id": "blue-marvel",
+    "name": "Blue Marvel",
+    "class": "cosmic",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/blue-marvel.png",
+    "summary": "Siêu anh hùng Cosmic kiểm soát năng lượng với trạng thái Stable Release Mode, gán Overload Debuffs và bộc phát Energy Burst Damage khổng lồ.",
+    "strengths": [
+      "Trạng thái Stable Release Mode tối ưu hóa sát thương Bạo Kích và Energy Burst",
+      "Giữ lại Persistent Charges (Cruelty) cho các trận đấu tiếp theo trong Quest",
+      "Hoãn/làm mới Overload Debuffs linh hoạt qua thao tác chạm Block"
+    ],
+    "weaknesses": [
+      "Cần kỹ năng căn nhịp Block chuẩn xác trong lúc xả chiêu Special",
+      "Cần thời gian tích lũy Charges"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Tích Overload & Nạp SP1): Đánh 3 lần Heavy Attack để gán Overload Debuffs. Đánh combo MLLLM nạp 1.5 thanh Power rồi xả SP1 để làm mới Overload.",
+      "BƯỚC 2 (Kích Stable Release Mode): Tích đủ 60 điểm Charges để bước vào Stable Release Mode. Tiếp tục nạp đủ 2 thanh Power.",
+      "BƯỚC 3 (Block Timing Xả SP2 Bộc Phá): Tụ SP2 -> Trong lúc tung SP2 (thời gian chậm lại), chạm Block ngay trước mỗi nhịp đập đòn đánh để nhận Precision Passives và bộc phá sát thương Energy Burst."
+    ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Blue Marvel vẫn nổ SP2 rất mạnh. Khi được Thức Tỉnh, Blue Marvel tăng tốc độ nạp Charges, tự động gia tăng Attack Rating và kéo dài thời gian Stable Release Mode.",
+    "counters_targets": [
+      "Các trận đấu Quest đường dài (tận dụng Persistent Cruelty Charges)",
+      "Các đối thủ phòng thủ trâu giáp trong Battlegrounds"
+    ],
+    "countered_by": [
+      "Symbiote Supreme / Wiccan (Các tướng Mystic nuốt Buff/Charges)",
+      "Node Kháng Sát Thương Năng Lượng (Energy Resistance)"
+    ]
+  },
+  {
+    "id": "sandman-buffed",
+    "name": "Sandman",
+    "class": "science",
+    "tier": "God Tier",
+    "avatar": "/assets/champions/sandman.png",
+    "summary": "Người Cát sau Buff sở hữu khả năng tích Resistance Passives qua đòn M/L, biến môi trường thành bãi cát và spam Heavy giậm bão sát thương bộc phát.",
+    "strengths": [
+      "Spam Heavy giậm dồn dập sát thương khi đối thủ dính Resistance Passives",
+      "Chỉ số Physical Resistance gia tăng theo các tầng Resistance",
+      "Lối đánh ép góc tường đơn giản"
+    ],
+    "weaknesses": [
+      "Trận đấu dài cần tích lũy tới SP3",
+      "Phụ thuộc vào việc giữ đối thủ trong góc tường"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Tích Resistance Passives): Đánh các chuỗi combo MLLLM hoặc MLLLL (mỗi đòn Medium/Light tăng 1 Resistance Passive, tích từ 10 đến 20 tầng). Đánh thêm 4 đến 8 đòn Heavy Attack.",
+      "BƯỚC 2 (Xả SP3 hoặc SP2 Kích Bão Cát): Ở trận ngắn, tích 2 thanh Power xả SP2 khi có 10+ Resistance. Ở trận dài, tích 3 thanh Power xả SP3 trước rồi xả tiếp SP2.",
+      "BƯỚC 3 (Spam Heavy Giậm Cát Bộc Phá): Ngay sau SP2 / SP3, liên tục Parry Choáng -> Tụ giậm Heavy Attack để tiêu thụ Resistance Passives, bộc phá sát thương gián tiếp liên hoàn."
+    ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Sandman vẫn spam Heavy nổ damage rất tốt. Khi được Thức Tỉnh, Sandman gia tăng giới hạn tích lũy Resistance Passives và nạp lại chúng nhanh hơn khi thực hiện đòn Heavy.",
+    "counters_targets": [
+      "Các tướng tấn công vật lý thuần",
+      "Các đối thủ phòng thủ trong Battlegrounds dễ bị ép góc"
+    ],
+    "countered_by": [
+      "Shang-Chi / Stealth Spider-Man (Các tướng gán Slow)",
+      "Node Miễn Nhiễm Heavy Knockdown"
+    ]
+  },
+  {
+    "id": "sentry",
+    "name": "Sentry",
+    "class": "science",
+    "tier": "Useful / Mid Tier",
+    "avatar": "/assets/champions/sentry.png",
+    "summary": "Chiến binh Solar Form với cơ chế tích lũy Debuffs để chuyển đổi trạng thái (Modes), nhận Bulwark Buffs và bộc phát sát thương Energy Burst từ chiêu SP2.",
+    "strengths": [
+      "Gán Exhaustion Debuffs liên tục lên đối thủ qua các đòn đánh cơ bản khi ở dạng Normal Form",
+      "Gia tăng sức chống chịu với Bulwark Buffs mỗi khi gán Debuff thành công",
+      "Nâng cấp kỹ năng đòn đánh qua các trạng thái Absolute Strength (Wither) và Brilliant Might (Energy Vulnerability)",
+      "Lưu giữ Persistent Charges sau mỗi lần chuyển Mode bằng Special Attack để tăng tốc độ nạp cho các trận sau"
+    ],
+    "weaknesses": [
+      "Cần thời gian nạp Persistent Charges qua nhiều chuỗi chuyển đổi Mode",
+      "Phụ thuộc vào việc gán Debuffs để kích hoạt hiệu ứng bổ trợ"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Tích 20 Buffs/Debuffs ở Normal Mode): Đánh các chuỗi combo MLLLM hoặc MLLLL để gán Exhaustion Debuffs lên đối thủ và nhận Bulwark Buffs cho bản thân cho tới khi tổng số Buffs/Debuffs đạt mốc 20.",
+      "BƯỚC 2 (Xả Special Chuyển Solar Modes): Tích năng lượng và xả chiêu Special Attack để chuyển Sentry sang Absolute Strength Mode (nhận Wither Debuffs qua đòn Medium/Light, gán Energy Burst Damage) hoặc Brilliant Might Mode (gán Energy Vulnerability qua đòn Heavy).",
+      "BƯỚC 3 (Tích Persistent Charges & Spam SP2): Tiếp tục chuyển đổi Mode bằng Special Attack để tích lũy Persistent Charges (khi đạt 3+ charges, Heavy Attack làm mới Debuffs; đạt 6+ charges, đòn Medium 1 cho phép nạp Heavy; đạt 8+ charges, khởi đầu trận ở Absolute Strength Mode). Liên tục xả SP2 để bộc phá sát thương Energy Burst cực đại."
+    ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Sentry vẫn chuyển Mode và tích Persistent Charges bình thường. Khi được Thức Tỉnh (State of Mind), Sentry duy trì trạng thái Reality Warp tốt hơn, giúp giữ các giá trị chỉ số bộc phá sát thương ổn định qua từng mốc chuyển đổi Mode.",
+    "counters_targets": [
+      "Các trận đấu dài hơi trong Questing (tận dụng nạp Persistent Charges)",
+      "Các đối thủ phòng thủ không kháng sát thương Energy"
+    ],
+    "countered_by": [
+      "Kingpin / Mole Man (Các tướng Cleanse Debuffs)",
+      "Node Miễn Nhiễm Debuffs / Energy Resistance"
+    ]
+  },
+  {
+    "id": "heimdall",
+    "name": "Heimdall",
+    "class": "cosmic",
+    "tier": "Useful / Mid Tier",
+    "avatar": "/assets/champions/heimdall.png",
+    "summary": "Người gác cổng Asgard với cơ chế tích tụ Vanir Charges để chọn lựa các loại Buffs (Fury, Precision, Armor Up), biến chúng thành vĩnh viễn qua đòn Heavy và xả SP2 Unblockable cực mạnh.",
+    "strengths": [
+      "Tự chọn lựa các Buffs linh hoạt dựa trên thao tác đòn đánh khi đạt 100 Vanir Charges",
+      "Chuyển đổi các Buffs tạm thời thành Buffs vĩnh viễn (Permanent Buffs) bằng đòn Heavy Attack",
+      "Lưu giữ Buffs sang trận đấu tiếp theo trong Quest khi dùng đòn Heavy",
+      "Chiêu SP3 biến toàn bộ Buffs thành hiệu ứng Bị Động (Passives) và tăng 25% hiệu lực (Potency)"
+    ],
+    "weaknesses": [
+      "Cần thao tác chuẩn xác ở đòn đánh quyết định mốc 100 charges để lấy đúng loại Buff mong muốn",
+      "Sợ các tướng có khả năng Nullify / Neutralize Buffs hệ Mystic"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Tích 100 Vanir Charges & Chọn Buff): Đánh các chuỗi combo MLLLM, Block đòn hoặc đánh vào Block của đối thủ để tích đủ 100 Vanir Charges. Đòn đánh ở mốc 100 sẽ quyết định Buff nhận được: Medium = Fury, Light = Precision, Block = Armor Up.",
+      "BƯỚC 2 (Tụ Heavy Lưu Buff Vĩnh Viễn): Parry Choáng -> Tụ đòn Heavy Attack để biến các Buffs tạm thời thành Buffs vĩnh viễn (đồng thời lưu trữ chúng cho trận đấu tiếp theo trong Quest). Lặp lại để tích lũy tối đa số lượng Fury và Precision.",
+      "BƯỚC 3 (Xả SP3 Chuyển Passive & Spam SP2): Khi đã tích đủ lượng lớn Buffs, xả chiêu SP3 để chuyển toàn bộ Buffs thành Passives (+25% Potency). Sau đó liên tục nạp 2 thanh Power và xả SP2 (nhận Unblockable, True Strike, Power Gain, Resonance) dọn sạch cây máu đối thủ."
+    ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Heimdall vẫn tích Vanir Charges và tạo Buffs vĩnh viễn rất tốt. Khi được Thức Tỉnh, Heimdall nhận thêm khả năng tự động bật Buff Protection và tăng chỉ số Attack Rating dựa trên số lượng Buffs đang có.",
+    "counters_targets": [
+      "Incursions và Quest dài (tận dụng lưu trữ Buffs qua các trận)",
+      "Các đối thủ có khả năng Evade / Auto-Block (nhờ True Strike từ SP2)"
+    ],
+    "countered_by": [
+      "Symbiote Supreme / Wiccan / Doctor Doom (Các tướng Mystic xóa Buff)",
+      "Node Miễn Nhiễm Buffs / Neutralize"
+    ]
+  },
+  {
+    "id": "spider-slayer",
+    "name": "Spider-Slayer (J. Jonah Jameson)",
+    "class": "tech",
+    "tier": "Useful / Mid Tier",
+    "avatar": "/assets/champions/spider-slayer.png",
+    "summary": "Cỗ máy săn Nhện của J. Jonah Jameson với cơ chế Camera Flash gây Falter, hoàn thành các yêu cầu chỉ định (Prompts) để tích Armors/Fury và xả SP2 nổ sát thương Shock & Power Burn.",
+    "strengths": [
+      "Kích hoạt hiệu ứng Falter khiến đối thủ đánh hụt (Miss) qua thao tác giữ Block + vuốt lên (Camera Flash)",
+      "Nhận Fury Passives lớn mỗi khi đối thủ đánh hụt trong trạng thái Falter",
+      "Hoàn thành các Prompts hiển thị trên màn hình để tích lũy các tầng Armor Up",
+      "Gán dồn dập Shock và Power Burn qua chiêu SP2"
+    ],
+    "weaknesses": [
+      "Phụ thuộc vào thời gian hồi chiêu (Cooldown) của Camera Flash",
+      "Cần thực hiện chính xác các câu lệnh Prompts xuất hiện trên màn hình"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Giữ Block Vuốt Lên Flash Camera): Khởi đầu trận đấu, giữ Block rồi vuốt lên để chụp ảnh Flash đối thủ (gán hiệu ứng Falter). Lùi lại để đối thủ đánh hụt (Miss) và nhận Fury Passive.",
+      "BƯỚC 2 (Hoàn Thành Prompts Tích Armor & Power): Thực hiện các thao tác chỉ định xuất hiện trên màn hình (ví dụ: Block an Attack, Hit a Light Attack, Parry) để tích lũy các tầng Armor Up và nạp đủ 2 thanh Power.",
+      "BƯỚC 3 (Tái Kích Camera & Xả SP2): Khi Camera hết Cooldown, tiếp tục giữ Block vuốt lên lấy thêm Fury. Parry Choáng -> Xả ngay chiêu SP2 để gán bão Shock Debuffs và Power Burn dọn cạn máu đối thủ (nếu đối thủ chưa gục, tiếp tục xả SP1 để bồi sát thương)."
+    ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Spider-Slayer vẫn thực hiện trơn tru chuỗi Falter -> SP2. Khi được Thức Tỉnh, thời gian hồi chiêu của Camera Flash được rút ngắn và tăng thêm lượng sát thương bộc phát từ các đòn Power Burn.",
+    "counters_targets": [
+      "Các tướng họ Nhện Spider-Verse (bỏ qua Evade nhờ Slow/Tracking)",
+      "Các đối thủ phòng thủ nạp Power nhanh (nhờ Power Burn từ SP2)"
+    ],
+    "countered_by": [
+      "Human Torch / Red Guardian (Các tướng chống Miss / Kháng Shock)",
+      "Node Miễn Nhiễm Shock / Debuff Cleanse"
+    ]
+  },
+  {
+    "id": "yondu",
+    "name": "Yondu",
+    "class": "tech",
+    "tier": "Useful / Mid Tier",
+    "avatar": "/assets/champions/yondu.png",
+    "summary": "Thủ lĩnh Ravager kiểm soát lượng Power của đối thủ bằng các đòn đánh vào Block, gán bão Rupture Debuffs và bộc phát Fury Passives qua chiêu SP2.",
+    "strengths": [
+      "Giảm Combat Power Rate của đối thủ lên tới 50% (10% mỗi Debuff trên người đối thủ) khi đánh vào Block",
+      "Khóa khả năng hồi máu (Heal Block) của đối thủ hiệu quả qua chiêu SP1",
+      "Nạp thêm các tầng Fury Passives mỗi khi đối thủ xả chiêu Special (tối đa 8 stacks)",
+      "Sát thương Rupture gián tiếp xuyên qua Armor cực rát"
+    ],
+    "weaknesses": [
+      "Sát thương đòn đánh thô ở mức trung bình",
+      "Sợ các tướng có khả năng chống Debuffs hoặc chống Rupture"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Khống Chế Power Bằng Đánh Block): Thực hiện các đòn đánh combo MLLLM thẳng vào Block của đối thủ để gán các Debuffs, giảm Combat Power Rate của đối thủ tối đa 50% và kiểm soát thanh Power an toàn.",
+      "BƯỚC 2 (Dụ Special & Tích Fury Passives): Dụ đối thủ xả các chiêu Special Attacks để tích lũy các tầng Fury Passives (+1 Fury per Special, tối đa 8 stacks). Đánh SP1 nếu cần gán Heal Block chặn đối thủ hồi máu.",
+      "BƯỚC 3 (Xả SP2 Dồn Bão Rupture): Nạp đủ 2 thanh Power -> Parry Choáng -> Xả chiêu SP2 dồn bão Rupture Debuffs kết hợp lượng Fury Passives tích lũy để dứt điểm trận đấu."
+    ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Yondu vẫn đánh Block khống chế Power và xả SP2 rất tốt. Khi được Thức Tỉnh (Centurian Armor), Yondu tăng mạnh khả năng xuyên giáp (Armor Penetration) và gia tăng lượng sát thương Rupture khi đối thủ bị gán Debuffs.",
+    "counters_targets": [
+      "Các trận đấu ngắn/trung bình cần kiểm soát Power đối thủ an toàn",
+      "Các tướng có khả năng hồi máu mạnh (Wolverine, Sabretooth - trị bằng SP1)"
+    ],
+    "countered_by": [
+      "Kingpin / Mole Man (Các tướng Cleanse Debuffs)",
+      "Node Miễn Nhiễm Rupture / Debuff Cleanse"
+    ]
+  },
+  {
+    "id": "spider-man-pavitr",
+    "name": "Spider-Man (Pavitr Prabhakar)",
+    "class": "mystic",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/spider-man-pavitr.png",
+    "summary": "Spider-Man Ấn Độ đặt bẫy Mystic Webs trên sàn đấu, tích tụ 20 tầng Spider-Seal Buffs và tung Special Intercept SP2 bộc phá bão sát thương khổng lồ.",
+    "strengths": [
+      "Tự động đặt 3 bẫy Mystic Webs trên sàn đấu (1 ở giữa, 2 ở góc) để gán Spider-Seal Buffs khi đối thủ đi qua",
+      "Khả năng gán Neutralized và Power Steal dồn dập lên đối thủ",
+      "Bộc phá sát thương Năng lượng bùng nổ cực khủng từ chiêu SP2 qua thao tác Special Intercept"
+    ],
+    "weaknesses": [
+      "Yêu cầu di chuyển và kiểm soát vị trí đối thủ trên các bẫy Mystic Webs",
+      "Đỏi hỏi kỹ năng canh nhịp Special Intercept chuẩn xác"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Tích 15-20 Spider-Seal Buffs): Di chuyển ép đối thủ bước qua các bẫy Mystic Webs trên sàn đấu để tích lũy Spider-Seal Buffs. Dùng SP1 khi đối thủ đứng trước bẫy hoặc Special Intercept qua bẫy để đẩy nhanh tốc độ nạp.",
+      "BƯỚC 2 (Đè Góc & Tích 2 Bars Power): Khi đạt 15+ Spider-Seal Buffs (và nhận 1 Fury Passive từ SP1), sử dụng combo MLLLM ép đối thủ lùi dần về góc tường và nạp đủ 2 thanh Power.",
+      "BƯỚC 3 (Special Intercept SP2 Bộc Phá): Đợi đối thủ di chuyển qua bẫy Mystic Web -> Thực hiện đòn Special Intercept xả ngay chiêu SP2 để bộc phá toàn bộ bão sát thương Energy Burst dọn sạch cây máu đối thủ."
+    ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Pavitr vẫn tích Spider-Seal và xả SP2 nổ damage cực mạnh. Khi được Thức Tỉnh, Pavitr rút ngắn thời gian hồi chiêu Cooldown của các bẫy Mystic Webs và gia tăng thêm chỉ số Bạo Kích.",
+    "counters_targets": [
+      "Các đối thủ Cosmic nạp Buff dồn dập (nhờ Neutralized/Power Steal)",
+      "Các trận đấu Battlegrounds cần dọn dẹp tốc độ cao"
+    ],
+    "countered_by": [
+      "Human Torch / Red Guardian (Các tướng kháng sát thương Năng lượng)",
+      "Node Miễn Nhiễm Neutralize / Special Attack Resistance"
+    ]
+  },
+  {
+    "id": "doctor-strange",
+    "name": "Doctor Strange",
+    "class": "mystic",
+    "tier": "Useful / Mid Tier",
+    "avatar": "/assets/champions/doctor-strange.png",
+    "summary": "Pháp sư Tối Thượng với 3 hiệu ứng Ấn Phép xoay vòng (Oshtur, Agamotto, Hoggoth), tụ Heavy tích Arcane Fonts và xả SP1 ở Fury Mode để dồn bão Incinerate/Coldsnap.",
+    "strengths": [
+      "Ba trạng thái Phép Ấn linh hoạt: Oshtur (Blue - Giảm sát thương Block), Agamotto (Orange - Tăng Fury sát thương), Hoggoth (Purple - Nuốt Buff/Nullify)",
+      "Khả năng gán Passive Fate Seal qua chiêu SP3 triệt hạ hoàn toàn Buff đối thủ",
+      "Tích lũy Arcane Fonts Passives giúp gia tăng lượng sát thương Energy Burst bộc phá",
+      "Sử dụng kỹ thuật Double Tap Block khi tụ Heavy để tiêu thụ 1 bar Power lấy thêm Arcane Fonts"
+    ],
+    "weaknesses": [
+      "Sát thương thô thấp nếu không tích lũy đủ số lượng Arcane Fonts",
+      "Yêu cầu kỹ năng quản lý nhịp chuyển đổi Phép Ấn và nạp Power"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Tụ Heavy Đổi Mode & Tích Power): Parry Choáng -> Tụ đòn Heavy Attack để chủ động chuyển đổi sang Mode mong muốn (dừng tụ Heavy khi tới đúng Mode). Đánh combo MLLLM tích đủ 2 thanh Power ở Purple Nullify Mode.",
+      "BƯỚC 2 (Heavy Cancel SP2 Tích Arcane Fonts): Xả chiêu SP2 ở Nullify Mode để tích các điểm Arcane Fonts Passives. Mẹo trận dài: Khi đạt 3 bars Power, giữ tụ Heavy rồi Double Tap Block để tiêu thụ 1 bar Power lấy thêm Arcane Fonts (Heavy Cancel sang SP2 liên tục tới khi đạt mốc Arcane Fonts lớn).",
+      "BƯỚC 3 (Chuyển Orange Fury Mode & Spam SP1): Tụ Heavy đổi sang Orange Agamotto (Fury) Mode -> Liên tục dùng combo MLLLM và spam chiêu SP1 để bộc phá bão sát thương Incinerate / Coldsnap cùng sát thương Energy Burst kết liễu đối thủ."
+    ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Dr. Strange vẫn xoay Mode và nạp Arcane Fonts tốt. Khi được Thức Tỉnh (Hoggoth's Wisdom), Dr. Strange tự động nạp thêm một lượng năng lượng Power Gain Passives thụ động mỗi khi chuyển đổi giữa các Phép Ấn.",
+    "counters_targets": [
+      "Các tướng Cosmic phụ thuộc nhiều Buff (Hyperion, Venom)",
+      "Các trận đấu dài cần khả năng sinh tồn và kiểm soát Buff tuyệt đối"
+    ],
+    "countered_by": [
+      "Human Torch / Absorbing Man (Các tướng kháng sát thương Năng lượng/Incinerate)",
+      "Node Miễn Nhiễm Nullify / Power Drain"
+    ]
+  },
+  {
+    "id": "lizard",
+    "name": "Lizard",
+    "class": "science",
+    "tier": "Useful / Mid Tier",
+    "avatar": "/assets/champions/lizard.png",
+    "summary": "Quái vật Thằn Lằn kiểm soát Debuffs với cơ chế Dex Attack kích Unstoppable/Unblockable, giậm Heavy dừng đếm ngược Debuffs và xả SP2/SP3 dồn sát thương Burst cực rát.",
+    "strengths": [
+      "Kích hoạt đồng thời Unstoppable và Unblockable Passives bằng thao tác Dex Attack rồi xả Special lập tức",
+      "Đòn Heavy Attack có khả năng Tạm dừng (Pause) thời gian đếm ngược của toàn bộ Debuffs trên đối thủ",
+      "Gán bão Rupture Debuffs và Retribution Passives rút máu dồn dập",
+      "Chiêu SP3 bộc phá lượng sát thương Burst khổng lồ"
+    ],
+    "weaknesses": [
+      "Phụ thuộc vào việc quản lý thời gian tồn tại của các lớp Debuffs",
+      "Yêu cầu thao tác Dexterity kết hợp xả Special cực nhanh"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Tích Gần 2 Bars Power & Dex Special SP1): Đánh các chuỗi combo MLLLM nạp gần đủ 2 thanh Power. Lướt lùi Dexterity né đòn tấn công của đối thủ rồi tung ngay chiêu SP1 để nhận cả Unstoppable và Unblockable Passives.",
+      "BƯỚC 2 (Giậm Heavy Pause Debuffs): Thực hiện các đòn Heavy Attack xen kẽ (không cần Choáng) để Tạm dừng (Pause) thời gian đếm ngược của các lớp Rupture/Retribution Debuffs trong khi tiếp tục nạp lại 2 thanh Power.",
+      "BƯỚC 3 (Dex Special SP2 / SP3 Bộc Phá Damage): Lướt lùi Dex né đòn -> Tung ngay chiêu SP2 (hoặc SP3 ở trận dài) để bộc phá toàn bộ bão sát thương Rupture Burst Damage dọn sạch cây máu đối thủ."
+    ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Lizard vẫn giữ Debuffs và xả SP2/SP3 bộc phá rất tốt. Khi được Thức Tỉnh, Lizard tăng tốc độ hồi phục máu Rejuvenate Passives và gia tăng lượng sát thương Rupture khi đối thủ bị ép góc.",
+    "counters_targets": [
+      "Các đối thủ phòng thủ thích ôm Block (nhờ Unblockable từ Dex Special)",
+      "Các trận đấu Battlegrounds cần bộc phá sát thương Burst nhanh"
+    ],
+    "countered_by": [
+      "Shang-Chi / Titania (Các tướng gán Slow chống Unstoppable)",
+      "Node Miễn Nhiễm Rupture / Debuff Cleanse"
+    ]
+  },
+  {
+    "id": "spider-man-miles",
+    "name": "Spider-Man (Miles Morales)",
+    "class": "science",
+    "tier": "Useful / Mid Tier",
+    "avatar": "/assets/champions/spider-man-miles.png",
+    "summary": "Người Nhện Miles Morales hoàn thành 3 thử thách Spider-Challenges để tích Fury Passives khổng lồ, bật tản hình Spider-Camo và xả SP2 dồn bão Shock Damage.",
+    "strengths": [
+      "Hoàn thành 3 thử thách Spider-Challenges (Block 15 hits, Hit 50 times, Avoid 10 attacks) để nhận các lớp Fury Passives lớn",
+      "Tận dụng Synergy với Spider-Ham để lặp lại các thử thách và nhân đôi chỉ số Attack Rating",
+      "Trạng thái tản hình Spider-Camo khiến đối thủ đánh hụt (Miss) 100%",
+      "Sát thương Shock Bạo Kích bùng nổ cực mạnh từ chiêu SP2"
+    ],
+    "weaknesses": [
+      "Thọt sát thương rõ rệt nếu đối thủ Miễn Nhiễm Điện Giật (Shock Immune)",
+      "Cần hoàn thành đủ các thử thách để đạt lượng sát thương tối đa"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Hoàn Thành 3 Thử Thách Spider-Challenges): Thực hiện Parry/Block đòn đánh (Block 15 hits = Parries tính 3 hits), đánh combo Intercepts dồn dập (Hit 50 times = Intercepts tính 10 hits), và né/cho đối thủ đánh hụt trong Spider-Camo (Avoid 10 attacks).",
+      "BƯỚC 2 (Duy Trì Intercepts Tích Fury & Nạp SP2): Liên tục thực hiện các đòn đánh Intercepts để nạp thêm các lớp Fury Passives (nhờ Spider-Ham Synergy) và đẩy thanh năng lượng lên đủ 2 bars Power.",
+      "BƯỚC 3 (Xả SP2 Bộc Phá Shock Damage): Parry Choáng hoặc đánh Intercept -> Xả chiêu SP2 khi đang có trọn bộ Fury Passives từ 3 thử thách để dồn bão sát thương Shock Bạo Kích (Shock Damage) dọn sạch cây máu đối thủ."
+    ],
+    "awakened_vs_unawakened": "BẮT BUỘC DUP / HIGHSIG: Khi chưa Duped, Miles Morales không thể nhận Fury Passives từ việc hoàn thành Spider-Challenges. Khi được Thức Tỉnh (Whatever a Spider Can), mỗi thử thách hoàn thành sẽ cấp 1 Fury Passive (+Attack Rating trong 12s) và cho phép làm mới thử thách nhiều lần trong trận.",
+    "counters_targets": [
+      "Các đối thủ Block nhiều (dễ hoàn thành thử thách Block)",
+      "Các trận đấu Battlegrounds phòng thủ / tấn công cần sát thương Shock bộc phát"
+    ],
+    "countered_by": [
+      "Human Torch / Electro / Absorbing Man (Các tướng Miễn Nhiễm Shock)",
+      "Node True Strike / Anti-Miss / Debuff Cleanse"
+    ]
   }
+]
 ]
