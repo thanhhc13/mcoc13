@@ -792,38 +792,6 @@
     ]
   },
   {
-    "id": "spider-man-stark-enhanced",
-    "name": "Spider-Man (Stark Enhanced)",
-    "class": "tech",
-    "tier": "Beyond God Tier",
-    "avatar": "/assets/champions/spider-man-stark-enhanced.png",
-    "summary": "Phiên bản Nhện Stark Tech (Sparky) với khả năng tích điểm Poise bằng kỹ năng Dexterity/Taunt, mang lại lượng sát thương đòn đánh cơ bản và Special 2 thuộc hàng khủng nhất MCOC.",
-    "strengths": [
-      "Tăng lượng sát thương tấn công khổng lồ (Attack Rating) với mỗi tầng Poise tích lũy",
-      "Khả năng Né (Evade) thụ động siêu cao khi đối đầu với Special Attack nhờ Stark Tech A.I",
-      "SP2 gây bão Shock / Shock overcharged tàn phá các tướng Robot",
-      "Tỉ lệ Taunt liên tục giúp ép đối thủ xả chiêu SP1/SP2 an toàn"
-    ],
-    "weaknesses": [
-      "Máu giấy, giáp mỏng, rất dễ 'bốc hơi' nếu trúng đòn",
-      "Bộ A.I bị tắt 10s nếu dính đòn Heavy hoặc đánh nhau với tướng Cosmic"
-    ],
-    "rotation": [
-      "BƯỚC 1 (Tích 10 Poise): Liên tục lướt lùi (Dexterity / Evade) để tích lũy tối đa 10 tầng Poise Charge.",
-      "BƯỚC 2 (Combo MLLLM): Tấn công bằng chuỗi đòn đánh thường MLLLM (sát thương lúc này đã x3 x4 lần bình thường).",
-      "BƯỚC 3 (Xả SP2 Shock): Tích 2 thanh Power xả SP2 để kích hoạt bão Shock / Bạo kích thiêu rụi đối thủ (dùng SP1 để Power Drain 45% nếu cần)."
-    ],
-    "awakened_vs_unawakened": "CẦN HIGHSIG / DUP MẠNH: Khi chưa Duped, Sparky vẫn tích đủ 10 Poise dồn damage tốt nhưng rất mạo hiểm vì giáp yếu. Khi Duped, Sparky nhận thêm chỉ số Critical Rating thụ động tăng mạnh theo từng tầng Poise và thời gian duy trì hiệu ứng Taunt lâu hơn đáng kể, giúp tăng sát thương Bạo kích và ép đối thủ xả Special an toàn hơn rất nhiều.",
-    "counters_targets": [
-      "Các tướng Robot (Sentinel, Warlock, Ultron - nhờ sát thương nhân đôi từ Shock Overcharged)",
-      "Các tướng có chiêu Special dễ Né để tích điểm Poise"
-    ],
-    "countered_by": [
-      "Corvus Glaive / Korg / CGR (Khắc chế cơ chế Evade & A.I)",
-      "Các Node True Strike / True Accuracy"
-    ]
-  },
-  {
     "id": "maker",
     "name": "The Maker",
     "class": "tech",
@@ -1100,37 +1068,6 @@
     "countered_by": [
       "Human Torch / Red Guardian (Các tướng kháng sát thương Năng lượng)",
       "Node Miễn Nhiễm Neutralize / Special Attack Resistance"
-    ]
-  },
-  {
-    "id": "shathra",
-    "name": "Shathra",
-    "class": "mystic",
-    "tier": "Beyond God Tier",
-    "avatar": "/assets/champions/shathra.png",
-    "summary": "Nữ chúa Ong Bắp Cày ma quái, gán bão Swarm Passives rút máu gián tiếp và là Defender phòng thủ vô cùng ức chế.",
-    "strengths": [
-      "Sát thương gián tiếp từ Swarm Passives rút cạn cây máu không phụ thuộc Bạo kích",
-      "Top Defender trong Battlegrounds / AW nhờ cơ chế trừng phạt đòn đánh",
-      "Khả năng cướp và vô hiệu hóa các Buff của hệ Cosmic"
-    ],
-    "weaknesses": [
-      "Sợ các tướng Miễn Nhiễm Poison / Kháng hiệu ứng thụ động",
-      "Yêu cầu duy trì chuỗi Swarm để đạt sát thương cực đại"
-    ],
-    "rotation": [
-      "BƯỚC 1 (Swarm Stacks): Đánh combo kết thúc bằng Light (MLLLL) kết hợp Parry để tích lũy từ 10 đến 20+ tầng Swarm Passives lên đối thủ.",
-      "BƯỚC 2 (Pause Swarm): Giậm đòn Heavy Attack để đóng băng (Pause) thời gian đếm ngược của toàn bộ các tầng Swarm Passives.",
-      "BƯỚC 3 (SP2 Direct Poison Burst): Tích 2 thanh Power xả SP2 để bộc phá toàn bộ Swarm Passives dồn đống sát thương Poison Burst / Direct Damage cực khủng."
-    ],
-    "awakened_vs_unawakened": "BẮT BUỘC DUP HIGHSIG (Cho Phòng Thủ): Khi Duped ở Sig cao, Shathra nạp lại các tầng Swarm Passives tự động ngay đầu trận và phản sát thương cực rát khi làm Defender.",
-    "counters_targets": [
-      "Các tướng Cosmic nhiều Buff (Hulking, Gorr, Venom)",
-      "Attacker trong Battlegrounds không có khả năng chống sát thương gián tiếp"
-    ],
-    "countered_by": [
-      "Human Torch / Red Guardian",
-      "Tướng Miễn Nhiễm Poison / Debuffs"
     ]
   },
   {
@@ -2069,6 +2006,101 @@
     "countered_by": [
       "Colossus / Magneto / Robots (Các tướng Miễn Nhiễm Bleed)",
       "Node Miễn Nhiễm Evade / True Strike"
+    ]
+  },
+  {
+    "id": "shathra",
+    "name": "Shathra",
+    "class": "mystic",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/shathra.png",
+    "summary": "Nữ chúa Mystic gán Ong Bắp Cày (Wasps) tích lũy Trứng (Eggs) để Cướp/Nạp năng lượng qua đòn Heavy, gán Vulnerability từ SP2 và dồn bão sát thương.",
+    "strengths": [
+      "Khả năng Power Steal và Power Gain liên tục khi có Trứng (Eggs) gán trên người đối thủ",
+      "Gán bão Vulnerability Debuffs bằng chiêu SP2 để nhân bản sát thương nhận vào",
+      "Tối ưu hóa sát thương qua chuỗi tích Wasps -> Plant Eggs -> Heavy Power Ramp -> SP2"
+    ],
+    "weaknesses": [
+      "Cần giữ trạng thái Eggs luôn hiện diện trên đối thủ",
+      "Sợ các tướng có khả năng xóa/kháng hiệu ứng Debuff"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Tích Wasps & Nạp SP1): Đánh các chuỗi đòn thường để tích lũy Wasps trên người đối thủ cho tới khi đủ 1 thanh năng lượng (SP1).",
+      "BƯỚC 2 (SP1 Plant Eggs): Tung chiêu SP1 để tiêu diệt Wasps và cấy Trứng (Plant Eggs) lên đối thủ.",
+      "BƯỚC 3 (Heavy Power Steal & Power Gain): Khi đã cấy Trứng, thực hiện các đòn Heavy Attack để Cướp Năng Lượng (Power Steal) và Nạp Năng Lượng (Power Gain) đẩy nhanh thanh Power.",
+      "BƯỚC 4 (Parry Heavy SP2 Vulnerability): Parry Choáng -> Tụ Heavy Attack rồi xả ngay chiêu SP2 để gán hàng loạt hiệu ứng Vulnerability lên đối thủ.",
+      "BƯỚC 5 (Duy Trì Eggs & Loop SP2/SP1): Luôn đảm bảo Trứng (Eggs) được duy trì trên người đối thủ, tiếp tục tụ Heavy rồi xả linh hoạt SP1 hoặc SP2 để dồn sát thương kết liễu."
+    ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Shathra vẫn cấy Trứng, Power Steal và gán Vulnerability nổ sát thương rất mạnh. Khi được Thức Tỉnh, Shathra gia tăng tốc độ tích lũy Wasps và kéo dài thời gian tồn tại của Trứng (Eggs).",
+    "counters_targets": [
+      "Các tướng Cosmic phụ thuộc nặng vào Buff và Power Gain",
+      "Các đối thủ phòng thủ trâu máu trong Battlegrounds / Quest"
+    ],
+    "countered_by": [
+      "Human Torch / Red Guardian (Kháng sát thương Năng lượng/Debuffs)",
+      "Node Miễn Nhiễm Debuffs / Power Steal"
+    ]
+  },
+  {
+    "id": "spider-man-stark-enhanced",
+    "name": "Spider-Man (Stark Enhanced)",
+    "class": "tech",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/spider-man-stark-enhanced.png",
+    "summary": "Nhện Stark Tech tích điểm Poise Charges bằng kỹ năng Dexterity né đòn để tăng vọt Attack Rating, Critical Rate và bộc phát bão Shock Damage cực khủng từ SP2.",
+    "strengths": [
+      "Tăng chỉ số Attack Rating cực lớn với mỗi Poise Charge tích lũy (tối đa 10 charges)",
+      "Tăng Critical Rate (khi Duped và máu > 50%) hoặc Block Proficiency (khi Duped và máu < 50%)",
+      "Gán bão Shock Damage và Bạo kích khổng lồ khi xả chiêu SP2"
+    ],
+    "weaknesses": [
+      "Lượng máu cơ bản thấp",
+      "Cần kỹ năng Dexterity né đòn chuẩn xác ở đầu trận để tích đủ 10 Poise Charges"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Dexterity Tích 10 Poise Charges): Lướt lùi (Dexterity) né các đòn tấn công của đối thủ để tích lũy đủ 10 tầng Poise Charges (mỗi lần Dex thành công nhận 1 charge giúp tăng Attack Rating).",
+      "BƯỚC 2 (Tích SP2): Sau khi đã tích đủ 10 Poise Charges, tấn công bằng đòn thường để nạp thanh năng lượng lên 2 bars Power (SP2).",
+      "BƯỚC 3 (Xả SP2 Mega Damage & Shock): Xả ngay chiêu SP2 khi có sẵn để bộc phát lượng sát thương siêu lớn (Mega Damage) kèm bão sát thương Điện Giật (Shock Damage) dọn cạn cây máu đối thủ."
+    ],
+    "awakened_vs_unawakened": "CẦN HIGHSIG / DUP MẠNH: Khi chưa Duped, Sparky vẫn tích 10 Poise tăng Attack Rating và nổ SP2 rất mạnh. Khi được Thức Tỉnh, khi máu trên 50%, các Poise Charges tăng thêm chỉ số Critical Rate; khi máu dưới 50%, chúng chuyển sang tăng Block Proficiency giúp sinh tồn an toàn hơn.",
+    "counters_targets": [
+      "Các tướng Robot (nhận thêm sát thương từ Shock Overcharged)",
+      "Các đối thủ có đòn đánh dễ né Dexterity"
+    ],
+    "countered_by": [
+      "Các tướng Miễn Nhiễm Điện Giật (Shock Immune)",
+      "Node True Strike / Anti-Evade"
+    ]
+  },
+  {
+    "id": "spot",
+    "name": "Spot",
+    "class": "science",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/spot.png",
+    "summary": "Thánh gán Đốm (Spots) bằng Portal Block, kích hoạt Untouchable né đòn để tích bão Rupture Debuffs và bộc phát bão sát thương từ SP2.",
+    "strengths": [
+      "Kích hoạt Portal Block bằng cách giữ Block để tích lũy Spots khi đỡ đòn",
+      "Trạng thái Untouchable giúp đối thủ đánh hụt (Miss) và gán Rupture Debuffs dồn dập",
+      "Bộc phá sát thương Rupture khổng lồ khi xả SP2 trước khi Untouchable kết thúc"
+    ],
+    "weaknesses": [
+      "Cần quản lý thời điểm bị đánh khi đang có 5+ Spots để kích hoạt Untouchable",
+      "Phụ thuộc vào việc xả SP2 kịp thời trong thời gian Untouchable"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Portal Block Tích 5-10 Spots): Giữ đòn Block để kích hoạt Portal Block, mỗi nhịp đòn đánh đỡ được sẽ nạp 1 điểm Spot (tích tụ từ 5 đến 10 Spots).",
+      "BƯỚC 2 (Kích Untouchable & Đánh Dồn Dập): Khi đã có 5+ Spots, chủ động để đối thủ đánh trúng (Get hit) nhằm kích hoạt trạng thái Untouchable (khiến đòn đánh đối thủ bị Miss). Lao vào tấn công liên tục dồn dập để gán hàng loạt hiệu ứng Rupture Debuffs lên đối thủ.",
+      "BƯỚC 3 (SP2 Nuke Trước Khi Hết Untouchable): Sau khi tích đủ các tầng Rupture Debuffs, xả chiêu SP2 NGAY TRƯỚC KHI trạng thái Untouchable kết thúc để bộc phá toàn bộ bão sát thương Rupture dứt điểm trận đấu."
+    ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Spot vẫn thực hiện trơn tru chuỗi Portal Block -> Untouchable -> Rupture -> SP2. Khi được Thức Tỉnh, Spot gia tăng thời gian duy trì Untouchable và tăng lượng sát thương Rupture bộc phát.",
+    "counters_targets": [
+      "Các đối thủ tấn công dồn dập vào Block",
+      "Các trận đấu Battlegrounds cần bộc phá sát thương gián tiếp cực nhanh"
+    ],
+    "countered_by": [
+      "Red Guardian / Các tướng Miễn Nhiễm Rupture",
+      "Node True Strike / Anti-Miss / Debuff Cleanse"
     ]
   }
 ]
