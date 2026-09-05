@@ -16,9 +16,9 @@
       "Phụ thuộc vào đòn Heavy để Reset chiêu và nhân đôi (Double) chỉ số Chi Charges"
     ],
     "rotation": [
-      "Gõ 4 chuỗi Wushu Strikes: M-M (Slow), M-L-M (Cleanse), M-L-L-M (Unblockable), M-L-L-L-M (Stun).",
-      "Parry Choáng -> Tụ đòn Heavy Attack để Reset 4 chiêu Wushu và nhân đôi Chi Charges & Precision.",
-      "Tích 2 thanh Power -> Bắn SP2 dồn bão Bạo kích 100% kết liễu trận đấu."
+      "BƯỚC 1 (Tích Chi Charges): Thực hiện lần lượt 4 chuỗi Wushu Strikes: M-M (Slow), M-L-M (Cleanse), M-L-L-M (Unblockable), M-L-L-L-M (Stun).",
+      "BƯỚC 2 (Heavy Reset & Nhân Đôi Charges): Parry Choáng -> Tụ đòn Heavy Attack để Reset 4 chiêu Wushu và nhân đôi Chi Charges & Precision Passives.",
+      "BƯỚC 3 (Xả SP2 Bộc Phá Crits): Tích 2 thanh Power -> Xả chiêu SP2 dồn bão Bạo kích 100% kết liễu trận đấu."
     ],
     "awakened_vs_unawakened": "KHÔNG BẮT BUỘC DUP: Shang-Chi ở trạng thái chưa Duped đã sở hữu 100% bộ kỹ năng Wushu Strikes và sát thương SP2 Bạo kích cực to. Khi được Thức Tỉnh (Awakened), Shang-Chi nhận thêm khả năng vượt qua khiên Block của đối thủ tốt hơn và tăng nhẹ chỉ số sát thương Bạo kích (Critical Damage Rating) dựa trên số lượng Chi Charges tích lũy.",
     "counters_targets": [
@@ -29,37 +29,6 @@
     "countered_by": [
       "Attuma / Namor (Phản sát thương khi dính Bạo kích)",
       "Tướng/Node Kháng Choáng (Stun Immune)"
-    ]
-  },
-  {
-    "id": "cyclops-blue-team",
-    "name": "Cyclops(BT)",
-    "class": "mutant",
-    "tier": "Beyond God Tier",
-    "avatar": "/assets/champions/cyclops-blue.png",
-    "summary": "Phiên bản Buff/Rework lột xác thành Mutant Nuker hàng đầu. Tích Precision dồn bão SP2 -> SP1 liên hoàn và sở hữu True Focus khắc chế Bullseye.",
-    "strengths": [
-      "Sát thương bộc phá (Burst Damage) cực ảo nhờ chuỗi xả chiêu SP2 -> SP1 -> SP1",
-      "Có sẵn True Focus đầu trận chống các tướng chuyên Né/Miss",
-      "Nội tại Adrenaline giúp hồi lại máu khi thực hiện chuỗi xả chiêu Special (khi Awakened)"
-    ],
-    "weaknesses": [
-      "Phụ thuộc vào nhịp duy trì combo 3 hit và Intercept để tích Precision Passives",
-      "Thiếu cơ chế giải Debuff xấu thụ động"
-    ],
-    "rotation": [
-      "Đánh combo 3 hit (M-L-L hoặc M-L-M) hoặc Intercept để tích khoảng 12-13 Precision Passives.",
-      "Tích năng lượng mấp nghé 3 thanh Power (ngay dưới SP3).",
-      "Xả SP2 -> Nhờ Power Efficiency lập tức xả tiếp 2-3 chiêu SP1 liên tiếp để dồn bão Bạo kích 200k+ damage."
-    ],
-    "awakened_vs_unawakened": "CẦN THỨC TỈNH (Nâng cấp lớn): Khi chưa Duped, Cyclops vẫn nổ sát thương SP2 -> SP1 rất tốt nhưng giáp yếu. Khi Thức Tỉnh, Cyclops kích hoạt cơ chế Adrenaline (cho phép hồi lại 100% lượng máu bị mất khi thực hiện các chiêu Special Attack) và gia tăng mạnh chỉ số Bạo kích cũng như khả năng giảm Armor của đối thủ.",
-    "counters_targets": [
-      "Bullseye (Khắc chế cứng bằng True Focus)",
-      "Các đối thủ máu trung bình trong Battlegrounds cần dọn nhanh dưới 30s"
-    ],
-    "countered_by": [
-      "Havok (Kháng sát thương Năng lượng/Laser)",
-      "Scarlet Witch (Phạt cơ chế Power Gain / Power Drain)"
     ]
   },
   {
@@ -79,9 +48,9 @@
       "Chỉ số máu/giáp ở mức trung bình"
     ],
     "rotation": [
-      "Đánh combo MLLLM hoặc Heavy để gán hiệu ứng Fear lên đối thủ.",
-      "Thực hiện SP1 để Cướp Năng Lượng (Power Steal) và bật trạng thái Unblockable.",
-      "Lập tức xả SP2 dồn bão Bleed rút cạn máu đối thủ."
+      "BƯỚC 1 (Gán Fear): Đánh combo MLLLM hoặc Parry Choáng -> Heavy Attack để gán hiệu ứng Fear lên đối thủ.",
+      "BƯỚC 2 (Power Steal SP1): Thực hiện SP1 để Cướp Năng Lượng (Power Steal) và bật trạng thái Unblockable.",
+      "BƯỚC 3 (Spam SP2 Bleed): Lập tức xả SP2 dồn bão Bleed rút cạn máu đối thủ."
     ],
     "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, White Tiger vẫn cướp Power và xả Bleed tốt. Khi Duped, khả năng Cướp Năng Lượng (Power Steal) được gia tăng hiệu lực mạnh mẽ, đồng thời khi đối thủ cán mốc SP3, cô ấy tự động nhận trạng thái kháng sát thương bộc phát giúp sinh tồn cực kỳ an toàn.",
     "counters_targets": [
@@ -92,38 +61,6 @@
       "Red Guardian (Kháng Bleed và chống cướp Power)",
       "Absorbing Man / Kingpin (Kháng/Giải Bleed thần tốc)",
       "Tướng/Node Miễn Nhiễm Bleed (Bleed Immune)"
-    ]
-  },
-  {
-    "id": "ghost-rider",
-    "name": "Ghost Rider",
-    "class": "mystic",
-    "tier": "God Tier",
-    "avatar": "/assets/champions/ghost-rider.png",
-    "summary": "Phiên bản Buff nâng cấp bộ Phán Quyết (Judgements). Đặt hiệu ứng Hinder, Atrophy, Fear và trói chân đối thủ bằng Penance Stare xả Degeneration.",
-    "strengths": [
-      "Miễn nhiễm hoàn toàn Chảy máu (Bleed) và Thiêu đốt (Incinerate)",
-      "Kiểm soát Buff đối thủ cực tốt qua Hinder (giảm 75% Buff) và Atrophy",
-      "Khả năng gán Degeneration thụ động qua cơ chế Penance Stare"
-    ],
-    "weaknesses": [
-      "Sát thương phụ thuộc vào việc xoay vòng đúng các Phán Quyết",
-      "Khả năng Hồi máu không còn bá đạo vô hạn như phiên bản gốc thời kỳ đầu"
-    ],
-    "rotation": [
-      "BƯỚC 1 (Gán Phán Quyết Đòn Đánh): Đánh combo M-L-L-L-M để gán Judgement of Corruption (Hinder 75%) -> Đánh combo M-L-L-L-L để gán Judgement of Malice (Atrophy 50%).",
-      "BƯỚC 2 (Heavy Cancel SP1): Tích 1+ thanh Power -> Heavy Cancel sang SP1 để gán Judgement of Fear (Power Steal & Incinerate).",
-      "BƯỚC 3 (Striker + SP2 Penance Stare): Tích 2+ thanh Power + Striker Charge -> Dùng Relic Striker -> Xả SP2 và đứng yên để kích hoạt Penance Stare(3s) (gán Degenerating + Rooted trói chân đối thủ).",
-      "BƯỚC 4 (Dồn dập kết liễu): Khi Rooted hết hiệu lực, lao vào đặt lại tối đa các Phán Quyết và xả tiếp SP2 để kết thúc trận đấu."
-    ],
-    "awakened_vs_unawakened": "CẦN DUP (Tăng sát thương lớn): Khi chưa Duped, Ghost Rider vẫn có đủ bộ Phán Quyết (Hinder, Atrophy, Hồi máu, Power Drain). Khi Duped (Spirit of Vengeance), Ghost Rider kích hoạt thêm 1 lá Phán Quyết Fury thụ động giúp tăng mạnh lượng sát thương đòn đánh và sát thương Degeneration.",
-    "counters_targets": [
-      "Tướng #Villain (Tự động dính Stagger đầu trận)",
-      "Các tướng phụ thuộc vào Buff (Buff Heavy Champions)"
-    ],
-    "countered_by": [
-      "Tướng Miễn Nhiễm Degeneration",
-      "Tướng/Node Kháng hiệu ứng thụ động (Passive Debuffs)"
     ]
   },
   {
@@ -143,9 +80,9 @@
       "Sợ các tướng/Node có khả năng Xóa Buff (Nullify/Stagger/Fate Seal)"
     ],
     "rotation": [
-      "Parry đòn đầu tiên (lấy Aptitude) -> Combo M-L-L-L-L (lấy Power Gain).",
-      "Tụ đòn Heavy (lấy Vigilance, Cruelty, Precision và gán Damnation + Armor Break).",
-      "Lập tức xả SP2 khi đối thủ dính Armor Break để dồn bão Bạo kích kết liễu."
+      "BƯỚC 1 (Aptitude & Power Gain): Parry đòn đầu tiên (lấy Aptitude Buff) -> Đánh chuỗi combo M-L-L-L-L (lấy Power Gain Buff).",
+      "BƯỚC 2 (Heavy Damnation): Parry Choáng -> Tụ đòn Heavy Attack (lấy Vigilance, Cruelty, Precision Passives và gán Damnation + Armor Break Debuffs).",
+      "BƯỚC 3 (Xả SP2 Bộc Phá): Lập tức xả chiêu SP2 khi đối thủ dính Armor Break để dồn bão Bạo kích kết liễu."
     ],
     "awakened_vs_unawakened": "KHÔNG BẮT BUỘC DUP: CGR ở mốc Unduped đã có 100% sát thương bộc phát đỉnh cao. Khi Duped, CGR nhận thêm khả năng gán hiệu ứng Damnation (Khóa Máu, Khóa Power, Khóa Fate Seal) ngay từ chiêu SP2 thay vì phải chờ kích hoạt đủ các tầng Phán Quyết.",
     "counters_targets": [
@@ -174,9 +111,9 @@
       "Sợ các tướng Kháng Choáng hoặc không thể bị Parry"
     ],
     "rotation": [
-      "Parry Choáng -> Giữ Heavy nạp đủ 10 Bleed lên bản thân (lặp lại khoảng 2 lần).",
-      "Xả SP1 để chuyển 10 Bleed thành đống Degeneration dồn sang cho đối thủ.",
-      "Parry + Giữ Heavy liên tục để Pause Degeneration nhìn cây máu đối thủ bốc hơi."
+      "BƯỚC 1 (Tích Bleed): Parry Choáng -> Giữ đòn Heavy Attack nạp đủ 10 Bleed Debuffs lên bản thân (lặp lại khoảng 2 lần).",
+      "BƯỚC 2 (Transfer Degen SP1): Xả chiêu SP1 để chuyển 10 Bleed thành đống Degeneration Passives dồn sang cho đối thủ.",
+      "BƯỚC 3 (Pause Degen Heavy): Parry Choáng -> Giữ Heavy liên tục để Pause Degeneration nhìn cây máu đối thủ bốc hơi."
     ],
     "awakened_vs_unawakened": "CẦN DUP (Rất quan trọng): Khi Duped, Mister Sinister nhận thêm khả năng trút ngược (Transfer) toàn bộ Debuff xấu (như Shock, Incinerate, Coldsnap...) từ bản thân sang đối thủ khi thực hiện đòn Heavy, biến các trận đấu có Node Debuff thành lợi thế tuyệt đối.",
     "counters_targets": [
@@ -205,8 +142,9 @@
       "Phụ thuộc vào việc duy trì Armor Shattered"
     ],
     "rotation": [
-      "Trận ngắn: Đánh Medium gán 6 Armor Break -> Armor Shattered -> Xả SP2.",
-      "Trận dài: Xả SP3 (làm mới Shattered + lấy Fervor) -> Xả SP2 + Combo kết thúc bằng Light để dồn bão Bleed."
+      "BƯỚC 1 (Armor Shattered): Đánh đòn Medium hoặc SP1 để tích đủ 6 Armor Break -> chuyển đổi thành Armor Shattered Debuff (khóa Power Gain/Auto-block).",
+      "BƯỚC 2 (SP2 / SP3 Refinement): Xả chiêu SP2 để gán Bleed dồn dập. Ở trận dài: xả SP3 để kích hoạt Fervor Buff và làm mới Armor Shattered.",
+      "BƯỚC 3 (Spam Light Bleeds): Thực hiện các chuỗi combo MLLLL (kết thúc bằng Light) để vắt kiệt máu đối thủ qua các đòn Bleed Passives."
     ],
     "awakened_vs_unawakened": "CẦN DUP (Tăng tốc độ dồn sát thương): Khi Duped (Living Strands), Medusa tự động nhận Buff Fury thụ động khi gán Armor Shattered và có khả năng tự động bật Auto-Block khi bị tấn công dồn dập, giúp tăng sát thương đòn đánh và độ an toàn phòng thủ.",
     "counters_targets": [
@@ -235,8 +173,9 @@
       "Yêu cầu kỹ thuật Heavy Cancel chuẩn nhịp"
     ],
     "rotation": [
-      "Trận ngắn: Combo M-L-L-L -> Heavy Cancel hit 1 sang Relic -> Heavy Cancel hit 1 sang SP2.",
-      "7-Star/Trận dài: Heavy Cancel hit 1 sang SP3 (Choáng 4s) -> Nối Heavy Cancel sang Relic -> Heavy Cancel sang SP2."
+      "BƯỚC 1 (Combo Ramp): Đánh chuỗi combo M-L-L-L để gán Physical Vulnerability Debuffs.",
+      "BƯỚC 2 (Heavy Cancel Relic): Parry Choáng -> Tụ Heavy Attack (Cancel hit 1 sang Relic Strike) -> Tụ Heavy Attack (Cancel hit 1 sang SP2).",
+      "BƯỚC 3 (SP3 Stun Loop - 7 Star / Trận Dài): Heavy Cancel hit 1 sang SP3 (Choáng 4s) -> Nối Heavy Cancel sang Relic -> Heavy Cancel sang SP2 bộc phá sát thương."
     ],
     "awakened_vs_unawakened": "KHÔNG BẮT BUỘC DUP: Silk ở trạng thái Unduped đã có trọn vẹn bộ combo Heavy Cancel nổ sát thương cực khủng. Khi Duped, Silk tăng thời gian tồn tại của trạng thái Auto-Evade và nhận thêm chỉ số Critical Damage Rating giúp tăng thêm một lượng nhỏ sát thương bạo kích.",
     "counters_targets": [
@@ -265,8 +204,9 @@
       "Phụ thuộc vào thức tỉnh (Awakened) để tối ưu khả năng Pause đòn"
     ],
     "rotation": [
-      "Trận ngắn: Tích Buff Corrupted mấp nghé SP3 -> Bắn SP2 chuyển Buff thành Degens -> Đánh vào Block để Pause Degens.",
-      "Trận dài: Bắn SP3 (mở Corrupted Intensifies) -> Tích lại mấp nghé SP3 -> Xả SP2 dồn Degens thiêu rụi đối thủ."
+      "BƯỚC 1 (Tích Corrupted Buffs): Đánh các chuỗi combo MLLLM, MLLLL và lướt lùi (Dexterity) để tích tụ đầy các tầng Corrupted Buffs mấp nghé 3 bars Power.",
+      "BƯỚC 2 (Xả SP2 Đổi Degens): Xả chiêu SP2 để chuyển toàn bộ các tầng Corrupted Buffs thành Degeneration Debuffs dồn sang người đối thủ.",
+      "BƯỚC 3 (Pause Degens Block): Đánh liên tục vào Block của đối thủ để Tạm dừng (Pause) đếm ngược các tầng Degeneration, duy trì rút máu vĩnh viễn."
     ],
     "awakened_vs_unawakened": "CẦN DUP MẠNH: Khi chưa Duped, Vox dồn Degeneration rát nhưng rất khó duy trì thời gian đếm ngược. Khi Duped, Vox nhận khả năng Pause (tạm dừng) thời gian tồn tại của tất cả Debuff Degeneration trên người đối thủ mỗi khi đánh vào khiên Block của họ, giúp lối đánh cực kỳ dễ thở.",
     "counters_targets": [
@@ -295,8 +235,9 @@
       "Sợ các tướng Nullify/Neutralize ngăn cản tích Buff"
     ],
     "rotation": [
-      "Trận ngắn: Combo M-L-M tích Planetary Mass -> SP1 (4 Fury) -> Planetary Mass ~350 gõ Heavy vào Harvest -> Tung SP1.",
-      "Trận dài: SP3 (8 Intensified) -> SP1 -> Heavy vào Harvest -> Xả SP2 bùng nổ sát thương."
+      "BƯỚC 1 (Tích Planetary Mass): Đánh liên tục các chuỗi combo M-L-M để nạp nhanh điểm Planetary Mass (tích mốc 350+).",
+      "BƯỚC 2 (SP1 lấy Fury / SP3 lấy Intensified): Nạp 1 bar Power xả SP1 (nhận 4 Fury Buffs) hoặc xả SP3 ở trận dài để nhân bản hiệu ứng.",
+      "BƯỚC 3 (Heavy Harvest Nuke): Parry Choáng -> Giậm Heavy Attack khi Planetary Mass đạt 350+ để chuyển sang trạng thái Harvest -> Xả ngay SP1/SP2 bộc phát sát thương Direct Damage hủy diệt."
     ],
     "awakened_vs_unawakened": "KHÔNG BẮT BUỘC DUP: Galan ở mốc Unduped đã là quái vật dọn trận với lượng sát thương Harvest Direct Damage đầy đủ. Khi Duped, Galan nhận thêm khả năng tự động nạp Planetary Mass nhanh hơn ở đầu trận và tăng khả năng sinh tồn khi máu hạ xuống thấp.",
     "counters_targets": [
@@ -325,9 +266,9 @@
       "Sợ các tướng Kháng sát thương Năng lượng (Energy Resistance)"
     ],
     "rotation": [
-      "Combo không dứt điểm -> Cancel Heavy gán Stun -> Bật 2 Negative Zone.",
-      "Tích SP1 -> Cancel Heavy (hit 2) sang SP1 (bật 2 Dark Dimension tự nạp Power).",
-      "Tích SP2 -> Cancel Heavy (hit 1) sang SP2 (bật Utopian Parallel xả bão Big Bang Energy)."
+      "BƯỚC 1 (Negative Zone Stun): Đánh combo không dứt điểm -> Cancel sang Heavy Attack để gán Passive Stun -> Bật 2 Negative Zone Dimensions.",
+      "BƯỚC 2 (Dark Dimension Power Gain): Tích 1 bar Power -> Cancel Heavy (hit 2) sang SP1 (bật 2 Dark Dimensions để tự động nạp Power Gain).",
+      "BƯỚC 3 (Utopian Parallel Big Bang SP2): Tích 2 bars Power -> Cancel Heavy (hit 1) sang SP2 (bật Utopian Parallel bộc phát bão sát thương Big Bang Energy Damage)."
     ],
     "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Chavez đã có đầy đủ bộ skill Heavy Cancel dồn sát thương Năng lượng. Khi Duped, các Cổng Không Gian (Dimensions) của Chavez có thời gian tồn tại lâu hơn đáng kể và tự động rút Power/Máu của đối thủ khi họ ở gần.",
     "counters_targets": [
@@ -356,9 +297,9 @@
       "Sợ các tướng/Node khóa hiệu ứng Bất tử hoặc Nullify Buff"
     ],
     "rotation": [
-      "Dash lùi sau hit 1 (M/L) để gán Infuriate lên đối thủ.",
-      "Special Intercept bằng SP1 (nhận 3 Buff Precision).",
-      "Tiếp tục Intercept lên SP2 -> Special Intercept bằng SP2 (nhận 3 Buff Cruelty + Choáng 3s)."
+      "BƯỚC 1 (Infuriate Set-up): Dash lùi sau đòn đánh hit 1 (Medium/Light) để gán Infuriate Debuff ép đối thủ lao vào tấn công.",
+      "BƯỚC 2 (Special Intercept SP1): Đợi đối thủ lao vào -> Thực hiện Special Intercept bằng SP1 (nhận 3 Precision Buffs).",
+      "BƯỚC 3 (Special Intercept SP2 Nuke): Tiếp tục Intercept nạp lên 2 bars Power -> Special Intercept bằng SP2 (nhận 3 Cruelty Buffs + Passive Stun 3s) dọn cạn cây máu đối thủ."
     ],
     "awakened_vs_unawakened": "BẮT BUỘC DUP (Tối quan trọng): Khi chưa Duped, Hercules vẫn đánh rất đau nhưng không có mạng Bất tử. Khi được Thức Tỉnh (Awakened), Hercules nhận khả năng Immortality (Bất tử trong 9-12 giây khi máu chạm 1%), giúp anh trở thành vị tướng càn quét mọi content khó nhất game mà không sợ bị K.O.",
     "counters_targets": [
@@ -386,9 +327,9 @@
       "Yêu cầu kỹ năng Intercept chuẩn xác"
     ],
     "rotation": [
-      "Dash lùi sau hit không dứt điểm để tích đủ 5 Panther's Might.",
-      "Special Intercept bằng SP1 (bật Panther's Might, Pause Cruelty).",
-      "Tích 2 thanh Power -> Special Intercept bằng SP2 (100% Crit + dồn bão Bleed)."
+      "BƯỚC 1 (Tích Panther's Might): Dash lùi sau hit không dứt điểm để tích đủ 5 tầng Panther's Might Passives.",
+      "BƯỚC 2 (Special Intercept SP1): Lướt lùi né đòn -> Special Intercept bằng SP1 (bật Panther's Might State, Pause Cruelty Buffs).",
+      "BƯỚC 3 (Special Intercept SP2 Bleed): Tích 2 thanh Power -> Special Intercept bằng SP2 (100% Bạo Kích + dồn bão Bleed Debuffs)."
     ],
     "awakened_vs_unawakened": "CẦN HIGHSIG (Tăng sát thương lớn): Khi Duped, đòn Bạo kích của Black Panther tăng mạnh hiệu lực sát thương Bleed và cho phép các tầng Bleed có khả năng xuyên qua giáp đối thủ.",
     "counters_targets": [
@@ -417,9 +358,9 @@
       "Sợ các tướng/Node Purify / Cleanse Debuff"
     ],
     "rotation": [
-      "Combo Light (M-L-L-L-L) tích Shadow Magic Buffs -> Combo M-M đổi Buff thành Debuff lên đối thủ.",
-      "Tung SP3 -> Đạt 20+ Debuffs trên đối thủ gõ đòn Heavy để nạp đầy 100% Power.",
-      "Tung tiếp cú SP3 thứ 2 liên hoàn kết liễu trận đấu."
+      "BƯỚC 1 (Shadow Magic Debuffs): Đánh combo Light (M-L-L-L-L) tích Shadow Magic Buffs -> Đánh combo M-M chuyển Buff thành các lớp Debuffs lên đối thủ.",
+      "BƯỚC 2 (Xả SP3): Tích 3 thanh Power -> Xả chiêu SP3 dồn thêm lượng lớn Debuffs.",
+      "BƯỚC 3 (Heavy 100% Power Refresh): Khi đối thủ dính 20+ Debuffs, giậm đòn Heavy Attack để tự động nạp đầy 100% Power -> Tung tiếp cú SP3 thứ 2 liên hoàn dọn cạn cây máu."
     ],
     "awakened_vs_unawakened": "KHÔNG BẮT BUỘC DUP: Gorr khi Unduped vẫn thực hiện trơn tru chuỗi dồn 20+ Debuffs nạp 100% Power. Khi Duped, Gorr nhận thêm khả năng hồi máu Undying khi bị nhận sát thương lớn.",
     "counters_targets": [
@@ -448,9 +389,9 @@
       "Nếu dùng nhầm combo Medium Finisher sẽ làm mất các tầng Armor Break"
     ],
     "rotation": [
-      "Parry / M-Heavy tích 50-60 tầng Living Abyss -> Bắn SP3 bật Corruption (đổi thành 60 Armor Break).",
-      "Sau SP3, CHỈ DÙNG combo kết thúc bằng Light (M-L-L-L-L) để Pause Corruption.",
-      "Bắn SP2 (+10 Armor Break) -> Tiếp tục duy trì Light Finisher dọn sạch cây máu."
+      "BƯỚC 1 (Tích Living Abyss): Parry Choáng hoặc M-Heavy tích tụ từ 50 đến 60 tầng Living Abyss Debuffs.",
+      "BƯỚC 2 (SP3 Corruption Nuke): Tích 3 bars Power -> Bắn SP3 để kích hoạt Corruption (chuyển đổi toàn bộ Abyss thành 60+ Armor Breaks).",
+      "BƯỚC 3 (Light Finisher Pause): Sau SP3, CHỈ DÙNG combo M-L-L-L-L (kết thúc bằng Light) để Pause Corruption. Xả SP2 (+10 Armor Breaks) dứt điểm trận đấu."
     ],
     "awakened_vs_unawakened": "CẦN HIGHSIG (Tăng tốc độ Ramp-up): Khi Duped, Knull tích lũy các tầng Living Abyss nhanh hơn gấp đôi ngay từ đầu trận đấu và tăng thời gian duy trì trạng thái Corruption.",
     "counters_targets": [
@@ -479,9 +420,9 @@
       "Phụ thuộc vào nhịp quản lý trạng thái Haymaker"
     ],
     "rotation": [
-      "M-Finisher (M-L-L-L-M) bật Haymaker -> L-Finisher (M-L-L-L-L) tích Debuff/Fury lên mốc SP3.",
-      "Parry Choáng -> Tụ Heavy (cancel hit 2 sang SP3) để nhân đôi Debuff từ 10 lên 20+.",
-      "Lướt vào giậm tiếp 3-4 đòn Heavy liên tiếp dồn bão Fury kết liễu trận đấu."
+      "BƯỚC 1 (Haymaker & Debuff Setup): Đánh M-L-L-L-M (M-Finisher) để bật Haymaker -> Đánh M-L-L-L-L (L-Finisher) tích lũy Debuffs/Fury mấp nghé 3 bars Power.",
+      "BƯỚC 2 (Heavy Cancel SP3 Double): Parry Choáng -> Tụ Heavy Attack (Cancel hit 2 sang SP3) để nhân đôi toàn bộ Debuffs từ 10 lên 20+.",
+      "BƯỚC 3 (Heavy Spam Nuke): Lướt vào giậm tiếp 3 đến 4 đòn Heavy Attack liên tiếp dồn bão Fury kết liễu trận đấu."
     ],
     "awakened_vs_unawakened": "KHÔNG BẮT BUỘC DUP: Titania ở mốc Unduped đã có trọn vẹn bộ chiêu Heavy Cancel SP3 dồn Fury cực mạnh. Khi Duped, thời gian tồn tại của Haymaker được kéo dài hơn và gia tăng chỉ số phòng thủ.",
     "counters_targets": [
@@ -510,9 +451,9 @@
       "Sợ Node Kháng Bạo Kích (Critical Resistance)"
     ],
     "rotation": [
-      "Đánh Light 2 vào Block của đối thủ để kích hoạt Sovereignty Counter.",
-      "Tấn công dồn dập (không dùng Parry) để tích combo lên 20+ (Precision) và 30+ (Fury).",
-      "Dùng SP2 dồn bão Bạo kích xuyên thủ kết liễu trận đấu."
+      "BƯỚC 1 (Sovereignty Counter): Đánh đòn Light 2 thẳng vào Block của đối thủ để kích hoạt Sovereignty Counter.",
+      "BƯỚC 2 (Combo Ramp): Tấn công dồn dập (không dùng Parry) để tích chuỗi combo lên 20+ (nhận Precision) và 30+ (nhận Fury).",
+      "BƯỚC 3 (Xả SP2 Bộc Phá): Dùng SP2 dồn bão Bạo kích xuyên thủ kết liễu trận đấu."
     ],
     "awakened_vs_unawakened": "CẦN DUP (Tăng độ an toàn): Khi Duped, Adam Warlock nhận thêm kén hồi sinh Pod Regeneration khi bị dính đòn K.O và gia tăng thời gian duy trì trạng thái Sovereign Stance.",
     "counters_targets": [
@@ -541,9 +482,9 @@
       "Sợ các tướng có khả năng khóa/xóa Buff Cosmic"
     ],
     "rotation": [
-      "Thực hiện combo MLLLM kết hợp Parry + Heavy Attack để tích lũy Cul's Wisdom / Protection.",
-      "Tích lũy đủ 2 thanh năng lượng (SP2).",
-      "Bắn SP2 dồn sát thương Cosmic sốc chết đối thủ."
+      "BƯỚC 1 (Cul's Wisdom Setup): Đánh combo MLLLM kết hợp Parry Choáng -> Heavy Attack để tích lũy Cul's Wisdom / Protection Buffs.",
+      "BƯỚC 2 (Tích Power): Nạp đủ 2 thanh năng lượng (SP2).",
+      "BƯỚC 3 (Xả SP2 Cosmic Nuke): Bắn chiêu SP2 dồn sát thương Cosmic sốc chết đối thủ."
     ],
     "awakened_vs_unawakened": "BẮT BUỘC DUP HIGHSIG (Cho Phòng Thủ): Khi Duped ở Sig cao, The Serpent nhận thêm lớp mạng Bất tử Death Immunity và giáp bảo vệ cực kỳ ức chế, biến hắn thành Defender số 1 game.",
     "counters_targets": [
@@ -570,9 +511,9 @@
       "Tốc độ kết thúc trận đấu ở mốc trung bình"
     ],
     "rotation": [
-      "Đánh combo MLLLM kết hợp Heavy Attack để xé Rách Giáp và tích Buff Klyntar.",
-      "Tích năng lượng xả SP2 để dồn bão Bạo kích.",
-      "Dùng SP1 khi cần nuốt Buff của đối thủ để hồi phục máu."
+      "BƯỚC 1 (Phá Giáp & Klyntar): Đánh combo MLLLM kết hợp Heavy Attack để xé Rách Giáp (Armor Break) và tích Buff Klyntar.",
+      "BƯỚC 2 (Spam SP2): Tích 2 bars Power xả SP2 để dồn bão Bạo kích.",
+      "BƯỚC 3 (Nuốt Buff SP1): Dùng SP1 khi cần nuốt Buff của đối thủ để hồi phục máu."
     ],
     "awakened_vs_unawakened": "NÊN DUP: Khi Duped, Venom nhận thêm Buff Klyntar ngẫu nhiên ngay đầu trận đấu và tăng thời gian tồn tại của các Buff Bạo kích.",
     "counters_targets": [
@@ -600,9 +541,9 @@
       "Sợ cơ chế Purify/Cleanse"
     ],
     "rotation": [
-      "Đánh combo kết thúc bằng Medium hoặc Light (MLLLM/MLLLL) để tích Debuff.",
-      "Trừng phạt đòn Heavy/Special của đối thủ hoặc dùng Heavy để Pause Debuff.",
-      "Bắn SP2 dồn sốc sát thương theo tổng số Debuff trên người đối thủ."
+      "BƯỚC 1 (Tích Debuffs): Đánh chuỗi combo MLLLM hoặc MLLLL để tích dồn Bleed và Suppress Debuffs.",
+      "BƯỚC 2 (Pause Debuffs): Trừng phạt đòn Heavy/Special của đối thủ hoặc dùng Heavy Attack để Tạm dừng (Pause) Debuff đếm ngược.",
+      "BƯỚC 3 (SP2 Debuff Nuke): Bắn SP2 dồn sốc sát thương bùng nổ theo tổng số Debuffs trên người đối thủ."
     ],
     "awakened_vs_unawakened": "NÊN DUP: Khi Duped, Scream gia tăng khả năng Pause các tầng Bleed lâu hơn và tăng chỉ số sát thương Bạo kích khi đối thủ dính nhiều Suppress Debuffs.",
     "counters_targets": [
@@ -631,9 +572,9 @@
       "Không có sát thương rút máu gián tiếp"
     ],
     "rotation": [
-      "Lao vào đấm combo MLLLM ngay từ đầu trận bất chấp khiên Block đối thủ nhờ Unstoppable.",
-      "Giữ Heavy Attack để gán Stagger xóa Buff đối thủ và gia hạn Unstoppable.",
-      "Tích 2 thanh năng lượng xả SP2 dồn bão Bạo kích nổ chết đối thủ."
+      "BƯỚC 1 (Đấm Đè Unstoppable): Lao vào đấm combo MLLLM ngay từ đầu trận bất chấp khiên Block đối thủ nhờ Unstoppable.",
+      "BƯỚC 2 (Stagger & Gia Hạn): Giữ đòn Heavy Attack để gán Stagger xóa Buff đối thủ và gia hạn trạng thái Unstoppable.",
+      "BƯỚC 3 (Spam SP2): Tích 2 thanh năng lượng xả SP2 dồn bão Bạo kích nổ chết đối thủ."
     ],
     "awakened_vs_unawakened": "KHÔNG BẮT BUỘC DUP: Juggernaut ở trạng thái Unduped vẫn càn quét Battlegrounds cực nhanh với Unstoppable và SP2 Bạo kích. Khi Duped, hắn nhận thêm khả năng tự nạp Power khi đang Unstoppable.",
     "counters_targets": [
@@ -660,9 +601,9 @@
       "Sợ đối thủ Kháng Lửa (Incinerate Immune)"
     ],
     "rotation": [
-      "Tích năng lượng lên SP2 và bắn SP2 để gán Soul Barb.",
-      "Trong lúc Soul Barb hoạt động, liên tục xả SP1 để dồn lớp Incinerate.",
-      "Trận dài: Dùng SP3 trước lấy Judgement và 9 tầng Degeneration."
+      "BƯỚC 1 (Soul Barb SP2): Tích năng lượng lên SP2 và bắn SP2 để gán Soul Barb.",
+      "BƯỚC 2 (Spam Incinerate SP1): Trong lúc Soul Barb hoạt động, liên tục xả SP1 để dồn các lớp Incinerate Debuffs.",
+      "BƯỚC 3 (Judgement SP3 - Trận Dài): Ở trận dài: Dùng SP3 trước để lấy Judgement và 9 tầng Degeneration Passives."
     ],
     "awakened_vs_unawakened": "CẦN DUP (Rất quan trọng): Khi Duped, Kushala chuyển toàn bộ các Debuff gây ra thành dạng thụ động (Passive) khi đối diện với các tướng có khả năng Purify, khóa hoàn toàn cơ chế giải Debuff của đối thủ.",
     "counters_targets": [
@@ -689,9 +630,9 @@
       "Cần nhớ nhịp Cancel Heavy sang Special Attacks"
     ],
     "rotation": [
-      "Combo MLLLL (Light 4) để gán Cowardice giảm sát thương SP đối thủ.",
-      "Parry Choáng -> Hold Heavy (lấy Precision) -> Cancel ngay sang SP1 để tích nhanh Inflamed Passives.",
-      "Tích 15 tầng Inflamed -> Parry -> Hold Heavy Cancel sang SP2 dồn bão Bạo kích nổ Plasma sốc chết đối thủ."
+      "BƯỚC 1 (Cowardice Setup): Combo MLLLL (kết thúc bằng Light 4) để gán Cowardice giảm sát thương SP đối thủ.",
+      "BƯỚC 2 (Hold Heavy Cancel SP1): Parry Choáng -> Hold Heavy Attack (lấy Precision) -> Cancel ngay sang SP1 để tích nhanh Inflamed Passives.",
+      "BƯỚC 3 (Inflamed Plasma SP2): Tích 15 tầng Inflamed -> Parry Choáng -> Hold Heavy Cancel sang SP2 dồn bão Bạo kích nổ Plasma sốc chết đối thủ."
     ],
     "awakened_vs_unawakened": "NÊN DUP: Khi Duped, Jack O'Lantern nhận thêm khả năng tích lũy các tầng Inflamed Passives nhanh hơn và tăng thêm sát thương Bạo kích Plasma.",
     "counters_targets": [
@@ -718,9 +659,9 @@
       "Sợ các tướng Kháng Bleed/Debuff"
     ],
     "rotation": [
-      "Đánh combo MLLLL (kết thúc bằng Light) để gán Poorker Porker Poppers và Taunt.",
-      "Thực hiện Taunt để ép đối thủ dùng Special Attack.",
-      "Khi đối thủ xả Special, các tầng Poppers sẽ tự nổ rút cạn cây máu."
+      "BƯỚC 1 (Poppers & Taunt): Đánh combo MLLLL (kết thúc bằng Light) để gán Poorker Porker Poppers và Taunt Debuffs.",
+      "BƯỚC 2 (Ép Special): Thực hiện Taunt để ép đối thủ dùng Special Attack.",
+      "BƯỚC 3 (Tự Nổ Máu): Khi đối thủ xả Special, các tầng Poppers sẽ tự nổ rút cạn cây máu."
     ],
     "awakened_vs_unawakened": "KHÔNG BẮT BUỘC DUP: Spider-Ham ở trạng thái Unduped vẫn gán Poppers và ép đối thủ tự nổ máu bình thường. Khi Duped, Ham nhận thêm tỉ lệ tự động gán Poppers khi né đòn Special.",
     "counters_targets": [
@@ -747,9 +688,9 @@
       "Phụ thuộc vào thanh Solar Energy"
     ],
     "rotation": [
-      "Đánh combo MLLLM kết hợp Parry + Heavy Attack để nạp nhanh Solar Energy.",
-      "Tích đủ 2 thanh năng lượng.",
-      "Xả SP2 chuyển hóa Solar Energy thành bão Incinerate thiêu rụi đối thủ."
+      "BƯỚC 1 (Solar Energy): Đánh combo MLLLM kết hợp Parry Choáng -> Heavy Attack để nạp nhanh Solar Energy.",
+      "BƯỚC 2 (Tích SP2): Tích đủ 2 thanh năng lượng.",
+      "BƯỚC 3 (Incinerate Nuke SP2): Xả SP2 chuyển hóa Solar Energy thành bão Incinerate thiêu rụi đối thủ."
     ],
     "awakened_vs_unawakened": "NÊN DUP: Khi Duped, Karolina nạp năng lượng Solar Energy nhanh hơn khi bị tấn công và tăng thời gian tồn tại của bão Incinerate.",
     "counters_targets": [
@@ -776,9 +717,9 @@
       "Phụ thuộc vào nhịp quản lý các tầng Psionic Charges"
     ],
     "rotation": [
-      "Đánh combo kết thúc bằng Light (M-L-L-L-L) gán Neuroshocks.",
-      "Heavy Attack tích Psionic Charges và giải trừ Debuff.",
-      "Tích 2 thanh năng lượng xả SP2 dồn bão sát thương Năng lượng hủy diệt."
+      "BƯỚC 1 (Neuroshocks): Đánh combo M-L-L-L-L (kết thúc bằng Light) để gán Neuroshocks.",
+      "BƯỚC 2 (Psionic Charges): Heavy Attack tích Psionic Charges và giải trừ Debuffs.",
+      "BƯỚC 3 (Neuroshock Burst SP2): Tích 2 thanh năng lượng xả SP2 dồn bão sát thương Năng lượng hủy diệt."
     ],
     "awakened_vs_unawakened": "CẦN HIGHSIG (Cho Phòng Thủ & Tấn Công): Khi Duped, Jean Grey tự động tạo khiên Phoenix Force Shield trâu hơn và phản ngược sát thương Neuroshock rát hơn khi vỡ khiên.",
     "counters_targets": [
@@ -801,16 +742,16 @@
       "Bỏ qua phòng thủ Block và phản sát thương Năng lượng",
       "Top 1 Defender trong Battlegrounds"
     ],
-    "awakened_vs_unawakened": "BẮT BUỘC DUP HIGHSIG (Cho Phòng Thủ): Khi Duped ở Sig cao, Photon tự động vào trạng thái Pure Light ngay đầu trận đấu và tăng khả năng phản sát thương Năng lượng cực mạnh khi làm Defender.",
     "weaknesses": [
       "Sợ các tướng có True Strike / True Sight",
       "Sợ các tướng trị hệ Science trâu bò"
     ],
     "rotation": [
-      "Lướt lùi giữ Block để vào trạng thái Pure Light State.",
-      "Tấn công bằng combo MLLLM để gán các hiệu ứng dồn sát thương Ánh sáng.",
-      "Dùng SP2 khi ở Pure Light để dồn bùng nổ sát thương và giữ đối thủ trong trạng thái bị khóa."
+      "BƯỚC 1 (Pure Light State): Lướt lùi giữ Block để vào trạng thái Pure Light State.",
+      "BƯỚC 2 (Gán Light Damage): Tấn công bằng combo MLLLM để gán các hiệu ứng dồn sát thương Ánh sáng.",
+      "BƯỚC 3 (Pure Light SP2): Dùng SP2 khi ở Pure Light để dồn bùng nổ sát thương và giữ đối thủ trong trạng thái bị khóa."
     ],
+    "awakened_vs_unawakened": "BẮT BUỘC DUP HIGHSIG (Cho Phòng Thủ): Khi Duped ở Sig cao, Photon tự động vào trạng thái Pure Light ngay đầu trận đấu và tăng khả năng phản sát thương Năng lượng cực mạnh khi làm Defender.",
     "counters_targets": [
       "Các Attacker không có True Strike trong BGs"
     ],
@@ -836,9 +777,9 @@
       "Sát thương giảm khi gặp đối thủ kháng Rupture / Sát thương Vật Lý"
     ],
     "rotation": [
-      "TRẬN ĐẤU CHUẨN: Đánh combo MLLLL để gán Rupture lên đối thủ -> Dash lùi đứng yên (Stand Idle) 1.7s để Hú (Chilling Howl) tích Power và điểm Lycanthropy.",
-      "KHI HÓA SÓI (10 Lycanthropy): Tự động nhận Unstoppable & Unblockable khi dùng Heavy/Special -> Lập tức xả SP2 để bộc phá bão Rupture dồn bạo kích kết liễu đối thủ.",
-      "TRẬN DÀI: Xả SP3 để kích hoạt dạng Curse kéo dài 25 giây."
+      "BƯỚC 1 (Chilling Howl): Đánh combo MLLLL để gán Rupture -> Dash lùi đứng yên (Stand Idle) 1.7s để Hú (Chilling Howl) tích Power và điểm Lycanthropy.",
+      "BƯỚC 2 (Hóa Sói SP2 Nuke): KHI HÓA SÓI (10 Lycanthropy): Tự động nhận Unstoppable & Unblockable khi dùng Heavy/Special -> Lập tức xả SP2 để bộc phá bão Rupture dồn bạo kích.",
+      "BƯỚC 3 (Curse State SP3): Ở trận dài: Xả SP3 để kích hoạt dạng Curse kéo dài 25 giây."
     ],
     "awakened_vs_unawakened": "KHÔNG BẮT BUỘC DUP: Toàn bộ bộ kỹ năng gây bão sát thương Rupture và cơ chế Hóa Sói đều có sẵn 100% khi chưa Duped. Khi được Thức Tỉnh, khả năng sinh tồn được nâng cấp mạnh: Tăng hiệu lực Hồi Máu (Regeneration Passive) dựa trên số lượng Buff độc nhất của đối thủ (tối đa 8 Buffs) giúp hồi tới 40-60% lượng máu đã mất chỉ sau một nhịp Hóa Sói.",
     "counters_targets": [
@@ -868,10 +809,9 @@
       "Bộ A.I bị tắt 10s nếu dính đòn Heavy hoặc đánh nhau với tướng Cosmic"
     ],
     "rotation": [
-      "Đầu trận: Liên tục lướt lùi (Dexterity / Evade) để tích lũy tối đa 10 tầng Poise Charge.",
-      "Khi đã đạt 10 Poise: Tấn công bằng chuỗi đòn đánh thường MLLLM (sát thương lúc này đã x3 x4 lần bình thường).",
-      "Tích 2 thanh Power xả SP2 để kích hoạt bão Shock / Bạo kích thiêu rụi đối thủ.",
-      "Gặp đối thủ trâu Power: Dùng SP1 (EMP Webshot) để rút 45% thanh năng lượng của đối thủ."
+      "BƯỚC 1 (Tích 10 Poise): Liên tục lướt lùi (Dexterity / Evade) để tích lũy tối đa 10 tầng Poise Charge.",
+      "BƯỚC 2 (Combo MLLLM): Tấn công bằng chuỗi đòn đánh thường MLLLM (sát thương lúc này đã x3 x4 lần bình thường).",
+      "BƯỚC 3 (Xả SP2 Shock): Tích 2 thanh Power xả SP2 để kích hoạt bão Shock / Bạo kích thiêu rụi đối thủ (dùng SP1 để Power Drain 45% nếu cần)."
     ],
     "awakened_vs_unawakened": "CẦN HIGHSIG / DUP MẠNH: Khi chưa Duped, Sparky vẫn tích đủ 10 Poise dồn damage tốt nhưng rất mạo hiểm vì giáp yếu. Khi Duped, Sparky nhận thêm chỉ số Critical Rating thụ động tăng mạnh theo từng tầng Poise và thời gian duy trì hiệu ứng Taunt lâu hơn đáng kể, giúp tăng sát thương Bạo kích và ép đối thủ xả Special an toàn hơn rất nhiều.",
     "counters_targets": [
@@ -900,9 +840,9 @@
       "Sát thương khởi đầu ở mức trung bình trước khi hoàn tất setup"
     ],
     "rotation": [
-      "Xoay vòng combo Medium - Light - Medium để tích lũy tài nguyên và đặt hiệu ứng khống chế.",
-      "Tích lũy thanh năng lượng lên SP2 để xả bão sát thương Shock/Plasma.",
-      "Giữ nhịp Block và Intercept để duy trì trạng thái áp đảo đối thủ."
+      "BƯỚC 1 (M-L-M Resource Setup): Xoay vòng combo M-L-M để tích lũy tài nguyên và đặt hiệu ứng khống chế.",
+      "BƯỚC 2 (SP2 Shock/Plasma): Tích lũy thanh năng lượng lên 2 bars Power xả chiêu SP2 để xả bão sát thương Shock/Plasma.",
+      "BƯỚC 3 (Block & Intercept): Giữ nhịp Block và Intercept để duy trì trạng thái áp đảo đối thủ."
     ],
     "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Maker vẫn hoạt động tốt nhưng thiếu khả năng sinh tồn bộc phát. Khi được Thức Tỉnh, Maker gia tăng tốc độ tích tụ tài nguyên ở đầu trận và tăng cường khả năng tự vệ khi máu xuống thấp.",
     "counters_targets": [
@@ -931,9 +871,9 @@
       "Phụ thuộc vào việc giữ giáp để duy trì sát thương và kiểm soát Power"
     ],
     "rotation": [
-      "Tích lũy tối đa các tầng Tesseract Armor bằng cách đỡ đòn (Block) hoặc xả SP1.",
-      "Khi đối thủ bị rút cạn Power, dùng SP2 dồn đống Armor Break.",
-      "Lao vào xả combo MLLLM bộc phát sát thương bạo kích."
+      "BƯỚC 1 (Tesseract Armor Setup): Tích lũy tối đa các tầng Tesseract Armor bằng cách đỡ đòn (Block) hoặc xả SP1.",
+      "BƯỚC 2 (SP2 Armor Break Nuke): Khi đối thủ bị rút cạn Power, dùng SP2 dồn đống Armor Break Debuffs.",
+      "BƯỚC 3 (Combo Finish): Lao vào xả combo MLLLM bộc phát sát thương bạo kích."
     ],
     "awakened_vs_unawakened": "CẦN HIGHSIG (Cho Phòng Thủ & Tấn Công): Khi Duped, Red Skull nạp lại các tầng giáp Tesseract nhanh hơn rất nhiều và tăng thêm chỉ số sát thương Bạo kích dựa trên số giáp đang có.",
     "counters_targets": [
@@ -962,9 +902,9 @@
       "Lối đánh yêu cầu duy trì trạng thái Adaptation liên tục"
     ],
     "rotation": [
-      "Đánh combo MLLLM để tích lũy các tầng Adaptation.",
-      "Dùng SP1 để gán hiệu ứng Shock và kiểm soát thanh năng lượng đối thủ.",
-      "Xả SP2 khi đã đủ tầng Adaptation để nổ sát thương Plasma/Shock bùng nổ."
+      "BƯỚC 1 (Adaptation Stacks): Đánh combo MLLLM để tích lũy các tầng Adaptation.",
+      "BƯỚC 2 (Power Control SP1): Dùng SP1 để gán hiệu ứng Shock và kiểm soát thanh năng lượng đối thủ.",
+      "BƯỚC 3 (Plasma SP2 Nuke): Xả SP2 khi đã đủ tầng Adaptation để nổ sát thương Plasma/Shock bùng nổ."
     ],
     "awakened_vs_unawakened": "BẮT BUỘC DUP (Diệt Mutant đỉnh cao): Khi Duped, Bastion khởi đầu trận đấu với các tầng Adaptation có sẵn và tăng mạnh sát thương bộc phá khi đối đầu với tướng Mutant.",
     "counters_targets": [
@@ -993,9 +933,9 @@
       "Phế hoàn toàn trước các đối thủ Miễn Nhiễm Chảy Máu (Bleed Immune)"
     ],
     "rotation": [
-      "Duy trì chuỗi Combo liên tục, tránh bị trúng đòn làm ngắt Combo.",
-      "Tích lũy energy xả SP1 để gán Armor Break và tăng tỉ lệ Bleed.",
-      "Dùng SP2 để dồn bão Bleed kết liễu trận đấu."
+      "BƯỚC 1 (Combo Building): Duy trì chuỗi Combo liên tục, tránh bị trúng đòn làm ngắt Combo.",
+      "BƯỚC 2 (Armor Break SP1): Tích lũy energy xả SP1 để gán Armor Break và tăng tỉ lệ Bleed.",
+      "BƯỚC 3 (Bleed Nuke SP2): Dùng SP2 để dồn bão Bleed kết liễu trận đấu."
     ],
     "awakened_vs_unawakened": "CẦN DUP (Rất quan trọng): Khi Duped, Okoye giữ lại được một lượng lớn chỉ số Combo ngay cả khi bị trúng đòn và tăng mạnh tỉ lệ gán Bleed trên từng đòn đánh.",
     "counters_targets": [
@@ -1005,37 +945,6 @@
     "countered_by": [
       "Colossus / Robot / Magneto (Tướng Bleed Immune)",
       "Node trừng phạt Combo Count"
-    ]
-  },
-  {
-    "id": "gorr",
-    "name": "Gorr",
-    "class": "cosmic",
-    "tier": "God Tier",
-    "avatar": "/assets/champions/gorr.png",
-    "summary": "Kẻ Sát Thần. Tích Buff Shadow Magic từ combo Light, chuyển thành Debuff bằng combo M-M rồi tung SP3 liên hoàn rút sạch máu.",
-    "strengths": [
-      "Cơ chế tự nạp 100% Power qua đòn Heavy khi đối thủ dính 20+ Debuffs",
-      "Khả năng dồn bão SP3 liên tục trong thời gian ngắn",
-      "Hồi phục và gây sát thương DOT đa dạng"
-    ],
-    "weaknesses": [
-      "Cần chuỗi setup qua nhiều bước (Light combo -> M-M combo -> SP3)",
-      "Sợ các tướng/Node Purify / Cleanse Debuff"
-    ],
-    "rotation": [
-      "Combo Light (M-L-L-L-L) tích Shadow Magic Buffs -> Combo M-M đổi Buff thành Debuff lên đối thủ.",
-      "Tung SP3 -> Đạt 20+ Debuffs trên đối thủ gõ đòn Heavy để nạp đầy 100% Power.",
-      "Tung tiếp cú SP3 thứ 2 liên hoàn kết liễu trận đấu."
-    ],
-    "awakened_vs_unawakened": "KHÔNG BẮT BUỘC DUP: Gorr khi Unduped vẫn thực hiện trơn tru chuỗi dồn 20+ Debuffs nạp 100% Power. Khi Duped, Gorr nhận thêm khả năng hồi máu Undying khi bị nhận sát thương lớn.",
-    "counters_targets": [
-      "Các trận đấu dài / Máu trâu (Story Quest / Bosses)",
-      "Tướng hệ Tech không có khả năng giải Debuff"
-    ],
-    "countered_by": [
-      "Kingpin / Crossbones (Purify Debuff thần tốc)",
-      "Node Debuff Immune"
     ]
   },
   {
@@ -1055,9 +964,9 @@
       "Phụ thuộc nhiều vào việc Parry Choáng để giậm đòn Heavy"
     ],
     "rotation": [
-      "BƯỚC 1 (Tích Fury & Power): Parry Choáng -> Giậm đòn Heavy Attack để tích lũy các Buff Fury tăng sát thương đòn đánh.",
-      "BƯỚC 2 (Đường Raw Damage): Nhờ Power Gain nạp năng lượng mấp nghé 2 thanh -> Bắn SP2 dồn bão Bạo kích + Choáng kết liễu trận đấu.",
-      "BƯỚC 3 (Đường DoT Lửa): Đối với đối thủ trâu giáp/kháng sát thương thô, liên tục Spam chiêu SP1 để dồn các tầng Incinerate thiêu rụi cây máu."
+      "BƯỚC 1 (Fury Heavy Ramp): Parry Choáng -> Giậm đòn Heavy Attack để tích lũy các Buff Fury tăng sát thương đòn đánh.",
+      "BƯỚC 2 (Raw Damage Path): Nhờ Power Gain nạp năng lượng mấp nghé 2 thanh -> Bắn SP2 dồn bão Bạo kích + Choáng kết liễu trận đấu.",
+      "BƯỚC 3 (DoT Incinerate Path): Đối với đối thủ trâu giáp/kháng sát thương thô, liên tục Spam chiêu SP1 để dồn các tầng Incinerate thiêu rụi cây máu."
     ],
     "awakened_vs_unawakened": "CẦN HIGHSIG / DUP MẠNH: Khi chưa Duped, Hyperion vẫn tự nạp Power và xả chiêu tốt nhưng các Buff hết hạn rất nhanh. Khi Duped (Cosmic Energy Absorption), thời gian tồn tại của toàn bộ các Buff (Buff Durations) trên người Hyperion được gia tăng lên tới 70%+ (ngay từ Sig 20), giúp giữ chuỗi Fury và Power Gain cực kỳ lâu.",
     "counters_targets": [
@@ -1086,9 +995,9 @@
       "Sợ đối thủ Miễn Nhiễm Thiêu Đốt (Incinerate Immune)"
     ],
     "rotation": [
-      "BƯỚC 1 (Tích Prowess Charges): Đỡ đòn (Well-Timed Block) hoặc đón nhận sát thương Năng lượng để tích từ 10 đến tối đa 30 tầng Personal Prowess Passives (mỗi tầng tăng +10% SP Damage).",
-      "BƯỚC 2 (Tụ Heavy Nổ Sát Thương): Parry Choáng -> Tụ lực Heavy Attack để xả sạch các tầng Personal Prowess Passives thành bão sát thương Năng lượng trực tiếp (Direct Energy Damage).",
-      "BƯỚC 3 (Xả SP2 Dồn Incinerate): Tích 2 thanh Power -> Xả chiêu SP2 để tiêu thụ sạch Prowess, gán bão Incinerate Debuffs thiêu rụi cây máu đối thủ."
+      "BƯỚC 1 (Prowess Stacks): Đỡ đòn (Well-Timed Block) hoặc đón nhận sát thương Năng lượng để tích từ 10 đến tối đa 30 tầng Personal Prowess Passives.",
+      "BƯỚC 2 (Heavy Energy Burst): Parry Choáng -> Tụ lực Heavy Attack để xả sạch các tầng Personal Prowess Passives thành bão sát thương Năng lượng trực tiếp.",
+      "BƯỚC 3 (SP2 Incinerate Nuke): Tích 2 thanh Power -> Xả chiêu SP2 để tiêu thụ sạch Prowess, gán bão Incinerate Debuffs thiêu rụi cây máu đối thủ."
     ],
     "awakened_vs_unawakened": "CẦN THỨC TỈNH: Khi Duped, Bishop khởi đầu trận đấu với có sẵn +2 Prowess Passives & 1 thanh Power, tăng tốc độ nạp Prowess và cho phép hồi máu qua cơ chế Regeneration khi gồng Block tiêu thụ Prowess.",
     "counters_targets": [
@@ -1117,9 +1026,9 @@
       "Sợ các tướng có khả năng xóa/kháng hiệu ứng thụ động (Passive Control Immune)"
     ],
     "rotation": [
-      "BƯỚC 1 (Nhập Lệnh Phép Spellbook): Đánh các chuỗi combo với hướng lướt chính xác (ví dụ: Fireball, Chain Lightning, Blizzard) để nhập và tích lũy từ 3 đến 9 tầng Spells (Evocation / Enchantment / Transmutation Spells) lên đối thủ.",
-      "BƯỚC 2 (Kích Hoạt Spell & Stun): Sử dụng đòn Heavy Attack hoặc SP1 để kích hoạt toàn bộ các Spells đang chờ, gán Passive Stun 0.75s và phong ấn Special Attack của đối thủ.",
-      "BƯỚC 3 (Bộc Phá Direct Energy Damage): Tích 2 thanh Power xả SP2 để bộc phá toàn bộ các Spells thành bão sát thương Direct Energy Damage dọn cạn cây máu."
+      "BƯỚC 1 (Spellbook Inputs): Đánh các chuỗi combo với hướng lướt chính xác (Fireball, Chain Lightning, Blizzard) để nhập từ 3 đến 9 tầng Spells lên đối thủ.",
+      "BƯỚC 2 (Spell Stun Activation): Sử dụng đòn Heavy Attack hoặc SP1 để kích hoạt toàn bộ các Spells đang chờ, gán Passive Stun 0.75s và phong ấn Special Attack đối thủ.",
+      "BƯỚC 3 (SP2 Direct Energy Burst): Tích 2 bars Power xả SP2 để bộc phá toàn bộ các Spells thành bão sát thương Direct Energy Damage."
     ],
     "awakened_vs_unawakened": "BẮT BUỘC DUP HIGHSIG (Cho Phòng Thủ): Khi Duped ở Sig cao, Enchantress nạp lại Spells tự động ngay đầu trận và tăng tối đa khả năng trừng phạt phản sát thương (Reflect Damage) khi làm Defender.",
     "counters_targets": [
@@ -1148,9 +1057,9 @@
       "Cần thời gian setup để đạt tối đa sát thương bộc phát"
     ],
     "rotation": [
-      "BƯỚC 1 (Tích Phép Ấn Spells): Đánh các chuỗi combo kết thúc bằng Medium (MLLLM) hoặc Light (MLLLL) để kích hoạt và tích lũy đủ 4 đến 6 tầng Spell Passives độc nhất.",
-      "BƯỚC 2 (Khóa Buff & Kiểm Soát Power): Tung SP1 hoặc gồng Heavy để gán hiệu ứng Neutralize Passives và rút năng lượng Power Steal của đối thủ.",
-      "BƯỚC 3 (Xả SP2 Nổ Damage): Tích 2 thanh Power xả chiêu SP2 để quy đổi toàn bộ các tầng Spell Passives thành bão sát thương Energy Damage bùng nổ."
+      "BƯỚC 1 (Spell Passives Stacks): Đánh các chuỗi combo kết thúc bằng Medium (MLLLM) hoặc Light (MLLLL) để tích lũy đủ 4 đến 6 tầng Spell Passives độc nhất.",
+      "BƯỚC 2 (Neutralize & Power Steal): Tung SP1 hoặc gồng Heavy để gán hiệu ứng Neutralize Passives và rút năng lượng Power Steal của đối thủ.",
+      "BƯỚC 3 (SP2 Energy Burst): Tích 2 thanh Power xả chiêu SP2 để quy đổi toàn bộ các tầng Spell Passives thành bão sát thương Energy Damage bùng nổ."
     ],
     "awakened_vs_unawakened": "NÊN DUP: Khi Duped, Nico Minoru tự động nạp lại các tầng Spell Passives nhanh hơn và gia tăng thời gian tồn tại của các hiệu ứng Phép Thuật.",
     "counters_targets": [
@@ -1164,33 +1073,33 @@
   },
   {
     "id": "spider-man-pavitr",
-    "name": "Spider-Man (Pavitr) 1",
+    "name": "Spider-Man (Pavitr Prabhakar)",
     "class": "mystic",
     "tier": "Beyond God Tier",
     "avatar": "/assets/champions/spider-man-pavitr.png",
-    "summary": "Nhện Ấn Độ dồn sát thương Web-Slinger siêu tốc, trói chân đối thủ bằng Tơ Nhện và liên tục tung các đòn Bạo kích bùng nổ.",
+    "summary": "Spider-Man Ấn Độ đặt bẫy Mystic Webs trên sàn đấu, tích tụ 20 tầng Spider-Seal Buffs và tung Special Intercept SP2 bộc phá bão sát thương khổng lồ.",
     "strengths": [
-      "Evade Passive tự động cực kỳ ảo diệu khi bị tấn công",
-      "Gán hiệu ứng Webbing Passives / Rooted trói chân đối thủ và tăng vọt sát thương Bạo kích",
-      "Tốc độ dọn trận cực nhanh trong chế độ Battlegrounds"
+      "Tự động đặt 3 bẫy Mystic Webs trên sàn đấu (1 ở giữa, 2 ở góc) để gán Spider-Seal Buffs khi đối thủ đi qua",
+      "Khả năng gán Neutralized và Power Steal dồn dập lên đối thủ",
+      "Bộc phá sát thương Năng lượng bùng nổ cực khủng từ chiêu SP2 qua thao tác Special Intercept"
     ],
     "weaknesses": [
-      "Máu mỏng, giáp yếu (Glass Cannon)",
-      "Sợ các tướng có True Strike / True Sense chống Né"
+      "Yêu cầu di chuyển và kiểm soát vị trí đối thủ trên các bẫy Mystic Webs",
+      "Đỏi hỏi kỹ năng canh nhịp Special Intercept chuẩn xác"
     ],
     "rotation": [
-      "BƯỚC 1 (Tích Webbing & Agility): Đánh combo MLLLL để gán từ 5 đến 10 tầng Webbing Passives, kết hợp lướt lùi (Dexterity) để tích lũy Agility Passives.",
-      "BƯỚC 2 (Trói Chân Rooted): Giậm đòn Heavy Attack hoặc xả chiêu SP1 để chuyển đổi đống Webbing thành hiệu ứng Rooted Passive trói chân đối thủ.",
-      "BƯỚC 3 (Xả SP2 Dồn Crit): Tích 2 thanh Power xả chiêu SP2 để dồn bão sát thương Bạo kích (Critical Burst Damage) kết liễu đối thủ."
+      "BƯỚC 1 (Tích 15-20 Spider-Seal Buffs): Di chuyển ép đối thủ bước qua các bẫy Mystic Webs trên sàn đấu để tích lũy Spider-Seal Buffs. Dùng SP1 khi đối thủ đứng trước bẫy hoặc Special Intercept qua bẫy để đẩy nhanh tốc độ nạp.",
+      "BƯỚC 2 (Đè Góc & Tích 2 Bars Power): Khi đạt 15+ Spider-Seal Buffs (và nhận 1 Fury Passive từ SP1), sử dụng combo MLLLM ép đối thủ lùi dần về góc tường và nạp đủ 2 thanh Power.",
+      "BƯỚC 3 (Special Intercept SP2 Bộc Phá): Đợi đối thủ di chuyển qua bẫy Mystic Web -> Thực hiện đòn Special Intercept xả ngay chiêu SP2 để bộc phá toàn bộ bão sát thương Energy Burst dọn sạch cây máu đối thủ."
     ],
-    "awakened_vs_unawakened": "KHÔNG BẮT BUỘC DUP: Pavitr ở mốc Unduped đã có trọn vẹn bộ dồn Bạo kích và Rooted. Khi Duped, Pavitr tăng tỉ lệ tự động Evade và tăng chỉ số Critical Rating khi đối thủ dính Webbing Passives.",
+    "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Pavitr vẫn tích Spider-Seal và xả SP2 nổ damage cực mạnh. Khi được Thức Tỉnh, Pavitr rút ngắn thời gian hồi chiêu Cooldown của các bẫy Mystic Webs và gia tăng thêm chỉ số Bạo Kích.",
     "counters_targets": [
-      "Các tướng phòng thủ không có khả năng chống Evade",
-      "Các đối thủ máu trung bình trong Battlegrounds"
+      "Các đối thủ Cosmic nạp Buff dồn dập (nhờ Neutralized/Power Steal)",
+      "Các trận đấu Battlegrounds cần dọn dẹp tốc độ cao"
     ],
     "countered_by": [
-      "Knull / Red Guardian / Venom (Tướng chống Né)",
-      "Node True Strike / True Accuracy"
+      "Human Torch / Red Guardian (Các tướng kháng sát thương Năng lượng)",
+      "Node Miễn Nhiễm Neutralize / Special Attack Resistance"
     ]
   },
   {
@@ -1210,9 +1119,9 @@
       "Yêu cầu duy trì chuỗi Swarm để đạt sát thương cực đại"
     ],
     "rotation": [
-      "BƯỚC 1 (Tích Swarm Passives): Đánh combo kết thúc bằng Light (MLLLL) kết hợp Parry để tích lũy từ 10 đến 20+ tầng Swarm Passives lên đối thủ.",
+      "BƯỚC 1 (Swarm Stacks): Đánh combo kết thúc bằng Light (MLLLL) kết hợp Parry để tích lũy từ 10 đến 20+ tầng Swarm Passives lên đối thủ.",
       "BƯỚC 2 (Pause Swarm): Giậm đòn Heavy Attack để đóng băng (Pause) thời gian đếm ngược của toàn bộ các tầng Swarm Passives.",
-      "BƯỚC 3 (Xả SP2 Bộc Phá Damage): Tích 2 thanh Power xả SP2 để bộc phá toàn bộ Swarm Passives dồn đống sát thương Poison Burst / Direct Damage cực khủng."
+      "BƯỚC 3 (SP2 Direct Poison Burst): Tích 2 thanh Power xả SP2 để bộc phá toàn bộ Swarm Passives dồn đống sát thương Poison Burst / Direct Damage cực khủng."
     ],
     "awakened_vs_unawakened": "BẮT BUỘC DUP HIGHSIG (Cho Phòng Thủ): Khi Duped ở Sig cao, Shathra nạp lại các tầng Swarm Passives tự động ngay đầu trận và phản sát thương cực rát khi làm Defender.",
     "counters_targets": [
@@ -1241,9 +1150,9 @@
       "Phụ thuộc vào nhịp duy trì Asgardian Charges"
     ],
     "rotation": [
-      "BƯỚC 1 (Tích Asgardian Energy): Đánh combo MLLLM hoặc Parry Heavy để tích đủ 100 điểm Asgardian Energy Charges.",
-      "BƯỚC 2 (Kích Unstoppable & Đấm Đè Block): Bật trạng thái Unstoppable Passive để đấm xuyên khiên Block đối thủ và nạp thần tốc thanh năng lượng SP2.",
-      "BƯỚC 3 (Xả SP2 Nổ Degeneration): Bắn chiêu SP2 để tiêu thụ sạch Asgardian Energy, dồn bão sát thương Degeneration Passives hủy diệt cây máu đối thủ."
+      "BƯỚC 1 (Asgardian Energy): Đánh combo MLLLM hoặc Parry Heavy để tích đủ 100 điểm Asgardian Energy Charges.",
+      "BƯỚC 2 (Unstoppable Block Crush): Bật trạng thái Unstoppable Passive để đấm xuyên khiên Block đối thủ và nạp thần tốc thanh năng lượng SP2.",
+      "BƯỚC 3 (SP2 Degeneration Nuke): Bắn chiêu SP2 để tiêu thụ sạch Asgardian Energy, dồn bão sát thương Degeneration Passives hủy diệt cây máu đối thủ."
     ],
     "awakened_vs_unawakened": "NÊN DUP: Khi Duped, The Destroyer gia tăng thời gian tồn tại của trạng thái Unstoppable Passive và tăng thêm sát thương Degeneration khi đối thủ có Buff.",
     "counters_targets": [
@@ -1272,9 +1181,9 @@
       "Sợ các tướng Tech kiểm soát hiệu ứng thụ động"
     ],
     "rotation": [
-      "BƯỚC 1 (Tích Điệu Múa Dancing Stances): Đánh 3 chuỗi combo kết thúc khác nhau (MLLLM, MLLLL, M-M) để hoàn tất và tích lũy 3 tầng Dancing Stances Passives độc nhất.",
-      "BƯỚC 2 (Gồng Heavy Gia Hạn): Tụ đòn Heavy Attack để đóng băng (Pause) thời gian đếm ngược của các trạng thái Dancing Stances.",
-      "BƯỚC 3 (Xả SP2 Bộc Phá Damage): Tích 2 thanh Power xả SP2 để bộc phá toàn bộ bão sát thương Bạo kích và Debuffs (Bleed/Incinerate) lên đối thủ."
+      "BƯỚC 1 (Dancing Stances): Đánh 3 chuỗi combo kết thúc khác nhau (MLLLM, MLLLL, M-M) để hoàn tất và tích lũy 3 tầng Dancing Stances Passives độc nhất.",
+      "BƯỚC 2 (Heavy Freeze): Tụ đòn Heavy Attack để đóng băng (Pause) thời gian đếm ngược của các trạng thái Dancing Stances.",
+      "BƯỚC 3 (SP2 Crit/Debuff Burst): Tích 2 thanh Power xả SP2 để bộc phá toàn bộ bão sát thương Bạo kích và Debuffs (Bleed/Incinerate) lên đối thủ."
     ],
     "awakened_vs_unawakened": "NÊN DUP: Khi Duped, Spiral tăng tốc độ nạp các tầng Dancing Stances Passives và tăng chỉ số Critical Rating khi chuyển đổi trạng thái múa.",
     "counters_targets": [
@@ -1303,9 +1212,9 @@
       "Sợ đối thủ có Energy Resistance cao"
     ],
     "rotation": [
-      "BƯỚC 1 (Xoay & Tích Eldritch Spells): Parry Choáng -> Tụ Heavy Attack để xoay đổi và tích lũy từ 3 đến 5 tầng Eldritch Spells Passives (Vortex, Shield, Strikes).",
-      "BƯỚC 2 (Kích Hoạt SP1 Gia Hạn): Thực hiện SP1 để kích hoạt hiệu ứng và Pause đếm ngược toàn bộ các tầng Eldritch Spells Passives.",
-      "BƯỚC 3 (Xả SP2 Dồn Energy Damage): Tích 2 thanh Power xả SP2 để chuyển hóa toàn bộ Phép Ấn thành bão sát thương Energy Damage bùng nổ kết liễu đối thủ."
+      "BƯỚC 1 (Eldritch Spells): Parry Choáng -> Tụ Heavy Attack để xoay đổi và tích lũy từ 3 đến 5 tầng Eldritch Spells Passives (Vortex, Shield, Strikes).",
+      "BƯỚC 2 (SP1 Refresh): Thực hiện SP1 để kích hoạt hiệu ứng và Pause đếm ngược toàn bộ các tầng Eldritch Spells Passives.",
+      "BƯỚC 3 (SP2 Energy Nuke): Tích 2 thanh Power xả SP2 để chuyển hóa toàn bộ Phép Ấn thành bão sát thương Energy Damage bùng nổ kết liễu đối thủ."
     ],
     "awakened_vs_unawakened": "NÊN DUP: Khi Duped, Wong gia tăng tốc độ nạp Eldritch Spells Passives và tăng mạnh hiệu lực Hồi Máu (Regeneration Passive) khi bị nhận sát thương.",
     "counters_targets": [
@@ -1334,9 +1243,9 @@
       "Giảm hiệu quả khi đối đầu với các tướng kháng Power Drain/Steal"
     ],
     "rotation": [
-      "BƯỚC 1 (Tích Ionic Energy Charges): Đánh combo MLLLM hoặc Parry Choáng để tích lũy từ 10 đến 20+ tầng Ionic Energy Charges (mỗi tầng gia tăng chỉ số Attack Rating và hiệu suất cướp Power).",
-      "BƯỚC 2 (Khóa Năng Lượng): Dùng SP1 để tiêu thụ Ionic Energy, gán Power Steal Debuffs và rút cạn thanh năng lượng đối thủ.",
-      "BƯỚC 3 (Xả SP2 Dồn Direct Damage): Tích 2 thanh Power khi đang có Ionic Energy cao, xả SP2 để bộc phá bão sát thương Direct Damage bùng nổ."
+      "BƯỚC 1 (Ionic Energy): Đánh combo MLLLM hoặc Parry Choáng để tích lũy từ 10 đến 20+ tầng Ionic Energy Charges.",
+      "BƯỚC 2 (Power Steal SP1): Dùng SP1 để tiêu thụ Ionic Energy, gán Power Steal Debuffs và rút cạn thanh năng lượng đối thủ.",
+      "BƯỚC 3 (Direct Damage SP2): Tích 2 thanh Power khi đang có Ionic Energy cao, xả SP2 để bộc phá bão sát thương Direct Damage bùng nổ."
     ],
     "awakened_vs_unawakened": "CẦN HIGHSIG / DUP MẠNH: Khi chưa Duped, Nefaria vẫn cướp Power và dồn damage tốt. Khi được Thức Tỉnh ở Sig cao, Nefaria nhận khả năng tự động nạp Ionic Energy Charges ngay đầu trận và tăng mạnh hiệu suất Hồi Máu khi rút năng lượng đối thủ.",
     "counters_targets": [
@@ -1365,9 +1274,9 @@
       "Sợ các tướng chống Né (True Strike / True Sense)"
     ],
     "rotation": [
-      "BƯỚC 1 (Tích Venom & Pheromone Passives): Đánh combo MLLLL để gán từ 5 đến 12 tầng Venom Passives kết hợp lướt lùi tích lũy Pheromone Passives.",
-      "BƯỚC 2 (Gán Taunt & Shock): Dùng chiêu SP1 để gán Taunt Debuff ép đối thủ dùng Special Attack và dồn bão Bio-Electric Shock Debuffs.",
-      "BƯỚC 3 (Xả SP2 Bộc Phá Damage): Tích 2 thanh Power xả SP2 để bộc phá toàn bộ Venom Passives thành bão sát thương Physical Burst Damage."
+      "BƯỚC 1 (Venom Passives): Đánh combo MLLLL để gán từ 5 đến 12 tầng Venom Passives kết hợp lướt lùi tích lũy Pheromone Passives.",
+      "BƯỚC 2 (Taunt & Shock SP1): Dùng chiêu SP1 để gán Taunt Debuff ép đối thủ dùng Special Attack và dồn bão Bio-Electric Shock Debuffs.",
+      "BƯỚC 3 (Physical Burst SP2): Tích 2 thanh Power xả SP2 để bộc phá toàn bộ Venom Passives thành bão sát thương Physical Burst Damage."
     ],
     "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Spider-Woman vẫn dồn Venom Passives rát. Khi Duped, cô gia tăng tỉ lệ tự động Evade Passive và kéo dài thời gian tồn tại của tất cả các hiệu ứng Debuff/Passives trên người đối thủ.",
     "counters_targets": [
@@ -1396,9 +1305,9 @@
       "Sợ các tướng gán Slow / Deceleration"
     ],
     "rotation": [
-      "BƯỚC 1 (Tích Gamma Charges): Đánh combo MLLLM hoặc nhận đòn đánh để tích đủ 10 điểm Gamma Charges (kích hoạt Gamma Rage Passive).",
-      "BƯỚC 2 (Bật Gamma Rage & Stun Lock): Khi vào trạng thái Gamma Rage (Unstoppable), tung SP1 để gán Passive Stun 2.5s.",
-      "BƯỚC 3 (Giậm Heavy Dồn Sát Thương): Ngay khi đối thủ bị Choáng, giậm Heavy liên tục để tiêu thụ Gamma Charges dồn bão sát thương Physical Burst Damage dọn cạn cây máu."
+      "BƯỚC 1 (Gamma Charges): Đánh combo MLLLM hoặc nhận đòn đánh để tích đủ 10 điểm Gamma Charges (kích hoạt Gamma Rage Passive).",
+      "BƯỚC 2 (Gamma Rage Stun Lock): Khi vào trạng thái Gamma Rage (Unstoppable), tung SP1 để gán Passive Stun 2.5s.",
+      "BƯỚC 3 (Heavy Physical Burst): Ngay khi đối thủ bị Choáng, giậm Heavy liên tục để tiêu thụ Gamma Charges dồn bão sát thương Physical Burst Damage dọn cạn cây máu."
     ],
     "awakened_vs_unawakened": "CẦN THỨC TỈNH: Khi Duped (Undying Rage), Hulk nhận thêm chỉ số Attack Rating tăng mạnh dựa trên lượng máu đã mất và khả năng tự động bật Gamma Rage Passive khi máu xuống thấp.",
     "counters_targets": [
@@ -1427,9 +1336,9 @@
       "Sợ các tướng/Node gán Slow hoặc Deceleration"
     ],
     "rotation": [
-      "BƯỚC 1 (Tích Momentum Passives): Đánh các chuỗi combo MLLLM hoặc lướt lùi/tiến liên tục để tích tụ từ 30 đến tối đa 60+ tầng Momentum Passives.",
-      "BƯỚC 2 (Gán Trauma Passives & Whiplash): Giậm đòn Heavy Attack hoặc tung chiêu SP1 để chuyển đổi Momentum thành từ 10 đến 20+ tầng Trauma Passives & Whiplash Passives.",
-      "BƯỚC 3 (Xả SP2 Bộc Phá Physical Burst): Tích 2 thanh Power xả chiêu SP2 để bộc phá toàn bộ các tầng Whiplash Passives thành bão sát thương Physical Burst Damage dọn sạch cây máu đối thủ."
+      "BƯỚC 1 (Momentum Passives): Đánh các chuỗi combo MLLLM hoặc lướt lùi/tiến liên tục để tích tụ từ 30 đến tối đa 60+ tầng Momentum Passives.",
+      "BƯỚC 2 (Trauma & Whiplash): Giậm đòn Heavy Attack hoặc tung chiêu SP1 để chuyển đổi Momentum thành từ 10 đến 20+ tầng Trauma Passives & Whiplash Passives.",
+      "BƯỚC 3 (SP2 Physical Burst Nuke): Tích 2 thanh Power xả chiêu SP2 để bộc phá toàn bộ các tầng Whiplash Passives thành bão sát thương Physical Burst Damage."
     ],
     "awakened_vs_unawakened": "CẦN HIGHSIG / DUP MẠNH: Khi chưa Duped, Quicksilver vẫn tích Momentum và xả SP2 rất mạnh nhưng mất thời gian tích lũy ở đầu trận. Khi Duped ở Sig cao, Quicksilver khởi đầu trận đấu với có sẵn +15 đến +30 tầng Momentum Passives, đồng thời gia tăng đáng kể thời gian tồn tại của Trauma & Whiplash Passives.",
     "counters_targets": [
@@ -1458,9 +1367,9 @@
       "Sợ các tướng chống Né (True Strike / True Sense)"
     ],
     "rotation": [
-      "BƯỚC 1 (Tích Anarchy Charges & Rupture): Đánh combo MLLLL để tích tụ từ 8 đến 15 tầng Anarchy Charges kết hợp gán các tầng Rupture Passives lên đối thủ.",
-      "BƯỚC 2 (Tụ Heavy Gia Hạn & Taunt): Parry Choáng -> Tụ đòn Heavy Attack để đóng băng (Pause) đếm ngược toàn bộ Rupture Passives và gán Taunt Debuff.",
-      "BƯỚC 3 (Xả SP2 Bộc Phá Damage): Tích 2 thanh Power xả chiêu SP2 để tiêu thụ sạch Anarchy Charges, bộc phá bão sát thương Physical Burst & Rupture Damage dứt điểm trận đấu."
+      "BƯỚC 1 (Anarchy & Rupture): Đánh combo MLLLL để tích tụ từ 8 đến 15 tầng Anarchy Charges kết hợp gán các tầng Rupture Passives lên đối thủ.",
+      "BƯỚC 2 (Heavy Pause & Taunt): Parry Choáng -> Tụ đòn Heavy Attack để đóng băng (Pause) đếm ngược toàn bộ Rupture Passives và gán Taunt Debuff.",
+      "BƯỚC 3 (SP2 Physical/Rupture Nuke): Tích 2 thanh Power xả chiêu SP2 để tiêu thụ sạch Anarchy Charges, bộc phá bão sát thương Physical Burst & Rupture Damage dứt điểm trận đấu."
     ],
     "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Spider-Punk vẫn dồn Rupture và nổ SP2 cực rát. Khi Duped, Spider-Punk tăng tỉ lệ tự động Evade Passive và gia tăng thêm chỉ số sát thương Rupture khi đối thủ bị gán Taunt.",
     "counters_targets": [
@@ -1489,9 +1398,9 @@
       "Giảm sát thương rõ rệt khi gặp đối thủ Miễn Nhiễm Bleed"
     ],
     "rotation": [
-      "BƯỚC 1 (Kích True Strike & Counterpunch): Punish chiêu Special đối thủ (đánh ngay khi họ vừa ra chiêu) để nhận True Strike Buff (16s), hoặc xả SP1 để nạp 3 tầng Counterpunch Charges.",
-      "BƯỚC 2 (Tích Indestructible Buffs): Tích 2 thanh Power -> Bắn SP2 để lấy 3 tầng khiên Indestructible Buffs an toàn giao tranh.",
-      "BƯỚC 3 (Xả SP3 Dồn Bleed Passives): Trận dài / Boss: Tích lũy đủ 15+ tầng Bleed Debuffs trên người đối thủ -> Bắn SP3 để chuyển toàn bộ thành bão Bleed Passives thụ động rút cạn cây máu."
+      "BƯỚC 1 (True Strike & Counterpunch): Punish chiêu Special đối thủ (đánh ngay khi họ vừa ra chiêu) để nhận True Strike Buff (16s), hoặc xả SP1 để nạp 3 tầng Counterpunch Charges.",
+      "BƯỚC 2 (Indestructible SP2): Tích 2 thanh Power -> Bắn SP2 để lấy 3 tầng khiên Indestructible Buffs an toàn giao tranh.",
+      "BƯỚC 3 (Bleed Passives SP3): Trận dài / Boss: Tích lũy đủ 15+ tầng Bleed Debuffs trên người đối thủ -> Bắn SP3 để chuyển toàn bộ thành bão Bleed Passives thụ động rút cạn cây máu."
     ],
     "awakened_vs_unawakened": "CẦN HIGHSIG / DUP MẠNH: Khi chưa Duped, Killmonger vẫn có True Strike và khiên Indestructible. Khi Duped (Reverberation) ở Sig cao, Killmonger phản lại tới 80-100% sát thương nhận vào khi đang bật Vibranium Armor, biến hắn thành một Defender phòng thủ rất khó chịu.",
     "counters_targets": [
@@ -1520,9 +1429,9 @@
       "Phụ thuộc nhiều vào việc đối thủ tấn công vào Block để nạp Armor Up"
     ],
     "rotation": [
-      "BƯỚC 1 (Tích Armor Up Buffs): Đỡ đòn (Block) hoặc Dash lùi để tích lũy từ 3 đến 8+ tầng Armor Up Buffs.",
-      "BƯỚC 2 (Phản Stun & Gán Bleed): Cho đối thủ Parry/Stun bản thân để tiêu thụ 1 Armor Up, phản ngược Passive Stun sang đối thủ -> Lao vào đánh combo MLLLM gán Bleed Debuffs.",
-      "BƯỚC 3 (Xả SP2 Bộc Phá Damage): Tích 2 thanh Power khi đang có nhiều Armor Up Buffs, xả SP2 để chuyển đổi giáp thành bão sát thương Bạo kích và Bleed Debuffs."
+      "BƯỚC 1 (Armor Up Stacks): Đỡ đòn (Block) hoặc Dash lùi để tích lũy từ 3 đến 8+ tầng Armor Up Buffs.",
+      "BƯỚC 2 (Reflective Stun Bleed): Cho đối thủ Parry/Stun bản thân để tiêu thụ 1 Armor Up, phản ngược Passive Stun sang đối thủ -> Lao vào đánh combo MLLLM gán Bleed Debuffs.",
+      "BƯỚC 3 (SP2 Crit/Bleed Burst): Tích 2 thanh Power khi đang có nhiều Armor Up Buffs, xả SP2 để chuyển đổi giáp thành bão sát thương Bạo kích và Bleed Debuffs."
     ],
     "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Báo Đen CW vẫn tích Armor Up và phản Stun được. Khi Duped (Vibranium Armor), Báo Đen CW nhận thêm khả năng tích tụ Armor Up Buffs tự động khi chịu sát thương, giúp tăng tốc độ nạp giáp và phản đòn an toàn hơn.",
     "counters_targets": [
@@ -1532,37 +1441,6 @@
     "countered_by": [
       "Corvus Glaive / CGR / Medusa (Phá Giáp xóa sạch Armor Up và vô hiệu hóa phản Stun)",
       "Magneto (Khắc chế tướng Metal)"
-    ]
-  },
-  {
-    "id": "gentle",
-    "name": "Gentle",
-    "class": "mutant",
-    "tier": "Beyond God Tier",
-    "avatar": "/assets/champions/gentle.png",
-    "summary": "Chiến binh Wakanda hệ Mutant kiểm soát lượng nhiệt cơ thể, tích tụ Vibranium Tattoos để hóa khổng lồ dồn bão sát thương Bùng Nổ (Physical Burst) và gán hiệu ứng Choáng/Nén Sức Mạnh.",
-    "strengths": [
-      "Khả năng chống chịu sát thương đột biến cực tốt nhờ các vết xăm Vibranium Tattoos",
-      "Sát thương Physical Burst siêu to từ đòn Heavy và chiêu Special 2 khi nạp tối đa nhiệt lượng",
-      "Khả năng tự khóa/giảm sát thương nhận vào khi đối thủ xả chiêu Special"
-    ],
-    "weaknesses": [
-      "Sợ các tướng Tech diệt Mutant (Nimrod, Bastion) có khả năng vô hiệu hóa cơ chế nạp nhiệt",
-      "Yêu cầu quản lý thanh nhiệt độ (Heat Threshold) để tránh tự làm tổn thương bản thân"
-    ],
-    "rotation": [
-      "BƯỚC 1 (Tích Vibranium Tattoos & Heat): Đánh các chuỗi combo MLLLM hoặc nhận đòn Block chuẩn xác để tích tụ từ 10 đến 20+ tầng Vibranium Tattoos Passives và đẩy thanh nhiệt lượng (Heat Level) lên mốc tối ưu.",
-      "BƯỚC 2 (Kích Hoạt Extreme Mass): Giậm đòn Heavy Attack khi nhiệt lượng cao để chuyển sang trạng thái Extreme Mass, tăng vọt chỉ số Attack Rating và gán Passive Stun lên đối thủ.",
-      "BƯỚC 3 (Xả SP2 Bộc Phá Physical Burst): Tích 2 thanh Power xả ngay chiêu SP2 để tiêu thụ toàn bộ lượng nhiệt đã tích lũy, bộc phá bão sát thương Physical Burst Damage dọn cạn cây máu đối thủ."
-    ],
-    "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Gentle vẫn nổ sát thương Physical Burst rất mạnh. Khi được Thức Tỉnh (Wakandan Resilience), Gentle kiểm soát lượng nhiệt an toàn hơn, tăng tốc độ nạp Vibranium Tattoos Passives và nhận thêm khả năng hồi lại một lượng máu dựa trên sát thương nhiệt lượng tỏa ra.",
-    "counters_targets": [
-      "Các tướng dồn sát thương bộc phát cao (được giảm sát thương nhờ Vibranium Tattoos)",
-      "Các đối thủ phòng thủ trong Battlegrounds cần dọn dẹp bằng sát thương Physical Burst"
-    ],
-    "countered_by": [
-      "Nimrod / Bastion / Sentinel (Các tướng Tech diệt Mutant)",
-      "Node Miễn Nhiễm Physical Damage / Stun Immune"
     ]
   },
   {
@@ -1582,9 +1460,9 @@
       "Yêu cầu giữ nhịp tấn công liên tục (aggressive playstyle) trong thời gian Root đếm ngược"
     ],
     "rotation": [
-      "BƯỚC 1 (Nạp 90% Thanh Power): Thực hiện liên tục các chuỗi combo MLLLM hoặc MLLLL để tích lũy thanh năng lượng lên gần mốc 2 bar Power (~90% max power).",
-      "BƯỚC 2 (Xả SP2 Kích Root): Đánh combo MLLLM đẩy đối thủ lại gần góc -> Xả chiêu SP2 để kích hoạt vùng hiệu ứng Root Passive (trói chân đối thủ tại chỗ).",
-      "BƯỚC 3 (Tấn Công Trong Root & Dồn SP1): Ngay khi đối thủ bị Root, liên tục lao vào đánh các chuỗi combo MLLLM / MLLLL dồn dập để gán bão Bleed Passives vĩnh viễn. Ngay trước khi hiệu ứng Root đếm ngược kết thúc, xả chiêu SP1 để làm mới và tiếp tục dồn sát thương."
+      "BƯỚC 1 (Nạp 90% Power): Thực hiện liên tục các chuỗi combo MLLLM hoặc MLLLL để tích lũy thanh năng lượng lên gần mốc 2 bar Power (~90% max power).",
+      "BƯỚC 2 (SP2 Root Activation): Đánh combo MLLLM đẩy đối thủ lại gần góc -> Xả chiêu SP2 để kích hoạt vùng hiệu ứng Root Passive.",
+      "BƯỚC 3 (Root Bleed Loop & SP1): Ngay khi đối thủ bị Root, liên tục lao vào đánh các chuỗi combo MLLLM / MLLLL dồn dập để gán bão Bleed Passives vĩnh viễn. Ngay trước khi Root kết thúc, xả SP1 để gia hạn."
     ],
     "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Baron Zemo vẫn kích hoạt Root từ SP2 và tích dồn Bleed vĩnh viễn cực mạnh. Khi được Thức Tỉnh (Master Tactician), Zemo gia tăng thời gian tồn tại của vùng Root Passive và tự động Cleanse (xóa) Debuffs xấu trên bản thân khi bị gán hiệu ứng khống chế.",
     "counters_targets": [
@@ -2035,37 +1913,6 @@
     ]
   },
   {
-    "id": "spider-man-pavitr",
-    "name": "Spider-Man (Pavitr Prabhakar)",
-    "class": "mystic",
-    "tier": "Beyond God Tier",
-    "avatar": "/assets/champions/spider-man-pavitr.png",
-    "summary": "Spider-Man Ấn Độ đặt bẫy Mystic Webs trên sàn đấu, tích tụ 20 tầng Spider-Seal Buffs và tung Special Intercept SP2 bộc phá bão sát thương khổng lồ.",
-    "strengths": [
-      "Tự động đặt 3 bẫy Mystic Webs trên sàn đấu (1 ở giữa, 2 ở góc) để gán Spider-Seal Buffs khi đối thủ đi qua",
-      "Khả năng gán Neutralized và Power Steal dồn dập lên đối thủ",
-      "Bộc phá sát thương Năng lượng bùng nổ cực khủng từ chiêu SP2 qua thao tác Special Intercept"
-    ],
-    "weaknesses": [
-      "Yêu cầu di chuyển và kiểm soát vị trí đối thủ trên các bẫy Mystic Webs",
-      "Đỏi hỏi kỹ năng canh nhịp Special Intercept chuẩn xác"
-    ],
-    "rotation": [
-      "BƯỚC 1 (Tích 15-20 Spider-Seal Buffs): Di chuyển ép đối thủ bước qua các bẫy Mystic Webs trên sàn đấu để tích lũy Spider-Seal Buffs. Dùng SP1 khi đối thủ đứng trước bẫy hoặc Special Intercept qua bẫy để đẩy nhanh tốc độ nạp.",
-      "BƯỚC 2 (Đè Góc & Tích 2 Bars Power): Khi đạt 15+ Spider-Seal Buffs (và nhận 1 Fury Passive từ SP1), sử dụng combo MLLLM ép đối thủ lùi dần về góc tường và nạp đủ 2 thanh Power.",
-      "BƯỚC 3 (Special Intercept SP2 Bộc Phá): Đợi đối thủ di chuyển qua bẫy Mystic Web -> Thực hiện đòn Special Intercept xả ngay chiêu SP2 để bộc phá toàn bộ bão sát thương Energy Burst dọn sạch cây máu đối thủ."
-    ],
-    "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Pavitr vẫn tích Spider-Seal và xả SP2 nổ damage cực mạnh. Khi được Thức Tỉnh, Pavitr rút ngắn thời gian hồi chiêu Cooldown của các bẫy Mystic Webs và gia tăng thêm chỉ số Bạo Kích.",
-    "counters_targets": [
-      "Các đối thủ Cosmic nạp Buff dồn dập (nhờ Neutralized/Power Steal)",
-      "Các trận đấu Battlegrounds cần dọn dẹp tốc độ cao"
-    ],
-    "countered_by": [
-      "Human Torch / Red Guardian (Các tướng kháng sát thương Năng lượng)",
-      "Node Miễn Nhiễm Neutralize / Special Attack Resistance"
-    ]
-  },
-  {
     "id": "doctor-strange",
     "name": "Doctor Strange",
     "class": "mystic",
@@ -2160,6 +2007,68 @@
       "Human Torch / Electro / Absorbing Man (Các tướng Miễn Nhiễm Shock)",
       "Node True Strike / Anti-Miss / Debuff Cleanse"
     ]
+  },
+  {
+    "id": "cyclops-blue-team",
+    "name": "Cyclops (Blue Team)",
+    "class": "mutant",
+    "tier": "God Tier (Post-Rework 2025)",
+    "avatar": "/assets/champions/cyclops-blue-team.png",
+    "summary": "Tướng Mutant được Rework toàn diện (Summoner's Choice 2025). Sở hữu khả năng tích Prowess khổng lồ, xả chuỗi SP2 -> SP1 -> SP1 Unblockable nổ bão sát thương Bạo kích 200k+ cực kỳ hủy diệt.",
+    "strengths": [
+      "Tích lũy tới 100+ Prowess Passives gia tăng sát thương Special Attack cực hạn",
+      "Chiêu Special Attack thành Unblockable khi có trên 10 Precision Passives",
+      "Khả năng Power Efficiency giảm chi phí năng lượng khi xả SP1 liên hoàn",
+      "Cơ chế hồi máu Adrenaline khi tấn công dồn dập (khi Awakened)"
+    ],
+    "weaknesses": [
+      "Sợ các tướng Tech có khả năng khống chế Prowess hoặc Power Drain",
+      "Sát thương phụ thuộc vào việc giữ chuỗi Precision / Intercept chuẩn nhịp"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Tích Precision): Thực hiện các đòn Intercept hoặc combo MLLLM để nạp tối đa 20 tầng Precision Passives (kích hoạt Unblockable cho Special).",
+      "BƯỚC 2 (SP2 Setup Prowess): Tích 2 thanh Power -> Xả SP2 Unblockable để quy đổi Precision thành bão Prowess Passives.",
+      "BƯỚC 3 (Spam SP1 Burst 200k+): Tận dụng Power Efficiency, liên tục xả SP1 -> SP1 -> SP1 Unblockable bộc phá bão chùm tia Optic Blast quét sạch cây máu đối thủ."
+    ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Cyclops vẫn tích Prowess và xả SP1 200k+ sát thương rất mạnh. Khi được Thức Tỉnh (Awakened), Cyclops nhận thêm khả năng kích hoạt Adrenaline (tạo máu trắng hồi phục khi tấn công) và tăng mạnh chỉ số Critical Damage Rating.",
+    "counters_targets": [
+      "Các đối thủ phòng thủ không có khả năng chống Unblockable / Special Attack",
+      "Các trận đấu Battlegrounds / Quest cần dọn dẹp bằng sát thương bộc phát tốc độ cao"
+    ],
+    "countered_by": [
+      "Nimrod / Bastion / Sentinel (Các tướng Tech kiểm soát Mutant/Prowess)",
+      "Node Miễn Nhiễm Unblockable / Special Damage Resistance"
+    ]
+  },
+  {
+    "id": "bullseye",
+    "name": "Bullseye",
+    "class": "skill",
+    "tier": "Beyond God Tier",
+    "avatar": "/assets/champions/bullseye.png",
+    "summary": "Sát thủ Skill sở hữu khả năng né đòn tự động (Evade) chống Miss/Đòn đánh thường, tích lũy Killer Instinct và bộc phát chuỗi SP2 -> SP1 rút cạn cây máu đối thủ.",
+    "strengths": [
+      "Tự động né đòn (Evade) khi có hiệu ứng Killer Instinct",
+      "Khắc tinh cứng của các cơ chế Miss / Né đòn",
+      "Chuỗi xả SP2 kết hợp SP1 dồn bão Bleed và sát thương Bạo kích cực lớn"
+    ],
+    "weaknesses": [
+      "Máu cơ bản ở mốc trung bình",
+      "Phụ thuộc vào việc duy trì trạng thái Killer Instinct và căn nhịp Evade"
+    ],
+    "rotation": [
+      "BƯỚC 1 (Build Max Power & Bait): Đánh đòn thường tích đầy 3 thanh năng lượng (Max Power), đồng thời liên tục dụ đối thủ xả chiêu Special để giữ an toàn.",
+      "BƯỚC 2 (Killer Instinct Evade): Đảm bảo đang có hiệu ứng Killer Instinct -> Đứng yên cho đối thủ đánh đòn thường để tự động Né (Evade). Nhịp Né này sẽ rút thanh Power từ SP3 về mốc SP2.",
+      "BƯỚC 3 (Xả SP2 -> SP1 Loop): Ngay sau khi Evade, xả lập tức chiêu SP2 -> Bồi thêm vài đòn đánh thường (a couple of hits) -> Xả tiếp chiêu SP1 -> Lặp lại chuỗi cho đến khi kết thúc trận đấu."
+    ],
+    "awakened_vs_unawakened": "NÊN DUP: Khi chưa Duped, Bullseye vẫn thực hiện trơn tru chuỗi Evade rút Power xả SP2 -> SP1. Khi được Thức Tỉnh (Awakened), Bullseye gia tăng khả năng tự động bật Killer Instinct và tăng chỉ số sát thương Bạo kích khi đối thủ bị gán Bleed.",
+    "counters_targets": [
+      "Các tướng phụ thuộc vào cơ chế Miss / Evade (Spider-Man, Miles Morales)",
+      "Các đối thủ phòng thủ trong Battlegrounds"
+    ],
+    "countered_by": [
+      "Colossus / Magneto / Robots (Các tướng Miễn Nhiễm Bleed)",
+      "Node Miễn Nhiễm Evade / True Strike"
+    ]
   }
-]
 ]
